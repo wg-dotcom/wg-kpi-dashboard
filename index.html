@@ -752,18 +752,42 @@ function renderPlacementKPIs(rows) {
 
 function renderPlacementTable(rows) {
   document.getElementById("placement-table-count").textContent=`· ${rows.length} placements`;
-  document.getElementById("placement-tbody").innerHTML = rows.slice().reverse().map(r=>`
-    <tr>
-      <td style="font-size:12px;">${r.date}</td>
-      <td><strong>${r["Company Name"]}</strong></td>
-      <td style="font-size:12px;">${r.Role}</td>
-      <td><span class="advisor-tag ${advisorClass(r.Advisor)}">${r.Advisor}</span></td>
-      <td style="text-align:center;font-weight:600;">${r.days}d</td>
-      <td><span class="val-blue">${fmtMoney(r.budget)}</span></td>
-      <td><span class="val-green">${r.dv>0?fmtMoney(r.dv):"—"}</span></td>
-      <td style="font-size:11px;color:var(--gray-400);max-width:180px;white-space:normal;">${r.Notes}</td>
-    </tr>
-  `).join("");
+  // Group by month (newest first)
+  const sorted = rows.slice().sort((a,b)=>{
+    const da=parseDate(a.date)||new Date(0), db=parseDate(b.date)||new Date(0);
+    return db-da;
+  });
+  // Build month buckets in order
+  const buckets=[]; const bucketMap={};
+  sorted.forEach(r=>{
+    const d=parseDate(r.date); if(!d) return;
+    const key=d.toLocaleDateString("en-US",{month:"long",year:"numeric"});
+    if(!bucketMap[key]){bucketMap[key]={label:key,rows:[],rev:0};buckets.push(bucketMap[key]);}
+    bucketMap[key].rows.push(r);
+    bucketMap[key].rev+=r.dv;
+  });
+  const html=buckets.map(b=>{
+    const monthRev=b.rev>0?`<span style="color:var(--green);font-weight:700;margin-left:10px;">$${(b.rev/1000).toFixed(1)}K revenue</span>`:"";
+    const header=`<tr>
+      <td colspan="8" style="background:var(--blue-light);padding:8px 14px;font-size:12px;font-weight:700;color:var(--blue);border-top:2px solid var(--gray-200);">
+        📅 ${b.label} &nbsp;·&nbsp; <span style="font-weight:500;">${b.rows.length} placement${b.rows.length!==1?"s":""}</span>${monthRev}
+      </td>
+    </tr>`;
+    const dataRows=b.rows.map(r=>`
+      <tr>
+        <td style="font-size:12px;">${r.date}</td>
+        <td><strong>${r["Company Name"]}</strong></td>
+        <td style="font-size:12px;">${r.Role}</td>
+        <td><span class="advisor-tag ${advisorClass(r.Advisor)}">${r.Advisor}</span></td>
+        <td style="text-align:center;font-weight:600;">${r.days}d</td>
+        <td><span class="val-blue">${fmtMoney(r.budget)}</span></td>
+        <td><span class="val-green">${r.dv>0?fmtMoney(r.dv):"—"}</span></td>
+        <td style="font-size:11px;color:var(--gray-400);max-width:180px;white-space:normal;">${r.Notes}</td>
+      </tr>
+    `).join("");
+    return header+dataRows;
+  }).join("");
+  document.getElementById("placement-tbody").innerHTML = html || `<tr><td colspan="8" style="text-align:center;padding:24px;color:var(--gray-400);">No placements in this period.</td></tr>`;
 }
 
 function buildMonthlyData(rows) {

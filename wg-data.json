@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-18T14:16:42.007Z",
+  "updated": "2026-02-18T14:16:47.919Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2362,7 +2362,7 @@
       "Hiring Request": "",
       "Source": "",
       "Is replacement?": "",
-      "Status": "",
+      "Status": "1. KickOff Meeting",
       "Name": "Eli Tatem",
       "Email": "etatem@tworld.com",
       "Company Name": "Transworld Business Advisors of Western Carolinas",

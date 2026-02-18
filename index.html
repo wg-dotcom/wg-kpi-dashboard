@@ -272,14 +272,14 @@
     </div>
 
     <div class="kpi-grid">
-      <div class="kpi-card blue"><div class="kpi-icon">🎯</div><div class="kpi-value">39</div><div class="kpi-label">Active Processes</div><div class="kpi-sub">Across all stages</div></div>
-      <div class="kpi-card green"><div class="kpi-icon">✅</div><div class="kpi-value">37</div><div class="kpi-label">Total Placed</div><div class="kpi-sub">All time</div></div>
-      <div class="kpi-card orange"><div class="kpi-icon">💰</div><div class="kpi-value">$252K</div><div class="kpi-label">Active Pipeline</div><div class="kpi-sub">Projected deal value</div></div>
-      <div class="kpi-card yellow"><div class="kpi-icon">⚡</div><div class="kpi-value">24.6d</div><div class="kpi-label">Avg. Days to Place</div><div class="kpi-sub">Historical average</div></div>
-      <div class="kpi-card purple"><div class="kpi-icon">📈</div><div class="kpi-value">$201K</div><div class="kpi-label">Revenue Generated</div><div class="kpi-sub">All placed deals</div></div>
-      <div class="kpi-card green"><div class="kpi-icon">🗓️</div><div class="kpi-value">11</div><div class="kpi-label">Placed Last 30d</div><div class="kpi-sub">$67.5K revenue</div></div>
-      <div class="kpi-card blue"><div class="kpi-icon">🔥</div><div class="kpi-value">3</div><div class="kpi-label">Placed Last 7d</div><div class="kpi-sub">$12.1K revenue</div></div>
-      <div class="kpi-card red"><div class="kpi-icon">⏸️</div><div class="kpi-value">31</div><div class="kpi-label">Closed / Paused</div><div class="kpi-sub">54% by customer</div></div>
+      <div class="kpi-card blue"><div class="kpi-icon">🎯</div><div class="kpi-value" id="kpi-active">—</div><div class="kpi-label">Active Processes</div><div class="kpi-sub">Across all stages</div></div>
+      <div class="kpi-card green"><div class="kpi-icon">✅</div><div class="kpi-value" id="kpi-placed">—</div><div class="kpi-label">Total Placed</div><div class="kpi-sub">All time</div></div>
+      <div class="kpi-card orange"><div class="kpi-icon">💰</div><div class="kpi-value" id="kpi-pipeline">—</div><div class="kpi-label">Active Pipeline</div><div class="kpi-sub">Projected deal value</div></div>
+      <div class="kpi-card yellow"><div class="kpi-icon">⚡</div><div class="kpi-value" id="kpi-avg-days">—</div><div class="kpi-label">Avg. Days to Place</div><div class="kpi-sub">Historical average</div></div>
+      <div class="kpi-card purple"><div class="kpi-icon">📈</div><div class="kpi-value" id="kpi-revenue">—</div><div class="kpi-label">Revenue Generated</div><div class="kpi-sub">All placed deals</div></div>
+      <div class="kpi-card green"><div class="kpi-icon">🗓️</div><div class="kpi-value" id="kpi-placed-30">—</div><div class="kpi-label">Placed Last 30d</div><div class="kpi-sub" id="kpi-placed-30-sub">—</div></div>
+      <div class="kpi-card blue"><div class="kpi-icon">🔥</div><div class="kpi-value" id="kpi-placed-7">—</div><div class="kpi-label">Placed Last 7d</div><div class="kpi-sub" id="kpi-placed-7-sub">—</div></div>
+      <div class="kpi-card red"><div class="kpi-icon">⏸️</div><div class="kpi-value" id="kpi-closed">—</div><div class="kpi-label">Closed / Paused</div><div class="kpi-sub" id="kpi-closed-sub">—</div></div>
       <div class="kpi-card yellow"><div class="kpi-icon">🔁</div><div class="kpi-value" id="kpi-replacement-rate">—</div><div class="kpi-label">Replacement Rate</div><div class="kpi-sub" id="kpi-replacement-sub">Active processes</div></div>
     </div>
 
@@ -452,15 +452,15 @@
   <section class="tab-section" id="tab-closed">
 
     <div class="section-header" style="margin-bottom:14px;">
-      <div><div class="section-title">Closed & Paused Analysis</div><div class="section-sub">31 processes · Understanding why we lose deals</div></div>
+      <div><div class="section-title">Closed & Paused Analysis</div><div class="section-sub" id="closed-analysis-sub">— processes · Understanding why we lose deals</div></div>
     </div>
 
     <!-- Closed KPIs -->
     <div class="kpi-grid" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-bottom:24px;">
-      <div class="kpi-card red"><div class="kpi-icon">🔒</div><div class="kpi-value">31</div><div class="kpi-label">Total Closed/Paused</div><div class="kpi-sub">All time</div></div>
-      <div class="kpi-card orange"><div class="kpi-icon">👤</div><div class="kpi-value">17</div><div class="kpi-label">Paused by Customer</div><div class="kpi-sub">55% of closed</div></div>
-      <div class="kpi-card yellow"><div class="kpi-icon">🏢</div><div class="kpi-value">5</div><div class="kpi-label">Closed by Customer</div><div class="kpi-sub">Hired elsewhere</div></div>
-      <div class="kpi-card blue"><div class="kpi-icon">⏸️</div><div class="kpi-value">9</div><div class="kpi-label">Paused by Us</div><div class="kpi-sub">Customer MIA</div></div>
+      <div class="kpi-card red"><div class="kpi-icon">🔒</div><div class="kpi-value" id="kpi-closed-total">—</div><div class="kpi-label">Total Closed/Paused</div><div class="kpi-sub">All time</div></div>
+      <div class="kpi-card orange"><div class="kpi-icon">👤</div><div class="kpi-value" id="kpi-closed-customer">—</div><div class="kpi-label">Paused by Customer</div><div class="kpi-sub" id="kpi-closed-customer-sub">—</div></div>
+      <div class="kpi-card yellow"><div class="kpi-icon">🏢</div><div class="kpi-value" id="kpi-closed-hired">—</div><div class="kpi-label">Closed by Customer</div><div class="kpi-sub">Hired elsewhere</div></div>
+      <div class="kpi-card blue"><div class="kpi-icon">⏸️</div><div class="kpi-value" id="kpi-closed-us">—</div><div class="kpi-label">Paused by Us</div><div class="kpi-sub">Customer MIA</div></div>
     </div>
 
     <div class="charts-row" style="margin-bottom:24px;">
@@ -1241,24 +1241,43 @@ function initDashboard() {
   const rev30  = last30.reduce((s,r)=>s+(r.dv||0),0);
   const rev7   = last7.reduce((s,r)=>s+(r.dv||0),0);
 
-  // Patch KPI card values dynamically
-  const kpiMap = {
-    "Active Processes": `${totalActive}<br><small>Across all stages</small>`,
-  };
-  // Update overview stat line
+  // ── Overview KPI cards ──
+  const fmtK = v => v >= 1000 ? "$" + Math.round(v/1000) + "K" : "$" + Math.round(v);
+  document.getElementById("kpi-active").textContent   = totalActive;
+  document.getElementById("kpi-placed").textContent   = totalPlaced;
+  document.getElementById("kpi-pipeline").textContent = fmtK(totalPipeline);
+  document.getElementById("kpi-avg-days").textContent = avgDays + "d";
+  document.getElementById("kpi-revenue").textContent  = fmtK(totalRevenue);
+  document.getElementById("kpi-placed-30").textContent    = last30.length;
+  document.getElementById("kpi-placed-30-sub").textContent = fmtK(rev30) + " revenue";
+  document.getElementById("kpi-placed-7").textContent     = last7.length;
+  document.getElementById("kpi-placed-7-sub").textContent  = fmtK(rev7) + " revenue";
+  document.getElementById("kpi-closed").textContent    = totalClosed;
+  const byCustomer = CLOSED.filter(r=>r.closer==="customer").length;
+  const pctCust = totalClosed ? Math.round(byCustomer/totalClosed*100) : 0;
+  document.getElementById("kpi-closed-sub").textContent = pctCust + "% by customer";
+
+  // ── Closed & Paused tab KPIs ──
+  const closedByUs   = CLOSED.filter(r=>r.closer==="us").length;
+  const hiredElsewhere = CLOSED.filter(r=>r.category==="Hired Elsewhere").length;
+  document.getElementById("closed-analysis-sub").textContent  = `${totalClosed} processes · Understanding why we lose deals`;
+  document.getElementById("kpi-closed-total").textContent     = totalClosed;
+  document.getElementById("kpi-closed-customer").textContent  = byCustomer;
+  document.getElementById("kpi-closed-customer-sub").textContent = totalClosed ? Math.round(byCustomer/totalClosed*100)+"% of closed" : "—";
+  document.getElementById("kpi-closed-hired").textContent     = hiredElsewhere;
+  document.getElementById("kpi-closed-us").textContent        = closedByUs;
+
+  // ── Overview stat line ──
   const statLine = document.getElementById("overview-stat-line");
   if(statLine) statLine.textContent = `${new Date().toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"})} · ${ACTIVE.length+PLACED.length+CLOSED.length} total processes tracked`;
 
-  // Replacement Rate KPI
+  // ── Replacement Rate KPI ──
   const allProcesses = [...ACTIVE, ...PLACED, ...CLOSED];
   const totalReplActive = ACTIVE.filter(r=>r.isReplacement).length;
   const totalRepl = allProcesses.filter(r=>r.isReplacement).length;
   const pct = ACTIVE.length ? Math.round((totalReplActive / ACTIVE.length) * 100) : 0;
   document.getElementById("kpi-replacement-rate").textContent = pct + "%";
   document.getElementById("kpi-replacement-sub").textContent = `${totalReplActive} of ${ACTIVE.length} active · ${totalRepl} all time`;
-
-  // Fix hardcoded count in renderTable
-  window._totalActiveCount = ACTIVE.length;
 
   renderStageRevenue();
   renderPlacingRate();

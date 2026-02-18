@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>White Glove — KPI Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --blue:       #0b4d99;
+      --blue-dark:  #083d7a;
+      --blue-light: #e8f0fb;
+      --orange:     #ff5722;
+      --orange-l:   #fff3ef;
+      --green:      #22c55e;
+      --green-l:    #f0fdf4;
+      --yellow:     #f59e0b;
+      --yellow-l:   #fffbeb;
+      --purple:     #8b5cf6;
+      --purple-l:   #f5f3ff;
+      --gray-50:    #f8fafc;
+      --gray-100:   #f1f5f9;
+      --gray-200:   #e2e8f0;
+      --gray-400:   #94a3b8;
+      --gray-600:   #475569;
+      --gray-800:   #1e293b;
+      --white:      #ffffff;
+      --shadow-sm:  0 1px 3px rgba(0,0,0,.08);
+      --shadow:     0 4px 16px rgba(11,77,153,.10);
+      --shadow-lg:  0 8px 32px rgba(11,77,153,.14);
+      --radius:     14px;
+      --radius-sm:  8px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--gray-50);
+      color: var(--gray-800);
+      min-height: 100vh;
+    }
+
+    /* ── TOPBAR ── */
+    .topbar {
+      background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 100%);
+      padding: 0 32px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px rgba(0,0,0,.18);
+    }
+    .topbar-brand { display: flex; align-items: center; gap: 12px; }
+    .topbar-logo {
+      width: 36px; height: 36px; border-radius: 8px;
+      background: var(--white); display: flex; align-items: center;
+      justify-content: center; font-weight: 800; font-size: 16px;
+      color: var(--blue); letter-spacing: -1px;
+    }
+    .topbar-name { color: var(--white); font-size: 17px; font-weight: 700; }
+    .topbar-sub  { color: rgba(255,255,255,.65); font-size: 12px; font-weight: 400; }
+    .topbar-right { display: flex; align-items: center; gap: 16px; }
+    .topbar-date { color: rgba(255,255,255,.75); font-size: 12px; }
+    .badge-live {
+      background: var(--green); color: var(--white); font-size: 11px;
+      font-weight: 600; padding: 3px 10px; border-radius: 20px;
+      letter-spacing: .5px; text-transform: uppercase;
+    }
+
+    /* ── LAYOUT ── */
+    .page { max-width: 1320px; margin: 0 auto; padding: 28px 24px 48px; }
+
+    /* ── SECTION HEADER ── */
+    .section-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 18px;
+    }
+    .section-title { font-size: 18px; font-weight: 700; color: var(--blue); }
+    .section-sub   { font-size: 13px; color: var(--gray-400); font-weight: 400; }
+
+    /* ── KPI CARDS ── */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .kpi-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 22px 20px 18px;
+      box-shadow: var(--shadow-sm);
+      border: 1.5px solid var(--gray-200);
+      position: relative;
+      overflow: hidden;
+      transition: box-shadow .2s, transform .2s;
+    }
+    .kpi-card:hover { box-shadow: var(--shadow); transform: translateY(-2px); }
+    .kpi-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 4px;
+    }
+    .kpi-card.blue::before   { background: var(--blue); }
+    .kpi-card.orange::before { background: var(--orange); }
+    .kpi-card.green::before  { background: var(--green); }
+    .kpi-card.yellow::before { background: var(--yellow); }
+    .kpi-card.purple::before { background: var(--purple); }
+
+    .kpi-icon {
+      width: 40px; height: 40px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px; margin-bottom: 12px;
+    }
+    .kpi-card.blue   .kpi-icon { background: var(--blue-light); }
+    .kpi-card.orange .kpi-icon { background: var(--orange-l); }
+    .kpi-card.green  .kpi-icon { background: var(--green-l); }
+    .kpi-card.yellow .kpi-icon { background: var(--yellow-l); }
+    .kpi-card.purple .kpi-icon { background: var(--purple-l); }
+
+    .kpi-value {
+      font-size: 28px; font-weight: 800; line-height: 1;
+      margin-bottom: 4px;
+    }
+    .kpi-card.blue   .kpi-value { color: var(--blue); }
+    .kpi-card.orange .kpi-value { color: var(--orange); }
+    .kpi-card.green  .kpi-value { color: var(--green); }
+    .kpi-card.yellow .kpi-value { color: var(--yellow); }
+    .kpi-card.purple .kpi-value { color: var(--purple); }
+
+    .kpi-label { font-size: 12px; color: var(--gray-600); font-weight: 500; }
+    .kpi-sub   { font-size: 11px; color: var(--gray-400); margin-top: 2px; }
+
+    /* ── CHARTS ROW ── */
+    .charts-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 32px;
+    }
+    @media (max-width: 900px) {
+      .charts-row { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 600px) {
+      .charts-row { grid-template-columns: 1fr; }
+    }
+    .chart-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 20px 20px 16px;
+      box-shadow: var(--shadow-sm);
+      border: 1.5px solid var(--gray-200);
+    }
+    .chart-title { font-size: 14px; font-weight: 600; color: var(--gray-800); margin-bottom: 14px; }
+    .chart-wrap  { position: relative; height: 200px; }
+
+    /* ── FILTERS ── */
+    .filters-bar {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      box-shadow: var(--shadow-sm);
+      border: 1.5px solid var(--gray-200);
+      display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+      margin-bottom: 20px;
+    }
+    .filter-label { font-size: 12px; font-weight: 600; color: var(--gray-600); }
+    .filter-btn {
+      padding: 6px 14px; border-radius: 20px; border: 1.5px solid var(--gray-200);
+      background: var(--white); font-family: 'Poppins', sans-serif;
+      font-size: 12px; font-weight: 500; color: var(--gray-600);
+      cursor: pointer; transition: all .15s;
+    }
+    .filter-btn:hover  { border-color: var(--blue); color: var(--blue); }
+    .filter-btn.active { background: var(--blue); border-color: var(--blue); color: var(--white); }
+    .filter-sep { width: 1px; height: 24px; background: var(--gray-200); }
+    .search-input {
+      flex: 1; min-width: 180px; padding: 6px 14px;
+      border: 1.5px solid var(--gray-200); border-radius: 20px;
+      font-family: 'Poppins', sans-serif; font-size: 12px; color: var(--gray-800);
+      outline: none; transition: border-color .15s;
+    }
+    .search-input:focus { border-color: var(--blue); }
+
+    /* ── TABLE ── */
+    .table-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      border: 1.5px solid var(--gray-200);
+      overflow: hidden;
+    }
+    .table-header {
+      padding: 16px 20px;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid var(--gray-200);
+    }
+    .table-title  { font-size: 15px; font-weight: 700; color: var(--gray-800); }
+    .table-count  { font-size: 12px; color: var(--gray-400); font-weight: 400; }
+    .table-wrap   { overflow-x: auto; }
+    table {
+      width: 100%; border-collapse: collapse;
+      font-size: 13px;
+    }
+    thead th {
+      background: var(--gray-50); padding: 11px 14px;
+      text-align: left; font-size: 11px; font-weight: 600;
+      color: var(--gray-400); text-transform: uppercase; letter-spacing: .5px;
+      border-bottom: 1px solid var(--gray-200); white-space: nowrap;
+      cursor: pointer; user-select: none;
+    }
+    thead th:hover { color: var(--blue); }
+    thead th .sort-icon { display: inline-block; margin-left: 4px; opacity: .4; }
+    thead th.sort-asc  .sort-icon { content: '↑'; opacity: 1; }
+    thead th.sort-desc .sort-icon { content: '↓'; opacity: 1; }
+    tbody tr { transition: background .1s; }
+    tbody tr:hover { background: var(--gray-50); }
+    tbody td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--gray-200);
+      vertical-align: middle; color: var(--gray-800);
+    }
+    tbody tr:last-child td { border-bottom: none; }
+
+    /* ── STATUS BADGE ── */
+    .status-badge {
+      display: inline-flex; align-items: center; gap: 5px;
+      padding: 3px 10px; border-radius: 12px;
+      font-size: 11px; font-weight: 600; white-space: nowrap;
+    }
+    .status-dot { width: 6px; height: 6px; border-radius: 50%; }
+    .s-kickoff   { background: #eff6ff; color: #1d4ed8; }
+    .s-kickoff   .status-dot { background: #3b82f6; }
+    .s-candidates{ background: #fff7ed; color: #c2410c; }
+    .s-candidates .status-dot { background: var(--orange); }
+    .s-interviews{ background: #fefce8; color: #a16207; }
+    .s-interviews .status-dot { background: var(--yellow); }
+    .s-assessment{ background: #fdf4ff; color: #7e22ce; }
+    .s-assessment .status-dot { background: var(--purple); }
+    .s-final     { background: #fff7ed; color: #9a3412; }
+    .s-final     .status-dot { background: #ef4444; }
+    .s-invoice   { background: #f0fdf4; color: #15803d; }
+    .s-invoice   .status-dot { background: var(--green); }
+    .s-placed    { background: #f0fdf4; color: #166534; }
+    .s-placed    .status-dot { background: #16a34a; }
+    .s-closed    { background: var(--gray-100); color: var(--gray-400); }
+    .s-closed    .status-dot { background: var(--gray-400); }
+
+    /* ── ADVISOR TAG ── */
+    .advisor-tag {
+      display: inline-block; padding: 2px 9px; border-radius: 10px;
+      font-size: 11px; font-weight: 600;
+    }
+    .adv-jesus     { background: #eff6ff; color: var(--blue); }
+    .adv-miguel    { background: var(--orange-l); color: var(--orange); }
+    .adv-guillermo { background: var(--purple-l); color: var(--purple); }
+
+    /* ── VALUE CELL ── */
+    .val-green { color: var(--green); font-weight: 600; }
+    .val-blue  { color: var(--blue);  font-weight: 600; }
+
+    /* ── PRIORITY BADGE ── */
+    .priority-badge {
+      width: 24px; height: 24px; border-radius: 6px;
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: 700;
+    }
+    .pri-1 { background: #fee2e2; color: #b91c1c; }
+    .pri-2, .pri-3, .pri-4, .pri-5 { background: var(--yellow-l); color: #92400e; }
+    .pri-high { background: var(--gray-100); color: var(--gray-400); }
+
+    /* ── ADVISOR LEADERBOARD ── */
+    .leaderboard {
+      background: var(--white); border-radius: var(--radius);
+      padding: 20px; box-shadow: var(--shadow-sm);
+      border: 1.5px solid var(--gray-200); margin-bottom: 32px;
+    }
+    .lb-title { font-size: 15px; font-weight: 700; margin-bottom: 16px; }
+    .lb-row {
+      display: flex; align-items: center; gap: 14px;
+      padding: 10px 0; border-bottom: 1px solid var(--gray-100);
+    }
+    .lb-row:last-child { border-bottom: none; }
+    .lb-rank { font-size: 18px; font-weight: 800; width: 28px; color: var(--gray-400); }
+    .lb-rank.r1 { color: #f59e0b; }
+    .lb-rank.r2 { color: var(--gray-400); }
+    .lb-rank.r3 { color: #b45309; }
+    .lb-avatar {
+      width: 36px; height: 36px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 14px; color: var(--white);
+    }
+    .lb-info { flex: 1; }
+    .lb-name  { font-size: 13px; font-weight: 600; }
+    .lb-meta  { font-size: 11px; color: var(--gray-400); }
+    .lb-bar-wrap { flex: 2; }
+    .lb-bar-bg {
+      height: 8px; background: var(--gray-100); border-radius: 4px; overflow: hidden;
+    }
+    .lb-bar-fill { height: 100%; border-radius: 4px; }
+    .lb-stat { font-size: 13px; font-weight: 700; min-width: 32px; text-align: right; }
+
+    /* ── PIPELINE STAGE ── */
+    .pipeline {
+      display: flex; gap: 0; margin-bottom: 32px; overflow-x: auto;
+    }
+    .pipe-stage {
+      flex: 1; min-width: 100px; background: var(--white);
+      border: 1.5px solid var(--gray-200);
+      padding: 16px 12px; text-align: center;
+      position: relative; cursor: pointer; transition: background .15s;
+    }
+    .pipe-stage:first-child { border-radius: var(--radius) 0 0 var(--radius); }
+    .pipe-stage:last-child  { border-radius: 0 var(--radius) var(--radius) 0; }
+    .pipe-stage:not(:first-child) { border-left: none; }
+    .pipe-stage:hover { background: var(--gray-50); }
+    .pipe-stage.active { background: var(--blue-light); border-color: var(--blue); z-index: 1; }
+    .pipe-stage-num  { font-size: 24px; font-weight: 800; color: var(--blue); }
+    .pipe-stage-name { font-size: 11px; color: var(--gray-600); font-weight: 500; margin-top: 2px; }
+    .pipe-stage-val  { font-size: 10px; color: var(--green); font-weight: 600; margin-top: 2px; }
+
+    /* ── NO RESULTS ── */
+    .no-results {
+      text-align: center; padding: 40px;
+      color: var(--gray-400); font-size: 14px;
+    }
+
+    /* ── FOOTER ── */
+    .footer {
+      text-align: center; padding: 24px;
+      font-size: 11px; color: var(--gray-400);
+    }
+    .footer span { color: var(--blue); font-weight: 600; }
+  </style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<header class="topbar">
+  <div class="topbar-brand">
+    <div class="topbar-logo">WG</div>
+    <div>
+      <div class="topbar-name">White Glove — KPI Dashboard</div>
+      <div class="topbar-sub">Sagan Recruitment · Hiring Process Tracker</div>
+    </div>
+  </div>
+  <div class="topbar-right">
+    <span class="topbar-date" id="topbar-date"></span>
+    <span class="badge-live">Live</span>
+  </div>
+</header>
+
+<main class="page">
+
+  <!-- ── KPI CARDS ── -->
+  <div class="section-header" style="margin-bottom:14px;">
+    <div>
+      <div class="section-title">Overview</div>
+      <div class="section-sub">As of February 17, 2026 · 107 total processes tracked</div>
+    </div>
+  </div>
+
+  <div class="kpi-grid">
+    <div class="kpi-card blue">
+      <div class="kpi-icon">🎯</div>
+      <div class="kpi-value">39</div>
+      <div class="kpi-label">Active Processes</div>
+      <div class="kpi-sub">Across all stages</div>
+    </div>
+    <div class="kpi-card green">
+      <div class="kpi-icon">✅</div>
+      <div class="kpi-value">37</div>
+      <div class="kpi-label">Total Placed</div>
+      <div class="kpi-sub">All time</div>
+    </div>
+    <div class="kpi-card orange">
+      <div class="kpi-icon">💰</div>
+      <div class="kpi-value">$252K</div>
+      <div class="kpi-label">Active Pipeline</div>
+      <div class="kpi-sub">Projected deal value</div>
+    </div>
+    <div class="kpi-card yellow">
+      <div class="kpi-icon">⚡</div>
+      <div class="kpi-value">24.6d</div>
+      <div class="kpi-label">Avg. Days to Place</div>
+      <div class="kpi-sub">Historical average</div>
+    </div>
+    <div class="kpi-card purple">
+      <div class="kpi-icon">📈</div>
+      <div class="kpi-value">$201K</div>
+      <div class="kpi-label">Revenue Generated</div>
+      <div class="kpi-sub">Placed deals total</div>
+    </div>
+    <div class="kpi-card blue">
+      <div class="kpi-icon">🤝</div>
+      <div class="kpi-value">54%</div>
+      <div class="kpi-label">Placement Rate</div>
+      <div class="kpi-sub">Placed / (Placed + Closed)</div>
+    </div>
+  </div>
+
+  <!-- ── PIPELINE STAGES ── -->
+  <div class="section-header">
+    <div class="section-title">Funnel — Active Processes by Stage</div>
+    <div class="section-sub">Click a stage to filter the table below</div>
+  </div>
+
+  <div class="pipeline" id="pipeline">
+    <div class="pipe-stage" data-status="all">
+      <div class="pipe-stage-num" id="ps-all">39</div>
+      <div class="pipe-stage-name">All Active</div>
+      <div class="pipe-stage-val">$252K</div>
+    </div>
+    <div class="pipe-stage" data-status="1. KickOff Meeting">
+      <div class="pipe-stage-num" id="ps-ko">12</div>
+      <div class="pipe-stage-name">KickOff</div>
+      <div class="pipe-stage-val"></div>
+    </div>
+    <div class="pipe-stage" data-status="2. Candidates Presented">
+      <div class="pipe-stage-num" id="ps-cp">7</div>
+      <div class="pipe-stage-name">Candidates Sent</div>
+      <div class="pipe-stage-val"></div>
+    </div>
+    <div class="pipe-stage" data-status="3. 1st Round of Interviews">
+      <div class="pipe-stage-num" id="ps-int">10</div>
+      <div class="pipe-stage-name">Interviewing</div>
+      <div class="pipe-stage-val"></div>
+    </div>
+    <div class="pipe-stage" data-status="4. Assessment">
+      <div class="pipe-stage-num" id="ps-ass">1</div>
+      <div class="pipe-stage-name">Assessment</div>
+      <div class="pipe-stage-val"></div>
+    </div>
+    <div class="pipe-stage" data-status="5. Final Interview">
+      <div class="pipe-stage-num" id="ps-fi">5</div>
+      <div class="pipe-stage-name">Final Interview</div>
+      <div class="pipe-stage-val"></div>
+    </div>
+    <div class="pipe-stage" data-status="7. Invoice">
+      <div class="pipe-stage-num" id="ps-inv">4</div>
+      <div class="pipe-stage-name">Invoice</div>
+      <div class="pipe-stage-val">$18.0K</div>
+    </div>
+  </div>
+
+  <!-- ── CHARTS ROW ── -->
+  <div class="charts-row">
+    <div class="chart-card">
+      <div class="chart-title">Active by Advisor</div>
+      <div class="chart-wrap"><canvas id="chartAdvisor"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">Active by Stage</div>
+      <div class="chart-wrap"><canvas id="chartStage"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title">Active by Source</div>
+      <div class="chart-wrap"><canvas id="chartSource"></canvas></div>
+    </div>
+  </div>
+
+  <!-- ── ADVISOR LEADERBOARD ── -->
+  <div class="leaderboard">
+    <div class="lb-title">👑 Advisor Leaderboard — Placements (All Time)</div>
+    <div class="lb-row">
+      <div class="lb-rank r1">1</div>
+      <div class="lb-avatar" style="background:var(--orange);">M</div>
+      <div class="lb-info"><div class="lb-name">Miguel</div><div class="lb-meta">25 placements · 15 active</div></div>
+      <div class="lb-bar-wrap"><div class="lb-bar-bg"><div class="lb-bar-fill" style="width:100%;background:var(--orange);"></div></div></div>
+      <div class="lb-stat" style="color:var(--orange);">25</div>
+    </div>
+    <div class="lb-row">
+      <div class="lb-rank r2">2</div>
+      <div class="lb-avatar" style="background:var(--purple);">G</div>
+      <div class="lb-info"><div class="lb-name">Guillermo</div><div class="lb-meta">7 placements · 14 active</div></div>
+      <div class="lb-bar-wrap"><div class="lb-bar-bg"><div class="lb-bar-fill" style="width:28%;background:var(--purple);"></div></div></div>
+      <div class="lb-stat" style="color:var(--purple);">7</div>
+    </div>
+    <div class="lb-row">
+      <div class="lb-rank r3">3</div>
+      <div class="lb-avatar" style="background:var(--blue);">J</div>
+      <div class="lb-info"><div class="lb-name">Jesus</div><div class="lb-meta">5 placements · 9 active</div></div>
+      <div class="lb-bar-wrap"><div class="lb-bar-bg"><div class="lb-bar-fill" style="width:20%;background:var(--blue);"></div></div></div>
+      <div class="lb-stat" style="color:var(--blue);">5</div>
+    </div>
+  </div>
+
+  <!-- ── ACTIVE PROCESSES TABLE ── -->
+  <div class="section-header">
+    <div class="section-title">Active Hiring Processes</div>
+    <div class="section-sub" id="table-count-label">Showing 39 processes</div>
+  </div>
+
+  <div class="filters-bar">
+    <span class="filter-label">Advisor:</span>
+    <button class="filter-btn active" data-advisor="all">All</button>
+    <button class="filter-btn" data-advisor="Jesus">Jesus</button>
+    <button class="filter-btn" data-advisor="MIguel">Miguel</button>
+    <button class="filter-btn" data-advisor="Guillermo">Guillermo</button>
+    <div class="filter-sep"></div>
+    <input class="search-input" type="text" id="searchInput" placeholder="🔍  Search company, role, client…" />
+  </div>
+
+  <div class="table-card">
+    <div class="table-header">
+      <div>
+        <span class="table-title">All Active Processes</span>
+        <span class="table-count" id="table-sub-count"> · 39 shown</span>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table id="main-table">
+        <thead>
+          <tr>
+            <th data-col="Priorities">Pri <span class="sort-icon">↕</span></th>
+            <th data-col="Company Name">Company <span class="sort-icon">↕</span></th>
+            <th data-col="Role">Role <span class="sort-icon">↕</span></th>
+            <th data-col="Status">Stage <span class="sort-icon">↕</span></th>
+            <th data-col="Advisor">Advisor <span class="sort-icon">↕</span></th>
+            <th data-col="KickOff Meeting">KickOff <span class="sort-icon">↕</span></th>
+            <th data-col="Budget ($)">Budget <span class="sort-icon">↕</span></th>
+            <th data-col="Deal Value ($)">Deal Value <span class="sort-icon">↕</span></th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <div class="no-results" id="no-results" style="display:none;">No processes match your filters.</div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="footer">
+  White Glove KPI Dashboard · <span>Sagan Recruitment</span> · Data as of Feb 17, 2026 · Built with ♥ by the White Glove team
+</footer>
+
+<script>
+// ── DATA ──────────────────────────────────────────────────────────────────
+const ACTIVE = [
+  { Priorities:"1", "Hiring Request":"HR31540", Source:"Regular WG", Status:"5. Final Interview", "Company Name":"BoreIt", Role:"Junior Estimator and Project Coordinator", Advisor:"Jesus", "KickOff Meeting":"Dec 11, 2025", "Budget ($)":"1,200", "Deal Value ($)":"4,320", Notes:"Resurfaced · New batch Tues Feb 17th" },
+  { Priorities:"1", "Hiring Request":"HR83475", Source:"Regular WG", Status:"3. 1st Round of Interviews", "Company Name":"DoveHill", Role:"Executive Assistant", Advisor:"MIguel", "KickOff Meeting":"Jan 27, 2026", "Budget ($)":"2,000", "Deal Value ($)":"—", Notes:"Diana - 2nd interview Feb 17th · New batch Mon Feb 16th" },
+  { Priorities:"5", "Hiring Request":"HR44522", Source:"Regular WG", Status:"3. 1st Round of Interviews", "Company Name":"3 Seasons Personal Training", Role:"Executive Assistant", Advisor:"Jesus", "KickOff Meeting":"Jan 29, 2026", "Budget ($)":"1,500", "Deal Value ($)":"6,300", Notes:"Karen - 1st interview Feb 10th · New drop Feb 16th" },
+  { Priorities:"1", "Hiring Request":"HR57064", Source:"Regular WG", Status:"3. 1st Round of Interviews", "Company Name":"Splash Plumbing", Role:"Operations Administrator", Advisor:"MIguel", "KickOff Meeting":"Feb 9, 2026", "Budget ($)":"1,500", "Deal Value ($)":"6,300", Notes:"Azucena & Amy - 1st interview Fri Feb 13th · New drop Wed Feb 18th" },
+  { Priorities:"1", "Hiring Request":"HR76883", Source:"Franchise", Status:"7. Invoice", "Company Name":"Just For Your Paws LLC", Role:"Sales Associate", Advisor:"MIguel", "KickOff Meeting":"Nov 11, 2025", "Budget ($)":"1,500", "Deal Value ($)":"6,300", Notes:"Hiring Zana" },
+  { Priorities:"1", "Hiring Request":"HR81549", Source:"Regular WG", Status:"2. Candidates Presented", "Company Name":"Coby Health LLC", Role:"E-Commerce / Telehealth Manager", Advisor:"MIguel", "KickOff Meeting":"Jan 23, 2026", "Budget ($)":"2,200", "Deal Value ($)":"7,000", Notes:"Fine Tuning · Follow up Feb 9th & 16th" },
+  { Priorities:"1", "Hiring Request":"", Source:"Regular WG", Status:"7. Invoice", "Company Name":"Bumblebee Tech", Role:"Test Engineer", Advisor:"Jesus", "KickOff Meeting":"Dec 23, 2025", "Budget ($)":"650", "Deal Value ($)":"3,510", Notes:"Hiring Shahnewaz · Invoiced" },
+  { Priorities:"1", "Hiring Request":"HR69050", Source:"Regular WG", Status:"5. Final Interview", "Company Name":"HAVN", Role:"Ecom Operations Manager", Advisor:"MIguel", "KickOff Meeting":"Jan 13, 2026", "Budget ($)":"4,000", "Deal Value ($)":"16,800", Notes:"Maribel - 2nd interview this week · New drop Wed Feb 18th" },
+  { Priorities:"1", "Hiring Request":"", Source:"Lead", Status:"7. Invoice", "Company Name":"Integrative Mind Psychiatry & TMS", Role:"CSR / Intake Coordinator", Advisor:"Jesus", "KickOff Meeting":"Jan 9, 2026", "Budget ($)":"1,300", "Deal Value ($)":"2,808", Notes:"Hiring Lerato" },
+  { Priorities:"1", "Hiring Request":"HR92807", Source:"Regular WG", Status:"5. Final Interview", "Company Name":"JG Holding Ventures", Role:"Sales Development Representative", Advisor:"Guillermo", "KickOff Meeting":"Jan 16, 2026", "Budget ($)":"2,000", "Deal Value ($)":"8,400", Notes:"Stefano - 2nd interview pending · Potentially hiring" },
+  { Priorities:"1", "Hiring Request":"HR72025", Source:"Regular WG", Status:"5. Final Interview", "Company Name":"Logan the Insurance Guy", Role:"Executive Assistant", Advisor:"Guillermo", "KickOff Meeting":"Jan 20, 2026", "Budget ($)":"1,800", "Deal Value ($)":"5,400", Notes:"Nickoy - 1st interview Tues Feb 17th · Continuous presentation" },
+  { Priorities:"1", "Hiring Request":"HR92486", Source:"Regular WG", Status:"4. Assessment", "Company Name":"Sandy Vans", Role:"Video Editor", Advisor:"MIguel", "KickOff Meeting":"Jan 20, 2026", "Budget ($)":"1,300", "Deal Value ($)":"5,460", Notes:"Juan / Carlos / Stella / Saad - interviews Feb 3–5" },
+  { Priorities:"1", "Hiring Request":"HR98757", Source:"Regular WG", Status:"3. 1st Round of Interviews", "Company Name":"Deeto", Role:"Sales Development Rep", Advisor:"MIguel", "KickOff Meeting":"Jan 21, 2026", "Budget ($)":"1,500", "Deal Value ($)":"4,000", Notes:"Open to other locations · New drop Feb 6th" },
+  { Priorities:"1", "Hiring Request":"HR41676", Source:"Regular WG", Status:"7. Invoice", "Company Name":"Bumble Roofing – W. Chicago", Role:"Operations & Sales Coordinator", Advisor:"Guillermo", "KickOff Meeting":"Jan 23, 2026", "Budget ($)":"1,500", "Deal Value ($)":"5,400", Notes:"Anyelo (PT) + Rolando (FT) hired" },
+  { Priorities:"1", "Hiring Request":"HR52570", Source:"Regular WG", Status:"5. Final Interview", "Company Name":"Hubflow", Role:"Executive Assistant", Advisor:"MIguel", "KickOff Meeting":"Jan 26, 2026", "Budget ($)":"1,500", "Deal Value ($)":"6,300", Notes:"Alexa - reference check" },
+  { Priorities:"1", "Hiring Request":"", Source:"Regular WG", Status:"3. 1st Round of Interviews", "Company Name":"Signarama (Bailey)", Role:"Sales Outreach & CRM Coordinator", Advisor:"Guillermo", "KickOff Meeting":"Jan 26, 2026", "Budget ($)":"1,800", "Deal Value ($)":"7,560", Notes:"Queenniexeth (TAP) - 1st interview this week" },
+  { Priorities:"1", "Hiring Request":"HR90517", Source:"Regular WG", Status:"3. 1st Round of Interviews", "Company Name":"Koala Insulation Cleveland West", Role:"Operations & Sales Support Specialist", Advisor:"MIguel", "KickOff Meeting":"Feb 3, 2026", "Budget ($)":"1,750", "Deal Value ($)":"7,350", Notes:"Amy & Daniel - 1st interview Feb 6 · New drop Feb 18th" },
+  { Priorities:"1", "Hiring Request":"", Source:"Regular WG", Status:"2. Candidates Presented", "Company Name":"Doorvana", Role:"Operations Support", Advisor:"Guillermo", "KickOff Meeting":"Feb 2, 2026", "Budget ($)":"1,500", "Deal Value ($)":"5,400", Notes:"New batch Feb 12th · Follow up Feb 16th" },
+  { Priorities:"1", "Hiring Request":"", Source:"Lead", Status:"3. 1st Round of Interviews", "Company Name":"TNT Growth", Role:"Head of Data and Analytics", Advisor:"Jesus", "KickOff Meeting":"Jan 27, 2026", "Budget ($)":"7,500", "Deal Value ($)":"31,500", Notes:"Rafael - 1st interview Fri Feb 20th" },
+  { Priorities:"1", "Hiring Request":"HR95140", Source:"Regular WG", Status:"3. 1st Round of Interviews", "Company Name":"Farm Grill", Role:"Catering Sales & Marketing", Advisor:"Guillermo", "KickOff Meeting":"Feb 4, 2026", "Budget ($)":"1,200", "Deal Value ($)":"5,040", Notes:"Alejandro - 1st interview this week" },
+  { Priorities:"1", "Hiring Request":"HR61816", Source:"Regular WG", Status:"2. Candidates Presented", "Company Name":"Equity Plumbing", Role:"Marketing Specialist", Advisor:"MIguel", "KickOff Meeting":"Feb 10, 2026", "Budget ($)":"1,500", "Deal Value ($)":"6,300", Notes:"First drop Fri Feb 13th" },
+  { Priorities:"1", "Hiring Request":"HR93492", Source:"Regular WG", Status:"2. Candidates Presented", "Company Name":"Pipi Tea", Role:"Web & Graphic Designer", Advisor:"Guillermo", "KickOff Meeting":"Feb 2, 2026", "Budget ($)":"1,800", "Deal Value ($)":"7,560", Notes:"New drop Feb 12th · Evaluating candidates" },
+  { Priorities:"1", "Hiring Request":"", Source:"Regular WG", Status:"2. Candidates Presented", "Company Name":"Topaz Capital Group", Role:"Remote Acquisitions Analyst", Advisor:"Guillermo", "KickOff Meeting":"Feb 4, 2026", "Budget ($)":"1,200", "Deal Value ($)":"5,040", Notes:"First drop Fri Feb 13th" },
+  { Priorities:"1", "Hiring Request":"HR68087", Source:"Regular WG", Status:"3. 1st Round of Interviews", "Company Name":"Koala Insulation Central Jersey", Role:"Administrative Assistant / CSR", Advisor:"MIguel", "KickOff Meeting":"Feb 5, 2026", "Budget ($)":"1,200", "Deal Value ($)":"5,040", Notes:"Heidi - 1st interview Feb 19 · New drop Feb 16th" },
+  { Priorities:"1", "Hiring Request":"", Source:"Regular WG", Status:"1. KickOff Meeting", "Company Name":"Signarama – Pflugerville", Role:"Project Manager / Coordinator", Advisor:"MIguel", "KickOff Meeting":"Pending", "Budget ($)":"2,000", "Deal Value ($)":"8,400", Notes:"Pending KickOff" },
+  { Priorities:"1", "Hiring Request":"HR48953", Source:"Regular WG", Status:"3. 1st Round of Interviews", "Company Name":"Koala Insulation Birmingham", Role:"Office Assistant", Advisor:"Guillermo", "KickOff Meeting":"Feb 3, 2026", "Budget ($)":"1,200", "Deal Value ($)":"5,040", Notes:"Queenniexeth & Faith (TAP) - 1st interview this week" },
+  { Priorities:"1", "Hiring Request":"HR75685", Source:"Regular WG", Status:"1. KickOff Meeting", "Company Name":"Archy", Role:"Senior Visual Designer", Advisor:"Guillermo", "KickOff Meeting":"Feb 12, 2026", "Budget ($)":"4,500", "Deal Value ($)":"18,900", Notes:"First drop Wed Feb 18th" },
+  { Priorities:"8", "Hiring Request":"", Source:"", Status:"1. KickOff Meeting", "Company Name":"Foundry Financial", Role:"TBD", Advisor:"Unassigned", "KickOff Meeting":"Feb 19, 2026", "Budget ($)":"TBD", "Deal Value ($)":"—", Notes:"" },
+  { Priorities:"1", "Hiring Request":"", Source:"Regular WG", Status:"1. KickOff Meeting", "Company Name":"ChargeItSpot", Role:"Scrum Master", Advisor:"Jesus", "KickOff Meeting":"Feb 12, 2026", "Budget ($)":"2,500", "Deal Value ($)":"10,500", Notes:"First batch Wed Feb 18th" },
+  { Priorities:"1", "Hiring Request":"", Source:"Regular WG", Status:"2. Candidates Presented", "Company Name":"SirReel", Role:"Administrative Assistant", Advisor:"MIguel", "KickOff Meeting":"Feb 10, 2026", "Budget ($)":"1,200", "Deal Value ($)":"5,040", Notes:"First drop Feb 12th" },
+  { Priorities:"1", "Hiring Request":"", Source:"Regular WG", Status:"1. KickOff Meeting", "Company Name":"Transworld Business Advisors", Role:"Telemarketing", Advisor:"MIguel", "KickOff Meeting":"Feb 18, 2026", "Budget ($)":"1,000", "Deal Value ($)":"4,200", Notes:"" },
+  { Priorities:"1", "Hiring Request":"", Source:"Regular WG", Status:"1. KickOff Meeting", "Company Name":"TAG Electric Co", Role:"Operations Coordinator", Advisor:"Guillermo", "KickOff Meeting":"Feb 11, 2026", "Budget ($)":"TBD", "Deal Value ($)":"—", Notes:"First drop Fri Feb 13th" },
+  { Priorities:"1", "Hiring Request":"HR96146", Source:"Regular WG", Status:"1. KickOff Meeting", "Company Name":"American Home Water & Air", Role:"CSR / Outbound Sales", Advisor:"MIguel", "KickOff Meeting":"Feb 16, 2026", "Budget ($)":"2,000", "Deal Value ($)":"8,400", Notes:"" },
+  { Priorities:"1", "Hiring Request":"HR78660", Source:"Regular WG", Status:"1. KickOff Meeting", "Company Name":"ChargeItSpot", Role:"Sr. Software Engineer", Advisor:"Jesus", "KickOff Meeting":"Feb 13, 2026", "Budget ($)":"3,000", "Deal Value ($)":"12,600", Notes:"First batch Wed Feb 18th" },
+  { Priorities:"1", "Hiring Request":"", Source:"Regular WG", Status:"1. KickOff Meeting", "Company Name":"Integrative Mind Psychiatry & TMS", Role:"Marketing Manager", Advisor:"Jesus", "KickOff Meeting":"Feb 9, 2026", "Budget ($)":"TBD", "Deal Value ($)":"—", Notes:"First batch Wed Feb 18th" },
+  { Priorities:"1", "Hiring Request":"", Source:"Regular WG", Status:"1. KickOff Meeting", "Company Name":"Drink CS2", Role:"Graphic and Web Designer", Advisor:"Jesus", "KickOff Meeting":"Feb 16, 2026", "Budget ($)":"TBD", "Deal Value ($)":"—", Notes:"First batch Wed Feb 18th" },
+  { Priorities:"1", "Hiring Request":"", Source:"Regular WG", Status:"2. Candidates Presented", "Company Name":"Home Rescue Partner", Role:"CSR", Advisor:"Guillermo", "KickOff Meeting":"Feb 9, 2026", "Budget ($)":"TBD", "Deal Value ($)":"—", Notes:"New drop Tues Feb 17th" },
+  { Priorities:"1", "Hiring Request":"HR77012", Source:"Regular WG", Status:"1. KickOff Meeting", "Company Name":"Precise Striping", Role:"Construction Estimator", Advisor:"Guillermo", "KickOff Meeting":"Feb 13, 2026", "Budget ($)":"1,800", "Deal Value ($)":"5,400", Notes:"First batch Wed Feb 18th" },
+  { Priorities:"1", "Hiring Request":"HR84931", Source:"Regular WG", Status:"1. KickOff Meeting", "Company Name":"Precise Striping", Role:"Construction Admin Coordinator", Advisor:"Guillermo", "KickOff Meeting":"Feb 13, 2026", "Budget ($)":"1,500", "Deal Value ($)":"4,500", Notes:"First batch Wed Feb 18th" },
+];
+
+// ── STATUS HELPERS ──────────────────────────────────────────────────────
+const STATUS_CLASS = {
+  "1. KickOff Meeting":           "s-kickoff",
+  "2. Candidates Presented":      "s-candidates",
+  "3. 1st Round of Interviews":   "s-interviews",
+  "4. Assessment":                "s-assessment",
+  "5. Final Interview":           "s-final",
+  "7. Invoice":                   "s-invoice",
+  "8. Placed":                    "s-placed",
+  "9. Closed / Paused / M.I.A.":  "s-closed",
+};
+const STATUS_LABEL = {
+  "1. KickOff Meeting":           "KickOff",
+  "2. Candidates Presented":      "Candidates Sent",
+  "3. 1st Round of Interviews":   "Interviewing",
+  "4. Assessment":                "Assessment",
+  "5. Final Interview":           "Final Interview",
+  "7. Invoice":                   "Invoice ✓",
+};
+const ADVISOR_CLASS = { "Jesus":"adv-jesus", "MIguel":"adv-miguel", "Guillermo":"adv-guillermo" };
+
+// ── STATE ───────────────────────────────────────────────────────────────
+let filterAdvisor = "all";
+let filterStatus  = "all";
+let searchQ       = "";
+let sortCol       = "Priorities";
+let sortDir       = "asc";
+
+// ── FILTER + RENDER ─────────────────────────────────────────────────────
+function getFiltered() {
+  return ACTIVE.filter(r => {
+    const adv = filterAdvisor === "all" || r.Advisor === filterAdvisor;
+    const sta = filterStatus  === "all" || r.Status  === filterStatus;
+    const q   = !searchQ || [r["Company Name"], r.Role, r.Advisor, r.Notes]
+                  .join(" ").toLowerCase().includes(searchQ.toLowerCase());
+    return adv && sta && q;
+  }).sort((a,b) => {
+    let av = a[sortCol] || "", bv = b[sortCol] || "";
+    if (sortCol === "Priorities") { av = parseInt(av)||99; bv = parseInt(bv)||99; }
+    else if (["Budget ($)","Deal Value ($)"].includes(sortCol)) {
+      av = parseFloat(String(av).replace(/[^0-9.]/g,""))||0;
+      bv = parseFloat(String(bv).replace(/[^0-9.]/g,""))||0;
+    }
+    if (av < bv) return sortDir==="asc" ? -1 : 1;
+    if (av > bv) return sortDir==="asc" ?  1 : -1;
+    return 0;
+  });
+}
+
+function renderTable() {
+  const rows = getFiltered();
+  const tbody = document.getElementById("table-body");
+  const noRes = document.getElementById("no-results");
+  const cnt   = document.getElementById("table-sub-count");
+  cnt.textContent = ` · ${rows.length} shown`;
+  document.getElementById("table-count-label").textContent = `Showing ${rows.length} of 39 processes`;
+
+  if (!rows.length) {
+    tbody.innerHTML = "";
+    noRes.style.display = "block";
+    return;
+  }
+  noRes.style.display = "none";
+
+  tbody.innerHTML = rows.map(r => {
+    const sc  = STATUS_CLASS[r.Status] || "s-kickoff";
+    const sl  = STATUS_LABEL[r.Status] || r.Status;
+    const ac  = ADVISOR_CLASS[r.Advisor] || "adv-jesus";
+    const pri = r.Priorities === "1" ? `<span class="priority-badge pri-1">P1</span>`
+              : r.Priorities > 1    ? `<span class="priority-badge pri-high">${r.Priorities}</span>` : "";
+    const dv  = r["Deal Value ($)"] && r["Deal Value ($)"] !== "—" && r["Deal Value ($)"] !== ""
+              ? `<span class="val-green">$${r["Deal Value ($)"]}</span>` : `<span style="color:var(--gray-400)">—</span>`;
+    const bud = r["Budget ($)"] && r["Budget ($)"] !== "TBD" && r["Budget ($)"] !== ""
+              ? `<span class="val-blue">$${r["Budget ($)"]}</span>` : `<span style="color:var(--gray-400)">${r["Budget ($)"]||"—"}</span>`;
+    return `<tr>
+      <td>${pri}</td>
+      <td><strong>${r["Company Name"]}</strong></td>
+      <td>${r.Role}</td>
+      <td><span class="status-badge ${sc}"><span class="status-dot"></span>${sl}</span></td>
+      <td><span class="advisor-tag ${ac}">${r.Advisor}</span></td>
+      <td>${r["KickOff Meeting"]||"—"}</td>
+      <td>${bud}</td>
+      <td>${dv}</td>
+      <td style="font-size:11px;color:var(--gray-400);max-width:180px;white-space:normal;">${r.Notes||""}</td>
+    </tr>`;
+  }).join("");
+}
+
+// ── CHARTS ──────────────────────────────────────────────────────────────
+function initCharts() {
+  const BLUE    = "#0b4d99"; const ORANGE = "#ff5722"; const PURPLE = "#8b5cf6";
+  const GREEN   = "#22c55e"; const YELLOW = "#f59e0b";
+  const PALETTE = [BLUE, ORANGE, PURPLE, GREEN, YELLOW, "#06b6d4", "#ec4899"];
+
+  // Advisor chart
+  new Chart(document.getElementById("chartAdvisor"), {
+    type: "doughnut",
+    data: {
+      labels: ["Miguel", "Guillermo", "Jesus", "Unassigned"],
+      datasets: [{ data: [15, 14, 9, 1], backgroundColor: [ORANGE, PURPLE, BLUE, "#94a3b8"],
+        borderWidth: 2, borderColor: "#fff" }]
+    },
+    options: { plugins: { legend: { position: "bottom", labels: { font: { family:"Poppins",size:11 }, padding:10 }}},
+      cutout:"65%", maintainAspectRatio:false }
+  });
+
+  // Stage chart
+  new Chart(document.getElementById("chartStage"), {
+    type: "bar",
+    data: {
+      labels: ["KickOff","Candidates","Interviews","Assessment","Final","Invoice"],
+      datasets: [{ data: [12, 7, 10, 1, 5, 4],
+        backgroundColor: ["#3b82f6","#ff5722","#f59e0b","#8b5cf6","#ef4444","#22c55e"],
+        borderRadius: 6, borderSkipped: false }]
+    },
+    options: {
+      plugins: { legend: { display:false }},
+      scales: { y: { beginAtZero:true, ticks: { font:{family:"Poppins",size:10}},
+        grid: { color:"#f1f5f9"}}, x: { ticks: { font:{family:"Poppins",size:10}}, grid:{display:false}}},
+      maintainAspectRatio:false
+    }
+  });
+
+  // Source chart
+  new Chart(document.getElementById("chartSource"), {
+    type: "doughnut",
+    data: {
+      labels: ["Regular WG","Lead","Franchise","Other"],
+      datasets: [{ data: [33, 2, 2, 2], backgroundColor: [BLUE, GREEN, YELLOW, "#94a3b8"],
+        borderWidth: 2, borderColor: "#fff" }]
+    },
+    options: { plugins: { legend: { position:"bottom", labels:{font:{family:"Poppins",size:11},padding:10}}},
+      cutout:"65%", maintainAspectRatio:false }
+  });
+}
+
+// ── PIPELINE CLICK ─────────────────────────────────────────────────────
+document.getElementById("pipeline").querySelectorAll(".pipe-stage").forEach(el => {
+  el.addEventListener("click", () => {
+    document.querySelectorAll(".pipe-stage").forEach(s=>s.classList.remove("active"));
+    el.classList.add("active");
+    filterStatus = el.dataset.status;
+    renderTable();
+  });
+});
+
+// ── ADVISOR FILTER BUTTONS ──────────────────────────────────────────────
+document.querySelectorAll("[data-advisor]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll("[data-advisor]").forEach(b=>b.classList.remove("active"));
+    btn.classList.add("active");
+    filterAdvisor = btn.dataset.advisor;
+    renderTable();
+  });
+});
+
+// ── SEARCH ──────────────────────────────────────────────────────────────
+document.getElementById("searchInput").addEventListener("input", e => {
+  searchQ = e.target.value;
+  renderTable();
+});
+
+// ── SORT ────────────────────────────────────────────────────────────────
+document.querySelectorAll("thead th[data-col]").forEach(th => {
+  th.addEventListener("click", () => {
+    if (sortCol === th.dataset.col) sortDir = sortDir==="asc"?"desc":"asc";
+    else { sortCol = th.dataset.col; sortDir = "asc"; }
+    document.querySelectorAll("thead th").forEach(t=>{ t.classList.remove("sort-asc","sort-desc"); });
+    th.classList.add(sortDir==="asc"?"sort-asc":"sort-desc");
+    renderTable();
+  });
+});
+
+// ── DATE ────────────────────────────────────────────────────────────────
+document.getElementById("topbar-date").textContent =
+  new Date().toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric",year:"numeric"});
+
+// ── INIT ────────────────────────────────────────────────────────────────
+// Mark first pipeline stage active
+document.querySelector(".pipe-stage[data-status='all']").classList.add("active");
+initCharts();
+renderTable();
+</script>
+</body>
+</html>

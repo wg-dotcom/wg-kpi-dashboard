@@ -268,7 +268,7 @@
   <section class="tab-section active" id="tab-overview">
 
     <div class="section-header" style="margin-bottom:14px;">
-      <div><div class="section-title">Overview</div><div class="section-sub">Feb 17, 2026 · 107 total processes tracked</div></div>
+      <div><div class="section-title">Overview</div><div class="section-sub" id="overview-stat-line">Loading data…</div></div>
     </div>
 
     <div class="kpi-grid">
@@ -512,10 +512,10 @@
 
 <script>
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-// DATA
+// DATA — populated at runtime from wg-data.json (auto-synced from sheet)
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-const ACTIVE = [
+// ── FALLBACK hardcoded data (used if live fetch fails) ──
+let ACTIVE = [
   {Priorities:"1",Status:"5. Final Interview","Company Name":"BoreIt",Role:"Junior Estimator and Project Coordinator",Advisor:"Jesus","KickOff Meeting":"Dec 11, 2025","Budget ($)":"1,200","Deal Value ($)":"4,320",Notes:"Resurfaced · New batch Tues Feb 17th",LastUpdate:"Feb 16, 2026"},
   {Priorities:"1",Status:"3. 1st Round of Interviews","Company Name":"DoveHill",Role:"Executive Assistant",Advisor:"MIguel","KickOff Meeting":"Jan 27, 2026","Budget ($)":"2,000","Deal Value ($)":"—",Notes:"Diana - 2nd interview Feb 17th · New batch Mon Feb 16th",LastUpdate:"Feb 16, 2026",isReplacement:true},
   {Priorities:"5",Status:"3. 1st Round of Interviews","Company Name":"3 Seasons Personal Training",Role:"Executive Assistant",Advisor:"Jesus","KickOff Meeting":"Jan 29, 2026","Budget ($)":"1,500","Deal Value ($)":"6,300",Notes:"Karen - 1st interview Feb 10th · New drop Feb 16th",LastUpdate:"Feb 12, 2026"},
@@ -557,7 +557,7 @@ const ACTIVE = [
   {Priorities:"1",Status:"1. KickOff Meeting","Company Name":"Precise Striping",Role:"Construction Admin Coordinator",Advisor:"Guillermo","KickOff Meeting":"Feb 13, 2026","Budget ($)":"1,500","Deal Value ($)":"4,500",Notes:"First batch Wed Feb 18th",LastUpdate:"Feb 16, 2026"},
 ];
 
-const PLACED = [
+let PLACED = [
   {date:"Sep 9, 2025","Company Name":"Green Turf Irrigation",Role:"Office Administrator",Advisor:"MIguel",days:13,budget:1500,dv:5400,Notes:"PLACED - Became member"},
   {date:"Aug 11, 2025","Company Name":"In2Green",Role:"Junior Salesperson / BDR",Advisor:"MIguel",days:16,budget:1600,dv:5000,Notes:"PLACED"},
   {date:"Sep 9, 2025","Company Name":"Barhite & Holzinger",Role:"Property Management Admin",Advisor:"MIguel",days:44,budget:1500,dv:5400,Notes:"PLACED"},
@@ -597,7 +597,7 @@ const PLACED = [
   {date:"Jan 27, 2026","Company Name":"Drink CS2",Role:"Customer Service Representative",Advisor:"Jesus",days:10,budget:1200,dv:2184,Notes:"Hiring Anoosh"},
 ];
 
-const CLOSED = [
+let CLOSED = [
   {date:"Jul 2, 2025","Company Name":"Strutton Plumbing",Role:"CSR",Advisor:"MIguel",closer:"customer",reason:"Paused — Internal restructuring (estimator resigned)",category:"Internal Change"},
   {date:"Jul 3, 2025","Company Name":"Sunshine Clean Pros",Role:"Senior Sales Representative",Advisor:"MIguel",closer:"customer",reason:"Paused — Changed direction, exploring other options",category:"Changed Direction"},
   {date:"Jul 10, 2025","Company Name":"Matthew Morris",Role:"Private Equity Analyst",Advisor:"Jesus",closer:"customer",reason:"Paused — Busy closing a deal, not ready to onboard",category:"Bad Timing"},
@@ -632,12 +632,95 @@ const CLOSED = [
 ];
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// LIVE DATA LOADER  (fetches wg-data.json pushed by Apps Script)
+// Falls back to the hardcoded arrays above if fetch fails.
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+const REPLACEMENT_KEYS = new Set([
+  "DoveHill|Executive Assistant",
+  "TAG Electric Co|Operations Coordinator",
+  "Home Rescue Partner|CSR",
+  "Modern Stile Design Build|Senior Executive Assistant",
+  "ConstantHire|Sourcing & Recruiting Coordinator",
+]);
+
+function deriveCloserCategory(notes) {
+  const n = (notes||"").toLowerCase();
+  if(n.includes("paused by us")||n.includes("mia")) return {closer:"us",category:"Customer MIA"};
+  if(n.includes("hired outside")||n.includes("hired elsewhere")||n.includes("hired independently")||n.includes("hired local")||n.includes("hired monserrat")||n.includes("stopped search")) return {closer:"customer",category:"Hired Elsewhere"};
+  if(n.includes("changed direction")||n.includes("changed job")||n.includes("business shifted")||n.includes("changed description")||n.includes("ops role")||n.includes("ai tools")) return {closer:"customer",category:"Changed Direction"};
+  if(n.includes("restructur")||n.includes("personnel change")||n.includes("reorganiz")||n.includes("internal")) return {closer:"customer",category:"Internal Change"};
+  return {closer:"customer",category:"Bad Timing"};
+}
+
+async function loadData() {
+  try {
+    const resp = await fetch("https://raw.githubusercontent.com/wg-dotcom/wg-kpi-dashboard/main/wg-data.json?cb="+Date.now());
+    if(!resp.ok) throw new Error("HTTP "+resp.status);
+    const data = await resp.json();
+
+    // Reset arrays (overwrite fallback)
+    ACTIVE = []; PLACED = []; CLOSED = [];
+
+    (data.rows||[]).forEach(r=>{
+      const key = `${r["Company Name"]}|${r.Role}`;
+      const isReplacement = REPLACEMENT_KEYS.has(key)
+        || String(r["Is replacement?"]).toLowerCase()==="true";
+      const status = r.Status||"";
+
+      if(status==="8. Placed"){
+        PLACED.push({
+          date: r["Date Placed"]||r["Date"]||"",
+          "Company Name": r["Company Name"],
+          Role: r.Role, Advisor: r.Advisor,
+          days: parseInt(r["Days for Placement"])||0,
+          budget: parseFloat(r["Budget ($)"])||0,
+          dv: parseFloat(r["Deal Value ($)"])||0,
+          Notes: r.Notes||"", isReplacement,
+        });
+      } else if(status==="9. Closed / Paused / M.I.A."){
+        const {closer,category} = deriveCloserCategory(r.Notes);
+        CLOSED.push({
+          date: r["Date"]||"",
+          "Company Name": r["Company Name"],
+          Role: r.Role, Advisor: r.Advisor,
+          closer, reason: r.Notes||"", category, isReplacement,
+        });
+      } else if(status){
+        ACTIVE.push({
+          Priorities: r.Priorities||"5",
+          Status: status,
+          "Company Name": r["Company Name"],
+          Role: r.Role, Advisor: r.Advisor,
+          "KickOff Meeting": r["KickOff Meeting"]||"",
+          "Budget ($)": r["Budget ($)"]||"",
+          "Deal Value ($)": r["Deal Value ($)"]||"—",
+          Notes: r.Notes||"",
+          LastUpdate: r["Last Update"]||"",
+          isReplacement,
+        });
+      }
+    });
+
+    // Update footer with live sync time
+    const updated = new Date(data.updated);
+    const syncStr = updated.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})
+      +" · "+updated.toLocaleTimeString("en-US",{hour:"2-digit",minute:"2-digit"});
+    const footer = document.querySelector(".footer");
+    if(footer) footer.innerHTML = `White Glove KPI Dashboard · <span>Sagan Recruitment</span> · Last synced: ${syncStr} · Built with ♥ for the White Glove team`;
+
+    console.log(`✅ Live data loaded: ${ACTIVE.length} active, ${PLACED.length} placed, ${CLOSED.length} closed`);
+  } catch(e) {
+    console.warn("⚠️ Using fallback data:", e.message);
+  }
+}
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 // HELPERS
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 const STATUS_CLASS = {"1. KickOff Meeting":"s-kickoff","2. Candidates Presented":"s-candidates","3. 1st Round of Interviews":"s-interviews","4. Assessment":"s-assessment","5. Final Interview":"s-final","7. Invoice":"s-invoice","8. Placed":"s-placed","9. Closed / Paused / M.I.A.":"s-closed"};
 const STATUS_LABEL = {"1. KickOff Meeting":"KickOff","2. Candidates Presented":"Candidates Sent","3. 1st Round of Interviews":"Interviewing","4. Assessment":"Assessment","5. Final Interview":"Final Interview","7. Invoice":"Invoice ✓"};
 const ADV_CLASS = {"Jesus":"adv-jesus","MIguel":"adv-miguel","Guillermo":"adv-guillermo"};
-const NOW = new Date("2026-02-17");
+const NOW = new Date();
 
 function parseDate(s) {
   if(!s||s==="Pending"||s==="TBD") return null;
@@ -692,7 +775,7 @@ function renderTable() {
   const tbody = document.getElementById("table-body");
   const noRes = document.getElementById("no-results");
   document.getElementById("table-sub-count").textContent=`· ${rows.length} shown`;
-  document.getElementById("active-count-label").textContent=`Showing ${rows.length} of 39 processes`;
+  document.getElementById("active-count-label").textContent=`Showing ${rows.length} of ${ACTIVE.length} processes`;
   if(!rows.length){tbody.innerHTML="";noRes.style.display="block";return;}
   noRes.style.display="none";
 
@@ -936,15 +1019,22 @@ document.getElementById("closedSearch").addEventListener("input",e=>{closedSearc
 function initOverviewCharts() {
   const BLUE="#0b4d99",ORANGE="#ff5722",PURPLE="#8b5cf6",GREEN="#22c55e",YELLOW="#f59e0b",RED="#ef4444";
 
+  // Active by Advisor (dynamic)
+  const advCount={Miguel:0,Guillermo:0,Jesus:0,Unassigned:0};
+  ACTIVE.forEach(r=>{ const k=r.Advisor==="MIguel"?"Miguel":r.Advisor; advCount[k]=(advCount[k]||0)+1; });
   new Chart(document.getElementById("chartAdvisor"),{
     type:"doughnut",
-    data:{labels:["Miguel","Guillermo","Jesus","Unassigned"],datasets:[{data:[15,14,9,1],backgroundColor:[ORANGE,PURPLE,BLUE,"#94a3b8"],borderWidth:2,borderColor:"#fff"}]},
+    data:{labels:["Miguel","Guillermo","Jesus","Unassigned"],datasets:[{data:[advCount.Miguel,advCount.Guillermo,advCount.Jesus,advCount.Unassigned],backgroundColor:[ORANGE,PURPLE,BLUE,"#94a3b8"],borderWidth:2,borderColor:"#fff"}]},
     options:{plugins:{legend:{position:"bottom",labels:{font:{family:"Poppins",size:11},padding:10}}},cutout:"65%",maintainAspectRatio:false}
   });
 
+  // Active by Stage (dynamic)
+  const stageLabels=["KickOff","Candidates","Interviews","Assessment","Final","Invoice"];
+  const stageKeys=["1. KickOff Meeting","2. Candidates Presented","3. 1st Round of Interviews","4. Assessment","5. Final Interview","7. Invoice"];
+  const stageCounts=stageKeys.map(k=>ACTIVE.filter(r=>r.Status===k).length);
   new Chart(document.getElementById("chartStage"),{
     type:"bar",
-    data:{labels:["KickOff","Candidates","Interviews","Assessment","Final","Invoice"],datasets:[{data:[12,7,10,1,5,4],backgroundColor:["#3b82f6",ORANGE,YELLOW,PURPLE,RED,GREEN],borderRadius:6,borderSkipped:false}]},
+    data:{labels:stageLabels,datasets:[{data:stageCounts,backgroundColor:["#3b82f6",ORANGE,YELLOW,PURPLE,RED,GREEN],borderRadius:6,borderSkipped:false}]},
     options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,ticks:{font:{family:"Poppins",size:10}},grid:{color:"#f1f5f9"}},x:{ticks:{font:{family:"Poppins",size:10}},grid:{display:false}}},maintainAspectRatio:false}
   });
 
@@ -967,17 +1057,21 @@ function initOverviewCharts() {
     options:{plugins:{legend:{position:"top",labels:{font:{family:"Poppins",size:11}}}},scales:{y:{beginAtZero:true,grid:{color:"#f1f5f9"},ticks:{font:{family:"Poppins",size:10}}},y2:{position:"right",beginAtZero:true,grid:{display:false},ticks:{font:{family:"Poppins",size:10},callback:v=>"$"+(v/1000).toFixed(0)+"K"}}},maintainAspectRatio:false}
   });
 
-  // Advisor placed
+  // Advisor placed (dynamic)
+  const advPlaced={Miguel:0,Guillermo:0,Jesus:0};
+  PLACED.forEach(r=>{ const k=r.Advisor==="MIguel"?"Miguel":r.Advisor; if(advPlaced[k]!==undefined) advPlaced[k]++; });
   new Chart(document.getElementById("chartAdvisorPlaced"),{
     type:"bar",
-    data:{labels:["Miguel","Guillermo","Jesus"],datasets:[{data:[25,7,5],backgroundColor:[ORANGE,PURPLE,BLUE],borderRadius:8,borderSkipped:false}]},
+    data:{labels:["Miguel","Guillermo","Jesus"],datasets:[{data:[advPlaced.Miguel,advPlaced.Guillermo,advPlaced.Jesus],backgroundColor:[ORANGE,PURPLE,BLUE],borderRadius:8,borderSkipped:false}]},
     options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,ticks:{font:{family:"Poppins",size:10}},grid:{color:"#f1f5f9"}},x:{ticks:{font:{family:"Poppins",size:11,weight:"600"}},grid:{display:false}}},maintainAspectRatio:false,indexAxis:"y"}
   });
 
-  // Closed section charts
+  // Who closed pie (dynamic)
+  const closerCount={customer:0,us:0,paused:0};
+  CLOSED.forEach(r=>{ closerCount[r.closer]=(closerCount[r.closer]||0)+1; });
   new Chart(document.getElementById("chartWhoClosedPie"),{
     type:"doughnut",
-    data:{labels:["Paused by Customer","Paused by Us","Closed by Customer"],datasets:[{data:[17,9,5],backgroundColor:[ORANGE,BLUE,RED],borderWidth:2,borderColor:"#fff"}]},
+    data:{labels:["Paused by Customer","Paused by Us","Paused"],datasets:[{data:[closerCount.customer,closerCount.us,closerCount.paused],backgroundColor:[ORANGE,BLUE,RED],borderWidth:2,borderColor:"#fff"}]},
     options:{plugins:{legend:{position:"bottom",labels:{font:{family:"Poppins",size:11},padding:8}}},cutout:"62%",maintainAspectRatio:false}
   });
 
@@ -1133,22 +1227,49 @@ function renderPlacingRate() {
 
 document.getElementById("topbar-date").textContent = new Date().toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric",year:"numeric"});
 
-// Replacement Rate KPI
-(function() {
+function initDashboard() {
+  // Update hardcoded KPI cards dynamically
+  const totalPlaced = PLACED.length;
+  const totalActive = ACTIVE.length;
+  const totalClosed = CLOSED.length;
+  const totalPipeline = ACTIVE.reduce((s,r)=>s+parseDV(r["Deal Value ($)"]),0);
+  const totalRevenue = PLACED.reduce((s,r)=>s+(r.dv||0),0);
+  const avgDays = PLACED.length ? Math.round(PLACED.reduce((s,r)=>s+(r.days||0),0)/PLACED.length*10)/10 : 0;
+  const now = new Date();
+  const last30 = PLACED.filter(r=>{ const d=parseDate(r.date); return d && (now-d)/86400000<=30; });
+  const last7  = PLACED.filter(r=>{ const d=parseDate(r.date); return d && (now-d)/86400000<=7; });
+  const rev30  = last30.reduce((s,r)=>s+(r.dv||0),0);
+  const rev7   = last7.reduce((s,r)=>s+(r.dv||0),0);
+
+  // Patch KPI card values dynamically
+  const kpiMap = {
+    "Active Processes": `${totalActive}<br><small>Across all stages</small>`,
+  };
+  // Update overview stat line
+  const statLine = document.getElementById("overview-stat-line");
+  if(statLine) statLine.textContent = `${new Date().toLocaleDateString("en-US",{month:"long",day:"numeric",year:"numeric"})} · ${ACTIVE.length+PLACED.length+CLOSED.length} total processes tracked`;
+
+  // Replacement Rate KPI
   const allProcesses = [...ACTIVE, ...PLACED, ...CLOSED];
   const totalReplActive = ACTIVE.filter(r=>r.isReplacement).length;
   const totalRepl = allProcesses.filter(r=>r.isReplacement).length;
-  const pct = Math.round((totalReplActive / ACTIVE.length) * 100);
+  const pct = ACTIVE.length ? Math.round((totalReplActive / ACTIVE.length) * 100) : 0;
   document.getElementById("kpi-replacement-rate").textContent = pct + "%";
   document.getElementById("kpi-replacement-sub").textContent = `${totalReplActive} of ${ACTIVE.length} active · ${totalRepl} all time`;
-})();
 
-renderStageRevenue();
-renderPlacingRate();
-initOverviewCharts();
-renderTable();
-updatePlacementTab("all");
-renderClosedTable();
+  // Fix hardcoded count in renderTable
+  window._totalActiveCount = ACTIVE.length;
+
+  renderStageRevenue();
+  renderPlacingRate();
+  initOverviewCharts();
+  renderTable();
+  updatePlacementTab("all");
+  renderClosedTable();
+}
+
+// Boot: load live data then render
+loadData().then(initDashboard);
 </script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-18T13:53:23.881Z",
+  "updated": "2026-02-18T13:53:27.092Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -1873,8 +1873,8 @@
     },
     {
       "Date": "Jan 27, 2026",
-      "Last Update": "Feb 16, 2026",
-      "Priorities": "2",
+      "Last Update": "Feb 18, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Lead",
       "Is replacement?": "false",

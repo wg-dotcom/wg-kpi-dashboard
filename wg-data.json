@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-18T14:17:21.024Z",
+  "updated": "2026-02-18T14:17:27.729Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2358,10 +2358,10 @@
     {
       "Date": "Feb 16, 2026",
       "Last Update": "Feb 16, 2026",
-      "Priorities": "",
-      "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
+      "Priorities": "2",
+      "Hiring Request": "HR84931",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
       "Status": "1. KickOff Meeting",
       "Name": "Eli Tatem",
       "Email": "etatem@tworld.com",

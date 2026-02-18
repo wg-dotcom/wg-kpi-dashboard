@@ -205,6 +205,15 @@
     .placement-list-row:hover{background:var(--gray-50);}
     .placement-list-row:last-child{border-bottom:none;}
 
+    /* STAGE REVENUE STRIP */
+    .stage-rev-card{background:var(--white);border:1.5px solid var(--gray-200);border-radius:var(--radius-sm);padding:12px 14px;text-align:center;transition:box-shadow .15s,transform .15s;cursor:default;}
+    .stage-rev-card:hover{box-shadow:var(--shadow);transform:translateY(-2px);}
+    .stage-rev-card-label{font-size:10px;font-weight:700;color:var(--gray-400);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;}
+    .stage-rev-card-count{font-size:18px;font-weight:800;color:var(--blue);line-height:1;}
+    .stage-rev-card-rev{font-size:12px;font-weight:700;color:var(--green);margin-top:3px;}
+    .stage-rev-card-rev.muted{color:var(--gray-400);}
+    .stage-rev-card.highlight{border-color:var(--blue);background:var(--blue-light);}
+
     /* NO RESULTS */
     .no-results{text-align:center;padding:40px;color:var(--gray-400);font-size:14px;}
 
@@ -264,16 +273,10 @@
     <!-- PIPELINE FUNNEL -->
     <div class="section-header">
       <div class="section-title">Active Funnel by Stage</div>
-      <div class="section-sub">Click a stage to jump to Active Processes</div>
+      <div class="section-sub">Process count · projected deal value per stage</div>
     </div>
     <div class="pipeline" id="overview-pipeline">
-      <div class="pipe-stage"><div class="pipe-stage-num">39</div><div class="pipe-stage-name">All Active</div><div class="pipe-stage-val">$252K</div></div>
-      <div class="pipe-stage"><div class="pipe-stage-num">12</div><div class="pipe-stage-name">KickOff</div><div class="pipe-stage-val"></div></div>
-      <div class="pipe-stage"><div class="pipe-stage-num">7</div><div class="pipe-stage-name">Candidates Sent</div><div class="pipe-stage-val"></div></div>
-      <div class="pipe-stage"><div class="pipe-stage-num">10</div><div class="pipe-stage-name">Interviewing</div><div class="pipe-stage-val"></div></div>
-      <div class="pipe-stage"><div class="pipe-stage-num">1</div><div class="pipe-stage-name">Assessment</div><div class="pipe-stage-val"></div></div>
-      <div class="pipe-stage"><div class="pipe-stage-num">5</div><div class="pipe-stage-name">Final Interview</div><div class="pipe-stage-val"></div></div>
-      <div class="pipe-stage"><div class="pipe-stage-num">4</div><div class="pipe-stage-name">Invoice</div><div class="pipe-stage-val">$18K</div></div>
+      <!-- rendered by JS -->
     </div>
 
     <!-- CHARTS ROW -->
@@ -333,6 +336,9 @@
       <div class="filter-sep"></div>
       <input class="search-input" type="text" id="searchInput" placeholder="🔍  Search company, role, notes…" />
     </div>
+
+    <!-- Stage Revenue Strip -->
+    <div id="stage-revenue-strip" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:18px;"></div>
 
     <div class="table-card">
       <div class="table-header">
@@ -975,6 +981,80 @@ function initOverviewCharts() {
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 // INIT
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// STAGE REVENUE STRIP + OVERVIEW FUNNEL (dynamic)
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+const STAGE_ORDER = [
+  {key:"1. KickOff Meeting",       label:"KickOff",         emoji:"🚀"},
+  {key:"2. Candidates Presented",  label:"Candidates Sent", emoji:"📋"},
+  {key:"3. 1st Round of Interviews",label:"Interviewing",   emoji:"🎤"},
+  {key:"4. Assessment",            label:"Assessment",      emoji:"📝"},
+  {key:"5. Final Interview",       label:"Final Interview", emoji:"🏁"},
+  {key:"7. Invoice",               label:"Invoice ✓",       emoji:"💸"},
+];
+
+function parseDV(val) {
+  if(!val || val==="—") return 0;
+  return parseFloat(String(val).replace(/[^0-9.]/g,"")) || 0;
+}
+
+function renderStageRevenue() {
+  // Tally count + deal value per stage from ALL active records
+  const tally = {};
+  STAGE_ORDER.forEach(s=>{ tally[s.key]={count:0,rev:0}; });
+  ACTIVE.forEach(r=>{
+    if(tally[r.Status]){
+      tally[r.Status].count++;
+      tally[r.Status].rev += parseDV(r["Deal Value ($)"]);
+    }
+  });
+
+  // Compute totals across all stages (for "All" card)
+  const totalCount = ACTIVE.length;
+  const totalRev   = ACTIVE.reduce((s,r)=>s+parseDV(r["Deal Value ($)"]),0);
+
+  // ── Stage Revenue Strip (Active Processes tab) ──
+  const strip = document.getElementById("stage-revenue-strip");
+  if(strip){
+    const allCard = `<div class="stage-rev-card highlight">
+      <div class="stage-rev-card-label">🎯 All Active</div>
+      <div class="stage-rev-card-count">${totalCount}</div>
+      <div class="stage-rev-card-rev">$${(totalRev/1000).toFixed(1)}K pipeline</div>
+    </div>`;
+    const stagecards = STAGE_ORDER.map(s=>{
+      const t=tally[s.key];
+      const revStr = t.rev>0 ? `$${(t.rev/1000).toFixed(1)}K` : "No DV yet";
+      const revCls = t.rev>0 ? "" : "muted";
+      return `<div class="stage-rev-card">
+        <div class="stage-rev-card-label">${s.emoji} ${s.label}</div>
+        <div class="stage-rev-card-count">${t.count}</div>
+        <div class="stage-rev-card-rev ${revCls}">${revStr}</div>
+      </div>`;
+    }).join("");
+    strip.innerHTML = allCard + stagecards;
+  }
+
+  // ── Overview Funnel ──
+  const funnel = document.getElementById("overview-pipeline");
+  if(funnel){
+    const allStage = `<div class="pipe-stage">
+      <div class="pipe-stage-num">${totalCount}</div>
+      <div class="pipe-stage-name">All Active</div>
+      <div class="pipe-stage-val">$${Math.round(totalRev/1000)}K</div>
+    </div>`;
+    const stages = STAGE_ORDER.map(s=>{
+      const t=tally[s.key];
+      const revLabel = t.rev>0 ? `$${Math.round(t.rev/1000)}K` : "";
+      return `<div class="pipe-stage">
+        <div class="pipe-stage-num">${t.count}</div>
+        <div class="pipe-stage-name">${s.label}</div>
+        <div class="pipe-stage-val">${revLabel}</div>
+      </div>`;
+    }).join("");
+    funnel.innerHTML = allStage + stages;
+  }
+}
+
 document.getElementById("topbar-date").textContent = new Date().toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric",year:"numeric"});
 
 // Replacement Rate KPI
@@ -987,6 +1067,7 @@ document.getElementById("topbar-date").textContent = new Date().toLocaleDateStri
   document.getElementById("kpi-replacement-sub").textContent = `${totalReplActive} of ${ACTIVE.length} active · ${totalRepl} all time`;
 })();
 
+renderStageRevenue();
 initOverviewCharts();
 renderTable();
 updatePlacementTab("all");

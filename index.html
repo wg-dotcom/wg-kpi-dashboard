@@ -133,6 +133,7 @@
     .s-interviews{background:#fefce8;color:#a16207;} .s-interviews .status-dot{background:var(--yellow);}
     .s-assessment{background:#fdf4ff;color:#7e22ce;} .s-assessment .status-dot{background:var(--purple);}
     .s-final{background:#fff7ed;color:#9a3412;} .s-final .status-dot{background:#ef4444;}
+    .s-offer{background:#ecfeff;color:#0e7490;} .s-offer .status-dot{background:#06b6d4;}
     .s-invoice{background:#f0fdf4;color:#15803d;} .s-invoice .status-dot{background:var(--green);}
     .s-placed{background:#f0fdf4;color:#166534;} .s-placed .status-dot{background:#16a34a;}
     .s-closed{background:var(--gray-100);color:var(--gray-400);} .s-closed .status-dot{background:var(--gray-400);}
@@ -352,6 +353,7 @@
       <button class="filter-btn" data-status="3. 1st Round of Interviews">Interviews</button>
       <button class="filter-btn" data-status="4. Assessment">Assessment</button>
       <button class="filter-btn" data-status="5. Final Interview">Final</button>
+      <button class="filter-btn" data-status="6. Job Offer Letter / Signature">Job Offer</button>
       <button class="filter-btn" data-status="7. Invoice">Invoice</button>
       <div class="filter-sep"></div>
       <input class="search-input" type="text" id="searchInput" placeholder="🔍  Search company, role, notes…" />
@@ -717,8 +719,8 @@ async function loadData() {
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 // HELPERS
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-const STATUS_CLASS = {"1. KickOff Meeting":"s-kickoff","2. Candidates Presented":"s-candidates","3. 1st Round of Interviews":"s-interviews","4. Assessment":"s-assessment","5. Final Interview":"s-final","7. Invoice":"s-invoice","8. Placed":"s-placed","9. Closed / Paused / M.I.A.":"s-closed"};
-const STATUS_LABEL = {"1. KickOff Meeting":"KickOff","2. Candidates Presented":"Candidates Sent","3. 1st Round of Interviews":"Interviewing","4. Assessment":"Assessment","5. Final Interview":"Final Interview","7. Invoice":"Invoice ✓"};
+const STATUS_CLASS = {"1. KickOff Meeting":"s-kickoff","2. Candidates Presented":"s-candidates","3. 1st Round of Interviews":"s-interviews","4. Assessment":"s-assessment","5. Final Interview":"s-final","6. Job Offer Letter / Signature":"s-offer","7. Invoice":"s-invoice","8. Placed":"s-placed","9. Closed / Paused / M.I.A.":"s-closed"};
+const STATUS_LABEL = {"1. KickOff Meeting":"KickOff","2. Candidates Presented":"Candidates Sent","3. 1st Round of Interviews":"Interviewing","4. Assessment":"Assessment","5. Final Interview":"Final Interview","6. Job Offer Letter / Signature":"Job Offer 📝","7. Invoice":"Invoice ✓"};
 const ADV_CLASS = {"Jesus":"adv-jesus","MIguel":"adv-miguel","Guillermo":"adv-guillermo"};
 const NOW = new Date();
 
@@ -732,7 +734,7 @@ function daysSince(d) {
   return Math.floor((NOW - d) / 86400000);
 }
 function fmtMoney(v) {
-  const n = parseFloat(String(v).replace(/[^0-9.]/g,""));
+  const n = Math.round(parseFloat(String(v).replace(/[^0-9.]/g,""))||0);
   return isNaN(n)||n===0 ? "—" : "$" + n.toLocaleString();
 }
 function advisorClass(a) { return ADV_CLASS[a] || "adv-unassigned"; }
@@ -786,11 +788,13 @@ function renderTable() {
     const pri = r.Priorities==="1"
       ? `<span class="priority-badge pri-1">P1</span>`
       : `<span class="priority-badge pri-other">${r.Priorities}</span>`;
-    const dv = r["Deal Value ($)"] && r["Deal Value ($)"]!=="—"
-      ? `<span class="val-green">$${r["Deal Value ($)"]}</span>`
+    const dvRaw = parseDV(r["Deal Value ($)"]);
+    const dv = dvRaw > 0
+      ? `<span class="val-green">${fmtMoney(dvRaw)}</span>`
       : `<span style="color:var(--gray-400)">—</span>`;
-    const bud = r["Budget ($)"] && r["Budget ($)"]!=="TBD"
-      ? `<span class="val-blue">$${r["Budget ($)"]}</span>`
+    const budRaw = parseDV(r["Budget ($)"]);
+    const bud = budRaw > 0
+      ? `<span class="val-blue">${fmtMoney(budRaw)}</span>`
       : `<span style="color:var(--gray-400)">${r["Budget ($)"]||"—"}</span>`;
     // Stale check: last update > 7 days ago
     const lu = parseDate(r.LastUpdate);
@@ -1029,8 +1033,8 @@ function initOverviewCharts() {
   });
 
   // Active by Stage (dynamic)
-  const stageLabels=["KickOff","Candidates","Interviews","Assessment","Final","Invoice"];
-  const stageKeys=["1. KickOff Meeting","2. Candidates Presented","3. 1st Round of Interviews","4. Assessment","5. Final Interview","7. Invoice"];
+  const stageLabels=["KickOff","Candidates","Interviews","Assessment","Final","Job Offer","Invoice"];
+  const stageKeys=["1. KickOff Meeting","2. Candidates Presented","3. 1st Round of Interviews","4. Assessment","5. Final Interview","6. Job Offer Letter / Signature","7. Invoice"];
   const stageCounts=stageKeys.map(k=>ACTIVE.filter(r=>r.Status===k).length);
   new Chart(document.getElementById("chartStage"),{
     type:"bar",
@@ -1099,12 +1103,13 @@ function initOverviewCharts() {
 // STAGE REVENUE STRIP + OVERVIEW FUNNEL (dynamic)
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 const STAGE_ORDER = [
-  {key:"1. KickOff Meeting",       label:"KickOff",         emoji:"🚀"},
-  {key:"2. Candidates Presented",  label:"Candidates Sent", emoji:"📋"},
-  {key:"3. 1st Round of Interviews",label:"Interviewing",   emoji:"🎤"},
-  {key:"4. Assessment",            label:"Assessment",      emoji:"📝"},
-  {key:"5. Final Interview",       label:"Final Interview", emoji:"🏁"},
-  {key:"7. Invoice",               label:"Invoice ✓",       emoji:"💸"},
+  {key:"1. KickOff Meeting",                  label:"KickOff",         emoji:"🚀"},
+  {key:"2. Candidates Presented",             label:"Candidates Sent", emoji:"📋"},
+  {key:"3. 1st Round of Interviews",          label:"Interviewing",    emoji:"🎤"},
+  {key:"4. Assessment",                       label:"Assessment",      emoji:"📝"},
+  {key:"5. Final Interview",                  label:"Final Interview", emoji:"🏁"},
+  {key:"6. Job Offer Letter / Signature",     label:"Job Offer",       emoji:"📝✍️"},
+  {key:"7. Invoice",                          label:"Invoice ✓",       emoji:"💸"},
 ];
 
 function parseDV(val) {

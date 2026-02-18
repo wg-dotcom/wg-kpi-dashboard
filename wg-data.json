@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-18T13:56:13.320Z",
+  "updated": "2026-02-18T14:15:14.542Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2354,6 +2354,28 @@
       "%WG": "0.25",
       "Deal Value ($)": "4500",
       "Notes": "First batch Wed Feb 18th"
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Eli Tatem",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
     }
   ]
 }

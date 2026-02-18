@@ -214,6 +214,19 @@
     .stage-rev-card-rev.muted{color:var(--gray-400);}
     .stage-rev-card.highlight{border-color:var(--blue);background:var(--blue-light);}
 
+    /* PLACING RATE CARDS */
+    .pr-card{background:var(--white);border:1.5px solid var(--gray-200);border-radius:var(--radius-sm);padding:16px 18px;text-align:center;transition:box-shadow .15s,transform .15s;}
+    .pr-card:hover{box-shadow:var(--shadow);transform:translateY(-2px);}
+    .pr-card-period{font-size:11px;font-weight:700;color:var(--gray-400);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;}
+    .pr-card-rate{font-size:30px;font-weight:800;line-height:1;margin-bottom:6px;}
+    .pr-card-rate.green{color:var(--green);}
+    .pr-card-rate.yellow{color:var(--yellow);}
+    .pr-card-rate.red{color:var(--red);}
+    .pr-card-detail{font-size:11px;color:var(--gray-400);font-weight:500;}
+    .pr-card.highlight-card{border-color:var(--blue);background:var(--blue-light);}
+    .pr-card.highlight-card .pr-card-period{color:var(--blue);}
+    .pr-card-null{font-size:20px;font-weight:800;color:var(--gray-400);}
+
     /* NO RESULTS */
     .no-results{text-align:center;padding:40px;color:var(--gray-400);font-size:14px;}
 
@@ -269,6 +282,12 @@
       <div class="kpi-card red"><div class="kpi-icon">⏸️</div><div class="kpi-value">31</div><div class="kpi-label">Closed / Paused</div><div class="kpi-sub">54% by customer</div></div>
       <div class="kpi-card yellow"><div class="kpi-icon">🔁</div><div class="kpi-value" id="kpi-replacement-rate">—</div><div class="kpi-label">Replacement Rate</div><div class="kpi-sub" id="kpi-replacement-sub">Active processes</div></div>
     </div>
+
+    <!-- PLACING RATE -->
+    <div class="section-header" style="margin-top:8px;">
+      <div><div class="section-title">📊 Placing Rate</div><div class="section-sub">Placements ÷ (Placements + Closed/Paused) · how often we close a deal</div></div>
+    </div>
+    <div id="placing-rate-strip" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:28px;"></div>
 
     <!-- PIPELINE FUNNEL -->
     <div class="section-header">
@@ -1055,6 +1074,62 @@ function renderStageRevenue() {
   }
 }
 
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// PLACING RATE
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+function renderPlacingRate() {
+  const strip = document.getElementById("placing-rate-strip");
+  if (!strip) return;
+
+  const windows = [
+    { label: "All Time",   days: null,  highlight: true },
+    { label: "Last 90d",   days: 90,    highlight: false },
+    { label: "Last 60d",   days: 60,    highlight: false },
+    { label: "Last 30d",   days: 30,    highlight: false },
+  ];
+
+  const cards = windows.map(w => {
+    // Filter PLACED and CLOSED within the time window
+    const placed = PLACED.filter(r => {
+      if (!w.days) return true;
+      const d = parseDate(r.date);
+      return d && daysSince(d) <= w.days;
+    });
+    const closed = CLOSED.filter(r => {
+      if (!w.days) return true;
+      const d = parseDate(r.date);
+      return d && daysSince(d) <= w.days;
+    });
+
+    const p = placed.length;
+    const c = closed.length;
+    const total = p + c;
+    const rate = total > 0 ? Math.round((p / total) * 100) : null;
+
+    // Color coding
+    let rateClass = "green";
+    if (rate === null) rateClass = "";
+    else if (rate < 40) rateClass = "red";
+    else if (rate < 55) rateClass = "yellow";
+
+    const rateDisplay = rate !== null
+      ? `<div class="pr-card-rate ${rateClass}">${rate}%</div>`
+      : `<div class="pr-card-rate"><span class="pr-card-null">—</span></div>`;
+
+    const detail = total > 0
+      ? `${p} placed · ${c} closed · of ${total} resolved`
+      : `No resolved processes`;
+
+    return `<div class="pr-card${w.highlight ? " highlight-card" : ""}">
+      <div class="pr-card-period">${w.label}</div>
+      ${rateDisplay}
+      <div class="pr-card-detail">${detail}</div>
+    </div>`;
+  });
+
+  strip.innerHTML = cards.join("");
+}
+
 document.getElementById("topbar-date").textContent = new Date().toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric",year:"numeric"});
 
 // Replacement Rate KPI
@@ -1068,6 +1143,7 @@ document.getElementById("topbar-date").textContent = new Date().toLocaleDateStri
 })();
 
 renderStageRevenue();
+renderPlacingRate();
 initOverviewCharts();
 renderTable();
 updatePlacementTab("all");

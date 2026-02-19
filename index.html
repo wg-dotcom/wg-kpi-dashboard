@@ -372,7 +372,7 @@
           <thead>
             <tr>
               <th data-col="Priorities">Pri ↕</th>
-              <th data-col="Company Name">Company ↕</th>
+              <th data-col="Company Name">Company / Contact ↕</th>
               <th data-col="Role">Role ↕</th>
               <th data-col="Status">Stage ↕</th>
               <th data-col="Advisor">Advisor ↕</th>
@@ -433,7 +433,7 @@
           <thead>
             <tr>
               <th>Date Placed</th>
-              <th>Company</th>
+              <th>Company / Contact</th>
               <th>Role</th>
               <th>Advisor</th>
               <th>Days</th>
@@ -492,7 +492,7 @@
           <thead>
             <tr>
               <th>Date</th>
-              <th>Company</th>
+              <th>Company / Contact</th>
               <th>Role</th>
               <th>Advisor</th>
               <th>Closed By</th>
@@ -673,6 +673,7 @@ async function loadData() {
         PLACED.push({
           date: r["Date Placed"]||r["Date"]||"",
           "Company Name": r["Company Name"],
+          Name: r["Name"]||"",
           Role: r.Role, Advisor: r.Advisor,
           days: parseInt(r["Days for Placement"])||0,
           budget: parseFloat(r["Budget ($)"])||0,
@@ -684,6 +685,7 @@ async function loadData() {
         CLOSED.push({
           date: r["Date"]||"",
           "Company Name": r["Company Name"],
+          Name: r["Name"]||"",
           Role: r.Role, Advisor: r.Advisor,
           closer, reason: r.Notes||"", category, isReplacement,
         });
@@ -692,6 +694,7 @@ async function loadData() {
           Priorities: r.Priorities||"5",
           Status: status,
           "Company Name": r["Company Name"],
+          Name: r["Name"]||"",
           Role: r.Role, Advisor: r.Advisor,
           "KickOff Meeting": r["KickOff Meeting"]||"",
           "Budget ($)": r["Budget ($)"]||"",
@@ -802,7 +805,7 @@ function renderTable() {
     const staleBadge = stale ? `<span class="stale-badge">⚠ ${daysSince(lu)}d ago</span>` : `<span style="font-size:11px;color:var(--gray-400)">${r.LastUpdate}</span>`;
     return `<tr>
       <td>${pri}</td>
-      <td><strong>${r["Company Name"]}</strong></td>
+      <td><strong>${r["Company Name"]}</strong>${r.Name ? `<br><span style="font-size:11px;color:var(--gray-400);font-weight:400;">${r.Name}</span>` : ""}</td>
       <td style="max-width:160px;">${r.Role}</td>
       <td><span class="status-badge ${sc}"><span class="status-dot"></span>${sl}</span></td>
       <td><span class="advisor-tag ${ac}">${r.Advisor}</span></td>
@@ -889,7 +892,7 @@ function renderPlacementTable(rows) {
     const dataRows=b.rows.map(r=>`
       <tr>
         <td style="font-size:12px;">${r.date}</td>
-        <td><strong>${r["Company Name"]}</strong></td>
+        <td><strong>${r["Company Name"]}</strong>${r.Name ? `<br><span style="font-size:11px;color:var(--gray-400);font-weight:400;">${r.Name}</span>` : ""}</td>
         <td style="font-size:12px;">${r.Role}</td>
         <td><span class="advisor-tag ${advisorClass(r.Advisor)}">${r.Advisor}</span></td>
         <td style="text-align:center;font-weight:600;">${r.days}d</td>
@@ -999,7 +1002,7 @@ function renderClosedTable() {
   document.getElementById("closed-tbody").innerHTML = rows.map(r=>`
     <tr>
       <td style="font-size:12px;white-space:nowrap;">${r.date}</td>
-      <td><strong>${r["Company Name"]}</strong></td>
+      <td><strong>${r["Company Name"]}</strong>${r.Name ? `<br><span style="font-size:11px;color:var(--gray-400);font-weight:400;">${r.Name}</span>` : ""}</td>
       <td style="font-size:12px;max-width:150px;">${r.Role}</td>
       <td><span class="advisor-tag ${advisorClass(r.Advisor)}">${r.Advisor}</span></td>
       <td><span class="closer-tag ${closerCls[r.closer]}">${closerLabel[r.closer]||r.closer}</span></td>

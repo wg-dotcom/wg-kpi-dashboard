@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-19T16:29:42.031Z",
+  "updated": "2026-02-19T16:30:06.008Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -879,7 +879,7 @@
       "Budget ($)": "1300",
       "%WG": "0.35",
       "Deal Value ($)": "5459.999999999999",
-      "Notes": "Resurfaced - Same role\nAzucena - First interview Fri Feb 13th\nAmy - First interview Fri Feb 13th\nNew drop Wed Feb 18th"
+      "Notes": "Hiring Amy\nJOL"
     },
     {
       "Date": "Oct 27, 2025",
@@ -1015,8 +1015,8 @@
     },
     {
       "Date": "Nov 5, 2025",
-      "Last Update": "Feb 16, 2026",
-      "Priorities": "3",
+      "Last Update": "Feb 19, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR76883",
       "Source": "Franchise",
       "Is replacement?": "false",

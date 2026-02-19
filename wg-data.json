@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-19T16:29:28.579Z",
+  "updated": "2026-02-19T16:29:36.808Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -874,8 +874,8 @@
       "NotebookLM": "",
       "Advisor": "MIguel",
       "KickOff Meeting": "Feb 9, 2026",
-      "Date Placed": "",
-      "Days for Placement": "",
+      "Date Placed": "Feb 2, 2026",
+      "Days for Placement": "-6",
       "Budget ($)": "1300",
       "%WG": "0.35",
       "Deal Value ($)": "5459.999999999999",

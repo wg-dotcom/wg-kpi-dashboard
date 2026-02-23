@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T15:53:40.692Z",
+  "updated": "2026-02-23T15:53:43.702Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2513,9 +2513,9 @@
       "Last Update": "Feb 23, 2026",
       "Priorities": "0",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Mark Zhuk",
       "Email": "",
       "Company Name": "",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T16:54:44.060Z",
+  "updated": "2026-02-23T17:06:06.560Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2540,7 +2540,7 @@
       "Is replacement?": "false",
       "Status": "1. KickOff Meeting",
       "Name": "Blake Atwell",
-      "Email": "",
+      "Email": "batwell@rex.com",
       "Company Name": "",
       "Role": "",
       "NotebookLM": "",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T15:44:17.508Z",
+  "updated": "2026-02-23T15:44:20.259Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2486,12 +2486,12 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "Feb 16, 2026",
+      "Last Update": "Feb 18, 2026",
+      "Priorities": "5",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
       "Status": "1. KickOff Meeting",
       "Name": "David Siciliano",
       "Email": "jess@savvystudios.com",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T15:54:14.271Z",
+  "updated": "2026-02-23T15:54:39.257Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2517,7 +2517,7 @@
       "Is replacement?": "false",
       "Status": "1. KickOff Meeting",
       "Name": "Mark Zhuk",
-      "Email": "",
+      "Email": "mark@akoola.com",
       "Company Name": "",
       "Role": "",
       "NotebookLM": "",

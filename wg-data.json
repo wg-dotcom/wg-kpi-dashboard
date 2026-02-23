@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T17:06:21.269Z",
+  "updated": "2026-02-23T17:11:07.875Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2543,7 +2543,7 @@
       "Email": "batwell@rex.com",
       "Company Name": "Rex",
       "Role": "Private Office Director",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/0f4ae8e1-855d-4b0c-8ff7-4984a014b531",
       "GitHub": "",
       "Advisor": "Guillermo",
       "KickOff Meeting": "Feb 25, 2026",

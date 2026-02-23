@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T17:11:07.875Z",
+  "updated": "2026-02-23T17:11:39.159Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2555,14 +2555,14 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
-      "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
-      "Name": "",
+      "Date": "Feb 20, 2026",
+      "Last Update": "Feb 23, 2026",
+      "Priorities": "0",
+      "Hiring Request": "HR92529",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
+      "Name": "Patrick  Fitzsimmons",
       "Email": "",
       "Company Name": "",
       "Role": "",

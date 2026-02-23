@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T18:53:15.548Z",
+  "updated": "2026-02-23T18:53:37.853Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2568,8 +2568,8 @@
       "Role": "Executive Assistant",
       "NotebookLM": "",
       "GitHub": "",
-      "Advisor": "",
-      "KickOff Meeting": "",
+      "Advisor": "Guillermo",
+      "KickOff Meeting": "Feb 24, 2026",
       "Date Placed": "",
       "Days for Placement": "",
       "Budget ($)": "1600",

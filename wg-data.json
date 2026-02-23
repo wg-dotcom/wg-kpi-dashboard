@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T16:20:57.051Z",
+  "updated": "2026-02-23T16:22:02.786Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2280,8 +2280,8 @@
     },
     {
       "Date": "Feb 11, 2026",
-      "Last Update": "Feb 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Feb 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "true",
@@ -2290,7 +2290,7 @@
       "Email": "todd@tagelectricco.com",
       "Company Name": "TAG Electric Co",
       "Role": "Operations Coordinator",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/e88223d2-d32b-43ea-b098-774a75e44eeb",
       "GitHub": "",
       "Advisor": "Guillermo",
       "KickOff Meeting": "Feb 11, 2026",

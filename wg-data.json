@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T17:14:57.668Z",
+  "updated": "2026-02-23T17:15:02.638Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2162,29 +2162,6 @@
       "%WG": "0.35",
       "Deal Value ($)": "18900",
       "Notes": "Orlando - Assessment\nNew drop for Thurs Feb 24th"
-    },
-    {
-      "Date": "Feb 8, 2026",
-      "Last Update": "Feb 19, 2026",
-      "Priorities": "4",
-      "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "false",
-      "Status": "1. KickOff Meeting",
-      "Name": "Kevin Lum",
-      "Email": "kevin@foundryfinancial.org",
-      "Company Name": "Foundry Financial",
-      "Role": "",
-      "NotebookLM": "https://notebooklm.google.com/notebook/4c6ac2f5-ce75-4367-9879-6ba9fde9e905",
-      "GitHub": "",
-      "Advisor": "",
-      "KickOff Meeting": "Feb 19, 2026",
-      "Date Placed": "",
-      "Days for Placement": "",
-      "Budget ($)": "",
-      "%WG": "",
-      "Deal Value ($)": "",
-      "Notes": ""
     },
     {
       "Date": "Feb 10, 2026",

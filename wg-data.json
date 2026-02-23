@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T14:51:23.116Z",
+  "updated": "2026-02-23T14:51:36.308Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -1705,12 +1705,12 @@
     },
     {
       "Date": "Jan 9, 2026",
-      "Last Update": "Feb 18, 2026",
-      "Priorities": "5",
+      "Last Update": "Feb 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Lead",
       "Is replacement?": "false",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Jonathan Venuto",
       "Email": "jonathan@cameronhcp.com",
       "Company Name": "Integrative Mind Psychiatry & TMS",

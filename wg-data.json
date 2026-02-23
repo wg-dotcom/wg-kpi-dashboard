@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T14:51:53.324Z",
+  "updated": "2026-02-23T14:52:06.542Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -1756,7 +1756,7 @@
       "Hiring Request": "HR72025",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "7. Invoice",
       "Name": "Logan Russell",
       "Email": "logantheinsuranceguy@gmail.com",
       "Company Name": "Logan the Insurance Guy",
@@ -1770,7 +1770,7 @@
       "Budget ($)": "1800",
       "%WG": "0.25",
       "Deal Value ($)": "5400",
-      "Notes": "Hiring Nickoy\nJOL"
+      "Notes": "Hiring Nickoy\nInvoice"
     },
     {
       "Date": "Jan 14, 2026",

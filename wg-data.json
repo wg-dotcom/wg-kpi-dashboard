@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T18:54:38.950Z",
+  "updated": "2026-02-23T18:57:36.134Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2566,7 +2566,7 @@
       "Email": "nathan@iameverett.com",
       "Company Name": "Everett Entertainment LLC",
       "Role": "Executive Assistant",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/c62213bc-878f-4ceb-997f-59bb136a544b",
       "GitHub": "",
       "Advisor": "Guillermo",
       "KickOff Meeting": "Feb 24, 2026",

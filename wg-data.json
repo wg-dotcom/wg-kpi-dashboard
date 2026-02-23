@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T17:54:44.737Z",
+  "updated": "2026-02-23T18:50:58.884Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2553,6 +2553,29 @@
       "%WG": "0.35",
       "Deal Value ($)": "4620",
       "Notes": "First batch on Wed Feb 25th"
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Nathan J Olivas",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
     }
   ]
 }

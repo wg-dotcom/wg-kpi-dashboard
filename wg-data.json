@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T01:46:15.524Z",
+  "updated": "2026-02-24T01:46:45.516Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2595,9 +2595,9 @@
       "KickOff Meeting": "",
       "Date Placed": "",
       "Days for Placement": "",
-      "Budget ($)": "",
-      "%WG": "",
-      "Deal Value ($)": "",
+      "Budget ($)": "1600",
+      "%WG": "0.35",
+      "Deal Value ($)": "6720",
       "Notes": ""
     }
   ]

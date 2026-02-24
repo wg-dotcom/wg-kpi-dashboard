@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T17:46:20.267Z",
+  "updated": "2026-02-24T17:46:35.145Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2624,17 +2624,17 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
-      "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Date": "Feb 24, 2026",
+      "Last Update": "Feb 24, 2026",
+      "Priorities": "0",
+      "Hiring Request": "HR49638",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Gloria  Walker",
       "Email": "gloria@signarama-tysonscorner.com",
       "Company Name": "Signarama - Tyson Corner",
-      "Role": "",
+      "Role": "Designer",
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "",

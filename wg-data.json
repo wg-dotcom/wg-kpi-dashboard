@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T12:14:05.495Z",
+  "updated": "2026-02-24T12:16:32.871Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2612,7 +2612,7 @@
       "Email": "isaac@syncsite.net",
       "Company Name": "Syncsite",
       "Role": "Software Developer",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/ff6b7cec-2952-456b-9bdd-45e848d0d1d5",
       "GitHub": "",
       "Advisor": "",
       "KickOff Meeting": "Feb 25, 2026",

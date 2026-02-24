@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T12:12:51.840Z",
+  "updated": "2026-02-24T12:12:52.873Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2603,11 +2603,11 @@
     {
       "Date": "Feb 24, 2026",
       "Last Update": "Feb 24, 2026",
-      "Priorities": "",
-      "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Priorities": "0",
+      "Hiring Request": "HR49638",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Isaac Stoll",
       "Email": "",
       "Company Name": "",

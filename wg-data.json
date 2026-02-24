@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T17:47:25.090Z",
+  "updated": "2026-02-24T17:49:07.512Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2635,9 +2635,9 @@
       "Email": "gloria@signarama-tysonscorner.com",
       "Company Name": "Signarama - Tyson Corner",
       "Role": "Designer",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/4b019609-341e-4dad-8310-872cbfff06a2",
       "GitHub": "",
-      "Advisor": "",
+      "Advisor": "MIguel",
       "KickOff Meeting": "",
       "Date Placed": "",
       "Days for Placement": "",

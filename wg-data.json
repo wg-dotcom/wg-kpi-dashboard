@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T00:54:40.379Z",
+  "updated": "2026-02-24T01:43:07.787Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2575,6 +2575,29 @@
       "Budget ($)": "1600",
       "%WG": "0.35",
       "Deal Value ($)": "6720",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Michael Mazmanian",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
       "Notes": ""
     }
   ]

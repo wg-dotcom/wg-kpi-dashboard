@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-26T17:59:26.033Z",
+  "updated": "2026-02-26T17:59:36.638Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2561,7 +2561,7 @@
       "Hiring Request": "HR59205",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "1. KickOff Meeting",
+      "Status": "2. Candidates Presented",
       "Name": "Nathan J Olivas",
       "Email": "nathan@iameverett.com",
       "Company Name": "Everett Entertainment LLC",
@@ -2579,8 +2579,8 @@
     },
     {
       "Date": "Feb 23, 2026",
-      "Last Update": "Feb 23, 2026",
-      "Priorities": "3",
+      "Last Update": "Feb 26, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR49638",
       "Source": "Regular WG",
       "Is replacement?": "false",

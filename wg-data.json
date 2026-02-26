@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-26T17:55:07.379Z",
+  "updated": "2026-02-26T17:55:38.383Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2464,8 +2464,8 @@
     },
     {
       "Date": "Feb 19, 2026",
-      "Last Update": "Feb 23, 2026",
-      "Priorities": "3",
+      "Last Update": "Feb 26, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR78339",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2483,7 +2483,7 @@
       "Budget ($)": "2000",
       "%WG": "0.35",
       "Deal Value ($)": "8400",
-      "Notes": "First batch on Wed Feb 25th"
+      "Notes": "First batch on Tues Feb 24th"
     },
     {
       "Date": "Feb 19, 2026",

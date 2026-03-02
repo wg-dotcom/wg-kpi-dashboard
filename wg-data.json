@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-02T18:40:22.729Z",
+  "updated": "2026-03-02T18:40:31.520Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2400,7 +2400,7 @@
       "Hiring Request": "HR77012",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "5. Final Interview",
       "Name": "Christopher Rosa",
       "Email": "CRosa@PreciseStripingLLC.com",
       "Company Name": "Precise Striping",
@@ -2414,7 +2414,7 @@
       "Budget ($)": "1800",
       "%WG": "0.25",
       "Deal Value ($)": "5400",
-      "Notes": "Federico - First interview Thurs Feb 26th"
+      "Notes": "Final Interview with Federico on March 2nd"
     },
     {
       "Date": "Feb 13, 2026",

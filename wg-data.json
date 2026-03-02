@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-02T16:12:26.492Z",
+  "updated": "2026-03-02T16:12:39.256Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -1871,7 +1871,7 @@
       "Hiring Request": "HR52570",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "5. Final Interview",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Nick Hubbard",
       "Email": "nick@gethubflow.ai",
       "Company Name": "Hubflow",

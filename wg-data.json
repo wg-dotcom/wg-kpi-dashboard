@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-02T16:00:46.788Z",
+  "updated": "2026-03-02T16:00:55.748Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -1682,12 +1682,12 @@
     },
     {
       "Date": "Jan 9, 2026",
-      "Last Update": "Feb 26, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 2, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR69050",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "5. Final Interview",
+      "Status": "6. Job Offer Letter / Signature",
       "Name": "Tom Guilbert",
       "Email": "tom@HAVNwear.com",
       "Company Name": "HAVN",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-02T19:44:26.034Z",
+  "updated": "2026-03-02T19:44:33.702Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -1222,11 +1222,11 @@
     },
     {
       "Date": "Nov 19, 2025",
-      "Last Update": "Jan 26, 2026",
-      "Priorities": "35",
+      "Last Update": "Mar 2, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR74272",
       "Source": "Regular WG",
-      "Is replacement?": "false",
+      "Is replacement?": "true",
       "Status": "1. KickOff Meeting",
       "Name": "Andrew Simon",
       "Email": "andrew@goldfishads.com",

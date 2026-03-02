@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-02T13:00:27.260Z",
+  "updated": "2026-03-02T13:00:28.900Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2652,8 +2652,8 @@
       "Priorities": "0",
       "Hiring Request": "",
       "Source": "GTD",
-      "Is replacement?": "",
-      "Status": "",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Mint Ads",
       "Email": "chris@mintads.com",
       "Company Name": "Mint Ads",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-02T18:37:56.385Z",
+  "updated": "2026-03-02T18:38:01.828Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2555,9 +2555,9 @@
       "Notes": "Kate - First interview next week\nNew drop Wed March 4th"
     },
     {
-      "Date": "Mar 23, 2026",
-      "Last Update": "Feb 26, 2026",
-      "Priorities": "4",
+      "Date": "Feb 23, 2026",
+      "Last Update": "Mar 2, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR59205",
       "Source": "Regular WG",
       "Is replacement?": "false",

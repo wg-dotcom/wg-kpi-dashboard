@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-04T00:54:39.584Z",
+  "updated": "2026-03-04T00:56:04.887Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2400,7 +2400,7 @@
       "Hiring Request": "HR77012",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "5. Final Interview",
+      "Status": "6. Job Offer Letter / Signature",
       "Name": "Christopher Rosa",
       "Email": "CRosa@PreciseStripingLLC.com",
       "Company Name": "Precise Striping",
@@ -2409,7 +2409,7 @@
       "GitHub": "",
       "Advisor": "Guillermo",
       "KickOff Meeting": "Feb 13, 2026",
-      "Date Placed": "",
+      "Date Placed": "Feb 13, 2026",
       "Days for Placement": "",
       "Budget ($)": "1800",
       "%WG": "0.25",

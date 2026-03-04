@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-04T00:56:12.608Z",
+  "updated": "2026-03-04T00:56:24.392Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2410,7 +2410,7 @@
       "Advisor": "Guillermo",
       "KickOff Meeting": "Feb 13, 2026",
       "Date Placed": "Mar 3, 2026",
-      "Days for Placement": "",
+      "Days for Placement": "13",
       "Budget ($)": "1800",
       "%WG": "0.25",
       "Deal Value ($)": "5400",

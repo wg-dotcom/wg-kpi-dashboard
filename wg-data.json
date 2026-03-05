@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-05T15:43:54.622Z",
+  "updated": "2026-03-05T15:44:38.283Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2092,12 +2092,12 @@
       "Budget ($)": "1200",
       "%WG": "0.35",
       "Deal Value ($)": "5040",
-      "Notes": "Search criteria changed a little bit\nNew drop Mon March 2nd"
+      "Notes": "Search criteria changed a little bit\nNew drop Tues March 3rd\nFollow up Thrus March 5th"
     },
     {
       "Date": "Feb 2, 2026",
-      "Last Update": "Mar 2, 2026",
-      "Priorities": "3",
+      "Last Update": "Mar 5, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR68087",
       "Source": "Regular WG",
       "Is replacement?": "false",

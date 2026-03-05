@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-05T15:47:01.601Z",
+  "updated": "2026-03-05T15:47:07.833Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2285,7 +2285,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "true",
-      "Status": "1. KickOff Meeting",
+      "Status": "2. Candidates Presented",
       "Name": "Todd Graden",
       "Email": "todd@tagelectricco.com",
       "Company Name": "TAG Electric Co",
@@ -2303,8 +2303,8 @@
     },
     {
       "Date": "Feb 11, 2026",
-      "Last Update": "Mar 2, 2026",
-      "Priorities": "3",
+      "Last Update": "Mar 5, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR96146",
       "Source": "Regular WG",
       "Is replacement?": "false",

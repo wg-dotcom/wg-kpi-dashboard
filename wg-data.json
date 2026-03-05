@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-05T15:44:44.654Z",
+  "updated": "2026-03-05T15:44:52.788Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2165,12 +2165,12 @@
     },
     {
       "Date": "Feb 8, 2026",
-      "Last Update": "Mar 2, 2026",
-      "Priorities": "3",
+      "Last Update": "Mar 5, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR75685",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Andrew Bernstein",
       "Email": "abernstein@archy.com",
       "Company Name": "Archy",

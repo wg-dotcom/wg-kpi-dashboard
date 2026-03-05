@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-05T15:37:42.012Z",
+  "updated": "2026-03-05T15:38:00.226Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -1909,6 +1909,29 @@
       "%WG": "0.35",
       "Deal Value ($)": "7560",
       "Notes": "Fine Tunning Session - Fri Feb 27th\nSplit position: SDR + Ops Assistant (part-time)\n\nNew drop Wed March 4th"
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "false",
+      "Status": "",
+      "Name": "",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
     },
     {
       "Date": "Jan 27, 2026",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-06T14:05:25.393Z",
+  "updated": "2026-03-06T14:05:38.398Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2716,9 +2716,9 @@
       "Notes": "Replacement - Different role\nFirst drop Thurs March 5th"
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "Mar 5, 2026",
+      "Last Update": "Mar 5, 2026",
+      "Priorities": "1",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",

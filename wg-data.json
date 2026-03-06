@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-06T14:11:18.661Z",
+  "updated": "2026-03-06T14:11:28.189Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2739,9 +2739,9 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "Mar 5, 2026",
+      "Last Update": "Mar 5, 2026",
+      "Priorities": "1",
       "Hiring Request": "",
       "Source": "",
       "Is replacement?": "",
@@ -2749,7 +2749,7 @@
       "Name": "David Rothstein",
       "Email": "drothstein@orocap.com",
       "Company Name": "Oro Capital Advisors",
-      "Role": "",
+      "Role": "Executive Assistant",
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "",

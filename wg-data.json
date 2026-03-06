@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-06T18:48:24.304Z",
+  "updated": "2026-03-06T18:48:28.617Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2762,13 +2762,13 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "Mar 5, 2026",
+      "Last Update": "Mar 5, 2026",
+      "Priorities": "1",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Randy Wang",
       "Email": "",
       "Company Name": "",

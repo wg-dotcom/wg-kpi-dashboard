@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-06T14:11:32.347Z",
+  "updated": "2026-03-06T14:11:43.208Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2743,9 +2743,9 @@
       "Last Update": "Mar 5, 2026",
       "Priorities": "1",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "David Rothstein",
       "Email": "drothstein@orocap.com",
       "Company Name": "Oro Capital Advisors",

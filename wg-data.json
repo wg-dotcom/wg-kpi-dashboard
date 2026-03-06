@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-06T15:54:47.591Z",
+  "updated": "2026-03-06T16:14:42.751Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2553,6 +2553,29 @@
       "%WG": "0.3",
       "Deal Value ($)": "14400",
       "Notes": "Claudia - First interview next week\nPablo - First interview next week\nBarbara - First interview next week\nJulia - First interiview next week\nArturo - First interview next week"
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "false",
+      "Status": "",
+      "Name": "",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
     },
     {
       "Date": "Feb 20, 2026",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-06T14:08:20.478Z",
+  "updated": "2026-03-06T14:10:59.197Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2736,6 +2736,29 @@
       "Budget ($)": "1700",
       "%WG": "0.35",
       "Deal Value ($)": "7140",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "David Rothstein",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
       "Notes": ""
     }
   ]

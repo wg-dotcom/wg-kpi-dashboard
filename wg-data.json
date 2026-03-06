@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-06T17:54:39.325Z",
+  "updated": "2026-03-06T18:48:21.433Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2759,6 +2759,29 @@
       "Budget ($)": "3000",
       "%WG": "0.35",
       "Deal Value ($)": "12600",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Randy Wang",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
       "Notes": ""
     }
   ]

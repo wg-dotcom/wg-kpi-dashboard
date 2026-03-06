@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-06T14:08:06.118Z",
+  "updated": "2026-03-06T14:08:20.478Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2727,7 +2727,7 @@
       "Email": "jeron@arcscapes.com",
       "Company Name": "Arc Scapes",
       "Role": "Administration Assistant",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/736b086c-9bf9-4b37-a795-b32cd013b0e4",
       "GitHub": "",
       "Advisor": "",
       "KickOff Meeting": "",

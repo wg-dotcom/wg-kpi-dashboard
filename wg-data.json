@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-06T14:05:19.302Z",
+  "updated": "2026-03-06T14:05:22.004Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2720,9 +2720,9 @@
       "Last Update": "",
       "Priorities": "",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "true",
+      "Status": "1. KickOff Meeting",
       "Name": "Jeron Hatch",
       "Email": "jeron@arcscapes.com",
       "Company Name": "Arc Scapes",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-06T14:14:58.189Z",
+  "updated": "2026-03-06T14:16:04.350Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2750,7 +2750,7 @@
       "Email": "drothstein@orocap.com",
       "Company Name": "Oro Capital Advisors",
       "Role": "Executive Assistant",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/e7a89566-ce2d-4ca2-929f-4393d88c4f44",
       "GitHub": "",
       "Advisor": "",
       "KickOff Meeting": "",

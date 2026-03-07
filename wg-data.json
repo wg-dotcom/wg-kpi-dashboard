@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-07T12:54:37.561Z",
+  "updated": "2026-03-07T13:24:15.402Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -1687,7 +1687,7 @@
       "Hiring Request": "HR69050",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Tom Guilbert",
       "Email": "tom@HAVNwear.com",
       "Company Name": "HAVN",
@@ -2101,7 +2101,7 @@
       "Hiring Request": "HR68087",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Gene Napolitano",
       "Email": "gnapolitano@koalainsulation.com",
       "Company Name": "Koala Insulation of Central Jersey",

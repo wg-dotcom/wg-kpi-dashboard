@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-09T17:42:01.070Z",
+  "updated": "2026-03-09T17:42:12.383Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2625,12 +2625,12 @@
     },
     {
       "Date": "Feb 24, 2026",
-      "Last Update": "Mar 5, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 9, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR57557",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "2. Candidates Presented",
+      "Status": "3. 1st Round of Interviews",
       "Name": "Isaac Stoll",
       "Email": "isaac@syncsite.net",
       "Company Name": "Syncsite",

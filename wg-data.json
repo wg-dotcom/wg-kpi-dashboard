@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-09T14:39:55.907Z",
+  "updated": "2026-03-09T14:40:01.826Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2671,12 +2671,12 @@
     },
     {
       "Date": "Feb 27, 2026",
-      "Last Update": "Mar 5, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 9, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "GTD",
       "Is replacement?": "false",
-      "Status": "1. KickOff Meeting",
+      "Status": "4. Assessment",
       "Name": "Chris Hopson",
       "Email": "chris@mintads.com",
       "Company Name": "Mint Ads",

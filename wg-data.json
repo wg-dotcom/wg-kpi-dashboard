@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-09T16:15:02.132Z",
+  "updated": "2026-03-09T16:15:05.634Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -1908,12 +1908,12 @@
       "Budget ($)": "1200",
       "%WG": "0.35",
       "Deal Value ($)": "5040",
-      "Notes": "Fine Tunning Session - Fri Feb 27th\nSplit position: SDR + Ops Assistant (part-time)\n\nNew drop Wed March 4th\nFollow up Fri March 6th"
+      "Notes": "Fine Tunning Session - Fri Feb 27th\nSplit position: SDR + Ops Assistant (part-time)\n\nNew drop Wed March 4th"
     },
     {
       "Date": "Jan 26, 2026",
-      "Last Update": "Mar 9, 2026",
-      "Priorities": "0",
+      "Last Update": "Mar 5, 2026",
+      "Priorities": "4",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-09T16:20:02.279Z",
+  "updated": "2026-03-09T16:20:27.239Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2299,12 +2299,12 @@
       "Budget ($)": "2000",
       "%WG": "0.35",
       "Deal Value ($)": "0",
-      "Notes": "New batch Tues March 3rd"
+      "Notes": "New batch Tues March 3rd\nFollow up March 6th, 9th"
     },
     {
       "Date": "Feb 11, 2026",
-      "Last Update": "Mar 5, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 9, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR96146",
       "Source": "Regular WG",
       "Is replacement?": "false",

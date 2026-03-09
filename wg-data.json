@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-09T17:43:02.554Z",
+  "updated": "2026-03-09T17:43:56.386Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2602,8 +2602,8 @@
     },
     {
       "Date": "Feb 23, 2026",
-      "Last Update": "Mar 5, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 9, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR49638",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2630,7 +2630,7 @@
       "Hiring Request": "HR57557",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "2. Candidates Presented",
+      "Status": "3. 1st Round of Interviews",
       "Name": "Isaac Stoll",
       "Email": "isaac@syncsite.net",
       "Company Name": "Syncsite",
@@ -2644,7 +2644,7 @@
       "Budget ($)": "3500",
       "%WG": "0.35",
       "Deal Value ($)": "14700",
-      "Notes": "First batch Thurs March 5th"
+      "Notes": "Aaron - First interview this week\nLucas - First intreview this week"
     },
     {
       "Date": "Feb 24, 2026",

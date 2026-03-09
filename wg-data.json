@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-09T13:27:15.770Z",
+  "updated": "2026-03-09T13:27:52.211Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2000,7 +2000,7 @@
       "Budget ($)": "7500",
       "%WG": "0.35",
       "Deal Value ($)": "31500",
-      "Notes": "Rafael - First interview Fri Feb 20th\nRafael - second interview Wed March 11th\nNew drop Wed March 4th"
+      "Notes": "Rafael - First interview Fri Feb 20th\nRafael - second interview Wed March 11th\nNew drop Wed March 4th\nFollow up Mon March 9th"
     },
     {
       "Date": "Jan 30, 2026",
@@ -2188,8 +2188,8 @@
     },
     {
       "Date": "Feb 10, 2026",
-      "Last Update": "Mar 5, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 9, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",

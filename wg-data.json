@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T18:21:42.272Z",
+  "updated": "2026-03-12T18:22:01.168Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2796,6 +2796,29 @@
       "Email": "sven.fors@joinbetter.com",
       "Company Name": "Better Health",
       "Role": "Inside Sales Agent",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
+    },
+    {
+      "Date": "Mar 5, 2026",
+      "Last Update": "Mar 12, 2026",
+      "Priorities": "0",
+      "Hiring Request": "HR55588",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
+      "Name": "Randy Wang",
+      "Email": "recruiting@wingz.com",
+      "Company Name": "Wingz",
+      "Role": "Full Stack Engineer",
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "",

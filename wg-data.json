@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T23:29:57.201Z",
+  "updated": "2026-03-12T23:29:59.281Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2798,7 +2798,7 @@
       "Role": "Inside Sales Agent",
       "NotebookLM": "https://notebooklm.google.com/notebook/db2c3466-ad22-41e0-a996-1e225dd98bc9",
       "GitHub": "",
-      "Advisor": "",
+      "Advisor": "Guillermo",
       "KickOff Meeting": "",
       "Date Placed": "",
       "Days for Placement": "",

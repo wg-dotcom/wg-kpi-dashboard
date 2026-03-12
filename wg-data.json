@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T18:22:08.055Z",
+  "updated": "2026-03-12T18:22:20.530Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2819,9 +2819,9 @@
       "Email": "recruiting@wingz.com",
       "Company Name": "Wingz",
       "Role": "Full Stack Engineer",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/1016283f-b75d-493d-8f74-2f9ea47eb085",
       "GitHub": "",
-      "Advisor": "",
+      "Advisor": "Guillermo",
       "KickOff Meeting": "",
       "Date Placed": "",
       "Days for Placement": "",

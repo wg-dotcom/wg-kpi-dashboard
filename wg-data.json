@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T16:30:45.481Z",
+  "updated": "2026-03-12T16:31:33.850Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2722,7 +2722,7 @@
       "Hiring Request": "HR39750",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "1. KickOff Meeting",
+      "Status": "2. Candidates Presented",
       "Name": "Jeron Hatch",
       "Email": "jeron@arcscapes.com",
       "Company Name": "Arc Scapes",
@@ -2736,7 +2736,7 @@
       "Budget ($)": "1700",
       "%WG": "0.35",
       "Deal Value ($)": "7140",
-      "Notes": ""
+      "Notes": "First drop Thurs March 12th"
     },
     {
       "Date": "Mar 5, 2026",

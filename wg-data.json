@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T16:31:43.056Z",
+  "updated": "2026-03-12T16:31:51.295Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2722,7 +2722,7 @@
       "Hiring Request": "HR39750",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "2. Candidates Presented",
+      "Status": "1. KickOff Meeting",
       "Name": "Jeron Hatch",
       "Email": "jeron@arcscapes.com",
       "Company Name": "Arc Scapes",
@@ -2740,12 +2740,12 @@
     },
     {
       "Date": "Mar 5, 2026",
-      "Last Update": "Mar 12, 2026",
-      "Priorities": "0",
+      "Last Update": "Mar 9, 2026",
+      "Priorities": "3",
       "Hiring Request": "HR47669",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "2. Candidates Presented",
+      "Status": "1. KickOff Meeting",
       "Name": "David Rothstein",
       "Email": "drothstein@orocap.com",
       "Company Name": "Oro Capital Advisors",
@@ -2763,8 +2763,8 @@
     },
     {
       "Date": "Mar 5, 2026",
-      "Last Update": "Mar 12, 2026",
-      "Priorities": "0",
+      "Last Update": "Mar 9, 2026",
+      "Priorities": "3",
       "Hiring Request": "HR55588",
       "Source": "Regular WG",
       "Is replacement?": "false",

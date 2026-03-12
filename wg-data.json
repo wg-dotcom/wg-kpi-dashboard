@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T18:22:31.719Z",
+  "updated": "2026-03-12T18:22:44.833Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2828,6 +2828,29 @@
       "Budget ($)": "2000",
       "%WG": "0.25",
       "Deal Value ($)": "6000",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Matt May",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
       "Notes": ""
     }
   ]

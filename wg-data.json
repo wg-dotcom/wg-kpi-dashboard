@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T18:23:44.296Z",
+  "updated": "2026-03-12T18:23:54.928Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2854,13 +2854,13 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "Mar 12, 2026",
+      "Last Update": "Mar 12, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Brittney Engblom",
       "Email": "brittneyengblom@gmail.com",
       "Company Name": "",

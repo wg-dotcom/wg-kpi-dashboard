@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T18:24:48.274Z",
+  "updated": "2026-03-12T18:25:02.163Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2872,6 +2872,29 @@
       "Date Placed": "",
       "Days for Placement": "",
       "Budget ($)": "1800",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "James Burnette",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "",
       "Notes": ""

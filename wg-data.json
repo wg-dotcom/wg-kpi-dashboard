@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T18:21:24.567Z",
+  "updated": "2026-03-12T18:21:33.629Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2785,13 +2785,13 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
-      "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Date": "Mar 5, 2026",
+      "Last Update": "Mar 12, 2026",
+      "Priorities": "0",
+      "Hiring Request": "HR55588",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Sven Fors",
       "Email": "sven.fors@joinbetter.com",
       "Company Name": "Better Health",

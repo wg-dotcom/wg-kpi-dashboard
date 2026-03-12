@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-12T22:54:44.291Z",
+  "updated": "2026-03-12T23:29:57.201Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2796,7 +2796,7 @@
       "Email": "sven.fors@joinbetter.com",
       "Company Name": "Better Health",
       "Role": "Inside Sales Agent",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/db2c3466-ad22-41e0-a996-1e225dd98bc9",
       "GitHub": "",
       "Advisor": "",
       "KickOff Meeting": "",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-16T16:28:43.122Z",
+  "updated": "2026-03-16T16:28:47.822Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2372,8 +2372,8 @@
     },
     {
       "Date": "Feb 11, 2026",
-      "Last Update": "Mar 12, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 16, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Lead",
       "Is replacement?": "false",
@@ -2395,8 +2395,8 @@
     },
     {
       "Date": "Feb 9, 2026",
-      "Last Update": "Mar 12, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 16, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "true",

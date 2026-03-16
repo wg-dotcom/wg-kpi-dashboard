@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-16T16:12:58.535Z",
+  "updated": "2026-03-16T16:13:43.976Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -1908,7 +1908,7 @@
       "Budget ($)": "1200",
       "%WG": "0.35",
       "Deal Value ($)": "5040",
-      "Notes": "Fine Tunning Session - Fri Feb 27th\nSplit position: SDR + Ops Assistant (part-time)\n\nNew drop Wed March 4th\nFollow up March 6th, 11th"
+      "Notes": "Fine Tunning Session - Fri Feb 27th\nSplit position: SDR + Ops Assistant (part-time)\n\nNew drop Wed March 4th\nFollow up March 6th, 11th, 17th"
     },
     {
       "Date": "Jan 26, 2026",
@@ -1931,7 +1931,7 @@
       "Budget ($)": "600",
       "%WG": "0.35",
       "Deal Value ($)": "2520",
-      "Notes": "Fine Tunning Session - Fri Feb 27th\nSplit position: SDR + Ops Assistant (part-time)\n\nNew drop Wed March 4th\nFollow up March 6th, 11th"
+      "Notes": "Fine Tunning Session - Fri Feb 27th\nSplit position: SDR + Ops Assistant (part-time)\n\nNew drop Wed March 4th\nFollow up March 6th, 11th, 17th"
     },
     {
       "Date": "Jan 27, 2026",
@@ -1981,8 +1981,8 @@
     },
     {
       "Date": "Jan 27, 2026",
-      "Last Update": "Mar 12, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 16, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Lead",
       "Is replacement?": "false",
@@ -2000,7 +2000,7 @@
       "Budget ($)": "8000",
       "%WG": "0.2",
       "Deal Value ($)": "19200",
-      "Notes": "Rafael - First interview Fri Feb 20th\nRafael - second interview Wed March 11th\nNew drop Wed March 4th\nFollow up call Fri March 13th"
+      "Notes": "Rafael - First interview Fri Feb 20th\nRafael - second interview Wed March 11th - Failed\n\nNew drop Wed March 18th"
     },
     {
       "Date": "Jan 30, 2026",

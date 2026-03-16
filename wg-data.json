@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-16T16:43:25.469Z",
+  "updated": "2026-03-16T16:44:41.193Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2636,7 +2636,7 @@
       "Company Name": "Syncsite",
       "Role": "Software Developer",
       "NotebookLM": "https://notebooklm.google.com/notebook/ff6b7cec-2952-456b-9bdd-45e848d0d1d5",
-      "GitHub": "",
+      "GitHub": "https://wg-dotcom.github.io/syncsite-software-developer/",
       "Advisor": "MIguel",
       "KickOff Meeting": "Feb 25, 2026",
       "Date Placed": "",

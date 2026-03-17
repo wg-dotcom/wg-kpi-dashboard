@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-17T21:18:14.599Z",
+  "updated": "2026-03-17T21:18:21.583Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2900,12 +2900,12 @@
       "Notes": "First drop Wed March 18th"
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
-      "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
+      "Date": "Mar 12, 2026",
+      "Last Update": "Mar 16, 2026",
+      "Priorities": "1",
+      "Hiring Request": "HR58563",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
       "Status": "1. KickOff Meeting",
       "Name": "Basil Chatha",
       "Email": "basil@forwardeployed.com",

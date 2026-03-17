@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-17T20:52:49.030Z",
+  "updated": "2026-03-17T20:53:14.550Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2533,12 +2533,12 @@
     },
     {
       "Date": "Feb 20, 2026",
-      "Last Update": "Mar 16, 2026",
-      "Priorities": "1",
+      "Last Update": "Mar 17, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR92529",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "5. Final Interview",
+      "Status": "3. 1st Round of Interviews",
       "Name": "Blake Atwell",
       "Email": "batwell@rex.com",
       "Company Name": "Rex",

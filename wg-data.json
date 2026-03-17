@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-17T21:18:07.439Z",
+  "updated": "2026-03-17T21:18:14.599Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2906,7 +2906,7 @@
       "Hiring Request": "",
       "Source": "",
       "Is replacement?": "",
-      "Status": "",
+      "Status": "1. KickOff Meeting",
       "Name": "Basil Chatha",
       "Email": "basil@forwardeployed.com",
       "Company Name": "Forward Deployed",

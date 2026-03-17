@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-17T19:54:59.455Z",
+  "updated": "2026-03-17T19:55:03.067Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2880,7 +2880,7 @@
       "Date": "Mar 12, 2026",
       "Last Update": "Mar 16, 2026",
       "Priorities": "1",
-      "Hiring Request": "https://airtable.com/appnc0HdENzdIcUVP/pageyf52aIL2drWCs?detail=eyJwYWdlSWQiOiJwYWd2b3RTZWZocWZYM3BDSSIsInJvd0lkIjoicmVjZjRuUFpZM0VPblVabHMiLCJzaG93Q29tbWVudHMiOmZhbHNlLCJxdWVyeU9yaWdpbkhpbnQiOnsidHlwZSI6InBhZ2VFbGVtZW50IiwiZWxlbWVudElkIjoicGVseTRJcmlmMGhsZjc3VzIiLCJxdWVyeUNvbnRhaW5lcklkIjoicGVsOXV4S3g5NVoxM3VncG0ifX0",
+      "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",
       "Status": "1. KickOff Meeting",

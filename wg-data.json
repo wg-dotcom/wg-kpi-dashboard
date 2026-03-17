@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-17T21:13:19.503Z",
+  "updated": "2026-03-17T21:15:22.588Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2888,7 +2888,7 @@
       "Email": "James.Burnette@Harlandbirch.com",
       "Company Name": "Harland Birch, Inc",
       "Role": "Admin/Customer Service",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/54fdd632-6fd3-4d49-b71d-cb374dff2d95",
       "GitHub": "",
       "Advisor": "MIguel",
       "KickOff Meeting": "Mar 13, 2026",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-18T15:05:39.139Z",
+  "updated": "2026-03-18T15:05:48.120Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2339,9 +2339,9 @@
       "NotebookLM": "https://notebooklm.google.com/notebook/017a63d2-b233-49a9-8d67-006298b90fee",
       "GitHub": "https://wg-dotcom.github.io/arc-software-engineer/",
       "Advisor": "Jesus",
-      "KickOff Meeting": "Feb 13, 2026",
-      "Date Placed": "Mar 16, 2026",
-      "Days for Placement": "22",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
       "Budget ($)": "3000",
       "%WG": "0.35",
       "Deal Value ($)": "12600",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-19T12:25:22.414Z",
+  "updated": "2026-03-19T12:25:25.908Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2925,11 +2925,11 @@
     {
       "Date": "Mar 19, 2026",
       "Last Update": "Mar 19, 2026",
-      "Priorities": "",
+      "Priorities": "0",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Jelani Fenton",
       "Email": "",
       "Company Name": "",

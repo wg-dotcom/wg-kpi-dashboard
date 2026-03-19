@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-19T13:33:31.311Z",
+  "updated": "2026-03-19T13:41:56.156Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2050,12 +2050,12 @@
     },
     {
       "Date": "Feb 2, 2026",
-      "Last Update": "Mar 16, 2026",
-      "Priorities": "3",
+      "Last Update": "Mar 19, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR93492",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "4. Assessment",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Will Wu",
       "Email": "admin@centaurtea.com",
       "Company Name": "Pipi Tea",

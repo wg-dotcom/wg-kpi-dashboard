@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-19T14:55:35.717Z",
+  "updated": "2026-03-19T14:56:38.597Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2193,7 +2193,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "7. Invoice",
       "Name": "Sheri Tate",
       "Email": "sheri.tate@chargeitspot.com",
       "Company Name": "ChargeItSpot",
@@ -2584,7 +2584,7 @@
       "Hiring Request": "HR59205",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Nathan J Olivas",
       "Email": "nathan@iameverett.com",
       "Company Name": "Everett Entertainment LLC",

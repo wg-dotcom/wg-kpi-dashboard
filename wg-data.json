@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23T12:22:35.631Z",
+  "updated": "2026-03-23T12:30:00.739Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2912,7 +2912,7 @@
       "Company Name": "Forward Deployed",
       "Role": "Generalist Executive Assistant",
       "NotebookLM": "https://notebooklm.google.com/notebook/858444ea-cd2b-44e4-85bc-a38d09474780",
-      "GitHub": "",
+      "GitHub": "https://wg-dotcom.github.io/forward-deployed-generalist-executive-assistant-candidates/",
       "Advisor": "Guillermo",
       "KickOff Meeting": "Mar 17, 2026",
       "Date Placed": "",

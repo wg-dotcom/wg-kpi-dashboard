@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23T13:54:37.696Z",
+  "updated": "2026-03-23T18:13:19.719Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -555,8 +555,8 @@
     },
     {
       "Date": "Sep 12, 2025",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR32038",
       "Source": "Regular WG",
       "Is replacement?": "true",
@@ -574,7 +574,7 @@
       "Budget ($)": "1300",
       "%WG": "0.25",
       "Deal Value ($)": "3900",
-      "Notes": "Conditioned Replacement - Same Role"
+      "Notes": "Conditioned Replacement - Same Role\nNew batch Wed Match 25th"
     },
     {
       "Date": "Sep 23, 2025",
@@ -1797,8 +1797,8 @@
     },
     {
       "Date": "Jan 15, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR92486",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -1889,12 +1889,12 @@
     },
     {
       "Date": "Jan 26, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Network Team\nKerri",
       "Is replacement?": "false",
-      "Status": "5. Final Interview",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Mark Bailey",
       "Email": "mark.bailey@signarama.com",
       "Company Name": "The Bailey Family Plan LLC dba Signarama",
@@ -1908,16 +1908,16 @@
       "Budget ($)": "1200",
       "%WG": "0.35",
       "Deal Value ($)": "5040",
-      "Notes": "Fine Tunning Session - Fri Feb 27th\nSplit position: SDR + Ops Assistant (part-time)\n\nNew drop Wed March 4th\nFollow up March 6th, 11th, 17th"
+      "Notes": "PAUSED BY US\nWaiting to meet them at the conference"
     },
     {
       "Date": "Jan 26, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Network Team\nKerri",
       "Is replacement?": "false",
-      "Status": "5. Final Interview",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Mark Bailey",
       "Email": "mark.bailey@signarama.com",
       "Company Name": "The Bailey Family Plan LLC dba Signarama",
@@ -1931,7 +1931,7 @@
       "Budget ($)": "600",
       "%WG": "0.35",
       "Deal Value ($)": "2520",
-      "Notes": "Fine Tunning Session - Fri Feb 27th\nSplit position: SDR + Ops Assistant (part-time)\n\nNew drop Wed March 4th\nFollow up March 6th, 11th, 17th"
+      "Notes": "PAUSED BY US\nWaiting to meet them at the conference"
     },
     {
       "Date": "Jan 27, 2026",
@@ -1981,8 +1981,8 @@
     },
     {
       "Date": "Jan 27, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Lead",
       "Is replacement?": "false",
@@ -2000,12 +2000,12 @@
       "Budget ($)": "8000",
       "%WG": "0.2",
       "Deal Value ($)": "19200",
-      "Notes": "New drop Fri March 20th"
+      "Notes": "New drop Wed March 25th"
     },
     {
       "Date": "Jan 30, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR95140",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2023,7 +2023,7 @@
       "Budget ($)": "1200",
       "%WG": "0.35",
       "Deal Value ($)": "5040",
-      "Notes": "2W MIA\nAlejandro - First interview Wed  March 4th\nAlejandro - Assessment stage (Thurs March 5th)\nAlejandro - Second interview next week\nNew batch Tues March 10th\nFollow up Wed March 11th - EXpected 13th\nJESUS TAKE OVER - texted Thurs March 19th"
+      "Notes": "2W MIA\nAlejandro - First interview Wed  March 4th\nAlejandro - Assessment stage (Thurs March 5th)\nAlejandro - Second interview next week\nNew batch Tues March 10th\nFollow up Wed March 11th - EXpected 13th\nJESUS TAKE OVER - texted March 19th, 23rd"
     },
     {
       "Date": "Jan 30, 2026",
@@ -2073,12 +2073,12 @@
     },
     {
       "Date": "Feb 2, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "5. Final Interview",
       "Name": "Etan Friedman",
       "Email": "efriedman@topazcg.com",
       "Company Name": "Topaz Capital Group LLC",
@@ -2119,12 +2119,12 @@
     },
     {
       "Date": "Feb 3, 2026",
-      "Last Update": "Mar 2, 2026",
-      "Priorities": "21",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Network Team\nKerri",
       "Is replacement?": "false",
-      "Status": "1. KickOff Meeting",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Moe Hallak",
       "Email": "maha@signarama-natx.com",
       "Company Name": "Signarama - Pflugerville",
@@ -2138,7 +2138,7 @@
       "Budget ($)": "2000",
       "%WG": "0.35",
       "Deal Value ($)": "8400",
-      "Notes": "Pending KickOff"
+      "Notes": "PAUSED BY US\nWaiting to meet them at the conference"
     },
     {
       "Date": "Feb 3, 2026",
@@ -2188,8 +2188,8 @@
     },
     {
       "Date": "Feb 10, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2211,8 +2211,8 @@
     },
     {
       "Date": "Feb 10, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Network Team\nKerri",
       "Is replacement?": "false",
@@ -2230,12 +2230,12 @@
       "Budget ($)": "1200",
       "%WG": "0.35",
       "Deal Value ($)": "5040",
-      "Notes": "First drop Thurs Feb 12th\n3 candidates under review\nExpected Wed March 25th"
+      "Notes": "PAUSED BY US\nWaiting to meet them at the conference"
     },
     {
       "Date": "Feb 10, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Network Team\nKerri",
       "Is replacement?": "false",
@@ -2280,8 +2280,8 @@
     },
     {
       "Date": "Feb 11, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "true",
@@ -2299,12 +2299,12 @@
       "Budget ($)": "2000",
       "%WG": "0.35",
       "Deal Value ($)": "0",
-      "Notes": "Thales (TAP) - First interview Mon March 16th\nPamela - First interview next week\n\nNew drop after interview"
+      "Notes": "Thales (TAP) - First interview Mon March 16th\nPamela - First interview this week\nOOO this week"
     },
     {
       "Date": "Feb 11, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR96146",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2322,7 +2322,7 @@
       "Budget ($)": "2000",
       "%WG": "0.35",
       "Deal Value ($)": "8400",
-      "Notes": "First batch Mon Feb 23rd\nFollow up Thurs Feb 26th, March 3rd\nSlammed - Follow up March 13th, 16th, 19th"
+      "Notes": "First batch Mon Feb 23rd\nFollow up Thurs Feb 26th, March 3rd\nSlammed - Follow up March 13th, 16th, 19th, 23rd"
     },
     {
       "Date": "Feb 11, 2026",
@@ -2349,8 +2349,8 @@
     },
     {
       "Date": "Feb 11, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Lead",
       "Is replacement?": "false",
@@ -2368,7 +2368,7 @@
       "Budget ($)": "4000",
       "%WG": "0.18",
       "Deal Value ($)": "8640",
-      "Notes": "Ali - First interview Thurs March 12th\nVictor - First interview Thurs March 19th\nMarcelo - First interview Thurs March 12th\nDiana - First interview Thurs March 19th\nDannia - First interview Thurs March 19th\n\nMoving forward with Diana and Dannia"
+      "Notes": "Waiting for next steps for Dannia and Diana"
     },
     {
       "Date": "Feb 11, 2026",
@@ -2395,8 +2395,8 @@
     },
     {
       "Date": "Feb 9, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "true",
@@ -2414,7 +2414,7 @@
       "Budget ($)": "1600",
       "%WG": "0.35",
       "Deal Value ($)": "0",
-      "Notes": "Elias - First interview next week\nAlejandro - First interview next week\n\nNew drop for Wed March 25th"
+      "Notes": "Hiring Alejandro\nJOL"
     },
     {
       "Date": "Feb 13, 2026",
@@ -2464,8 +2464,8 @@
     },
     {
       "Date": "Feb 16, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR65797",
       "Source": "Network Team\nKerri",
       "Is replacement?": "false",
@@ -2483,12 +2483,12 @@
       "Budget ($)": "1000",
       "%WG": "0.35",
       "Deal Value ($)": "4200",
-      "Notes": "KickOff didn't happened\nFirst drop Thurs March 12th\nFollow up Mon 16th, 18th"
+      "Notes": "PAUSED BY US\nWaiting to meet them at the conference"
     },
     {
       "Date": "Feb 19, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR78339",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2510,8 +2510,8 @@
     },
     {
       "Date": "Feb 19, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR86258",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2529,12 +2529,12 @@
       "Budget ($)": "5000",
       "%WG": "0.35",
       "Deal Value ($)": "21000",
-      "Notes": "First batch Wed Feb 25th\nFollow up March 2nd, 5th, 9th, 12th\nJESUS TAKE OVER - texted Thurs March 19th"
+      "Notes": "First batch Wed Feb 25th\nFollow up March 2nd, 5th, 9th, 12th\nJESUS TAKE OVER - texted Thurs March 19th, 23rd"
     },
     {
       "Date": "Feb 20, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR92529",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2552,16 +2552,16 @@
       "Budget ($)": "4000",
       "%WG": "0.3",
       "Deal Value ($)": "14400",
-      "Notes": "Outbound"
+      "Notes": "Drop Mon March 23rd"
     },
     {
       "Date": "Feb 20, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR35448",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Patrick  Fitzsimmons",
       "Email": "pfitzsimmons@koalainsulation.com",
       "Company Name": "Koala Insulation of Greater Charlotte",
@@ -2575,7 +2575,7 @@
       "Budget ($)": "1100",
       "%WG": "0.35",
       "Deal Value ($)": "4620",
-      "Notes": "Hiring Irish\nInvoice"
+      "Notes": "Hiring Irish"
     },
     {
       "Date": "Feb 23, 2026",
@@ -2602,12 +2602,12 @@
     },
     {
       "Date": "Feb 23, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR49638",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "5. Final Interview",
+      "Status": "2. Candidates Presented",
       "Name": "Belle Beltran",
       "Email": "Belle@vareproperties.com",
       "Company Name": "VARE Properties",
@@ -2621,12 +2621,12 @@
       "Budget ($)": "1600",
       "%WG": "0.35",
       "Deal Value ($)": "6720",
-      "Notes": "New batch Wed March 25th"
+      "Notes": "New batch Mon March 23th"
     },
     {
       "Date": "Feb 24, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR57557",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2644,12 +2644,12 @@
       "Budget ($)": "3500",
       "%WG": "0.35",
       "Deal Value ($)": "14700",
-      "Notes": "Aaron - First interview Thurs March 12th - FAILED\nLucas - First intreview Thurs March 12th - STILL ON\n\nChrisitian - First interview Thurs March 19th\n\nNew drop Mon March 23rd"
+      "Notes": "Aaron - First interview Thurs March 12th - FAILED\nLucas - First intreview Thurs March 12th - STILL ON\n\nChrisitian - First interview Thurs March 19th\n\nNew drop Tue March 24th"
     },
     {
       "Date": "Feb 24, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR97152",
       "Source": "Network Team\nKerri",
       "Is replacement?": "false",
@@ -2667,7 +2667,7 @@
       "Budget ($)": "2000",
       "%WG": "0.35",
       "Deal Value ($)": "8400",
-      "Notes": "KickOff didn't happened\nFollow up Mon March 9th - DROP THURS MARCH 19th"
+      "Notes": "PAUSED BY US\nWaiting to meet them at the conference"
     },
     {
       "Date": "Feb 27, 2026",
@@ -2694,8 +2694,8 @@
     },
     {
       "Date": "Mar 2, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "true",
@@ -2713,12 +2713,12 @@
       "Budget ($)": "0",
       "%WG": "0.35",
       "Deal Value ($)": "0",
-      "Notes": "Replacement - Different role\nFirst drop Thurs March 5th\nSecond Thurs Mon March 9th\nThird bacth Mon March 16th\nAligning"
+      "Notes": "Replacement - Different role\nFirst drop Thurs March 5th\nSecond Thurs Mon March 9th\nThird bacth Mon March 16th\nFourth bacth Wed March 25th"
     },
     {
       "Date": "Mar 5, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR39750",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2736,16 +2736,16 @@
       "Budget ($)": "1700",
       "%WG": "0.35",
       "Deal Value ($)": "7140",
-      "Notes": "Faith (TAP) - First interview next week\n\nNew drop Thurs March 19th"
+      "Notes": "Faith (TAP) - First interview Mon March 23rd\n\nNew drop Thurs March 19th"
     },
     {
       "Date": "Mar 5, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR47669",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "2. Candidates Presented",
+      "Status": "5. Final Interview",
       "Name": "David Rothstein",
       "Email": "drothstein@orocap.com",
       "Company Name": "Oro Capital Advisors",
@@ -2759,12 +2759,12 @@
       "Budget ($)": "3000",
       "%WG": "0.35",
       "Deal Value ($)": "12600",
-      "Notes": "Natalia - First interview Thurs March 12th\nDiana - First Interiew Thurs March 12th - FAILED\nClaudia - First interview Tues March 17th\n\nNatalia - Second interview Fri March 13th - FAILED\nClaudia - Second interview next week"
+      "Notes": "Natalia - First interview Thurs March 12th\nDiana - First Interiew Thurs March 12th - FAILED\nClaudia - First interview Tues March 17th\n\nNatalia - Second interview Fri March 13th - FAILED\nClaudia - Second interview this week"
     },
     {
       "Date": "Mar 5, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR55588",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2782,12 +2782,12 @@
       "Budget ($)": "4000",
       "%WG": "0.25",
       "Deal Value ($)": "12000",
-      "Notes": "First drop Fri March 19th"
+      "Notes": "First drop Fri March 19th\nFollow up Mon March 23rd"
     },
     {
       "Date": "Mar 9, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR38102",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2805,12 +2805,12 @@
       "Budget ($)": "1600",
       "%WG": "0.35",
       "Deal Value ($)": "6720",
-      "Notes": "First drop Fri March 13th\nSecond drop Wed March 18th"
+      "Notes": "First drop Fri March 13th\nSecond drop March 18th, 23rd"
     },
     {
       "Date": "Mar 11, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR60211",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2828,12 +2828,12 @@
       "Budget ($)": "2000",
       "%WG": "0.25",
       "Deal Value ($)": "6000",
-      "Notes": "First drop Thurs March 19th"
+      "Notes": "Luis - First interview this week\nChad - First interview this week\nCarlos - First interview this week\nRommel - First interview this week"
     },
     {
       "Date": "Mar 11, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR68130",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2851,12 +2851,12 @@
       "Budget ($)": "2500",
       "%WG": "0.35",
       "Deal Value ($)": "10500",
-      "Notes": "Warren - First interview Tues March 24th\nRodney - First interview Tues March 24th"
+      "Notes": "Warren - First interview Tues March 24th\nRodney - First interview Tues March 24th\n\nNew batch Mon March 23rd"
     },
     {
       "Date": "Mar 12, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR50644",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2874,12 +2874,12 @@
       "Budget ($)": "1800",
       "%WG": "0.25",
       "Deal Value ($)": "5400",
-      "Notes": "Danlyson (TAP) - First interview next week\nPhutuma (TAP) - First interview next week\nGodfrey (TAP) - First interview next week\nMoses (TAP) - First interview next week"
+      "Notes": "Danlyson (TAP) - First interview this week\nGodfrey (TAP) - First interview this week\nMoses (TAP) - First interview this week"
     },
     {
       "Date": "Mar 12, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR58563",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2897,16 +2897,16 @@
       "Budget ($)": "1500",
       "%WG": "0.35",
       "Deal Value ($)": "6300",
-      "Notes": "First drop Thurs March 19th"
+      "Notes": "First drop Thurs March 19th\nFollow up Mon March 23rd"
     },
     {
       "Date": "Mar 16, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR72753",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "1. KickOff Meeting",
+      "Status": "2. Candidates Presented",
       "Name": "Basil Chatha",
       "Email": "basil@forwardeployed.com",
       "Company Name": "Forward Deployed",
@@ -2920,16 +2920,16 @@
       "Budget ($)": "2000",
       "%WG": "0.35",
       "Deal Value ($)": "8400",
-      "Notes": "First drop Fri March 20th"
+      "Notes": "Margarita (TAP) - First interview this week"
     },
     {
       "Date": "Mar 19, 2026",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR83647",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "1. KickOff Meeting",
+      "Status": "2. Candidates Presented",
       "Name": "Jelani Fenton",
       "Email": "jelani@egbowman.com",
       "Company Name": "EG Bowman",
@@ -2943,12 +2943,12 @@
       "Budget ($)": "1300",
       "%WG": "0.3",
       "Deal Value ($)": "4680",
-      "Notes": ""
+      "Notes": "First drop Mon March 23rd"
     },
     {
       "Date": "Jan 10, 2025",
-      "Last Update": "Mar 19, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2966,7 +2966,7 @@
       "Budget ($)": "3000",
       "%WG": "0.35",
       "Deal Value ($)": "12600",
-      "Notes": "Resurfaced - Same Role"
+      "Notes": "First drop Wed March 25th"
     },
     {
       "Date": "Oct 26, 2025",
@@ -2989,7 +2989,7 @@
       "Budget ($)": "1300",
       "%WG": "0.35",
       "Deal Value ($)": "0",
-      "Notes": ""
+      "Notes": "Diana - First interview Wed March 18th\n\nNew drop Fri March 19th"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23T10:54:47.372Z",
+  "updated": "2026-03-23T11:16:29.119Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2941,6 +2941,29 @@
       "Date Placed": "",
       "Days for Placement": "",
       "Budget ($)": "1300",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Isaiah Berg",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "",
       "Notes": ""

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T12:00:47.916Z",
+  "updated": "2026-03-25T12:00:56.158Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2992,13 +2992,13 @@
       "Notes": "Diana - First interview Wed March 18th\n\nNew drop Fri March 19th"
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "Jan 10, 2025",
+      "Last Update": "Mar 23, 2026",
+      "Priorities": "2",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Codi Odigie",
       "Email": "codi@livsee.com",
       "Company Name": "Livsee",

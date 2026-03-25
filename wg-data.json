@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T20:25:50.975Z",
+  "updated": "2026-03-25T20:25:52.999Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3003,7 +3003,7 @@
       "Email": "codi@livsee.com",
       "Company Name": "Livian",
       "Role": "EA",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/e3894404-671c-4496-975f-ce7c989ba63c",
       "GitHub": "",
       "Advisor": "Guillermo",
       "KickOff Meeting": "Mar 20, 2026",

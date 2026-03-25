@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T21:05:13.561Z",
+  "updated": "2026-03-25T21:33:50.357Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2722,7 +2722,7 @@
       "Hiring Request": "HR39750",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "7. Invoice",
       "Name": "Jeron Hatch",
       "Email": "jeron@arcscapes.com",
       "Company Name": "Arc Scapes",
@@ -2733,9 +2733,9 @@
       "KickOff Meeting": "Mar 9, 2026",
       "Date Placed": "",
       "Days for Placement": "",
-      "Budget ($)": "1700",
+      "Budget ($)": "1200",
       "%WG": "0.35",
-      "Deal Value ($)": "7140",
+      "Deal Value ($)": "5040",
       "Notes": "Faith (TAP) - First interview Mon March 23rd\n\nNew drop Thurs March 19th"
     },
     {

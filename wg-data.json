@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-27T15:39:49.415Z",
+  "updated": "2026-03-27T15:40:29.946Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2717,12 +2717,12 @@
     },
     {
       "Date": "Mar 5, 2026",
-      "Last Update": "Mar 23, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR39750",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Jeron Hatch",
       "Email": "jeron@arcscapes.com",
       "Company Name": "Arc Scapes",

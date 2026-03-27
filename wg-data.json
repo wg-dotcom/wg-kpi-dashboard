@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-27T15:16:13.816Z",
+  "updated": "2026-03-27T15:16:44.398Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -574,7 +574,7 @@
       "Budget ($)": "1300",
       "%WG": "0.25",
       "Deal Value ($)": "3900",
-      "Notes": "Conditioned Replacement - Same Role\nNew batch Wed Match 25th"
+      "Notes": "Conditioned Replacement - Same Role\nNew batch Wed Match 25th\nWaiting for reply"
     },
     {
       "Date": "Sep 23, 2025",
@@ -1797,8 +1797,8 @@
     },
     {
       "Date": "Jan 15, 2026",
-      "Last Update": "Mar 23, 2026",
-      "Priorities": "4",
+      "Last Update": "Mar 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR92486",
       "Source": "Regular WG",
       "Is replacement?": "false",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-01T12:33:14.161Z",
+  "updated": "2026-04-01T12:33:21.740Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3084,13 +3084,13 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "Mar 30, 2026",
+      "Last Update": "Mar 31, 2026",
+      "Priorities": "1",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Leo Grasso",
       "Email": "",
       "Company Name": "SIERRA CREST TREE SERVICE",

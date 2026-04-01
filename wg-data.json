@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-01T14:04:56.722Z",
+  "updated": "2026-04-01T14:52:49.024Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3056,8 +3056,8 @@
       "Date Placed": "",
       "Days for Placement": "",
       "Budget ($)": "3500",
-      "%WG": "",
-      "Deal Value ($)": "",
+      "%WG": "0.35",
+      "Deal Value ($)": "14700",
       "Notes": ""
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-01T12:05:03.847Z",
+  "updated": "2026-04-01T12:31:15.756Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3079,6 +3079,29 @@
       "Date Placed": "",
       "Days for Placement": "",
       "Budget ($)": "2500",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "",
+      "Email": "",
+      "Company Name": "",
+      "Role": "CSR/Ops/Dispatch",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "",
       "Notes": ""

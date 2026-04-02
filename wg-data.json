@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-02T14:17:27.946Z",
+  "updated": "2026-04-02T14:19:17.338Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2299,7 +2299,7 @@
       "Budget ($)": "2000",
       "%WG": "0.35",
       "Deal Value ($)": "0",
-      "Notes": "Pamela - First interview this week\nOOO last week - Follow up march 30th"
+      "Notes": "Pamela - First interview last week\nPamela - second interview next week"
     },
     {
       "Date": "Feb 11, 2026",
@@ -2487,12 +2487,12 @@
     },
     {
       "Date": "Feb 19, 2026",
-      "Last Update": "Mar 30, 2026",
-      "Priorities": "3",
+      "Last Update": "Apr 2, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR78339",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "2. Candidates Presented",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "David Siciliano",
       "Email": "jess@savvystudios.com",
       "Company Name": "Savvy Studios LLC",

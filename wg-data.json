@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-02T14:30:38.893Z",
+  "updated": "2026-04-02T14:30:49.929Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2924,12 +2924,12 @@
     },
     {
       "Date": "Mar 19, 2026",
-      "Last Update": "Mar 30, 2026",
-      "Priorities": "3",
+      "Last Update": "Apr 2, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR83647",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "2. Candidates Presented",
+      "Status": "3. 1st Round of Interviews",
       "Name": "Jelani Fenton",
       "Email": "jelani@egbowman.com",
       "Company Name": "EG Bowman",
@@ -2993,8 +2993,8 @@
     },
     {
       "Date": "Mar 20, 2026",
-      "Last Update": "Mar 30, 2026",
-      "Priorities": "3",
+      "Last Update": "Apr 2, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Referral - PL",
       "Is replacement?": "false",

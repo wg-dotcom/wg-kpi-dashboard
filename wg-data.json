@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-06T13:43:33.693Z",
+  "updated": "2026-04-06T13:43:48.517Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3166,8 +3166,8 @@
       "Role": "BDR",
       "NotebookLM": "",
       "GitHub": "",
-      "Advisor": "",
-      "KickOff Meeting": "",
+      "Advisor": "Jesus",
+      "KickOff Meeting": "Apr 6, 2026",
       "Date Placed": "",
       "Days for Placement": "",
       "Budget ($)": "",

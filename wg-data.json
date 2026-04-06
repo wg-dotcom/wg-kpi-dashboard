@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-06T13:42:52.534Z",
+  "updated": "2026-04-06T13:43:00.473Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3153,13 +3153,13 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "Apr 6, 2026",
+      "Last Update": "Apr 6, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Robert Willis",
       "Email": "",
       "Company Name": "",

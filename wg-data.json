@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-06T13:04:58.500Z",
+  "updated": "2026-04-06T13:38:14.011Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3125,6 +3125,29 @@
       "Date Placed": "",
       "Days for Placement": "",
       "Budget ($)": "3000",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Sean McIlroy",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "",
       "Notes": ""

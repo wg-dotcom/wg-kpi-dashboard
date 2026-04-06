@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-06T13:38:41.410Z",
+  "updated": "2026-04-06T13:38:46.712Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3130,13 +3130,13 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "Apr 1, 2026",
+      "Last Update": "Apr 2, 2026",
+      "Priorities": "4",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Sean McIlroy",
       "Email": "sean@greenhatlegacyllc.com",
       "Company Name": "MP Copiers LLC",

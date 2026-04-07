@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-07T13:26:21.688Z",
+  "updated": "2026-04-07T13:26:29.019Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3176,13 +3176,13 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
-      "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Date": "Apr 7, 2026",
+      "Last Update": "Apr 6, 2026",
+      "Priorities": "1",
+      "Hiring Request": "HR67167",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Chris Childers",
       "Email": "chris@twinpeaks.net",
       "Company Name": "Twin Peaks Online (PortCo of Evermore)",

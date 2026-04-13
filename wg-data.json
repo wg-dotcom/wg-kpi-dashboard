@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-13T16:16:04.885Z",
+  "updated": "2026-04-13T16:16:08.478Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2354,7 +2354,7 @@
       "Hiring Request": "",
       "Source": "Lead",
       "Is replacement?": "false",
-      "Status": "5. Final Interview",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Jonathan Venuto",
       "Email": "jonathan@cameronhcp.com",
       "Company Name": "Integrative Mind Psychiatry & TMS",
@@ -2377,7 +2377,7 @@
       "Hiring Request": "",
       "Source": "Lead",
       "Is replacement?": "false",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Andy Carmody",
       "Email": "andy@drinkcs2.com",
       "Company Name": "Drink CS2",

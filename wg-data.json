@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-14T13:04:24.591Z",
+  "updated": "2026-04-14T13:04:33.125Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3199,27 +3199,27 @@
       "Notes": "First batch Apr 15th"
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
-      "Hiring Request": "",
-      "Source": "",
+      "Date": "Apr 7, 2026",
+      "Last Update": "Apr 13, 2026",
+      "Priorities": "1",
+      "Hiring Request": "HR49681",
+      "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "",
-      "Name": "",
-      "Email": "",
-      "Company Name": "",
-      "Role": "",
+      "Status": "1. KickOff Meeting",
+      "Name": "Chris Childers",
+      "Email": "chris@twinpeaks.net",
+      "Company Name": "Twin Peaks Online (PortCo of Evermore)",
+      "Role": "BDR",
       "NotebookLM": "",
       "GitHub": "",
-      "Advisor": "",
-      "KickOff Meeting": "",
+      "Advisor": "MIguel",
+      "KickOff Meeting": "Apr 7, 2026",
       "Date Placed": "",
       "Days for Placement": "",
-      "Budget ($)": "",
-      "%WG": "",
-      "Deal Value ($)": "",
-      "Notes": ""
+      "Budget ($)": "2000",
+      "%WG": "0.35",
+      "Deal Value ($)": "8400",
+      "Notes": "First batch Apr 15th"
     },
     {
       "Date": "Apr 9, 2026",

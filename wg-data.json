@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-14T13:04:04.001Z",
+  "updated": "2026-04-14T13:04:24.591Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3197,6 +3197,29 @@
       "%WG": "0.35",
       "Deal Value ($)": "8400",
       "Notes": "First batch Apr 15th"
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "false",
+      "Status": "",
+      "Name": "",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
     },
     {
       "Date": "Apr 9, 2026",

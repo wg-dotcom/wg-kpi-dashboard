@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-14T13:04:33.125Z",
+  "updated": "2026-04-14T13:04:49.195Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3202,8 +3202,8 @@
       "Date": "Apr 7, 2026",
       "Last Update": "Apr 13, 2026",
       "Priorities": "1",
-      "Hiring Request": "HR49681",
-      "Source": "Regular WG",
+      "Hiring Request": "",
+      "Source": "Lead",
       "Is replacement?": "false",
       "Status": "1. KickOff Meeting",
       "Name": "Chris Childers",

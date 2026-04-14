@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-14T13:00:13.563Z",
+  "updated": "2026-04-14T13:00:41.740Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3224,10 +3224,10 @@
     {
       "Date": "",
       "Last Update": "Apr 13, 2026",
-      "Priorities": "",
-      "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
+      "Priorities": "1",
+      "Hiring Request": "HR60575",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
       "Status": "1. KickOff Meeting",
       "Name": "Alexandra  Eidens",
       "Email": "hello@biglifejournal.com",

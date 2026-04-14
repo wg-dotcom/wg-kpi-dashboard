@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-14T13:01:30.932Z",
+  "updated": "2026-04-14T13:01:35.263Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3247,10 +3247,10 @@
     {
       "Date": "",
       "Last Update": "Apr 13, 2026",
-      "Priorities": "",
+      "Priorities": "1",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
       "Status": "1. KickOff Meeting",
       "Name": "Michael  Slavin",
       "Email": "",

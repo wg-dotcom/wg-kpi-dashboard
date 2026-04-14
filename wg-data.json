@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-14T13:05:09.540Z",
+  "updated": "2026-04-14T13:05:10.947Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3203,11 +3203,11 @@
       "Last Update": "Apr 13, 2026",
       "Priorities": "1",
       "Hiring Request": "",
-      "Source": "Lead",
+      "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "2. Candidates Presented",
-      "Name": "Daivid Ober",
-      "Email": "david.ober@summitcollege.edu",
+      "Status": "1. KickOff Meeting",
+      "Name": "Chris Childers",
+      "Email": "chris@twinpeaks.net",
       "Company Name": "Twin Peaks Online (PortCo of Evermore)",
       "Role": "BDR",
       "NotebookLM": "",

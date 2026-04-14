@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-14T13:05:21.840Z",
+  "updated": "2026-04-14T13:06:34.999Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3210,7 +3210,7 @@
       "Email": "david.ober@summitcollege.edu",
       "Company Name": "Summit College",
       "Role": "BDR",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/67194d22-2cd1-49fb-ab84-269445fbcc8c",
       "GitHub": "",
       "Advisor": "MIguel",
       "KickOff Meeting": "Apr 7, 2026",

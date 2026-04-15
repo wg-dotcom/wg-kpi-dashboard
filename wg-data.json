@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-15T18:10:46.501Z",
+  "updated": "2026-04-15T18:16:34.089Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3256,7 +3256,7 @@
       "Email": "hello@biglifejournal.com",
       "Company Name": "Big Life Journal",
       "Role": "AI Automation & Systems Engineer",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/8e92d758-e3b0-44c5-89f9-814f64f9a748",
       "GitHub": "",
       "Advisor": "Guillermo",
       "KickOff Meeting": "Apr 13, 2026",

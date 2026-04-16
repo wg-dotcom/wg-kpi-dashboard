@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-16T16:12:09.279Z",
+  "updated": "2026-04-16T16:16:18.931Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2552,7 +2552,7 @@
       "Budget ($)": "4000",
       "%WG": "0.3",
       "Deal Value ($)": "14400",
-      "Notes": "Angela - First interview Tues March 31st\nSantiago - First interview Tues March 31st\nDaisy - First interview Tues March 31st\nFernanda - First interview Mon March 30th\nJessica - First interview Wed Apr 1st\n\nAngela - Second interview last week\nSantiago - Second interview last week\nFernanda - Second interview last week\nJessica - Second interview last week\n\nAngela - Third interview this week\nSantiago - Spanish Interview this week\nFollow up Apr 16th"
+      "Notes": "Angela - First interview Tues March 31st\nSantiago - First interview Tues March 31st\nDaisy - First interview Tues March 31st\nFernanda - First interview Mon March 30th\nJessica - First interview Wed Apr 1st\n\nAngela - Second interview last week\nSantiago - Second interview last week\nFernanda - Second interview last week\nJessica - Second interview last week\n\nAngela - Third interview this week\nSantiago - Spanish Interview this week\nFollow up Apr 15th 16th 20th"
     },
     {
       "Date": "Feb 20, 2026",
@@ -2625,8 +2625,8 @@
     },
     {
       "Date": "Feb 24, 2026",
-      "Last Update": "Apr 13, 2026",
-      "Priorities": "3",
+      "Last Update": "Apr 16, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR57557",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -2644,7 +2644,7 @@
       "Budget ($)": "3500",
       "%WG": "0.35",
       "Deal Value ($)": "14700",
-      "Notes": "Christian - Final interview Tues Apr 14th"
+      "Notes": "Hiring Chirstian\nNegotiation"
     },
     {
       "Date": "Feb 24, 2026",

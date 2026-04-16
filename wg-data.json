@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-16T13:04:59.401Z",
+  "updated": "2026-04-16T13:44:02.706Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3288,6 +3288,29 @@
       "Budget ($)": "1800",
       "%WG": "0.35",
       "Deal Value ($)": "7560",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Andrew Katz",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
       "Notes": ""
     }
   ]

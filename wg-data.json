@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-17T18:05:28.944Z",
+  "updated": "2026-04-17T18:58:30.704Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3187,7 +3187,7 @@
       "Email": "chris@twinpeaks.net",
       "Company Name": "Twin Peaks Online (PortCo of Evermore)",
       "Role": "BDR",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/a880c2c3-d4eb-473b-88ae-d76bdcc5948c?authuser=1",
       "GitHub": "",
       "Advisor": "MIguel",
       "KickOff Meeting": "Apr 7, 2026",

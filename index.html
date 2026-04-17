@@ -4,25 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>White Glove — KPI Dashboard</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=DM+Serif+Display&display=swap" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     :root {
-      --blue:#0b4d99; --blue-dark:#083d7a; --blue-light:#e8f0fb;
-      --orange:#ff5722; --orange-l:#fff3ef;
-      --green:#22c55e; --green-l:#f0fdf4;
-      --yellow:#f59e0b; --yellow-l:#fffbeb;
-      --purple:#8b5cf6; --purple-l:#f5f3ff;
-      --red:#ef4444; --red-l:#fef2f2;
-      --gray-50:#f8fafc; --gray-100:#f1f5f9; --gray-200:#e2e8f0;
+      --blue:#093a3e; --blue-dark:#06282b; --blue-light:#e3ded8;
+      --orange:#ff7455; --orange-l:#fff1ec;
+      --green:#0f9168; --green-l:#e6f7ef;
+      --yellow:#f5b800; --yellow-l:#fff9e0;
+      --purple:#796aff; --purple-l:#efecff;
+      --red:#c0392b; --red-l:#fbe7e3;
+      --gray-50:#f5f2ed; --gray-100:#f1f5f9; --gray-200:#e2e8f0;
       --gray-400:#94a3b8; --gray-600:#475569; --gray-800:#1e293b;
       --white:#ffffff;
       --shadow-sm:0 1px 3px rgba(0,0,0,.08);
-      --shadow:0 4px 16px rgba(11,77,153,.10);
+      --shadow:0 4px 16px rgba(9,58,62,.12);
       --radius:14px; --radius-sm:8px;
     }
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-    body{font-family:'Poppins',sans-serif;background:var(--gray-50);color:var(--gray-800);min-height:100vh;}
+    body{font-family:'Inter','PP Mori',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--gray-50);color:var(--gray-800);min-height:100vh;}
 
     /* NAV */
     .topbar{background:linear-gradient(135deg,var(--blue-dark) 0%,var(--blue) 100%);padding:0 32px;height:64px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.18);}
@@ -36,7 +36,7 @@
 
     /* TAB NAV */
     .tab-nav{background:var(--white);border-bottom:2px solid var(--gray-200);padding:0 32px;display:flex;gap:0;position:sticky;top:64px;z-index:99;box-shadow:var(--shadow-sm);}
-    .tab-btn{padding:14px 22px;font-family:'Poppins',sans-serif;font-size:13px;font-weight:600;color:var(--gray-400);background:none;border:none;border-bottom:3px solid transparent;margin-bottom:-2px;cursor:pointer;transition:all .15s;white-space:nowrap;}
+    .tab-btn{padding:14px 22px;font-family:'Inter','PP Mori',-apple-system,BlinkMacSystemFont,sans-serif;font-size:13px;font-weight:600;color:var(--gray-400);background:none;border:none;border-bottom:3px solid transparent;margin-bottom:-2px;cursor:pointer;transition:all .15s;white-space:nowrap;}
     .tab-btn:hover{color:var(--blue);}
     .tab-btn.active{color:var(--blue);border-bottom-color:var(--blue);}
     .tab-section{display:none;}
@@ -105,11 +105,11 @@
     /* FILTERS */
     .filters-bar{background:var(--white);border-radius:var(--radius);padding:14px 18px;box-shadow:var(--shadow-sm);border:1.5px solid var(--gray-200);display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px;}
     .filter-label{font-size:12px;font-weight:600;color:var(--gray-600);}
-    .filter-btn{padding:5px 13px;border-radius:20px;border:1.5px solid var(--gray-200);background:var(--white);font-family:'Poppins',sans-serif;font-size:12px;font-weight:500;color:var(--gray-600);cursor:pointer;transition:all .15s;}
+    .filter-btn{padding:5px 13px;border-radius:20px;border:1.5px solid var(--gray-200);background:var(--white);font-family:'Inter','PP Mori',-apple-system,BlinkMacSystemFont,sans-serif;font-size:12px;font-weight:500;color:var(--gray-600);cursor:pointer;transition:all .15s;}
     .filter-btn:hover{border-color:var(--blue);color:var(--blue);}
     .filter-btn.active{background:var(--blue);border-color:var(--blue);color:#fff;}
     .filter-sep{width:1px;height:22px;background:var(--gray-200);}
-    .search-input{flex:1;min-width:180px;padding:6px 14px;border:1.5px solid var(--gray-200);border-radius:20px;font-family:'Poppins',sans-serif;font-size:12px;color:var(--gray-800);outline:none;transition:border-color .15s;}
+    .search-input{flex:1;min-width:180px;padding:6px 14px;border:1.5px solid var(--gray-200);border-radius:20px;font-family:'Inter','PP Mori',-apple-system,BlinkMacSystemFont,sans-serif;font-size:12px;color:var(--gray-800);outline:none;transition:border-color .15s;}
     .search-input:focus{border-color:var(--blue);}
 
     /* TABLE */
@@ -190,7 +190,7 @@
 
     /* PLACEMENT TIMELINE */
     .time-tabs{display:flex;gap:8px;margin-bottom:16px;}
-    .time-tab{padding:6px 16px;border-radius:20px;border:1.5px solid var(--gray-200);background:var(--white);font-family:'Poppins',sans-serif;font-size:12px;font-weight:600;color:var(--gray-600);cursor:pointer;transition:all .15s;}
+    .time-tab{padding:6px 16px;border-radius:20px;border:1.5px solid var(--gray-200);background:var(--white);font-family:'Inter','PP Mori',-apple-system,BlinkMacSystemFont,sans-serif;font-size:12px;font-weight:600;color:var(--gray-600);cursor:pointer;transition:all .15s;}
     .time-tab:hover{border-color:var(--blue);color:var(--blue);}
     .time-tab.active{background:var(--blue);border-color:var(--blue);color:#fff;}
     .placement-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px;}
@@ -241,10 +241,10 @@
 <!-- TOPBAR -->
 <header class="topbar">
   <div class="topbar-brand">
-    <div class="topbar-logo">WG</div>
+    <div class="topbar-logo" style="background:#f5f2ed;padding:4px 8px;width:auto;border-radius:6px;"><img src="https://framerusercontent.com/images/S1c1B9DfvYAUAWhvNHvghzfQBjQ.png" alt="Sagan Passport" style="height:28px;display:block;"></div>
     <div>
       <div class="topbar-name">White Glove — KPI Dashboard</div>
-      <div class="topbar-sub">Sagan Recruitment · Hiring Process Tracker</div>
+      <div class="topbar-sub">Sagan Passport · Hiring Process Tracker</div>
     </div>
   </div>
   <div class="topbar-right">

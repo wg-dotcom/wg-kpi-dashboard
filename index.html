@@ -931,7 +931,7 @@ function renderTimelineChart(rows, period) {
         {type:"bar",label:"Placements",data:counts,backgroundColor:"rgba(11,77,153,.25)",borderColor:"#0b4d99",borderWidth:2,borderRadius:4,yAxisID:"y"},
         {type:"line",label:"Revenue ($)",data:revs,borderColor:"#22c55e",backgroundColor:"rgba(34,197,94,.08)",tension:.4,pointRadius:4,pointBackgroundColor:"#22c55e",yAxisID:"y2"}
       ]},
-      options:{plugins:{legend:{position:"top",labels:{font:{family:"Poppins",size:11}}}},scales:{y:{beginAtZero:true,grid:{color:"#f1f5f9"},ticks:{font:{family:"Poppins",size:10}}},y2:{position:"right",beginAtZero:true,grid:{display:false},ticks:{font:{family:"Poppins",size:10},callback:v=>"$"+(v/1000).toFixed(0)+"K"}}},maintainAspectRatio:false}
+      options:{plugins:{legend:{position:"top",labels:{font:{family:"Inter",size:11}}}},scales:{y:{beginAtZero:true,grid:{color:"#f1f5f9"},ticks:{font:{family:"Inter",size:10}}},y2:{position:"right",beginAtZero:true,grid:{display:false},ticks:{font:{family:"Inter",size:10},callback:v=>"$"+(v/1000).toFixed(0)+"K"}}},maintainAspectRatio:false}
     });
   } else {
     const label = period==="30"?"Last 30 Days":"Last 7 Days";
@@ -946,7 +946,7 @@ function renderTimelineChart(rows, period) {
         {type:"bar",label:"Placements",data:sorted.map(e=>e[1].count),backgroundColor:"rgba(11,77,153,.3)",borderColor:"#0b4d99",borderWidth:2,borderRadius:4,yAxisID:"y"},
         {type:"line",label:"Revenue ($)",data:sorted.map(e=>e[1].rev),borderColor:"#22c55e",backgroundColor:"rgba(34,197,94,.08)",tension:.4,pointRadius:5,pointBackgroundColor:"#22c55e",yAxisID:"y2"}
       ]},
-      options:{plugins:{legend:{position:"top",labels:{font:{family:"Poppins",size:11}}}},scales:{y:{beginAtZero:true,ticks:{font:{family:"Poppins",size:10},stepSize:1}},y2:{position:"right",beginAtZero:true,grid:{display:false},ticks:{font:{family:"Poppins",size:10},callback:v=>"$"+(v/1000).toFixed(1)+"K"}}},maintainAspectRatio:false}
+      options:{plugins:{legend:{position:"top",labels:{font:{family:"Inter",size:11}}}},scales:{y:{beginAtZero:true,ticks:{font:{family:"Inter",size:10},stepSize:1}},y2:{position:"right",beginAtZero:true,grid:{display:false},ticks:{font:{family:"Inter",size:10},callback:v=>"$"+(v/1000).toFixed(1)+"K"}}},maintainAspectRatio:false}
     });
   }
 }
@@ -955,12 +955,23 @@ function renderAdvRevChart(rows, period) {
   const ctx = document.getElementById("chartAdvRev");
   if(advRevChart) advRevChart.destroy();
   document.getElementById("adv-rev-sub").textContent=period==="all"?"All time":period==="30"?"Last 30 days":"Last 7 days";
-  const advisors={Jesus:0,MIguel:0,Guillermo:0};
-  rows.forEach(r=>{if(advisors[r.Advisor]!==undefined) advisors[r.Advisor]+=r.dv;});
+  const ADV_HEX_R = {
+    "Genesis":"#ff7455","Vicky":"#093a3e","Amimo":"#0f9168","Cami":"#796aff","Nadeia":"#f5b800","Andrea":"#c0392b","Sofia":"#0284c7",
+    "Miguel":"#ff7455","MIguel":"#ff7455","Guillermo":"#796aff","Jesus":"#093a3e","Unassigned":"#94a3b8"
+  };
+  const PALETTE_R = ["#ff7455","#796aff","#093a3e","#0f9168","#f5b800","#c0392b","#0284c7","#94a3b8"];
+  const advisors = {};
+  rows.forEach(r=>{
+    const k = r.Advisor==="MIguel" ? "Miguel" : (r.Advisor || "Unassigned");
+    advisors[k] = (advisors[k]||0) + r.dv;
+  });
+  const revLabels = Object.keys(advisors).sort((a,b)=> advisors[b] - advisors[a]);
+  const revData = revLabels.map(l => advisors[l]);
+  const revColors = revLabels.map((l,i) => ADV_HEX_R[l] || PALETTE_R[i % PALETTE_R.length]);
   advRevChart = new Chart(ctx,{
     type:"doughnut",
-    data:{labels:["Jesus","Miguel","Guillermo"],datasets:[{data:[advisors.Jesus,advisors.MIguel,advisors.Guillermo],backgroundColor:["#0b4d99","#ff5722","#8b5cf6"],borderWidth:2,borderColor:"#fff"}]},
-    options:{plugins:{legend:{position:"bottom",labels:{font:{family:"Poppins",size:11},padding:10}}},cutout:"62%",maintainAspectRatio:false}
+    data:{labels:revLabels,datasets:[{data:revData,backgroundColor:revColors,borderWidth:2,borderColor:"#fff"}]},
+    options:{plugins:{legend:{position:"bottom",labels:{font:{family:"Inter,sans-serif",size:11},padding:10}}},cutout:"62%",maintainAspectRatio:false}
   });
 }
 
@@ -1024,15 +1035,29 @@ document.getElementById("closedSearch").addEventListener("input",e=>{closedSearc
 // CHARTS (OVERVIEW)
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 function initOverviewCharts() {
-  const BLUE="#0b4d99",ORANGE="#ff5722",PURPLE="#8b5cf6",GREEN="#22c55e",YELLOW="#f59e0b",RED="#ef4444";
+  const BLUE="#093a3e",ORANGE="#ff7455",PURPLE="#796aff",GREEN="#0f9168",YELLOW="#f5b800",RED="#c0392b";
+  const FF = "Inter,sans-serif";
+  const ADV_HEX = {
+    "Genesis":"#ff7455","Vicky":"#093a3e","Amimo":"#0f9168","Cami":"#796aff","Nadeia":"#f5b800","Andrea":"#c0392b","Sofia":"#0284c7",
+    "Miguel":"#ff7455","MIguel":"#ff7455","Guillermo":"#796aff","Jesus":"#093a3e",
+    "Unassigned":"#94a3b8"
+  };
+  const PALETTE = ["#ff7455","#796aff","#093a3e","#0f9168","#f5b800","#c0392b","#0284c7","#94a3b8"];
+  const advHexFor = (name, i) => ADV_HEX[name] || PALETTE[i % PALETTE.length];
 
-  // Active by Advisor (dynamic)
-  const advCount={Miguel:0,Guillermo:0,Jesus:0,Unassigned:0};
-  ACTIVE.forEach(r=>{ const k=r.Advisor==="MIguel"?"Miguel":r.Advisor; advCount[k]=(advCount[k]||0)+1; });
+  // Active by Advisor (fully dynamic)
+  const advCount = {};
+  ACTIVE.forEach(r=>{
+    const k = r.Advisor==="MIguel" ? "Miguel" : (r.Advisor || "Unassigned");
+    advCount[k] = (advCount[k]||0) + 1;
+  });
+  const advLabels = Object.keys(advCount).sort((a,b) => advCount[b] - advCount[a]);
+  const advData = advLabels.map(l => advCount[l]);
+  const advColors = advLabels.map((l,i) => advHexFor(l,i));
   new Chart(document.getElementById("chartAdvisor"),{
     type:"doughnut",
-    data:{labels:["Miguel","Guillermo","Jesus","Unassigned"],datasets:[{data:[advCount.Miguel,advCount.Guillermo,advCount.Jesus,advCount.Unassigned],backgroundColor:[ORANGE,PURPLE,BLUE,"#94a3b8"],borderWidth:2,borderColor:"#fff"}]},
-    options:{plugins:{legend:{position:"bottom",labels:{font:{family:"Poppins",size:11},padding:10}}},cutout:"65%",maintainAspectRatio:false}
+    data:{labels:advLabels,datasets:[{data:advData,backgroundColor:advColors,borderWidth:2,borderColor:"#fff"}]},
+    options:{plugins:{legend:{position:"bottom",labels:{font:{family:FF,size:11},padding:10}}},cutout:"65%",maintainAspectRatio:false}
   });
 
   // Active by Stage (dynamic)
@@ -1042,7 +1067,7 @@ function initOverviewCharts() {
   new Chart(document.getElementById("chartStage"),{
     type:"bar",
     data:{labels:stageLabels,datasets:[{data:stageCounts,backgroundColor:["#3b82f6",ORANGE,YELLOW,PURPLE,RED,GREEN],borderRadius:6,borderSkipped:false}]},
-    options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,ticks:{font:{family:"Poppins",size:10}},grid:{color:"#f1f5f9"}},x:{ticks:{font:{family:"Poppins",size:10}},grid:{display:false}}},maintainAspectRatio:false}
+    options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,ticks:{font:{family:"Inter",size:10}},grid:{color:"#f1f5f9"}},x:{ticks:{font:{family:"Inter",size:10}},grid:{display:false}}},maintainAspectRatio:false}
   });
 
   // Closed by reason
@@ -1051,7 +1076,7 @@ function initOverviewCharts() {
   new Chart(document.getElementById("chartClosed"),{
     type:"doughnut",
     data:{labels:Object.keys(reasons),datasets:[{data:Object.values(reasons),backgroundColor:[RED,ORANGE,YELLOW,PURPLE,"#94a3b8","#06b6d4"],borderWidth:2,borderColor:"#fff"}]},
-    options:{plugins:{legend:{position:"bottom",labels:{font:{family:"Poppins",size:10},padding:8}}},cutout:"60%",maintainAspectRatio:false}
+    options:{plugins:{legend:{position:"bottom",labels:{font:{family:"Inter",size:10},padding:8}}},cutout:"60%",maintainAspectRatio:false}
   });
 
   // Monthly revenue chart (Overview)
@@ -1061,16 +1086,22 @@ function initOverviewCharts() {
       {type:"bar",label:"Placements",data:counts,backgroundColor:"rgba(11,77,153,.2)",borderColor:BLUE,borderWidth:2,borderRadius:4,yAxisID:"y"},
       {type:"line",label:"Revenue",data:revs,borderColor:GREEN,backgroundColor:"rgba(34,197,94,.07)",tension:.4,pointRadius:3,pointBackgroundColor:GREEN,yAxisID:"y2"}
     ]},
-    options:{plugins:{legend:{position:"top",labels:{font:{family:"Poppins",size:11}}}},scales:{y:{beginAtZero:true,grid:{color:"#f1f5f9"},ticks:{font:{family:"Poppins",size:10}}},y2:{position:"right",beginAtZero:true,grid:{display:false},ticks:{font:{family:"Poppins",size:10},callback:v=>"$"+(v/1000).toFixed(0)+"K"}}},maintainAspectRatio:false}
+    options:{plugins:{legend:{position:"top",labels:{font:{family:"Inter",size:11}}}},scales:{y:{beginAtZero:true,grid:{color:"#f1f5f9"},ticks:{font:{family:"Inter",size:10}}},y2:{position:"right",beginAtZero:true,grid:{display:false},ticks:{font:{family:"Inter",size:10},callback:v=>"$"+(v/1000).toFixed(0)+"K"}}},maintainAspectRatio:false}
   });
 
-  // Advisor placed (dynamic)
-  const advPlaced={Miguel:0,Guillermo:0,Jesus:0};
-  PLACED.forEach(r=>{ const k=r.Advisor==="MIguel"?"Miguel":r.Advisor; if(advPlaced[k]!==undefined) advPlaced[k]++; });
+  // Placed by advisor (fully dynamic)
+  const advPlacedCount = {};
+  PLACED.forEach(r=>{
+    const k = r.Advisor==="MIguel" ? "Miguel" : (r.Advisor || "Unassigned");
+    advPlacedCount[k] = (advPlacedCount[k]||0) + 1;
+  });
+  const plLabels = Object.keys(advPlacedCount).sort((a,b) => advPlacedCount[b] - advPlacedCount[a]);
+  const plData = plLabels.map(l => advPlacedCount[l]);
+  const plColors = plLabels.map((l,i) => advHexFor(l,i));
   new Chart(document.getElementById("chartAdvisorPlaced"),{
     type:"bar",
-    data:{labels:["Miguel","Guillermo","Jesus"],datasets:[{data:[advPlaced.Miguel,advPlaced.Guillermo,advPlaced.Jesus],backgroundColor:[ORANGE,PURPLE,BLUE],borderRadius:8,borderSkipped:false}]},
-    options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,ticks:{font:{family:"Poppins",size:10}},grid:{color:"#f1f5f9"}},x:{ticks:{font:{family:"Poppins",size:11,weight:"600"}},grid:{display:false}}},maintainAspectRatio:false,indexAxis:"y"}
+    data:{labels:plLabels,datasets:[{data:plData,backgroundColor:plColors,borderRadius:8,borderSkipped:false}]},
+    options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,ticks:{font:{family:FF,size:10}},grid:{color:"#f1f5f9"}},x:{ticks:{font:{family:FF,size:11,weight:"600"}},grid:{display:false}}},maintainAspectRatio:false,indexAxis:"y"}
   });
 
   // Who closed pie (dynamic)
@@ -1079,7 +1110,7 @@ function initOverviewCharts() {
   new Chart(document.getElementById("chartWhoClosedPie"),{
     type:"doughnut",
     data:{labels:["Paused by Customer","Paused by Us","Paused"],datasets:[{data:[closerCount.customer,closerCount.us,closerCount.paused],backgroundColor:[ORANGE,BLUE,RED],borderWidth:2,borderColor:"#fff"}]},
-    options:{plugins:{legend:{position:"bottom",labels:{font:{family:"Poppins",size:11},padding:8}}},cutout:"62%",maintainAspectRatio:false}
+    options:{plugins:{legend:{position:"bottom",labels:{font:{family:"Inter",size:11},padding:8}}},cutout:"62%",maintainAspectRatio:false}
   });
 
   const catCounts={};
@@ -1087,15 +1118,21 @@ function initOverviewCharts() {
   new Chart(document.getElementById("chartReasonPie"),{
     type:"doughnut",
     data:{labels:Object.keys(catCounts),datasets:[{data:Object.values(catCounts),backgroundColor:[RED,ORANGE,YELLOW,PURPLE,"#94a3b8","#06b6d4"],borderWidth:2,borderColor:"#fff"}]},
-    options:{plugins:{legend:{position:"bottom",labels:{font:{family:"Poppins",size:10},padding:8}}},cutout:"60%",maintainAspectRatio:false}
+    options:{plugins:{legend:{position:"bottom",labels:{font:{family:"Inter",size:10},padding:8}}},cutout:"60%",maintainAspectRatio:false}
   });
 
-  const closedByAdv={Jesus:0,MIguel:0,Guillermo:0};
-  CLOSED.forEach(r=>{if(closedByAdv[r.Advisor]!==undefined) closedByAdv[r.Advisor]++;});
+  const closedByAdv = {};
+  CLOSED.forEach(r=>{
+    const k = r.Advisor==="MIguel" ? "Miguel" : (r.Advisor || "Unassigned");
+    closedByAdv[k] = (closedByAdv[k]||0) + 1;
+  });
+  const clLabels = Object.keys(closedByAdv).sort((a,b)=> closedByAdv[b] - closedByAdv[a]);
+  const clData = clLabels.map(l => closedByAdv[l]);
+  const clColors = clLabels.map((l,i) => advHexFor(l,i));
   new Chart(document.getElementById("chartClosedAdvisor"),{
     type:"doughnut",
-    data:{labels:["Miguel","Jesus","Guillermo"],datasets:[{data:[closedByAdv.MIguel,closedByAdv.Jesus,closedByAdv.Guillermo],backgroundColor:[ORANGE,BLUE,PURPLE],borderWidth:2,borderColor:"#fff"}]},
-    options:{plugins:{legend:{position:"bottom",labels:{font:{family:"Poppins",size:11},padding:8}}},cutout:"62%",maintainAspectRatio:false}
+    data:{labels:clLabels,datasets:[{data:clData,backgroundColor:clColors,borderWidth:2,borderColor:"#fff"}]},
+    options:{plugins:{legend:{position:"bottom",labels:{font:{family:FF,size:11},padding:8}}},cutout:"62%",maintainAspectRatio:false}
   });
 }
 

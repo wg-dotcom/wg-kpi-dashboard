@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-20T16:10:32.616Z",
+  "updated": "2026-04-20T16:10:45.828Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2740,12 +2740,12 @@
     },
     {
       "Date": "Mar 5, 2026",
-      "Last Update": "Apr 20, 2026",
-      "Priorities": "0",
+      "Last Update": "Apr 17, 2026",
+      "Priorities": "3",
       "Hiring Request": "HR47669",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "5. Final Interview",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "David Rothstein",
       "Email": "drothstein@orocap.com",
       "Company Name": "Oro Capital Advisors",

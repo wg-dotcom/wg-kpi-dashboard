@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-20T16:40:22.350Z",
+  "updated": "2026-04-20T16:42:57.176Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3171,8 +3171,8 @@
       "Date Placed": "",
       "Days for Placement": "",
       "Budget ($)": "1400",
-      "%WG": "",
-      "Deal Value ($)": "0",
+      "%WG": "0.35",
+      "Deal Value ($)": "5879.999999999999",
       "Notes": "Elizabeth - First interview Apr 15th\nRomel - First interview Apr 15th\nJohn Y - First interview Apr 21st"
     },
     {

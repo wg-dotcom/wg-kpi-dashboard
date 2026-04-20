@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-20T16:05:03.704Z",
+  "updated": "2026-04-20T16:05:05.776Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -1365,7 +1365,7 @@
       "Hiring Request": "",
       "Source": "GTD",
       "Is replacement?": "false",
-      "Status": "5. Final Interview",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Sarah Flanagan",
       "Email": "sarah@heritagelandpartners.com",
       "Company Name": "Heritage Land Partners",
@@ -2073,8 +2073,8 @@
     },
     {
       "Date": "Feb 2, 2026",
-      "Last Update": "Apr 16, 2026",
-      "Priorities": "4",
+      "Last Update": "Apr 20, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",

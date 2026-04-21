@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-21T15:04:59.208Z",
+  "updated": "2026-04-21T15:19:12.839Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3335,6 +3335,29 @@
       "%WG": "0.35",
       "Deal Value ($)": "6720",
       "Notes": "First batch Apr 22nd"
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Joel Malkin",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
     }
   ]
 }

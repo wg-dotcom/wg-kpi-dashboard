@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-21T15:28:10.429Z",
+  "updated": "2026-04-21T15:28:28.596Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3337,13 +3337,13 @@
       "Notes": "First batch Apr 22nd"
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
-      "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Date": "Apr 20, 2026",
+      "Last Update": "Apr 20, 2026",
+      "Priorities": "1",
+      "Hiring Request": "HR88955",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Joel Malkin",
       "Email": "joel@callriteaway.com",
       "Company Name": "Rite-A-Way Garage Doors & Gates",

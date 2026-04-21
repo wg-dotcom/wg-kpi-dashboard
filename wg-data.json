@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-21T15:29:30.832Z",
+  "updated": "2026-04-21T15:29:35.355Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3360,13 +3360,13 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "Apr 20, 2026",
+      "Last Update": "Apr 20, 2026",
+      "Priorities": "1",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Gabriela Forter",
       "Email": "",
       "Company Name": "",

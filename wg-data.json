@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-24T16:22:06.204Z",
+  "updated": "2026-04-24T16:22:11.010Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3182,7 +3182,7 @@
       "Hiring Request": "HR49681",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "2. Candidates Presented",
+      "Status": "3. 1st Round of Interviews",
       "Name": "Chris Childers",
       "Email": "chris@twinpeaks.net",
       "Company Name": "Twin Peaks Online (PortCo of Evermore)",
@@ -3228,7 +3228,7 @@
       "Hiring Request": "HR93899",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "2. Candidates Presented",
+      "Status": "3. 1st Round of Interviews",
       "Name": "Taylor Buford",
       "Email": "taylor@sandlot.co",
       "Company Name": "Sandlot & Co",

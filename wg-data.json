@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-27T15:56:51.660Z",
+  "updated": "2026-04-27T15:58:23.779Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3131,8 +3131,8 @@
     },
     {
       "Date": "Apr 3, 2026",
-      "Last Update": "Apr 24, 2026",
-      "Priorities": "3",
+      "Last Update": "Apr 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR35491",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -3154,8 +3154,8 @@
     },
     {
       "Date": "Apr 6, 2026",
-      "Last Update": "Apr 22, 2026",
-      "Priorities": "5",
+      "Last Update": "Apr 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR67167",
       "Source": "Regular WG",
       "Is replacement?": "false",

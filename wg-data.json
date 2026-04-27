@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-27T16:01:04.354Z",
+  "updated": "2026-04-27T16:01:36.268Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3265,12 +3265,12 @@
       "Budget ($)": "3000",
       "%WG": "0.35",
       "Deal Value ($)": "12600",
-      "Notes": "Eman (TAP) - Assesment (before 1st interview)\nNew drop Apr 28th"
+      "Notes": "Eman (TAP) - Assesment (before 1st interview)\nNew drop Apr 30th"
     },
     {
       "Date": "Apr 13, 2026",
-      "Last Update": "Apr 24, 2026",
-      "Priorities": "3",
+      "Last Update": "Apr 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR35170",
       "Source": "Regular WG",
       "Is replacement?": "false",

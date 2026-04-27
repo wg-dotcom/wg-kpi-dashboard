@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-27T15:59:13.705Z",
+  "updated": "2026-04-27T16:01:04.354Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3206,7 +3206,7 @@
       "Source": "Lead",
       "Is replacement?": "false",
       "Status": "2. Candidates Presented",
-      "Name": "Daivid Ober",
+      "Name": "David Ober",
       "Email": "david.ober@summitcollege.edu",
       "Company Name": "Summit College",
       "Role": "BDR",
@@ -3219,12 +3219,12 @@
       "Budget ($)": "2000",
       "%WG": "0.3",
       "Deal Value ($)": "7200",
-      "Notes": "First batch Apr 15th - Waiting for feedback"
+      "Notes": "First batch Apr 15th - Waiting for feedback\nThis week they are off"
     },
     {
       "Date": "Apr 9, 2026",
-      "Last Update": "Apr 24, 2026",
-      "Priorities": "3",
+      "Last Update": "Apr 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR93899",
       "Source": "Regular WG",
       "Is replacement?": "false",
@@ -3242,12 +3242,12 @@
       "Budget ($)": "2000",
       "%WG": "",
       "Deal Value ($)": "",
-      "Notes": "Lourdes - First interview Apr 23rd\n\nNew drop Apr 27th"
+      "Notes": "Lourdes - First interview Apr 23rd\n\nNew drop Apr 28th"
     },
     {
       "Date": "Apr 9, 2026",
-      "Last Update": "Apr 24, 2026",
-      "Priorities": "3",
+      "Last Update": "Apr 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR60575",
       "Source": "Regular WG",
       "Is replacement?": "false",

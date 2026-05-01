@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-01T20:21:08.100Z",
+  "updated": "2026-05-01T20:21:44.061Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3463,6 +3463,29 @@
       "Email": "jay@lighworkhome.com",
       "Company Name": "Lightwork",
       "Role": "Operations Manager",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "",
+      "Email": "Dustin Kerns",
+      "Company Name": "",
+      "Role": "",
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-01T20:20:34.411Z",
+  "updated": "2026-05-01T20:20:39.588Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3460,8 +3460,8 @@
       "Is replacement?": "",
       "Status": "",
       "Name": "JKay Devram",
-      "Email": "",
-      "Company Name": "jay@lighworkhome.com",
+      "Email": "jay@lighworkhome.com",
+      "Company Name": "",
       "Role": "",
       "NotebookLM": "",
       "GitHub": "",

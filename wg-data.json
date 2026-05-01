@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-01T20:25:35.331Z",
+  "updated": "2026-05-01T20:25:40.242Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3529,8 +3529,8 @@
       "Is replacement?": "",
       "Status": "",
       "Name": "Iacopo Santini",
-      "Email": "",
-      "Company Name": "iacopo@mvocostseg.com",
+      "Email": "iacopo@mvocostseg.com",
+      "Company Name": "",
       "Role": "",
       "NotebookLM": "",
       "GitHub": "",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-01T20:19:46.865Z",
+  "updated": "2026-05-01T20:20:12.143Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3440,6 +3440,29 @@
       "Email": "mattbackhouse@mangrovelithium.com",
       "Company Name": "Mangrove Lithium",
       "Role": "Financial Analyst",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "JKay Devram",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "",

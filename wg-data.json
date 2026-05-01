@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-01T20:22:32.720Z",
+  "updated": "2026-05-01T20:22:42.115Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3484,8 +3484,8 @@
       "Status": "",
       "Name": "Dustin Kerns",
       "Email": "dustin@craftwork.com",
-      "Company Name": "",
-      "Role": "Craftwork",
+      "Company Name": "Craftwork",
+      "Role": "",
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "",

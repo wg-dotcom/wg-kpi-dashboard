@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04T16:05:44.560Z",
+  "updated": "2026-05-04T16:06:00.650Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3136,7 +3136,7 @@
       "Hiring Request": "HR35491",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Sean McIlroy",
       "Email": "sean@greenhatlegacyllc.com",
       "Company Name": "MP Copiers LLC",
@@ -3145,12 +3145,12 @@
       "GitHub": "https://wg-dotcom.github.io/mp-copiers-llc-business-development-representative-candidates/",
       "Advisor": "MIguel",
       "KickOff Meeting": "Apr 6, 2026",
-      "Date Placed": "Apr 21, 2026",
-      "Days for Placement": "12",
+      "Date Placed": "May 4, 2026",
+      "Days for Placement": "21",
       "Budget ($)": "1500",
       "%WG": "0.35",
       "Deal Value ($)": "6300",
-      "Notes": "Hiring Rolado\n(Invoice)"
+      "Notes": "Hiring Rolado"
     },
     {
       "Date": "Apr 6, 2026",

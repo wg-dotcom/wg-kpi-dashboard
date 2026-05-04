@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04T15:56:45.248Z",
+  "updated": "2026-05-04T15:56:58.885Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2947,8 +2947,8 @@
     },
     {
       "Date": "Jan 10, 2025",
-      "Last Update": "Apr 27, 2026",
-      "Priorities": "7",
+      "Last Update": "May 4, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",

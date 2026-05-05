@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-05T16:45:16.297Z",
+  "updated": "2026-05-05T16:45:27.932Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3601,7 +3601,7 @@
       "Email": "matthew@vikingmke.com",
       "Company Name": "Viking Contracting Inc",
       "Role": "Admin Assistant",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/354bea05-b5c0-461f-b7e4-16e49d2c6256?authuser=1",
       "GitHub": "https://wg-dotcom.github.io/viking-contracting-inc-admin-assistant-candidates/",
       "Advisor": "MIguel",
       "KickOff Meeting": "May 4, 2026",

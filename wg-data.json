@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-05T13:04:56.161Z",
+  "updated": "2026-05-05T13:06:22.906Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3463,6 +3463,29 @@
       "Email": "nate@jotpsych.com",
       "Company Name": "SmartScribe Corp.",
       "Role": "Revenue Cycle Specialist",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "0.35",
+      "Deal Value ($)": "",
+      "Notes": ""
+    },
+    {
+      "Date": "Apr 28, 2026",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "",
+      "Name": "",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "",

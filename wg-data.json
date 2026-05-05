@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-05T14:27:44.587Z",
+  "updated": "2026-05-05T14:28:06.017Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3550,7 +3550,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "",
+      "Status": "1. KickOff Meeting",
       "Name": "Matt Backhouse",
       "Email": "mattbackhouse@mangrovelithium.com",
       "Company Name": "Mangrove Lithium",

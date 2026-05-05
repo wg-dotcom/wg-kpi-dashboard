@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-05T13:11:48.605Z",
+  "updated": "2026-05-05T13:12:01.445Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3504,7 +3504,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "1. KickOff Meeting",
+      "Status": "",
       "Name": "Matt Backhouse",
       "Email": "mattbackhouse@mangrovelithium.com",
       "Company Name": "Mangrove Lithium",
@@ -3527,7 +3527,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "1. KickOff Meeting",
+      "Status": "",
       "Name": "JKay Devram",
       "Email": "jay@lighworkhome.com",
       "Company Name": "Lightwork",

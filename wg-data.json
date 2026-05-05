@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-05T13:11:43.434Z",
+  "updated": "2026-05-05T13:11:46.735Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3526,7 +3526,7 @@
       "Priorities": "",
       "Hiring Request": "",
       "Source": "Regular WG",
-      "Is replacement?": "",
+      "Is replacement?": "false",
       "Status": "1. KickOff Meeting",
       "Name": "JKay Devram",
       "Email": "jay@lighworkhome.com",
@@ -3549,7 +3549,7 @@
       "Priorities": "",
       "Hiring Request": "",
       "Source": "Regular WG",
-      "Is replacement?": "",
+      "Is replacement?": "false",
       "Status": "",
       "Name": "",
       "Email": "",

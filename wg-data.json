@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-05T14:28:06.017Z",
+  "updated": "2026-05-05T14:28:31.894Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3568,12 +3568,12 @@
     },
     {
       "Date": "May 1, 2026",
-      "Last Update": "",
-      "Priorities": "May 5, 2026",
+      "Last Update": "May 4, 2026",
+      "Priorities": "1",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "",
+      "Status": "1. KickOff Meeting",
       "Name": "JKay Devram",
       "Email": "jay@lighworkhome.com",
       "Company Name": "Lightwork",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-05T13:07:07.785Z",
+  "updated": "2026-05-05T13:07:17.444Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3480,7 +3480,7 @@
       "Priorities": "",
       "Hiring Request": "",
       "Source": "Regular WG",
-      "Is replacement?": "",
+      "Is replacement?": "false",
       "Status": "1. KickOff Meeting",
       "Name": "Sonya Jones",
       "Email": "Sonyajones77@gmail.com",

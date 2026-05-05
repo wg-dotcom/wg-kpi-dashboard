@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-05T14:23:19.554Z",
+  "updated": "2026-05-05T14:23:43.755Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3503,7 +3503,7 @@
       "Priorities": "May 5, 2026",
       "Hiring Request": "",
       "Source": "Talent Drop",
-      "Is replacement?": "",
+      "Is replacement?": "false",
       "Status": "",
       "Name": "Dustin Kerns",
       "Email": "dustin@craftwork.com",
@@ -3526,7 +3526,7 @@
       "Priorities": "May 5, 2026",
       "Hiring Request": "",
       "Source": "Talent Drop",
-      "Is replacement?": "",
+      "Is replacement?": "false",
       "Status": "",
       "Name": "Iacopo Santini",
       "Email": "iacopo@mvocostseg.com",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-05T18:54:53.939Z",
+  "updated": "2026-05-05T18:55:01.031Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3619,14 +3619,14 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "",
+      "Status": "1. KickOff Meeting",
       "Name": "Carl Joost",
       "Email": "epdbilling@gmail.com",
       "Company Name": "Elite property development",
       "Role": "Project coordinator",
       "NotebookLM": "",
       "GitHub": "",
-      "Advisor": "",
+      "Advisor": "Guillermo",
       "KickOff Meeting": "",
       "Date Placed": "",
       "Days for Placement": "",

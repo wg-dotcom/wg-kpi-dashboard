@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-06T22:05:00.054Z",
+  "updated": "2026-05-06T22:25:01.729Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3487,7 +3487,7 @@
       "Company Name": "Draingo",
       "Role": "Ops Assistant",
       "NotebookLM": "https://notebooklm.google.com/notebook/15a7c09c-b06d-404f-9f60-eea3f2edd6d8?authuser=1",
-      "GitHub": "",
+      "GitHub": "https://wg-dotcom.github.io/draingo-operations-manager-candidates/",
       "Advisor": "MIguel",
       "KickOff Meeting": "Apr 30, 2026",
       "Date Placed": "",

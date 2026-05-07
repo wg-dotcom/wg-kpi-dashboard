@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T16:19:17.208Z",
+  "updated": "2026-05-07T16:19:26.215Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2998,7 +2998,7 @@
       "Hiring Request": "HR68130",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "5. Final Interview",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Matt May",
       "Email": "mmay@discomputers.com",
       "Company Name": "Digital Integrated Systems",
@@ -3039,8 +3039,8 @@
     },
     {
       "Date": "Mar 25, 2026",
-      "Last Update": "May 6, 2026",
-      "Priorities": "1",
+      "Last Update": "May 7, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Network Team\nKerri",
       "Is replacement?": "false",

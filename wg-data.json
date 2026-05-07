@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T16:29:41.961Z",
+  "updated": "2026-05-07T16:30:04.810Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3311,12 +3311,12 @@
       "Budget ($)": "1600",
       "%WG": "0.35",
       "Deal Value ($)": "6720",
-      "Notes": "Luis - Final interview May 5th"
+      "Notes": "Hiring Luis\n(Invoice)"
     },
     {
       "Date": "Apr 14, 2026",
-      "Last Update": "May 6, 2026",
-      "Priorities": "1",
+      "Last Update": "May 7, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR49360",
       "Source": "Regular WG",
       "Is replacement?": "false",

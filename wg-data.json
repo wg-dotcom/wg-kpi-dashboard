@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T16:03:17.880Z",
+  "updated": "2026-05-07T16:03:31.346Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3544,27 +3544,27 @@
       "Notes": "New drop May 8th"
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "Apr 30, 2026",
+      "Last Update": "May 4, 2026",
+      "Priorities": "3",
       "Hiring Request": "",
-      "Source": "",
+      "Source": "Talent Drop",
       "Is replacement?": "false",
       "Status": "",
-      "Name": "",
-      "Email": "",
-      "Company Name": "",
-      "Role": "",
+      "Name": "Iacopo Santini",
+      "Email": "iacopo@mvocostseg.com",
+      "Company Name": "MVO Consulting LLC",
+      "Role": "Senior Cost Segregation Engineer",
       "NotebookLM": "",
       "GitHub": "",
-      "Advisor": "",
-      "KickOff Meeting": "",
+      "Advisor": "Guillermo",
+      "KickOff Meeting": "May 5, 2026",
       "Date Placed": "",
       "Days for Placement": "",
       "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "",
-      "Notes": ""
+      "Notes": "New drop May 8th"
     },
     {
       "Date": "May 1, 2026",

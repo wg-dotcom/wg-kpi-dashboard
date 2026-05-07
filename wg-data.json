@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T16:04:20.223Z",
+  "updated": "2026-05-07T16:04:32.193Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3554,7 +3554,7 @@
       "Name": "Nate Parker",
       "Email": "nate@parkerservices.co",
       "Company Name": "Parker Services",
-      "Role": "",
+      "Role": "Estimator",
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "Guillermo",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T15:04:57.145Z",
+  "updated": "2026-05-07T15:43:15.994Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3634,6 +3634,29 @@
       "%WG": "",
       "Deal Value ($)": "",
       "Notes": "Kickoff No Show"
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Anthony Taylor",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
     }
   ]
 }

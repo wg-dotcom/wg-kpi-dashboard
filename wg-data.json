@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T16:09:38.649Z",
+  "updated": "2026-05-07T16:09:50.319Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2693,27 +2693,27 @@
       "Notes": "This cuatomer became a member and the position will be handled by a TA"
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
-      "Hiring Request": "",
-      "Source": "",
+      "Date": "Feb 24, 2026",
+      "Last Update": "May 7, 2026",
+      "Priorities": "0",
+      "Hiring Request": "HR97152",
+      "Source": "Network Team\nKerri",
       "Is replacement?": "false",
-      "Status": "",
-      "Name": "",
-      "Email": "",
-      "Company Name": "",
-      "Role": "",
-      "NotebookLM": "",
+      "Status": "1. KickOff Meeting",
+      "Name": "Gloria  Walker",
+      "Email": "gloria@signarama-tysonscorner.com",
+      "Company Name": "Signarama - Tyson Corner",
+      "Role": "Designer",
+      "NotebookLM": "https://notebooklm.google.com/notebook/4b019609-341e-4dad-8310-872cbfff06a2",
       "GitHub": "",
-      "Advisor": "",
-      "KickOff Meeting": "",
+      "Advisor": "Guillermo",
+      "KickOff Meeting": "Apr 28, 2026",
       "Date Placed": "",
       "Days for Placement": "",
-      "Budget ($)": "",
-      "%WG": "",
-      "Deal Value ($)": "",
-      "Notes": ""
+      "Budget ($)": "1200",
+      "%WG": "0.35",
+      "Deal Value ($)": "5040",
+      "Notes": "First batch May 6th"
     },
     {
       "Date": "Feb 11, 2026",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T15:43:33.391Z",
+  "updated": "2026-05-07T15:43:36.932Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3638,11 +3638,11 @@
     {
       "Date": "May 5, 2026",
       "Last Update": "May 5, 2026",
-      "Priorities": "",
+      "Priorities": "2",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Anthony Taylor",
       "Email": "",
       "Company Name": "",

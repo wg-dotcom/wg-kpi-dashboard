@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T01:29:55.413Z",
+  "updated": "2026-05-08T01:30:51.715Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3325,7 +3325,7 @@
       "Email": "akatz@autoapprove.com",
       "Company Name": "Auto Approve",
       "Role": "Virtual Accounting Assistant",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/937dd622-de3a-4fac-939e-79d6f78d53a5",
       "GitHub": "",
       "Advisor": "Guillermo",
       "KickOff Meeting": "Apr 17, 2026",

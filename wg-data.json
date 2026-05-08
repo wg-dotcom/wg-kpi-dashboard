@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T04:04:55.654Z",
+  "updated": "2026-05-08T04:50:28.985Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3624,7 +3624,7 @@
       "Email": "jay@lighworkhome.com",
       "Company Name": "Lightwork",
       "Role": "Operations Manager",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/669e8d8b-819c-476c-8d09-186b88896245",
       "GitHub": "",
       "Advisor": "Guillermo",
       "KickOff Meeting": "May 6, 2026",

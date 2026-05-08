@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T17:05:00.390Z",
+  "updated": "2026-05-08T17:46:37.838Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3486,7 +3486,7 @@
       "Email": "nate@jotpsych.com",
       "Company Name": "SmartScribe Corp.",
       "Role": "Revenue Cycle Specialist",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/3fedce5a-477a-4997-88e8-8ba24f7c2fd9?authuser=1&pageId=none",
       "GitHub": "",
       "Advisor": "MIguel",
       "KickOff Meeting": "Apr 29, 2026",

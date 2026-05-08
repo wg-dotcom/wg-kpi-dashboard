@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T15:13:01.252Z",
+  "updated": "2026-05-08T15:13:16.306Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2874,7 +2874,7 @@
       "Budget ($)": "4000",
       "%WG": "0.25",
       "Deal Value ($)": "12000",
-      "Notes": "Waiting for videos"
+      "Notes": "CLOSED"
     },
     {
       "Date": "Mar 12, 2026",
@@ -2989,7 +2989,7 @@
       "Budget ($)": "1900",
       "%WG": "0.25",
       "Deal Value ($)": "5700",
-      "Notes": "Desean (TAP) - First interivew May 6th \nCarlos B (TAP) - First interivew rescheduled for next week"
+      "Notes": "REFUNDED"
     },
     {
       "Date": "Mar 11, 2026",

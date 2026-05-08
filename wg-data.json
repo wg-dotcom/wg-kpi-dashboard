@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T01:31:05.965Z",
+  "updated": "2026-05-08T01:31:25.266Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3578,7 +3578,7 @@
       "Email": "nate@parkerservices.co",
       "Company Name": "Parker Services",
       "Role": "Estimator",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/584c31ef-f37e-475d-a9e8-8b2c27ebaf40",
       "GitHub": "",
       "Advisor": "Guillermo",
       "KickOff Meeting": "",

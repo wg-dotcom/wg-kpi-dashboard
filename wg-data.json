@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-08T15:05:06.040Z",
+  "updated": "2026-05-08T15:12:59.685Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2860,7 +2860,7 @@
       "Hiring Request": "HR55588",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "4. Assessment",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Randy Wang",
       "Email": "recruiting@wingz.com",
       "Company Name": "Wingz",
@@ -2975,7 +2975,7 @@
       "Hiring Request": "HR60211",
       "Source": "Regular WG",
       "Is replacement?": "true",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Randy Wang",
       "Email": "recruiting@wingz.com",
       "Company Name": "Wingz",

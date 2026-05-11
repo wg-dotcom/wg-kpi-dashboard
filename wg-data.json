@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T15:11:56.261Z",
+  "updated": "2026-05-11T15:12:05.552Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3150,7 +3150,7 @@
       "Budget ($)": "3000",
       "%WG": "0.35",
       "Deal Value ($)": "12600",
-      "Notes": "New role - IT Analyst\nNew drop May 11th"
+      "Notes": "New role - IT Analyst\nNew drop May 8th"
     },
     {
       "Date": "Apr 3, 2026",
@@ -3246,8 +3246,8 @@
     },
     {
       "Date": "Apr 9, 2026",
-      "Last Update": "May 7, 2026",
-      "Priorities": "4",
+      "Last Update": "May 11, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR93899",
       "Source": "Regular WG",
       "Is replacement?": "false",

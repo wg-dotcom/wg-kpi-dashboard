@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T14:41:32.621Z",
+  "updated": "2026-05-11T14:41:41.025Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3712,9 +3712,9 @@
       "Source": "LEAD",
       "Is replacement?": "false",
       "Status": "7. Invoice",
-      "Name": "",
-      "Email": "",
-      "Company Name": "",
+      "Name": "JT Singh",
+      "Email": "jt@fdcapitalgroup.com",
+      "Company Name": "FD Capital",
       "Role": "",
       "NotebookLM": "",
       "GitHub": "",

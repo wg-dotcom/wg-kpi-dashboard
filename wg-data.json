@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T14:43:22.514Z",
+  "updated": "2026-05-11T14:43:43.976Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3263,8 +3263,8 @@
       "Date Placed": "",
       "Days for Placement": "",
       "Budget ($)": "1800",
-      "%WG": "",
-      "Deal Value ($)": "",
+      "%WG": "0.35",
+      "Deal Value ($)": "7560",
       "Notes": "Hiring Xally\n(JOL)"
     },
     {

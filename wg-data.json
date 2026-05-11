@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T15:10:40.821Z",
+  "updated": "2026-05-11T15:11:10.147Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3148,8 +3148,8 @@
       "Date Placed": "",
       "Days for Placement": "",
       "Budget ($)": "3000",
-      "%WG": "",
-      "Deal Value ($)": "0",
+      "%WG": "0.35",
+      "Deal Value ($)": "12600",
       "Notes": "New role - IT Analyst\nNew drop May 11th"
     },
     {

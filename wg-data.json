@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T14:42:22.440Z",
+  "updated": "2026-05-11T14:43:18.403Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3527,7 +3527,7 @@
       "Hiring Request": "",
       "Source": "Talent Drop",
       "Is replacement?": "false",
-      "Status": "",
+      "Status": "1. KickOff Meeting",
       "Name": "Dustin Kerns",
       "Email": "dustin@craftwork.com",
       "Company Name": "Craftwork",
@@ -3550,7 +3550,7 @@
       "Hiring Request": "",
       "Source": "Talent Drop",
       "Is replacement?": "false",
-      "Status": "",
+      "Status": "1. KickOff Meeting",
       "Name": "Iacopo Santini",
       "Email": "iacopo@mvocostseg.com",
       "Company Name": "MVO Consulting LLC",
@@ -3573,7 +3573,7 @@
       "Hiring Request": "",
       "Source": "Talent Drop",
       "Is replacement?": "false",
-      "Status": "",
+      "Status": "1. KickOff Meeting",
       "Name": "Nate Parker",
       "Email": "nate@parkerservices.co",
       "Company Name": "Parker Services",

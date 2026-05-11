@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T20:05:09.707Z",
+  "updated": "2026-05-11T20:36:44.092Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3601,7 +3601,7 @@
       "Email": "mattbackhouse@mangrovelithium.com",
       "Company Name": "Mangrove Lithium",
       "Role": "Financial Analyst",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/5caeb065-1118-4b9f-8128-8a351e343ebf?authuser=1",
       "GitHub": "",
       "Advisor": "MIguel",
       "KickOff Meeting": "May 5, 2026",

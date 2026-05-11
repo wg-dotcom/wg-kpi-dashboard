@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T13:04:58.711Z",
+  "updated": "2026-05-11T13:30:58.352Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3702,6 +3702,29 @@
       "Budget ($)": "1200",
       "%WG": "0.35",
       "Deal Value ($)": "5040",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Joseph Wynn",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
       "Notes": ""
     }
   ]

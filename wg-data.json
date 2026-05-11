@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T15:08:47.258Z",
+  "updated": "2026-05-11T15:09:10.590Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3062,12 +3062,12 @@
     },
     {
       "Date": "Mar 30, 2026",
-      "Last Update": "May 7, 2026",
-      "Priorities": "4",
+      "Last Update": "May 11, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR73759",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "6. Job Offer Letter / Signature",
       "Name": "Maryana Grinshpun",
       "Email": "maryana@mammothnewyork.com",
       "Company Name": "Mammoth Built",
@@ -3078,10 +3078,10 @@
       "KickOff Meeting": "Mar 31, 2026",
       "Date Placed": "",
       "Days for Placement": "",
-      "Budget ($)": "3500",
+      "Budget ($)": "3000",
       "%WG": "0.18",
-      "Deal Value ($)": "7560",
-      "Notes": "Laura - First interview May 7th"
+      "Deal Value ($)": "6480",
+      "Notes": "Hiring Esteban\n(JOL)"
     },
     {
       "Date": "Mar 30, 2026",

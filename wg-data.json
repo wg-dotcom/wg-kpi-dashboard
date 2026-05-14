@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T12:47:26.182Z",
+  "updated": "2026-05-14T12:47:31.786Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3822,11 +3822,11 @@
     {
       "Date": "May 12, 2026",
       "Last Update": "May 12, 2026",
-      "Priorities": "",
+      "Priorities": "2",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Ryan Normandeau",
       "Email": "ryan@empiremedical.net",
       "Company Name": "",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T12:49:43.330Z",
+  "updated": "2026-05-14T12:49:51.347Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3843,13 +3843,13 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "May 12, 2026",
+      "Last Update": "May 12, 2026",
+      "Priorities": "2",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Michael Weinstein",
       "Email": "",
       "Company Name": "",

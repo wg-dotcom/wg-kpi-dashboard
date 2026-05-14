@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T15:52:03.524Z",
+  "updated": "2026-05-14T15:52:23.047Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3619,7 +3619,7 @@
       "Hiring Request": "HR54989",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "2. Candidates Presented",
+      "Status": "5. Final Interview",
       "Name": "Matt Backhouse",
       "Email": "mattbackhouse@mangrovelithium.com",
       "Company Name": "Mangrove Lithium",
@@ -3630,9 +3630,9 @@
       "KickOff Meeting": "May 5, 2026",
       "Date Placed": "",
       "Days for Placement": "",
-      "Budget ($)": "",
+      "Budget ($)": "4500",
       "%WG": "0.35",
-      "Deal Value ($)": "0",
+      "Deal Value ($)": "18900",
       "Notes": "Luis - First interview May 13th\nLuis - Second interview May 15th\nGOOD VIBES"
     },
     {

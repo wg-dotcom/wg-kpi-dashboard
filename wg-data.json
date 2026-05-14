@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T12:51:30.695Z",
+  "updated": "2026-05-14T12:51:41.256Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3866,13 +3866,13 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "May 13, 2026",
+      "Last Update": "May 12, 2026",
+      "Priorities": "2",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "false",
+      "Status": "1. KickOff Meeting",
       "Name": "Patrick Conrad",
       "Email": "",
       "Company Name": "",

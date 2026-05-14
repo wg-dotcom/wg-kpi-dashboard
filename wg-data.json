@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T15:05:39.543Z",
+  "updated": "2026-05-14T15:05:45.928Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -2538,7 +2538,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "5. Final Interview",
+      "Status": "2. Candidates Presented",
       "Name": "Etan Friedman",
       "Email": "efriedman@topazcg.com",
       "Company Name": "Topaz Capital Group LLC",
@@ -2552,7 +2552,7 @@
       "Budget ($)": "1200",
       "%WG": "0.35",
       "Deal Value ($)": "5040",
-      "Notes": "New batch May 5th\nFollow up May 7th"
+      "Notes": "Updated budget\nNew batch May 19th"
     },
     {
       "Date": "Feb 20, 2026",
@@ -2648,8 +2648,8 @@
     },
     {
       "Date": "Feb 24, 2026",
-      "Last Update": "May 11, 2026",
-      "Priorities": "3",
+      "Last Update": "May 14, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR97152",
       "Source": "Network Team\nKerri",
       "Is replacement?": "false",
@@ -2694,8 +2694,8 @@
     },
     {
       "Date": "Feb 24, 2026",
-      "Last Update": "May 11, 2026",
-      "Priorities": "3",
+      "Last Update": "May 14, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Network Team\nKerri",
       "Is replacement?": "false",

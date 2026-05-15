@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15T13:20:19.641Z",
+  "updated": "2026-05-15T13:20:30.969Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3660,8 +3660,8 @@
     },
     {
       "Date": "May 1, 2026",
-      "Last Update": "May 11, 2026",
-      "Priorities": "4",
+      "Last Update": "May 14, 2026",
+      "Priorities": "1",
       "Hiring Request": "",
       "Source": "LEAD",
       "Is replacement?": "false",
@@ -3683,12 +3683,12 @@
     },
     {
       "Date": "May 3, 2026",
-      "Last Update": "May 11, 2026",
-      "Priorities": "4",
+      "Last Update": "May 14, 2026",
+      "Priorities": "1",
       "Hiring Request": "HR77098",
       "Source": "Regular WG",
       "Is replacement?": "false",
-      "Status": "2. Candidates Presented",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Matthew Littau",
       "Email": "matthew@vikingmke.com",
       "Company Name": "Viking Contracting Inc",

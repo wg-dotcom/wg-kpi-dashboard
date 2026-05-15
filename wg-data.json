@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15T22:00:47.942Z",
+  "updated": "2026-05-15T22:50:24.823Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -3785,7 +3785,7 @@
       "Email": "nate@tworoadsadvisors.com",
       "Company Name": "Two Roads Advisors",
       "Role": "M&A Strategy & Presentation Analyst",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/4f1dd62b-16b9-4370-a8ad-fbd961dd5482?authuser=1",
       "GitHub": "",
       "Advisor": "MIguel",
       "KickOff Meeting": "May 12, 2026",

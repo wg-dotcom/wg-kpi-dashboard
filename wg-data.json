@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15T13:06:39.314Z",
+  "updated": "2026-05-15T13:06:47.466Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3909,6 +3909,29 @@
       "Budget ($)": "",
       "%WG": "0.35",
       "Deal Value ($)": "0",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Karen Knowles",
+      "Email": "karen@signarama-bahamas.com",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
       "Notes": ""
     }
   ]

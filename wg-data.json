@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-15T12:04:55.484Z",
+  "updated": "2026-05-15T13:04:45.263Z",
   "rows": [
     {
       "Date": "Feb 14, 2024",
@@ -3907,8 +3907,8 @@
       "Date Placed": "",
       "Days for Placement": "",
       "Budget ($)": "",
-      "%WG": "",
-      "Deal Value ($)": "",
+      "%WG": "0.35",
+      "Deal Value ($)": "0",
       "Notes": ""
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-18T15:26:14.833Z",
+  "updated": "2026-05-18T15:26:38.348Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -3949,6 +3949,29 @@
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "Guillermo",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Danya King",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
       "KickOff Meeting": "",
       "Date Placed": "",
       "Days for Placement": "",

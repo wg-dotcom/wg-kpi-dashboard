@@ -675,9 +675,9 @@ async function loadData() {
           "Company Name": r["Company Name"],
           Name: r["Name"]||"",
           Role: r.Role, Advisor: r.Advisor,
-          days: parseInt(r["Days for Placement"])||0,
-          budget: parseFloat(r["Budget ($)"])||0,
-          dv: parseFloat(r["Deal Value ($)"])||0,
+          days: parseInt(String(r["Days for Placement"]||"").replace(/[^0-9.]/g,""))||0,
+          budget: parseFloat(String(r["Budget ($)"]||"").replace(/[^0-9.]/g,""))||0,
+          dv: parseFloat(String(r["Deal Value ($)"]||"").replace(/[^0-9.]/g,""))||0,
           Notes: r.Notes||"", isReplacement,
         });
       } else if(status==="9. Closed / Paused / M.I.A."){

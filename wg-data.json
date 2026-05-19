@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T14:23:36.181Z",
+  "updated": "2026-05-19T14:24:28.362Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -4001,6 +4001,29 @@
       "Budget ($)": "1,800",
       "%WG": "35%",
       "Deal Value ($)": "7,560",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Giulia Tollis",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
       "Notes": ""
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T14:19:06.757Z",
+  "updated": "2026-05-19T14:19:12.477Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -3981,9 +3981,9 @@
       "Notes": "First drop early June"
     },
     {
-      "Date": "May 14, 2026",
-      "Last Update": "May 18, 2026",
-      "Priorities": "1",
+      "Date": "May 18, 2026",
+      "Last Update": "May 19, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T14:24:30.049Z",
+  "updated": "2026-05-19T14:24:34.762Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -4004,13 +4004,13 @@
       "Notes": ""
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "May 18, 2026",
+      "Last Update": "May 18, 2026",
+      "Priorities": "1",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "1. KickOff Meeting",
       "Name": "Giulia Tollis",
       "Email": "",
       "Company Name": "",

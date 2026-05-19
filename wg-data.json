@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T14:22:15.058Z",
+  "updated": "2026-05-19T14:22:27.787Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -3981,13 +3981,13 @@
       "Notes": "First drop early June"
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "May 18, 2026",
+      "Last Update": "May 19, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "1. KickOff Meeting",
       "Name": "Adam Letson",
       "Email": "adam@arcoutdoor.co",
       "Company Name": "Arc Outdoor LLC / Green Horizons LLC",

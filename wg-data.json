@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T14:27:47.769Z",
+  "updated": "2026-05-19T14:27:55.328Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -4050,13 +4050,13 @@
       "Notes": "First drop before the end of the week\nAlready shortlisted 5 candidates"
     },
     {
-      "Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Date": "May 19, 2026",
+      "Last Update": "May 19, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "1. KickOff Meeting",
       "Name": "Eli Lever",
       "Email": "",
       "Company Name": "",

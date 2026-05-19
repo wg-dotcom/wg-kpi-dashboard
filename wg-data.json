@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19T14:26:27.179Z",
+  "updated": "2026-05-19T14:27:47.769Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -4048,6 +4048,29 @@
       "%WG": "35%",
       "Deal Value ($)": "7,560",
       "Notes": "First drop before the end of the week\nAlready shortlisted 5 candidates"
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Eli Lever",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": ""
     }
   ]
 }

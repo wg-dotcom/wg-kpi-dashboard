@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T15:12:56.083Z",
+  "updated": "2026-05-22T15:13:13.054Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4343,6 +4343,30 @@
       "%WG": "",
       "Deal Value ($)": "",
       "Notes": "Hasn't paid",
+      "SURFACE": ""
+    },
+    {
+      "Creation Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Blake Atwell",
+      "Email": "batwell@rex.com",
+      "Company Name": "Rex",
+      "Role": "Private Office Director",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": "",
       "SURFACE": ""
     }
   ]

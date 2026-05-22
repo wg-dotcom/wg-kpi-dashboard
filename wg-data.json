@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T13:15:16.422Z",
+  "updated": "2026-05-22T13:15:19.920Z",
   "rows": [
     {
       "s": "February 14, 2024",
@@ -4252,11 +4252,11 @@
     {
       "s": "May 20, 2026",
       "Last Update": "May 22, 2026",
-      "Priorities": "",
-      "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Priorities": "0",
+      "Hiring Request": "HR51051",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "1. KickOff Meeting",
       "Name": "Mark Bower",
       "Email": "gm@freddysglass.com",
       "Company Name": "",

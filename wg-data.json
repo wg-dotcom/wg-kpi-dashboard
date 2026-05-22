@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T13:00:49.652Z",
+  "updated": "2026-05-22T13:15:01.416Z",
   "rows": [
     {
       "s": "February 14, 2024",
@@ -4244,6 +4244,30 @@
       "Date Placed": "",
       "Days for Placement": "",
       "Budget ($)": "1,800",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": "",
+      "SURFACE": ""
+    },
+    {
+      "s": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Mark Bower",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "",
       "Notes": "",

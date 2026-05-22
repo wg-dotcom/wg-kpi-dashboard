@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T13:17:45.853Z",
+  "updated": "2026-05-22T13:18:09.618Z",
   "rows": [
     {
       "s": "February 14, 2024",
@@ -4270,6 +4270,30 @@
       "Budget ($)": "1,200",
       "%WG": "35%",
       "Deal Value ($)": "5,040",
+      "Notes": "",
+      "SURFACE": ""
+    },
+    {
+      "s": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "\nClayton Robinson",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
       "Notes": "",
       "SURFACE": ""
     }

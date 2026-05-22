@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T15:13:47.286Z",
+  "updated": "2026-05-22T15:13:58.601Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4357,7 +4357,7 @@
       "Email": "batwell@rex.com",
       "Company Name": "Rex",
       "Role": "SDR",
-      "NotebookLM": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/0f4ae8e1-855d-4b0c-8ff7-4984a014b531",
       "GitHub": "",
       "Advisor": "Guillermo",
       "KickOff Meeting": "",

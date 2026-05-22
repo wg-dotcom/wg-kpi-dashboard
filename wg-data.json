@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T13:26:45.490Z",
+  "updated": "2026-05-22T13:30:04.127Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4319,6 +4319,30 @@
       "%WG": "",
       "Deal Value ($)": "",
       "Notes": "Hasn't paid",
+      "SURFACE": ""
+    },
+    {
+      "Creation Date": "May 21, 2026",
+      "Last Update": "May 22, 2026",
+      "Priorities": "0",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "1. KickOff Meeting",
+      "Name": "Chad Shoemaker",
+      "Email": "chad@jophil.com",
+      "Company Name": "Wandas water heaters",
+      "Role": "Inside sales",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "Miguel",
+      "KickOff Meeting": "May 22, 2026",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "2,000",
+      "%WG": "35%",
+      "Deal Value ($)": "8,400",
+      "Notes": "",
       "SURFACE": ""
     }
   ]

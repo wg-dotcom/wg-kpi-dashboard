@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T13:22:39.927Z",
+  "updated": "2026-05-22T13:22:44.486Z",
   "rows": [
     {
       "s": "February 14, 2024",
@@ -4298,13 +4298,13 @@
       "SURFACE": ""
     },
     {
-      "s": "",
-      "Last Update": "",
-      "Priorities": "",
+      "s": "May 20, 2026",
+      "Last Update": "May 22, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "1. KickOff Meeting",
       "Name": "Chad Shoemaker",
       "Email": "",
       "Company Name": "",

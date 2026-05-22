@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T15:13:16.588Z",
+  "updated": "2026-05-22T15:13:24.094Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4346,13 +4346,13 @@
       "SURFACE": ""
     },
     {
-      "Creation Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Creation Date": "May 21, 2026",
+      "Last Update": "May 22, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "1. KickOff Meeting",
       "Name": "Blake Atwell",
       "Email": "batwell@rex.com",
       "Company Name": "Rex",

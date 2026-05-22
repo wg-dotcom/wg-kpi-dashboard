@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T15:13:58.601Z",
+  "updated": "2026-05-22T15:14:07.073Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4343,6 +4343,30 @@
       "%WG": "",
       "Deal Value ($)": "",
       "Notes": "Hasn't paid",
+      "SURFACE": ""
+    },
+    {
+      "Creation Date": "May 20, 2026",
+      "Last Update": "May 22, 2026",
+      "Priorities": "0",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "1. KickOff Meeting",
+      "Name": "Blake Atwell",
+      "Email": "batwell@rex.com",
+      "Company Name": "Rex",
+      "Role": "SDR",
+      "NotebookLM": "https://notebooklm.google.com/notebook/0f4ae8e1-855d-4b0c-8ff7-4984a014b531",
+      "GitHub": "",
+      "Advisor": "Guillermo",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": "",
       "SURFACE": ""
     },
     {

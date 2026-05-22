@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-22T15:30:16.648Z",
+  "updated": "2026-05-22T15:30:49.148Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -3646,7 +3646,7 @@
       "Budget ($)": "2,500",
       "%WG": "35%",
       "Deal Value ($)": "10,500",
-      "Notes": "Azucena - First interview next week\n\nNew drop May 15th",
+      "Notes": "Azucena - First interview next week\n\nNew drop May 15th - waiting for feedback",
       "SURFACE": ""
     },
     {
@@ -3675,8 +3675,8 @@
     },
     {
       "Creation Date": "April 28, 2026",
-      "Last Update": "May 18, 2026",
-      "Priorities": "4",
+      "Last Update": "May 22, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR67852",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",

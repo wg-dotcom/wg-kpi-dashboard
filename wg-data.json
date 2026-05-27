@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T16:22:49.117Z",
+  "updated": "2026-05-27T16:22:50.979Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4396,11 +4396,11 @@
     {
       "Creation Date": "May 26, 2026",
       "Last Update": "May 26, 2026",
-      "Priorities": "",
+      "Priorities": "1",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Network Team\nKerri",
+      "Is replacement?": "FALSE",
+      "Status": "1. KickOff Meeting",
       "Name": "Kellen Liu",
       "Email": "",
       "Company Name": "",

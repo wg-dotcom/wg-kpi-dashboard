@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T16:00:16.736Z",
+  "updated": "2026-06-01T16:00:47.299Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4426,6 +4426,30 @@
       "Is replacement?": "",
       "Status": "",
       "Name": "Bethany Edgeworth",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": "",
+      "SURFACE": ""
+    },
+    {
+      "Creation Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Gabriela Forter",
       "Email": "",
       "Company Name": "",
       "Role": "",

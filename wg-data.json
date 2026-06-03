@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T12:53:37.311Z",
+  "updated": "2026-06-03T13:00:48.003Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4370,6 +4370,30 @@
       "SURFACE": ""
     },
     {
+      "Creation Date": "June 2, 2026",
+      "Last Update": "June 2, 2026",
+      "Priorities": "1",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "2. Candidates Presented",
+      "Name": "Ashley Thornton",
+      "Email": "ashley@1stchoiceairsolutions.com",
+      "Company Name": "1st Choice Plumbing Heating & Air Solutions",
+      "Role": "Inbound Sales Associate",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "June 3, 2026",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "1,500",
+      "%WG": "35%",
+      "Deal Value ($)": "6,300",
+      "Notes": "",
+      "SURFACE": ""
+    },
+    {
       "Creation Date": "",
       "Last Update": "May 19, 2026",
       "Priorities": "15",
@@ -4462,30 +4486,6 @@
       "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "",
-      "Notes": "",
-      "SURFACE": ""
-    },
-    {
-      "Creation Date": "June 2, 2026",
-      "Last Update": "June 2, 2026",
-      "Priorities": "1",
-      "Hiring Request": "",
-      "Source": "Regular WG",
-      "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
-      "Name": "Ashley Thornton",
-      "Email": "ashley@1stchoiceairsolutions.com",
-      "Company Name": "1st Choice Plumbing Heating & Air Solutions",
-      "Role": "Inbound Sales Associate",
-      "NotebookLM": "",
-      "GitHub": "",
-      "Advisor": "",
-      "KickOff Meeting": "June 3, 2026",
-      "Date Placed": "",
-      "Days for Placement": "",
-      "Budget ($)": "1,500",
-      "%WG": "35%",
-      "Deal Value ($)": "6,300",
       "Notes": "",
       "SURFACE": ""
     }

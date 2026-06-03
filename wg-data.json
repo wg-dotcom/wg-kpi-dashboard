@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T12:00:52.608Z",
+  "updated": "2026-06-03T12:49:24.251Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4450,6 +4450,30 @@
       "Is replacement?": "",
       "Status": "",
       "Name": "Gabriela Forter",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": "",
+      "SURFACE": ""
+    },
+    {
+      "Creation Date": "May 26, 2026",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "",
       "Email": "",
       "Company Name": "",
       "Role": "",

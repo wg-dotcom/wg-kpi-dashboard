@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T12:49:34.505Z",
+  "updated": "2026-06-03T12:49:43.791Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4468,11 +4468,11 @@
     {
       "Creation Date": "June 2, 2026",
       "Last Update": "June 2, 2026",
-      "Priorities": "",
+      "Priorities": "1",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "2. Candidates Presented",
       "Name": "",
       "Email": "",
       "Company Name": "",

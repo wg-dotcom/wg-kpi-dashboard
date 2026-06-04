@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-04T14:22:04.131Z",
+  "updated": "2026-06-04T14:22:22.149Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -2240,7 +2240,7 @@
       "Hiring Request": "HR48953",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "9. Closed / Paused / M.I.A.",
+      "Status": "1. KickOff Meeting",
       "Name": "Bethany Edgeworth",
       "Email": "bethany.edgeworth@koalainsulation.com",
       "Company Name": "Koala Insulation of Birmingham",
@@ -4390,30 +4390,6 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
-      "Notes": "",
-      "SURFACE": ""
-    },
-    {
-      "Creation Date": "",
-      "Last Update": "",
-      "Priorities": "",
-      "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
-      "Status": "",
-      "Name": "Bethany Edgeworth",
-      "Email": "bethany.edgeworth@koalainsulation.com",
-      "Company Name": "Koala Insulation of Birmingham",
-      "Role": "Office Assistant",
-      "NotebookLM": "https://notebooklm.google.com/notebook/32391340-5f5d-4926-be0e-3ed09b7de622",
-      "GitHub": "",
-      "Advisor": "Guillermo",
-      "KickOff Meeting": "",
-      "Date Placed": "",
-      "Days for Placement": "",
-      "Budget ($)": "",
-      "%WG": "",
-      "Deal Value ($)": "",
       "Notes": "",
       "SURFACE": ""
     },

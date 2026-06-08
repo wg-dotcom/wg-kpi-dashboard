@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T15:44:53.576Z",
+  "updated": "2026-06-08T15:45:56.691Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -3132,7 +3132,7 @@
       "Name": "Matt May",
       "Email": "mmay@discomputers.com",
       "Company Name": "Digital Integrated Systems",
-      "Role": "Technical Client Liaison",
+      "Role": "Technical Client Liaison\nNew Role - Bookeeper",
       "NotebookLM": "https://notebooklm.google.com/notebook/c75f961a-92e1-4b83-a2ee-5404e102894e",
       "GitHub": "https://wg-dotcom.github.io/dis-computers-technical-client-liaison/",
       "Advisor": "Miguel",

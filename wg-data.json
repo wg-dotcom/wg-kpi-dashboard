@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T15:46:43.789Z",
+  "updated": "2026-06-08T15:47:32.310Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4487,6 +4487,30 @@
       "%WG": "0%",
       "Deal Value ($)": "0",
       "Notes": "Fisrt batch Jun 4th - waiting feedback",
+      "SURFACE": ""
+    },
+    {
+      "Creation Date": "April 3, 2026",
+      "Last Update": "May 4, 2026",
+      "Priorities": "35",
+      "Hiring Request": "HR35491",
+      "Source": "Regular WG",
+      "Is replacement?": "TRUE",
+      "Status": "1. KickOff Meeting",
+      "Name": "Sean McIlroy",
+      "Email": "sean@greenhatlegacyllc.com",
+      "Company Name": "MP Copiers LLC",
+      "Role": "BDR",
+      "NotebookLM": "https://notebooklm.google.com/notebook/64359eb6-62cb-449e-9d4c-cfd58abdb9ac?authuser=1",
+      "GitHub": "https://wg-dotcom.github.io/mp-copiers-llc-business-development-representative-candidates/",
+      "Advisor": "Miguel",
+      "KickOff Meeting": "April 6, 2026",
+      "Date Placed": "May 4, 2026",
+      "Days for Placement": "21",
+      "Budget ($)": "1,500",
+      "%WG": "35%",
+      "Deal Value ($)": "6,300",
+      "Notes": "Hiring Rolando",
       "SURFACE": ""
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-11T12:00:52.060Z",
+  "updated": "2026-06-11T12:04:19.940Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4511,6 +4511,30 @@
       "%WG": "35%",
       "Deal Value ($)": "6,300",
       "Notes": "Fisrt batch Jun 11th",
+      "SURFACE": ""
+    },
+    {
+      "Creation Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Ryan Michael",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": "",
       "SURFACE": ""
     }
   ]

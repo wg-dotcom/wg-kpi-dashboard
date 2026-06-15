@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T13:12:18.318Z",
+  "updated": "2026-06-15T13:12:23.642Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -3632,7 +3632,7 @@
       "Hiring Request": "",
       "Source": "CORE",
       "Is replacement?": "FALSE",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "8. Placed",
       "Name": "Cameron Baxley",
       "Email": "cameron@summitpoolworks.com",
       "Company Name": "Summit Pool Works",
@@ -3656,7 +3656,7 @@
       "Hiring Request": "HR45743",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "8. Placed",
       "Name": "\tCarrington Dillon",
       "Email": "dillon@joyce-cline.com",
       "Company Name": "Joyce | Cline Home Services",

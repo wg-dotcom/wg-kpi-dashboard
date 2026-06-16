@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T20:41:10.744Z",
+  "updated": "2026-06-16T20:41:16.486Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4565,6 +4565,30 @@
       "Creation Date": "",
       "Last Update": "0.49",
       "Priorities": "0.7",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Notes": "",
+      "SURFACE": ""
+    },
+    {
+      "Creation Date": "",
+      "Last Update": "",
+      "Priorities": "0.343",
       "Hiring Request": "",
       "Source": "",
       "Is replacement?": "",

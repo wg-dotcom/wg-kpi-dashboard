@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T15:37:09.472Z",
+  "updated": "2026-06-22T15:37:19.963Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4565,9 +4565,9 @@
       "Creation Date": "May 4, 2026",
       "Last Update": "June 22, 2026",
       "Priorities": "0",
-      "Hiring Request": "HR99207",
+      "Hiring Request": "",
       "Source": "Regular WG",
-      "Is replacement?": "FALSE",
+      "Is replacement?": "TRUE",
       "Status": "8. Placed",
       "Name": "Carl Joost",
       "Email": "epdbilling@gmail.com",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T15:38:28.110Z",
+  "updated": "2026-06-22T15:38:50.563Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4582,6 +4582,30 @@
       "Budget ($)": "1,800",
       "%WG": "0%",
       "Deal Value ($)": "0",
+      "Notes": "",
+      "SURFACE": ""
+    },
+    {
+      "Creation Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "1. KickOff Meeting",
+      "Name": "",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
       "Notes": "",
       "SURFACE": ""
     }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T15:42:20.484Z",
+  "updated": "2026-06-22T15:42:45.239Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4586,12 +4586,12 @@
       "SURFACE": ""
     },
     {
-      "Creation Date": "",
-      "Last Update": "",
-      "Priorities": "",
+      "Creation Date": "June 22, 2026",
+      "Last Update": "June 22, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
-      "Source": "",
-      "Is replacement?": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
       "Status": "1. KickOff Meeting",
       "Name": "Kim Rocha",
       "Email": "",

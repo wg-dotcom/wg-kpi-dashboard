@@ -101,6 +101,20 @@
     .chart-sub{font-size:11px;color:var(--gray-400);margin-bottom:12px;}
     .chart-wrap{position:relative;height:200px;}
     .chart-wrap-tall{position:relative;height:260px;}
+    /* Month-to-month revenue per TA */
+    .ttm-controls{display:flex;gap:10px;flex-wrap:wrap;}
+    .ttm-controls label{display:flex;flex-direction:column;font-size:10px;font-weight:700;color:var(--gray-600);gap:4px;text-transform:uppercase;letter-spacing:.3px;}
+    .ttm-controls select{padding:7px 10px;border:1.5px solid var(--gray-200);border-radius:var(--radius-sm);font-size:13px;font-family:inherit;background:var(--white);color:var(--gray-800);cursor:pointer;min-width:160px;text-transform:none;letter-spacing:0;}
+    .ttm-controls select:focus{outline:none;border-color:var(--blue);}
+    .ttm-matrix-wrap{overflow-x:auto;margin-top:18px;}
+    .ttm-matrix{width:100%;border-collapse:collapse;font-size:12.5px;}
+    .ttm-matrix th,.ttm-matrix td{padding:8px 12px;text-align:right;border-bottom:1px solid var(--gray-100);white-space:nowrap;}
+    .ttm-matrix th:first-child,.ttm-matrix td:first-child{text-align:left;font-weight:600;}
+    .ttm-matrix thead th{background:var(--gray-50);color:var(--gray-600);font-size:10.5px;text-transform:uppercase;letter-spacing:.3px;border-bottom:2px solid var(--gray-200);}
+    .ttm-matrix tbody td{color:var(--gray-800);}
+    .ttm-matrix .zero{color:var(--gray-400);}
+    .ttm-matrix tfoot td{font-weight:700;border-top:2px solid var(--gray-200);background:var(--gray-50);color:var(--blue);}
+    .ttm-empty{text-align:center;color:var(--gray-400);padding:28px 12px;font-size:13px;}
 
     /* FILTERS */
     .filters-bar{background:var(--white);border-radius:var(--radius);padding:14px 18px;box-shadow:var(--shadow-sm);border:1.5px solid var(--gray-200);display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px;}
@@ -421,6 +435,25 @@
         <div class="chart-sub" id="adv-rev-sub">All time</div>
         <div class="chart-wrap-tall"><canvas id="chartAdvRev"></canvas></div>
       </div>
+    </div>
+
+    <div class="chart-card" style="margin-bottom:20px;">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap;">
+        <div>
+          <div class="chart-title">Month-to-Month Revenue per Talent Advisor</div>
+          <div class="chart-sub" id="ttm-sub">Revenue grouped by month placed · stacked by advisor</div>
+        </div>
+        <div class="ttm-controls">
+          <label>Month
+            <select id="ttm-month"><option value="all">All months</option></select>
+          </label>
+          <label>Talent Advisor
+            <select id="ttm-ta"><option value="all">All advisors</option></select>
+          </label>
+        </div>
+      </div>
+      <div class="chart-wrap-tall" style="height:300px;margin-top:14px;"><canvas id="chartTTM"></canvas></div>
+      <div class="ttm-matrix-wrap"><table class="ttm-matrix" id="ttm-matrix"></table></div>
     </div>
 
     <div class="table-card">
@@ -993,6 +1026,85 @@ document.querySelectorAll(".time-tab").forEach(btn=>{
 });
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// MONTH-TO-MONTH REVENUE PER TALENT ADVISOR
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+let ttmChart=null, ttmMonth="all", ttmTA="all", ttmInit=false;
+const TTM_PALETTE=["#ff7455","#093a3e","#796aff","#0f9168","#f5b800","#c0392b","#0284c7","#94a3b8","#db2777","#0891b2"];
+const normAdv = a => a==="MIguel" ? "Miguel" : (a || "Unassigned");
+
+function buildTTM(){
+  // Revenue grouped by placement month (Date Placed)
+  const recs=[];
+  PLACED.forEach(r=>{
+    const d=parseDate(r.date); if(!d) return;
+    recs.push({ts:d.getTime(), monthKey:d.toLocaleDateString("en-US",{month:"short",year:"numeric"}), ta:normAdv(r.Advisor), rev:r.dv||0});
+  });
+  const seen={}, months=[];
+  recs.slice().sort((a,b)=>a.ts-b.ts).forEach(r=>{ if(!seen[r.monthKey]){seen[r.monthKey]=1;months.push(r.monthKey);} });
+  const tas=[...new Set(recs.map(r=>r.ta))].sort();
+  const matrix={};
+  months.forEach(m=>{matrix[m]={};tas.forEach(t=>matrix[m][t]=0);});
+  recs.forEach(r=>{ matrix[r.monthKey][r.ta]+=r.rev; });
+  return {months,tas,matrix};
+}
+
+function populateTTMControls(d){
+  const mSel=document.getElementById("ttm-month"), tSel=document.getElementById("ttm-ta");
+  mSel.innerHTML='<option value="all">All months</option>'+d.months.map(m=>`<option value="${m}">${m}</option>`).join("");
+  tSel.innerHTML='<option value="all">All advisors</option>'+d.tas.map(t=>`<option value="${t}">${t}</option>`).join("");
+  mSel.value=ttmMonth; tSel.value=ttmTA;
+}
+
+function renderTTM(){
+  const d=buildTTM();
+  if(!ttmInit){ populateTTMControls(d); ttmInit=true; }
+  const months = ttmMonth==="all" ? d.months : d.months.filter(m=>m===ttmMonth);
+  const tas    = ttmTA==="all" ? d.tas : d.tas.filter(t=>t===ttmTA);
+  const ctx=document.getElementById("chartTTM");
+  if(ttmChart){ ttmChart.destroy(); ttmChart=null; }
+
+  if(!d.months.length || !months.length || !tas.length){
+    document.getElementById("ttm-matrix").innerHTML=`<tbody><tr><td class="ttm-empty">No placement revenue ${ttmMonth!=="all"?"for "+ttmMonth+(ttmTA!=="all"?" / "+ttmTA:""):"to show"}.</td></tr></tbody>`;
+    document.getElementById("ttm-sub").textContent="Revenue grouped by month placed · stacked by advisor";
+    return;
+  }
+
+  const datasets=tas.map(t=>({
+    label:t,
+    data:months.map(m=>d.matrix[m][t]||0),
+    backgroundColor:TTM_PALETTE[d.tas.indexOf(t)%TTM_PALETTE.length],
+    borderRadius:4, borderSkipped:false, stack:"rev"
+  }));
+  ttmChart=new Chart(ctx,{
+    type:"bar",
+    data:{labels:months,datasets},
+    options:{
+      plugins:{legend:{position:"top",labels:{font:{family:"Inter",size:11},padding:10}},
+        tooltip:{callbacks:{label:c=>`${c.dataset.label}: $${(c.parsed.y||0).toLocaleString()}`}}},
+      scales:{x:{stacked:true,grid:{display:false},ticks:{font:{family:"Inter",size:11,weight:"600"}}},
+        y:{stacked:true,beginAtZero:true,grid:{color:"#f1f5f9"},ticks:{font:{family:"Inter",size:10},callback:v=>"$"+(v/1000).toFixed(0)+"K"}}},
+      maintainAspectRatio:false
+    }
+  });
+
+  // Revenue matrix (month × advisor)
+  const colTotals={}; tas.forEach(t=>colTotals[t]=0); let grand=0;
+  const head=`<thead><tr><th>Month</th>${tas.map(t=>`<th>${t}</th>`).join("")}<th>Total</th></tr></thead>`;
+  const body=months.map(m=>{
+    let rowTot=0;
+    const cells=tas.map(t=>{const v=d.matrix[m][t]||0;rowTot+=v;colTotals[t]+=v;return `<td class="${v?"":"zero"}">${v?"$"+v.toLocaleString():"—"}</td>`;}).join("");
+    grand+=rowTot;
+    return `<tr><td>${m}</td>${cells}<td>${rowTot?"$"+rowTot.toLocaleString():"—"}</td></tr>`;
+  }).join("");
+  const foot=`<tfoot><tr><td>Total</td>${tas.map(t=>`<td>${colTotals[t]?"$"+colTotals[t].toLocaleString():"—"}</td>`).join("")}<td>$${grand.toLocaleString()}</td></tr></tfoot>`;
+  document.getElementById("ttm-matrix").innerHTML=head+`<tbody>${body}</tbody>`+foot;
+  document.getElementById("ttm-sub").textContent=`Revenue by placement month · ${ttmMonth==="all"?"all months":ttmMonth} · ${ttmTA==="all"?"all advisors":ttmTA} · $${grand.toLocaleString()} total`;
+}
+
+document.getElementById("ttm-month").addEventListener("change",e=>{ttmMonth=e.target.value;renderTTM();});
+document.getElementById("ttm-ta").addEventListener("change",e=>{ttmTA=e.target.value;renderTTM();});
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 // CLOSED TABLE
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 let closerFilter="all", closedSearch="";
@@ -1329,6 +1441,7 @@ function initDashboard() {
   initOverviewCharts();
   renderTable();
   updatePlacementTab("all");
+  renderTTM();
   renderClosedTable();
 }
 

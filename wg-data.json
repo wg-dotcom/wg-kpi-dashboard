@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T15:59:49.997Z",
+  "updated": "2026-06-26T16:00:11.175Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -5183,6 +5183,33 @@
       "Deal Value ($)": "3,240",
       "Total Paid ($)": "",
       "Notes": "First drop July 1st",
+      "SURFACE": ""
+    },
+    {
+      "Creation Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Derek Branch",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Total Paid ($)": "",
+      "Notes": "",
       "SURFACE": ""
     }
   ]

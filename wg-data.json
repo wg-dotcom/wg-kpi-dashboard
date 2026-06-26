@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T13:45:19.610Z",
+  "updated": "2026-06-26T13:45:21.644Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4776,7 +4776,7 @@
       "Budget ($)": "1,300",
       "%WG": "35%",
       "Deal Value ($)": "5,460",
-      "Total Paid ($)": "",
+      "Total Paid ($)": "5,460",
       "Notes": "Hiring Rodrigo",
       "SURFACE": ""
     },
@@ -4884,7 +4884,7 @@
       "Budget ($)": "2,200",
       "%WG": "25%",
       "Deal Value ($)": "6,600",
-      "Total Paid ($)": "",
+      "Total Paid ($)": "6,600",
       "Notes": "Hiring Maria Guadalupe",
       "SURFACE": ""
     },
@@ -4992,7 +4992,7 @@
       "Budget ($)": "1,400",
       "%WG": "35%",
       "Deal Value ($)": "5,880",
-      "Total Paid ($)": "",
+      "Total Paid ($)": "5,880",
       "Notes": "Hiring Eduardo",
       "SURFACE": ""
     },
@@ -5046,7 +5046,7 @@
       "Budget ($)": "1,500",
       "%WG": "0%",
       "Deal Value ($)": "0",
-      "Total Paid ($)": "",
+      "Total Paid ($)": "0",
       "Notes": "Hiring Ruth",
       "SURFACE": ""
     },

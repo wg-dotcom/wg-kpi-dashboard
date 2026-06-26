@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T15:58:06.669Z",
+  "updated": "2026-06-26T15:58:21.476Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -5152,8 +5152,8 @@
       "Invoice Date": "",
       "Payment Date": "",
       "Budget ($)": "",
-      "%WG": "",
-      "Deal Value ($)": "",
+      "%WG": "35%",
+      "Deal Value ($)": "0",
       "Total Paid ($)": "",
       "Notes": "First drop July 1st",
       "SURFACE": ""

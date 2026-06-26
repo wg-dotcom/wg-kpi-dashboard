@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T13:21:22.310Z",
+  "updated": "2026-06-26T13:21:32.836Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -1218,8 +1218,8 @@
       "Invoice Date": "02/03/2026",
       "Payment Date": "02/19/2026",
       "Budget ($)": "1,500",
-      "%WG": "35%",
-      "Deal Value ($)": "3,150",
+      "%WG": "",
+      "Deal Value ($)": "2,900",
       "Notes": "HIring Zana",
       "SURFACE": ""
     },

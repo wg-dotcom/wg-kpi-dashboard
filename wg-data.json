@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T13:35:01.464Z",
+  "updated": "2026-06-26T13:35:56.973Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -24,6 +24,7 @@
       "Budget ($)": "1,500",
       "%WG": "30%",
       "Deal Value ($)": "5,400",
+      "Total Paid ($)": "",
       "Notes": "PLACED - Became member",
       "SURFACE": ""
     },
@@ -50,6 +51,7 @@
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "5,000",
+      "Total Paid ($)": "",
       "Notes": "PLACED",
       "SURFACE": ""
     },
@@ -76,6 +78,7 @@
       "Budget ($)": "2,000",
       "%WG": "30%",
       "Deal Value ($)": "7,200",
+      "Total Paid ($)": "",
       "Notes": "Hiring Angel",
       "SURFACE": ""
     },
@@ -102,6 +105,7 @@
       "Budget ($)": "1,000",
       "%WG": "35%",
       "Deal Value ($)": "4,200",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nStacy paused the process because the main Estimator resigned and she needs to focus on that roles since is critical for their operation",
       "SURFACE": "X"
     },
@@ -128,6 +132,7 @@
       "Budget ($)": "1,400",
       "%WG": "25%",
       "Deal Value ($)": "4,200",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nTolani decided he wanred to go on a different direction and asked us to pause the search until he figure it out",
       "SURFACE": ""
     },
@@ -154,6 +159,7 @@
       "Budget ($)": "4,000",
       "%WG": "35%",
       "Deal Value ($)": "16,800",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nMatt is focusing on closing a bug deal and he is not available to hire and onboard a new team member",
       "SURFACE": "X"
     },
@@ -180,6 +186,7 @@
       "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "CLOSED BY CUSTOMER\nHired outside Sagan",
       "SURFACE": ""
     },
@@ -206,6 +213,7 @@
       "Budget ($)": "2,000",
       "%WG": "30%",
       "Deal Value ($)": "7,200",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nParental leave",
       "SURFACE": "X"
     },
@@ -232,6 +240,7 @@
       "Budget ($)": "1,500",
       "%WG": "30%",
       "Deal Value ($)": "5,400",
+      "Total Paid ($)": "",
       "Notes": "PLACED",
       "SURFACE": ""
     },
@@ -258,6 +267,7 @@
       "Budget ($)": "1,200",
       "%WG": "25%",
       "Deal Value ($)": "3,600",
+      "Total Paid ($)": "",
       "Notes": "PLACED - Talent Agent Program",
       "SURFACE": ""
     },
@@ -284,6 +294,7 @@
       "Budget ($)": "1,000",
       "%WG": "35%",
       "Deal Value ($)": "4,200",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY US\nCustomer MIA",
       "SURFACE": ""
     },
@@ -310,6 +321,7 @@
       "Budget ($)": "2,000",
       "%WG": "30%",
       "Deal Value ($)": "5,000",
+      "Total Paid ($)": "",
       "Notes": "Resurfaced - Same role\nNew drop Thur Apr 2nd\nFollow up Mon Apr 6th - 8th - 10th\nJESUS TAKE OVER",
       "SURFACE": "X"
     },
@@ -336,6 +348,7 @@
       "Budget ($)": "2,000",
       "%WG": "30%",
       "Deal Value ($)": "7,200",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nDani is transitioning to General Manager position and it's not. agood time for her to hire and onboard a new team member",
       "SURFACE": "X"
     },
@@ -362,6 +375,7 @@
       "Budget ($)": "2,200",
       "%WG": "25%",
       "Deal Value ($)": "6,600",
+      "Total Paid ($)": "",
       "Notes": "PLACED",
       "SURFACE": ""
     },
@@ -388,6 +402,7 @@
       "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY US\nCustomer MIA",
       "SURFACE": ""
     },
@@ -414,6 +429,7 @@
       "Budget ($)": "4,000",
       "%WG": "30%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "PLACED - Became member",
       "SURFACE": ""
     },
@@ -440,6 +456,7 @@
       "Budget ($)": "2,500",
       "%WG": "30%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "PLACED - Became member",
       "SURFACE": ""
     },
@@ -466,6 +483,7 @@
       "Budget ($)": "2,500",
       "%WG": "18%",
       "Deal Value ($)": "5,400",
+      "Total Paid ($)": "",
       "Notes": "PLACED - Became member",
       "SURFACE": ""
     },
@@ -492,6 +510,7 @@
       "Budget ($)": "2,500",
       "%WG": "30%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "PLACED - Became member",
       "SURFACE": ""
     },
@@ -518,6 +537,7 @@
       "Budget ($)": "4,000",
       "%WG": "25%",
       "Deal Value ($)": "12,000",
+      "Total Paid ($)": "",
       "Notes": "PLACED",
       "SURFACE": ""
     },
@@ -544,6 +564,7 @@
       "Budget ($)": "2,200",
       "%WG": "25%",
       "Deal Value ($)": "6,600",
+      "Total Paid ($)": "",
       "Notes": "PLACED",
       "SURFACE": ""
     },
@@ -570,6 +591,7 @@
       "Budget ($)": "2,000",
       "%WG": "30%",
       "Deal Value ($)": "7,200",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nNot a good time for them as this is peak season. Not enough time to onboard a new team member",
       "SURFACE": ""
     },
@@ -596,6 +618,7 @@
       "Budget ($)": "2,500",
       "%WG": "35%",
       "Deal Value ($)": "4,000",
+      "Total Paid ($)": "",
       "Notes": "PLACED - Talent Agent Program",
       "SURFACE": ""
     },
@@ -622,6 +645,7 @@
       "Budget ($)": "2,000",
       "%WG": "25%",
       "Deal Value ($)": "6,000",
+      "Total Paid ($)": "",
       "Notes": "PLACED",
       "SURFACE": ""
     },
@@ -648,6 +672,7 @@
       "Budget ($)": "1,300",
       "%WG": "25%",
       "Deal Value ($)": "",
+      "Total Paid ($)": "",
       "Notes": "New batch once they submit 2 new HR",
       "SURFACE": ""
     },
@@ -674,6 +699,7 @@
       "Budget ($)": "2,200",
       "%WG": "25%",
       "Deal Value ($)": "6,600",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nAsked to resuME the search on January 2026",
       "SURFACE": "X"
     },
@@ -700,6 +726,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nNot ready to move forward at this time. They will resume the search on January  2026",
       "SURFACE": "X"
     },
@@ -726,6 +753,7 @@
       "Budget ($)": "5,000",
       "%WG": "35%",
       "Deal Value ($)": "9,000",
+      "Total Paid ($)": "",
       "Notes": "CLOSED BY CUSTOMER\nChanged JD",
       "SURFACE": ""
     },
@@ -752,6 +780,7 @@
       "Budget ($)": "1,500",
       "%WG": "30%",
       "Deal Value ($)": "5,400",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY US\nCustomer reply: Pausing this role until EOY. Business has shifted to requiring an OPS role over marketing. ",
       "SURFACE": "X"
     },
@@ -778,6 +807,7 @@
       "Budget ($)": "4,500",
       "%WG": "35%",
       "Deal Value ($)": "18,900",
+      "Total Paid ($)": "",
       "Notes": "PLACED - Talent Agent Program",
       "SURFACE": ""
     },
@@ -804,6 +834,7 @@
       "Budget ($)": "4,500",
       "%WG": "35%",
       "Deal Value ($)": "18,900",
+      "Total Paid ($)": "",
       "Notes": "CLOSED BY CUSTOMER\nReply from customer: Apologies for the delayed response. We’ve chose to stop this search via Sagan and have chosen to recruit U.S.-based for the role instead, at this time. I appreciate the effort and we will follow up if we have other roles that we are interested in working with Sagan on in the future",
       "SURFACE": ""
     },
@@ -830,6 +861,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nReply from customer: I wanted to share a quick update: we’ll need to put our search for a new team member on hold for now. We’re planning to revisit it next year when we’re in a better position to move forward",
       "SURFACE": "X"
     },
@@ -856,6 +888,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER",
       "SURFACE": ""
     },
@@ -882,6 +915,7 @@
       "Budget ($)": "1,000",
       "%WG": "35%",
       "Deal Value ($)": "4,200",
+      "Total Paid ($)": "",
       "Notes": "PLACED - Talent Agent Program",
       "SURFACE": ""
     },
@@ -908,6 +942,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "Resurfaced - Same role\nPaused by US - 2W MIA",
       "SURFACE": "X"
     },
@@ -934,6 +969,7 @@
       "Budget ($)": "4,500",
       "%WG": "35%",
       "Deal Value ($)": "9,000",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY THEM\nThey decided to hire local talent",
       "SURFACE": ""
     },
@@ -960,6 +996,7 @@
       "Budget ($)": "3,000",
       "%WG": "25%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "PLACED - Became member",
       "SURFACE": ""
     },
@@ -986,6 +1023,7 @@
       "Budget ($)": "1,900",
       "%WG": "35%",
       "Deal Value ($)": "7,980",
+      "Total Paid ($)": "",
       "Notes": "Hiring Viviane\nInvoiced",
       "SURFACE": ""
     },
@@ -1012,6 +1050,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nCustomer reply: Hi, pardon the delay in getting back to you guys. I’ve had some personnel changes on my end. The scope of what I need for a virtual assistant has changed. I don’t have clarity on exactly how I will utilize a virtual assistant, but I’m certain I will need one. Can we table this for a month or two?",
       "SURFACE": "X"
     },
@@ -1038,6 +1077,7 @@
       "Budget ($)": "1,300",
       "%WG": "35%",
       "Deal Value ($)": "5,460",
+      "Total Paid ($)": "",
       "Notes": "Hiring Amy",
       "SURFACE": ""
     },
@@ -1064,6 +1104,7 @@
       "Budget ($)": "2,000",
       "%WG": "0",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "3W MIA",
       "SURFACE": ""
     },
@@ -1090,6 +1131,7 @@
       "Budget ($)": "2,100",
       "%WG": "35%",
       "Deal Value ($)": "8,820",
+      "Total Paid ($)": "",
       "Notes": "PLACED",
       "SURFACE": ""
     },
@@ -1116,6 +1158,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "PLACED - Became member",
       "SURFACE": ""
     },
@@ -1142,6 +1185,7 @@
       "Budget ($)": "1,800",
       "%WG": "35%",
       "Deal Value ($)": "7,560",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nReply from customer: It is completely on us and this being a brand new role.  Has nothing to do with her at all, again, we are nailing down the structure and processes of this role to justify the upfront spend on placement",
       "SURFACE": "X"
     },
@@ -1168,6 +1212,7 @@
       "Budget ($)": "2,500",
       "%WG": "35%",
       "Deal Value ($)": "10,500",
+      "Total Paid ($)": "",
       "Notes": "PAUSED UNTIL JANUARY\nResurfaced - Same role\nThey will start interview process on January first week",
       "SURFACE": "X"
     },
@@ -1194,6 +1239,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nSada and Angel had final interviews on Friday 12th\nSending special follow-up Mon Dec 15th",
       "SURFACE": "X"
     },
@@ -1220,6 +1266,7 @@
       "Budget ($)": "1,500",
       "%WG": "",
       "Deal Value ($)": "2,900",
+      "Total Paid ($)": "",
       "Notes": "HIring Zana",
       "SURFACE": ""
     },
@@ -1246,6 +1293,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "Hiring Kim",
       "SURFACE": ""
     },
@@ -1272,6 +1320,7 @@
       "Budget ($)": "2,500",
       "%WG": "35%",
       "Deal Value ($)": "10,500",
+      "Total Paid ($)": "",
       "Notes": "PLACED",
       "SURFACE": ""
     },
@@ -1298,6 +1347,7 @@
       "Budget ($)": "3,000",
       "%WG": "0%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "PLACED",
       "SURFACE": ""
     },
@@ -1324,6 +1374,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "3W MIA - PUSED BY US\nTalent Agent Program drop (7) - Tues Dec 16th - Waiting for feedback\nFollowing up on Mon Dec 29th\nFollow up on Mon Jan 5th",
       "SURFACE": "X"
     },
@@ -1350,6 +1401,7 @@
       "Budget ($)": "1,500",
       "%WG": "25%",
       "Deal Value ($)": "4,500",
+      "Total Paid ($)": "",
       "Notes": "CLOSED\nReply from customer: I was able to find someone on my own with mortgage experience. So I will not be needing your services right now. \nI never did receive any candidates from Sagan with mortgage experience, only the initial 5 from Miguel, but unfortunately none had mortgage experience.",
       "SURFACE": ""
     },
@@ -1376,6 +1428,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "Hiring Valeria",
       "SURFACE": ""
     },
@@ -1402,6 +1455,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "Hiring Yasmin",
       "SURFACE": ""
     },
@@ -1428,6 +1482,7 @@
       "Budget ($)": "3,000",
       "%WG": "35%",
       "Deal Value ($)": "12,600",
+      "Total Paid ($)": "",
       "Notes": "Interviewing Mauryn Mon Dec 15th\nPresented 2 new TAP candidates on Mon Dec 15th\nWaiting for feedback",
       "SURFACE": "X"
     },
@@ -1454,6 +1509,7 @@
       "Budget ($)": "1,100",
       "%WG": "35%",
       "Deal Value ($)": "4,620",
+      "Total Paid ($)": "",
       "Notes": "Hiring Agostina (TAP)",
       "SURFACE": ""
     },
@@ -1480,6 +1536,7 @@
       "Budget ($)": "1,000",
       "%WG": "35%",
       "Deal Value ($)": "4,200",
+      "Total Paid ($)": "",
       "Notes": "Hiring Nangel",
       "SURFACE": ""
     },
@@ -1506,6 +1563,7 @@
       "Budget ($)": "1,300",
       "%WG": "25%",
       "Deal Value ($)": "3,900",
+      "Total Paid ($)": "",
       "Notes": "Hiring Odeh (TAP)",
       "SURFACE": ""
     },
@@ -1532,6 +1590,7 @@
       "Budget ($)": "1,800",
       "%WG": "35%",
       "Deal Value ($)": "7,560",
+      "Total Paid ($)": "",
       "Notes": "Hiring Laura",
       "SURFACE": ""
     },
@@ -1558,6 +1617,7 @@
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "6,720",
+      "Total Paid ($)": "",
       "Notes": "Arlito - Second interview this week\nNew batch Apr 10th",
       "SURFACE": ""
     },
@@ -1584,6 +1644,7 @@
       "Budget ($)": "3,000",
       "%WG": "35%",
       "Deal Value ($)": "4,000",
+      "Total Paid ($)": "",
       "Notes": "CLOSED BY CUSTOMER\nHey Jesus\n1. I'm going to end this search. in the last few days I built tools within claude code that do whatever this role was going to do.. I want to thank you for your time you've been amazing and found good candidates.\n2. daphne looks awesome and I really wish I had a role for her but I don't yet\n\njon - \njust a note that jesus is great and you guys clearly have it down to a t, sorry this didn't work out\n",
       "SURFACE": ""
     },
@@ -1610,6 +1671,7 @@
       "Budget ($)": "2,200",
       "%WG": "35%",
       "Deal Value ($)": "7,000",
+      "Total Paid ($)": "",
       "Notes": "2W MIA - PAUSED BY US\nResurfaced- Fine Tunning\nFollow up Feb 9th and 16th",
       "SURFACE": "X"
     },
@@ -1636,6 +1698,7 @@
       "Budget ($)": "1,800",
       "%WG": "35%",
       "Deal Value ($)": "7,560",
+      "Total Paid ($)": "",
       "Notes": "Hiring Geordy",
       "SURFACE": ""
     },
@@ -1662,6 +1725,7 @@
       "Budget ($)": "2,000",
       "%WG": "30%",
       "Deal Value ($)": "7,200",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nHiring Monserrat\nFollowed up Jan 7th, 12th, 15th, 19th\nReply: Jesus - Hope you had a great weekend! Apologies for the delay in getting this on the road. We’ve had our hands full and I’m afraid we’re not ready to move forward with the remote role just yet. Can we pause and revisit this next month? My sincere apologies for waiting this long to get back to you. We’re juggling a number of things and this is another role that we would have to manage and we don’t have the capacity at the moment. Happy to jump on a call to connect. ",
       "SURFACE": "X"
     },
@@ -1688,6 +1752,7 @@
       "Budget ($)": "2,400",
       "%WG": "35%",
       "Deal Value ($)": "10,080",
+      "Total Paid ($)": "",
       "Notes": "Hiring Aura",
       "SURFACE": ""
     },
@@ -1714,6 +1779,7 @@
       "Budget ($)": "3,000",
       "%WG": "35%",
       "Deal Value ($)": "12,600",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY US - 3W MIA\nResurfaced - New Role\nPresented candidates on Thurs Dec 18th\nFollowed up on Mon Dec 29nd\nFollowed up on Mon Jan 5th\nTexted Mon Jan 12th",
       "SURFACE": "X"
     },
@@ -1740,6 +1806,7 @@
       "Budget ($)": "1,490",
       "%WG": "25%",
       "Deal Value ($)": "1,470",
+      "Total Paid ($)": "",
       "Notes": "Hiring Bruno",
       "SURFACE": ""
     },
@@ -1766,6 +1833,7 @@
       "Budget ($)": "1,667",
       "%WG": "35%",
       "Deal Value ($)": "7,001",
+      "Total Paid ($)": "",
       "Notes": "Hiring Athena (TAP)",
       "SURFACE": ""
     },
@@ -1792,6 +1860,7 @@
       "Budget ($)": "650",
       "%WG": "45%",
       "Deal Value ($)": "3,510",
+      "Total Paid ($)": "",
       "Notes": "Im trying to stop this. Don't want to work with them anymore",
       "SURFACE": ""
     },
@@ -1818,6 +1887,7 @@
       "Budget ($)": "2,100",
       "%WG": "25%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "Hiring Katherine",
       "SURFACE": ""
     },
@@ -1844,6 +1914,7 @@
       "Budget ($)": "1,200",
       "%WG": "35%",
       "Deal Value ($)": "5,040",
+      "Total Paid ($)": "",
       "Notes": "Hiring Marisse (TAP)",
       "SURFACE": ""
     },
@@ -1870,6 +1941,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "Douglas (TAP)",
       "SURFACE": ""
     },
@@ -1896,6 +1968,7 @@
       "Budget ($)": "1300",
       "%WG": "35%",
       "Deal Value ($)": "5,460",
+      "Total Paid ($)": "",
       "Notes": "Hiring Lexanne\nBecame a Member",
       "SURFACE": ""
     },
@@ -1922,6 +1995,7 @@
       "Budget ($)": "5,000",
       "%WG": "35%",
       "Deal Value ($)": "21,000",
+      "Total Paid ($)": "",
       "Notes": "Hiring Maribel",
       "SURFACE": ""
     },
@@ -1948,6 +2022,7 @@
       "Budget ($)": "1,300",
       "%WG": "18%",
       "Deal Value ($)": "2,808",
+      "Total Paid ($)": "",
       "Notes": "Hiring Lerato",
       "SURFACE": ""
     },
@@ -1974,6 +2049,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nUnfortunately, we need to place the search on hold for now. We were expecting to onboard a major new client that would have supported the team’s expansion, but that deal ultimately fell through. Without it, I don’t currently have the ability or internal approval to move forward with hiring until we gain additional traction and proof of concept.\n\nI’m not sure on the exact timing, but I expect we’ll likely be in a position to revisit this closer to summer.\n\nI genuinely appreciate all your work and hope we can pick things back up sooner rather than later.",
       "SURFACE": "X"
     },
@@ -2000,6 +2076,7 @@
       "Budget ($)": "1,200",
       "%WG": "25%",
       "Deal Value ($)": "3,600",
+      "Total Paid ($)": "",
       "Notes": "Hiring Nickoy",
       "SURFACE": ""
     },
@@ -2026,6 +2103,7 @@
       "Budget ($)": "520",
       "%WG": "35%",
       "Deal Value ($)": "2,184",
+      "Total Paid ($)": "",
       "Notes": "Hiring Anoosh",
       "SURFACE": ""
     },
@@ -2052,6 +2130,7 @@
       "Budget ($)": "1,300",
       "%WG": "35%",
       "Deal Value ($)": "5,460",
+      "Total Paid ($)": "",
       "Notes": "Hiring Stella\nInvoice",
       "SURFACE": ""
     },
@@ -2078,6 +2157,7 @@
       "Budget ($)": "1,500",
       "%WG": "",
       "Deal Value ($)": "4,000",
+      "Total Paid ($)": "",
       "Notes": "2W MIA - PAUSED BY US\nOpen to see other locations\nNew drop Fri Feb 6th - Follow up Feb 9th, 11th, 16th",
       "SURFACE": ""
     },
@@ -2104,6 +2184,7 @@
       "Budget ($)": "1,500",
       "%WG": "30%",
       "Deal Value ($)": "5,400",
+      "Total Paid ($)": "",
       "Notes": "Anyelo - Hiring for Part Time ($6.5/hr)\n\nRolando - Hiring for Full-Time",
       "SURFACE": ""
     },
@@ -2130,6 +2211,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "3W MIA - PAUSED BY US",
       "SURFACE": "X"
     },
@@ -2156,6 +2238,7 @@
       "Budget ($)": "1,200",
       "%WG": "35%",
       "Deal Value ($)": "5,040",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY US\nWaiting to meet them at the conference",
       "SURFACE": "X"
     },
@@ -2182,6 +2265,7 @@
       "Budget ($)": "600",
       "%WG": "35%",
       "Deal Value ($)": "2,520",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY US\nWaiting to meet them at the conference",
       "SURFACE": "X"
     },
@@ -2208,6 +2292,7 @@
       "Budget ($)": "1,200",
       "%WG": "35%",
       "Deal Value ($)": "5,040",
+      "Total Paid ($)": "",
       "Notes": "Hired Daniel",
       "SURFACE": ""
     },
@@ -2234,6 +2319,7 @@
       "Budget ($)": "1,500",
       "%WG": "30%",
       "Deal Value ($)": "5,400",
+      "Total Paid ($)": "",
       "Notes": "Resurfaced - Different Role\nPAUSED BY CUSTOMER\nInternal promotion, will come back with another role",
       "SURFACE": "X"
     },
@@ -2260,6 +2346,7 @@
       "Budget ($)": "8,000",
       "%WG": "20%",
       "Deal Value ($)": "19,200",
+      "Total Paid ($)": "",
       "Notes": "CLOSED BY CUSTOMER\nHi, Jesus!\n\nThe team and I have decided not to pursue candidate options from the agency at this time. We are getting very solid candidates on our own. We may circle back in the future, but for now, we will be filling roles internally. \n\nCan you please tell me how this works with the deposit?",
       "SURFACE": ""
     },
@@ -2286,6 +2373,7 @@
       "Budget ($)": "1,200",
       "%WG": "35%",
       "Deal Value ($)": "5,040",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY US - 3W MIA\nAlejandro - First interview Wed  March 4th\nAlejandro - Assessment stage (Thurs March 5th)\nAlejandro - Second interview next week\nNew batch Tues March 10th\nFollow up Wed March 11th - EXpected 13th\nJESUS TAKE OVER - texted March 19th, 23rd",
       "SURFACE": "X"
     },
@@ -2312,6 +2400,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "3W MIA - PAUSED BY US",
       "SURFACE": "X"
     },
@@ -2338,6 +2427,7 @@
       "Budget ($)": "1,800",
       "%WG": "35%",
       "Deal Value ($)": "7,560",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nThe customer wasn't convinced after the assessment. They will pause it and come back probably with a different role",
       "SURFACE": ""
     },
@@ -2364,6 +2454,7 @@
       "Budget ($)": "3,000",
       "%WG": "35%",
       "Deal Value ($)": "12,600",
+      "Total Paid ($)": "",
       "Notes": "Hiring Itzel",
       "SURFACE": ""
     },
@@ -2390,6 +2481,7 @@
       "Budget ($)": "1,000",
       "%WG": "35%",
       "Deal Value ($)": "4,200",
+      "Total Paid ($)": "",
       "Notes": "Hiring Kate",
       "SURFACE": ""
     },
@@ -2416,6 +2508,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY US\nWaiting to meet them at the conference",
       "SURFACE": "X"
     },
@@ -2442,6 +2535,7 @@
       "Budget ($)": "1,200",
       "%WG": "35%",
       "Deal Value ($)": "5,040",
+      "Total Paid ($)": "",
       "Notes": "Kemeisha - First interview the 24th - pending\nJhenell - First interview the 24th\nNew drop after interviews - waitign for feedback",
       "SURFACE": ""
     },
@@ -2468,6 +2562,7 @@
       "Budget ($)": "4,500",
       "%WG": "35%",
       "Deal Value ($)": "18,900",
+      "Total Paid ($)": "",
       "Notes": "CLOSED BY CUSTOMER\nInternal promotion",
       "SURFACE": ""
     },
@@ -2494,6 +2589,7 @@
       "Budget ($)": "3,500",
       "%WG": "35%",
       "Deal Value ($)": "14,700",
+      "Total Paid ($)": "",
       "Notes": "Hiring Isaac\nInvoice",
       "SURFACE": ""
     },
@@ -2520,6 +2616,7 @@
       "Budget ($)": "1,200",
       "%WG": "35%",
       "Deal Value ($)": "5,040",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY US\nWaiting to meet them at the conference",
       "SURFACE": "X"
     },
@@ -2546,6 +2643,7 @@
       "Budget ($)": "1,000",
       "%WG": "35%",
       "Deal Value ($)": "4,200",
+      "Total Paid ($)": "",
       "Notes": "First batch Mon March 2nd\nOOO - Follow up Mon March 23rd\nKERRI IS FOLLOWING UP",
       "SURFACE": "X"
     },
@@ -2572,6 +2670,7 @@
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "6,720",
+      "Total Paid ($)": "",
       "Notes": "Paused by Customer\nPaused before KickOff Meeting. Wants to go on another direction",
       "SURFACE": "X"
     },
@@ -2598,6 +2697,7 @@
       "Budget ($)": "1,300",
       "%WG": "35%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "3W MIA\nLast call June 1st",
       "SURFACE": ""
     },
@@ -2624,6 +2724,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY US - 3 WEEKS MIA\nFirst batch Mon Feb 23rd\nFollow up Thurs Feb 26th, March 3rd\nSlammed - Follow up March 13th, 16th, 19th, 23rd, 30th\nNUMBER NOT MOBILE",
       "SURFACE": "X"
     },
@@ -2650,6 +2751,7 @@
       "Budget ($)": "3,000",
       "%WG": "35%",
       "Deal Value ($)": "12,600",
+      "Total Paid ($)": "",
       "Notes": "CLOSED BY CUSTOMER\nDue to the time sensitivity of this role, and filled the role in another direction.  Thank you for your time on this particular role.\n",
       "SURFACE": ""
     },
@@ -2676,6 +2778,7 @@
       "Budget ($)": "4,000",
       "%WG": "18%",
       "Deal Value ($)": "8,640",
+      "Total Paid ($)": "",
       "Notes": "Waiting for next steps for Dannia and Diana\nFollow up March 23rd, 26th. 30th",
       "SURFACE": "X"
     },
@@ -2702,6 +2805,7 @@
       "Budget ($)": "400",
       "%WG": "35%",
       "Deal Value ($)": "1,680",
+      "Total Paid ($)": "",
       "Notes": "Hiring Maria\nJOL\nFollow up March 19th, 23rd.\nLAST CALL 27th, 30th",
       "SURFACE": ""
     },
@@ -2728,6 +2832,7 @@
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "Hiring Alejandro",
       "SURFACE": ""
     },
@@ -2754,6 +2859,7 @@
       "Budget ($)": "1,800",
       "%WG": "25%",
       "Deal Value ($)": "5,400",
+      "Total Paid ($)": "",
       "Notes": "Hiring Federico",
       "SURFACE": ""
     },
@@ -2780,6 +2886,7 @@
       "Budget ($)": "1,800",
       "%WG": "25%",
       "Deal Value ($)": "5,400",
+      "Total Paid ($)": "",
       "Notes": "Hiring Rachel",
       "SURFACE": ""
     },
@@ -2806,6 +2913,7 @@
       "Budget ($)": "1,000",
       "%WG": "35%",
       "Deal Value ($)": "4,200",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY US\nWaiting to meet them at the conference",
       "SURFACE": ""
     },
@@ -2832,6 +2940,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "Second batch Thurs March 9th\nFollow up March 11th, 13th\nJESUS TAKE OVER - texted Thurs March 19th\nWill reply early next week - They are OOO abroad\nFollow up Fri March 27th\nJESUS TAKE OVER 30TH",
       "SURFACE": "X"
     },
@@ -2858,6 +2967,7 @@
       "Budget ($)": "5,000",
       "%WG": "35%",
       "Deal Value ($)": "21,000",
+      "Total Paid ($)": "",
       "Notes": "Send candidates for Video Editor\n\nConfirm availability for Leandro's interview\nJESUS TAKE OVER",
       "SURFACE": "X"
     },
@@ -2884,6 +2994,7 @@
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "6,720",
+      "Total Paid ($)": "",
       "Notes": "Focused in landing a new big customer - paused for 3weeks\nRecontact Jun 18th, 22nd, 25th",
       "SURFACE": ""
     },
@@ -2910,6 +3021,7 @@
       "Budget ($)": "1,100",
       "%WG": "35%",
       "Deal Value ($)": "4,620",
+      "Total Paid ($)": "",
       "Notes": "Hiring Irish",
       "SURFACE": ""
     },
@@ -2936,6 +3048,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "Hiring Natalie (TAP)",
       "SURFACE": ""
     },
@@ -2962,6 +3075,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "NOT WILLING TO PAY 3 INSTALLMENTS - WANTED 12\nPotentially hiring Maria Alejandra\nLast call Fri Apr 10th",
       "SURFACE": ""
     },
@@ -2988,6 +3102,7 @@
       "Budget ($)": "3,500",
       "%WG": "18%",
       "Deal Value ($)": "7,560",
+      "Total Paid ($)": "",
       "Notes": "Hiring Chirstian\nBecame member - Apr 21st",
       "SURFACE": ""
     },
@@ -3014,6 +3129,7 @@
       "Budget ($)": "4,000",
       "%WG": "30%",
       "Deal Value ($)": "14,400",
+      "Total Paid ($)": "",
       "Notes": "Change the position to 2 SDRs",
       "SURFACE": ""
     },
@@ -3040,6 +3156,7 @@
       "Budget ($)": "6,000",
       "%WG": "35%",
       "Deal Value ($)": "25,200",
+      "Total Paid ($)": "",
       "Notes": "This cuatomer became a member and the position will be handled by a TA",
       "SURFACE": ""
     },
@@ -3066,6 +3183,7 @@
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "6,720",
+      "Total Paid ($)": "",
       "Notes": "Hiring Luana",
       "SURFACE": ""
     },
@@ -3092,6 +3210,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "Hiring Fabrizio",
       "SURFACE": ""
     },
@@ -3118,6 +3237,7 @@
       "Budget ($)": "1,200",
       "%WG": "35%",
       "Deal Value ($)": "5,040",
+      "Total Paid ($)": "",
       "Notes": "Hiring Faith (TAP)",
       "SURFACE": ""
     },
@@ -3144,6 +3264,7 @@
       "Budget ($)": "3,000",
       "%WG": "35%",
       "Deal Value ($)": "12,600",
+      "Total Paid ($)": "",
       "Notes": "CLOSED BY CUSTOMER\nWent with another agency",
       "SURFACE": ""
     },
@@ -3170,6 +3291,7 @@
       "Budget ($)": "1,200",
       "%WG": "35%",
       "Deal Value ($)": "5,040",
+      "Total Paid ($)": "",
       "Notes": "Not continuing for misunderstanding",
       "SURFACE": ""
     },
@@ -3196,6 +3318,7 @@
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "6,720",
+      "Total Paid ($)": "",
       "Notes": "CLOSED BY CUSTOMER",
       "SURFACE": ""
     },
@@ -3222,6 +3345,7 @@
       "Budget ($)": "3,500",
       "%WG": "35%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "Hiring Michael",
       "SURFACE": ""
     },
@@ -3248,6 +3372,7 @@
       "Budget ($)": "4,000",
       "%WG": "25%",
       "Deal Value ($)": "12,000",
+      "Total Paid ($)": "",
       "Notes": "CLOSED",
       "SURFACE": ""
     },
@@ -3274,6 +3399,7 @@
       "Budget ($)": "1,000",
       "%WG": "25%",
       "Deal Value ($)": "3,000",
+      "Total Paid ($)": "",
       "Notes": "Hiring Danlyson (TAP)",
       "SURFACE": ""
     },
@@ -3300,6 +3426,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY US - 3W MIA\nFirst drop Thurs March 19th\nFollow up March 23rd, 26th, 27th\nJESUS TAKE OVER - texted Mon Apr 6th, 9th",
       "SURFACE": "X"
     },
@@ -3326,6 +3453,7 @@
       "Budget ($)": "1,300",
       "%WG": "35%",
       "Deal Value ($)": "5,460",
+      "Total Paid ($)": "",
       "Notes": "Hiring Diana (TAP)",
       "SURFACE": ""
     },
@@ -3352,6 +3480,7 @@
       "Budget ($)": "1,500",
       "%WG": "30%",
       "Deal Value ($)": "5,400",
+      "Total Paid ($)": "",
       "Notes": "Hiring Rommel",
       "SURFACE": ""
     },
@@ -3378,6 +3507,7 @@
       "Budget ($)": "1,900",
       "%WG": "25%",
       "Deal Value ($)": "5,700",
+      "Total Paid ($)": "",
       "Notes": "REFUNDED",
       "SURFACE": ""
     },
@@ -3404,6 +3534,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "First batch June 22nd - waiting for feedback",
       "SURFACE": "x"
     },
@@ -3430,6 +3561,7 @@
       "Budget ($)": "1,200",
       "%WG": "25%",
       "Deal Value ($)": "3,600",
+      "Total Paid ($)": "",
       "Notes": "PAUSED DIFFERENT INTERNAL NEEDS\nNaadira - first interview Apr 1st\nNaadira - second interview Apr 13th\nPotentially hiring Naadira\nDecision making meeting",
       "SURFACE": "X"
     },
@@ -3456,6 +3588,7 @@
       "Budget ($)": "1,300",
       "%WG": "35%",
       "Deal Value ($)": "5,460",
+      "Total Paid ($)": "",
       "Notes": "Hiring Orlando",
       "SURFACE": ""
     },
@@ -3482,6 +3615,7 @@
       "Budget ($)": "3,000",
       "%WG": "18%",
       "Deal Value ($)": "6,480",
+      "Total Paid ($)": "",
       "Notes": "Hiring Esteban",
       "SURFACE": ""
     },
@@ -3508,6 +3642,7 @@
       "Budget ($)": "2,500",
       "%WG": "",
       "Deal Value ($)": "",
+      "Total Paid ($)": "",
       "Notes": "FOUND ANOTHER LOCAL AGENCY\nREQUESTED REFUND",
       "SURFACE": ""
     },
@@ -3534,6 +3669,7 @@
       "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "4,000",
+      "Total Paid ($)": "",
       "Notes": "Hiring Crochell",
       "SURFACE": ""
     },
@@ -3560,6 +3696,7 @@
       "Budget ($)": "2,300",
       "%WG": "35%",
       "Deal Value ($)": "9,660",
+      "Total Paid ($)": "",
       "Notes": "Hiring Ileana",
       "SURFACE": ""
     },
@@ -3586,6 +3723,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "Hiring Rolando",
       "SURFACE": ""
     },
@@ -3612,6 +3750,7 @@
       "Budget ($)": "1,400",
       "%WG": "35%",
       "Deal Value ($)": "5,880",
+      "Total Paid ($)": "",
       "Notes": "Hiring Elizabeth",
       "SURFACE": ""
     },
@@ -3638,6 +3777,7 @@
       "Budget ($)": "2,600",
       "%WG": "18%",
       "Deal Value ($)": "5,616",
+      "Total Paid ($)": "",
       "Notes": "CLOSED BY CUSTOMER.\nPARTNERSHIP ENDED",
       "SURFACE": ""
     },
@@ -3664,6 +3804,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "3W MIA - Paused by us\nDecision making May 13th - Follow up May 14th, May 18th\nJESUS TOOK OVER MAY 22nd",
       "SURFACE": ""
     },
@@ -3690,6 +3831,7 @@
       "Budget ($)": "1,800",
       "%WG": "35%",
       "Deal Value ($)": "7,560",
+      "Total Paid ($)": "",
       "Notes": "Hiring Xally",
       "SURFACE": ""
     },
@@ -3716,6 +3858,7 @@
       "Budget ($)": "3,000",
       "%WG": "35%",
       "Deal Value ($)": "12,600",
+      "Total Paid ($)": "",
       "Notes": "CLOSED BY CUSTOMER\nFOUND A LOCAL CANDIDATE\nDidn't reply to candidate's follow up",
       "SURFACE": ""
     },
@@ -3742,6 +3885,7 @@
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "6,720",
+      "Total Paid ($)": "",
       "Notes": "Hiring Luis",
       "SURFACE": ""
     },
@@ -3768,6 +3912,7 @@
       "Budget ($)": "1,400",
       "%WG": "30%",
       "Deal Value ($)": "5,040",
+      "Total Paid ($)": "",
       "Notes": "Hiring Kia\n(INVOICE)",
       "SURFACE": ""
     },
@@ -3794,6 +3939,7 @@
       "Budget ($)": "3,000",
       "%WG": "35%",
       "Deal Value ($)": "12,600",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nHeya! Sorry for the delay, no all good. Been keeping him in the loop, we had to pause for a little bc our hiring team is inundated with some higher priority items. When we are ready to get back going he’s the first to know. TY!",
       "SURFACE": ""
     },
@@ -3820,6 +3966,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "Hiring Mario",
       "SURFACE": ""
     },
@@ -3846,6 +3993,7 @@
       "Budget ($)": "1,800",
       "%WG": "35%",
       "Deal Value ($)": "7,560",
+      "Total Paid ($)": "",
       "Notes": "Hiring Vianka",
       "SURFACE": ""
     },
@@ -3872,6 +4020,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "Hiring Marinatti",
       "SURFACE": ""
     },
@@ -3898,6 +4047,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "Hiring Naadira (TAP)",
       "SURFACE": ""
     },
@@ -3924,6 +4074,7 @@
       "Budget ($)": "2,500",
       "%WG": "18%",
       "Deal Value ($)": "5,400",
+      "Total Paid ($)": "",
       "Notes": "Eminem - First interview June 23rd\nNext drop Jun 24th",
       "SURFACE": ""
     },
@@ -3950,6 +4101,7 @@
       "Budget ($)": "2,000",
       "%WG": "18%",
       "Deal Value ($)": "4,320",
+      "Total Paid ($)": "",
       "Notes": "Hiring Sada",
       "SURFACE": ""
     },
@@ -3976,6 +4128,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "Hiring Shari-Jo",
       "SURFACE": ""
     },
@@ -4002,6 +4155,7 @@
       "Budget ($)": "1,800",
       "%WG": "35%",
       "Deal Value ($)": "7,560",
+      "Total Paid ($)": "",
       "Notes": "Hiring Christine",
       "SURFACE": ""
     },
@@ -4028,6 +4182,7 @@
       "Budget ($)": "2,750",
       "%WG": "35%",
       "Deal Value ($)": "11,550",
+      "Total Paid ($)": "",
       "Notes": "Veronica - First interview June 26th\nRenie - First interview June 26th",
       "SURFACE": ""
     },
@@ -4054,6 +4209,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "New drop June 22nd",
       "SURFACE": ""
     },
@@ -4080,6 +4236,7 @@
       "Budget ($)": "3,000",
       "%WG": "35%",
       "Deal Value ($)": "12,600",
+      "Total Paid ($)": "",
       "Notes": "New drop Jun 26th",
       "SURFACE": ""
     },
@@ -4106,6 +4263,7 @@
       "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "",
+      "Total Paid ($)": "",
       "Notes": "New drop May 8th - COMPLETED",
       "SURFACE": ""
     },
@@ -4132,6 +4290,7 @@
       "Budget ($)": "4,500",
       "%WG": "35%",
       "Deal Value ($)": "18,900",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nHire locally",
       "SURFACE": ""
     },
@@ -4158,6 +4317,7 @@
       "Budget ($)": "3,000",
       "%WG": "35%",
       "Deal Value ($)": "12,600",
+      "Total Paid ($)": "",
       "Notes": "Disputed deposit.\nWe will let it die",
       "SURFACE": ""
     },
@@ -4184,6 +4344,7 @@
       "Budget ($)": "1,500",
       "%WG": "30%",
       "Deal Value ($)": "5,400",
+      "Total Paid ($)": "",
       "Notes": "Hired Brati",
       "SURFACE": ""
     },
@@ -4210,6 +4371,7 @@
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "6,720",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER \nfoR a few weeks he has to hire a new field technitian",
       "SURFACE": ""
     },
@@ -4236,6 +4398,7 @@
       "Budget ($)": "1,800",
       "%WG": "35%",
       "Deal Value ($)": "7,560",
+      "Total Paid ($)": "",
       "Notes": "Hiring Alejandra B",
       "SURFACE": ""
     },
@@ -4262,6 +4425,7 @@
       "Budget ($)": "1,200",
       "%WG": "35%",
       "Deal Value ($)": "5,040",
+      "Total Paid ($)": "",
       "Notes": "3W MIA - Paused by us\n\nFollowed up with the IRS compliance information no response yet about if i should start sending candidates\n\nSending GPD info May 18th, May 22nd",
       "SURFACE": ""
     },
@@ -4288,6 +4452,7 @@
       "Budget ($)": "2,500",
       "%WG": "35%",
       "Deal Value ($)": "10,500",
+      "Total Paid ($)": "",
       "Notes": "Gerardo - First interview May 22nd - GOOD\nHarold - First interview Jun 16th\nJuliana - First interview Jun 16th - GOOD\nSilvia - First interview Jun 18th\n\nGerardo - Second interview June 22nd\n\nPotential second interviews with Harold and Juliana",
       "SURFACE": ""
     },
@@ -4314,6 +4479,7 @@
       "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "6,000",
+      "Total Paid ($)": "",
       "Notes": "Julian - Drop off\n\nNew drop June 23rd",
       "SURFACE": ""
     },
@@ -4340,6 +4506,7 @@
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "6,720",
+      "Total Paid ($)": "",
       "Notes": "Hiring Ashail",
       "SURFACE": ""
     },
@@ -4366,6 +4533,7 @@
       "Budget ($)": "2,500",
       "%WG": "35%",
       "Deal Value ($)": "10,500",
+      "Total Paid ($)": "",
       "Notes": "Hiring Ivone\n(Invoice)",
       "SURFACE": ""
     },
@@ -4392,6 +4560,7 @@
       "Budget ($)": "2,500",
       "%WG": "35%",
       "Deal Value ($)": "10,500",
+      "Total Paid ($)": "",
       "Notes": "New drop Jun 26th",
       "SURFACE": ""
     },
@@ -4418,6 +4587,7 @@
       "Budget ($)": "2,900",
       "%WG": "",
       "Deal Value ($)": "9,000",
+      "Total Paid ($)": "",
       "Notes": "Hiring Lina\n(JOL)",
       "SURFACE": ""
     },
@@ -4444,6 +4614,7 @@
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "6,720",
+      "Total Paid ($)": "",
       "Notes": "Hiring Rolando\n(JOL)",
       "SURFACE": ""
     },
@@ -4470,6 +4641,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nHIRING LOCALLY ",
       "SURFACE": ""
     },
@@ -4496,6 +4668,7 @@
       "Budget ($)": "2,500",
       "%WG": "35%",
       "Deal Value ($)": "10,500",
+      "Total Paid ($)": "",
       "Notes": "Changing role Performance Marketer\nWaiting JD\n\nFollowing up the 11th, 15th, 18th, 22nd",
       "SURFACE": ""
     },
@@ -4522,6 +4695,7 @@
       "Budget ($)": "5,000",
       "%WG": "35%",
       "Deal Value ($)": "21,000",
+      "Total Paid ($)": "",
       "Notes": "Rahul - Waiting for portfolio",
       "SURFACE": ""
     },
@@ -4548,6 +4722,7 @@
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "6,720",
+      "Total Paid ($)": "",
       "Notes": "Hiring Daniel",
       "SURFACE": ""
     },
@@ -4574,6 +4749,7 @@
       "Budget ($)": "1,800",
       "%WG": "35%",
       "Deal Value ($)": "7,560",
+      "Total Paid ($)": "",
       "Notes": "Luis - First interview Jun 12th\nLuis - Assessment - Jun 18th\nNew drop June 18th - Follow up 22nd",
       "SURFACE": ""
     },
@@ -4600,6 +4776,7 @@
       "Budget ($)": "1,300",
       "%WG": "35%",
       "Deal Value ($)": "5,460",
+      "Total Paid ($)": "",
       "Notes": "Hiring Rodrigo",
       "SURFACE": ""
     },
@@ -4626,6 +4803,7 @@
       "Budget ($)": "2,000",
       "%WG": "18%",
       "Deal Value ($)": "4,320",
+      "Total Paid ($)": "",
       "Notes": "Hiring Freths\n(JOL)",
       "SURFACE": ""
     },
@@ -4652,6 +4830,7 @@
       "Budget ($)": "1,800",
       "%WG": "30%",
       "Deal Value ($)": "6,480",
+      "Total Paid ($)": "",
       "Notes": "Alejandro - First interview Jun 3rd\nAlejandro - Second interview Jun 5th\nJESUS TO TEXT ALEJANDRO - WAITING",
       "SURFACE": ""
     },
@@ -4678,6 +4857,7 @@
       "Budget ($)": "1,800",
       "%WG": "30%",
       "Deal Value ($)": "6,480",
+      "Total Paid ($)": "",
       "Notes": "Gio - First interview Jun 18th\nNew drop Jun 16th\n\nBLAKE MIA 1W",
       "SURFACE": ""
     },
@@ -4704,6 +4884,7 @@
       "Budget ($)": "2,200",
       "%WG": "25%",
       "Deal Value ($)": "6,600",
+      "Total Paid ($)": "",
       "Notes": "Hiring Maria Guadalupe",
       "SURFACE": ""
     },
@@ -4730,6 +4911,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "Missed 2 kickoff meetings\nNEIL'S PROBLEM",
       "SURFACE": ""
     },
@@ -4756,6 +4938,7 @@
       "Budget ($)": "1,200",
       "%WG": "35%",
       "Deal Value ($)": "5,040",
+      "Total Paid ($)": "",
       "Notes": "PAUSED BY CUSTOMER\nTHEY WERE USING TWO AGENCIES AND DECIDED TO GO THAT DIRECTION",
       "SURFACE": ""
     },
@@ -4782,6 +4965,7 @@
       "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "6,300",
+      "Total Paid ($)": "",
       "Notes": "Kaci-Ann (TAP) - First interview this week\n\nNew drop Jun 15th\nFollow Up June 22nd",
       "SURFACE": ""
     },
@@ -4808,6 +4992,7 @@
       "Budget ($)": "1,400",
       "%WG": "35%",
       "Deal Value ($)": "5,880",
+      "Total Paid ($)": "",
       "Notes": "Hiring Eduardo",
       "SURFACE": ""
     },
@@ -4834,6 +5019,7 @@
       "Budget ($)": "1,800",
       "%WG": "0%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "New drop Jun 24th",
       "SURFACE": ""
     },
@@ -4860,6 +5046,7 @@
       "Budget ($)": "1,500",
       "%WG": "0%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "Hiring Ruth",
       "SURFACE": ""
     },
@@ -4886,6 +5073,7 @@
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
       "Notes": "New batch Jun 24th",
       "SURFACE": ""
     },
@@ -4912,6 +5100,7 @@
       "Budget ($)": "1,300",
       "%WG": "0%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "Marco - First interview June 18th - Waiting feedback\nNew drop Jun 24th",
       "SURFACE": ""
     },
@@ -4938,6 +5127,7 @@
       "Budget ($)": "1,800",
       "%WG": "0%",
       "Deal Value ($)": "0",
+      "Total Paid ($)": "",
       "Notes": "",
       "SURFACE": ""
     },
@@ -4964,6 +5154,7 @@
       "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "",
+      "Total Paid ($)": "",
       "Notes": "Colombia, Costa Rica o Filipinas",
       "SURFACE": ""
     }

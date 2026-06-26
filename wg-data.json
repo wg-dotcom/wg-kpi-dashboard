@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T15:51:20.640Z",
+  "updated": "2026-06-26T15:57:18.729Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -5156,6 +5156,33 @@
       "Deal Value ($)": "",
       "Total Paid ($)": "",
       "Notes": "First drop July 1st",
+      "SURFACE": ""
+    },
+    {
+      "Creation Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Suzanne Griffin",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Total Paid ($)": "",
+      "Notes": "",
       "SURFACE": ""
     }
   ]

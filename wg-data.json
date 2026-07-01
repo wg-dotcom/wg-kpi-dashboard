@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T15:14:33.050Z",
+  "updated": "2026-07-01T15:14:47.444Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4798,7 +4798,7 @@
       "KickOff Meeting": "May 21, 2026",
       "Date Placed": "June 25, 2026",
       "Days for Placement": "26",
-      "Invoice Date": "06/30/2026",
+      "Invoice Date": "06/26/2026",
       "Payment Date": "",
       "Budget ($)": "2,000",
       "%WG": "18%",
@@ -4998,8 +4998,8 @@
     },
     {
       "Creation Date": "June 1, 2026",
-      "Last Update": "June 26, 2026",
-      "Priorities": "5",
+      "Last Update": "July 1, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",

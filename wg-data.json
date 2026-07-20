@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T11:43:18.230Z",
+  "updated": "2026-07-20T12:13:44.241Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -5408,7 +5408,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "7. Invoice",
       "Name": "Ashley Thornton",
       "Email": "ashley@1stchoiceairsolutions.com",
       "Company Name": "1st Choice Plumbing Heating & Air Solutions",
@@ -5419,7 +5419,7 @@
       "KickOff Meeting": "June 30, 2026",
       "Date Placed": "July 15, 2026",
       "Days for Placement": "12",
-      "Invoice Date": "",
+      "Invoice Date": "July 17, 2026",
       "Payment Date": "",
       "Budget ($)": "1,800",
       "%WG": "30%",

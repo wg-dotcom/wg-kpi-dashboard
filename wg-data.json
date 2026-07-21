@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T14:13:45.287Z",
+  "updated": "2026-07-21T15:13:44.028Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -5268,12 +5268,12 @@
     },
     {
       "Creation Date": "July 3, 2026",
-      "Last Update": "July 16, 2026",
-      "Priorities": "5",
+      "Last Update": "July 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "7. Invoice",
       "Name": "Chris Richetti",
       "Email": "chris@corepmrealty.com",
       "Company Name": "Core Realty",
@@ -5282,13 +5282,13 @@
       "GitHub": "https://wg-dotcom.github.io/core-pm-realty-maintenance-coordinator-candidates/",
       "Advisor": "Miguel",
       "KickOff Meeting": "July 7, 2026",
-      "Date Placed": "",
-      "Days for Placement": "",
-      "Invoice Date": "",
+      "Date Placed": "July 20, 2026",
+      "Days for Placement": "10",
+      "Invoice Date": "July 21, 2026",
       "Payment Date": "",
-      "Budget ($)": "1,200",
+      "Budget ($)": "1,300",
       "%WG": "35%",
-      "Deal Value ($)": "5,040",
+      "Deal Value ($)": "5,460",
       "Total Paid ($)": "",
       "Notes": "Ayssen - HIRED\nCarlos - On hold\nNew drop July 20th",
       "SURFACE": ""

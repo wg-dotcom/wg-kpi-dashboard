@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T16:13:44.105Z",
+  "updated": "2026-07-22T17:13:44.179Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -5349,12 +5349,12 @@
     },
     {
       "Creation Date": "July 13, 2026",
-      "Last Update": "July 20, 2026",
-      "Priorities": "2",
+      "Last Update": "July 22, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "7. Invoice",
       "Name": "Matt Palmieri",
       "Email": "matt@emercymedical.com",
       "Company Name": "Mercy Medical Equipment Company",
@@ -5363,15 +5363,15 @@
       "GitHub": "",
       "Advisor": "Kathe",
       "KickOff Meeting": "July 14, 2026",
-      "Date Placed": "",
-      "Days for Placement": "",
-      "Invoice Date": "",
+      "Date Placed": "July 22, 2026",
+      "Days for Placement": "7",
+      "Invoice Date": "July 22, 2026",
       "Payment Date": "",
-      "Budget ($)": "1,800",
+      "Budget ($)": "1,350",
       "%WG": "35%",
-      "Deal Value ($)": "7,560",
+      "Deal Value ($)": "5,670",
       "Total Paid ($)": "",
-      "Notes": "Claire T - First interview 20th\nMaria T - First interview 21th",
+      "Notes": "Hiring Maria T\n(INVOICE)",
       "SURFACE": ""
     },
     {

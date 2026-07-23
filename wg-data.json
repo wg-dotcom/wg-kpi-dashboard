@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T21:13:44.057Z",
+  "updated": "2026-07-23T22:13:44.011Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -5440,8 +5440,8 @@
       "Email": "brent@makeitmomentous.com",
       "Company Name": "Momentous",
       "Role": "SDR",
-      "NotebookLM": "",
-      "GitHub": "",
+      "NotebookLM": "https://notebooklm.google.com/notebook/8afd2683-e35b-4d8b-92fa-2e6ff26b161c?authuser=1",
+      "GitHub": "https://wg-dotcom.github.io/momentous-sdr-candidates/",
       "Advisor": "Miguel",
       "KickOff Meeting": "July 15, 2026",
       "Date Placed": "",

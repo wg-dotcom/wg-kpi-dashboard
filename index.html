@@ -207,7 +207,8 @@
     .time-tab{padding:6px 16px;border-radius:20px;border:1.5px solid var(--gray-200);background:var(--white);font-family:'Inter','PP Mori',-apple-system,BlinkMacSystemFont,sans-serif;font-size:12px;font-weight:600;color:var(--gray-600);cursor:pointer;transition:all .15s;}
     .time-tab:hover{border-color:var(--blue);color:var(--blue);}
     .time-tab.active{background:var(--blue);border-color:var(--blue);color:#fff;}
-    .placement-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px;}
+    .placement-kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:20px;}
+    @media(max-width:900px){.placement-kpis{grid-template-columns:repeat(3,1fr);}}
     @media(max-width:700px){.placement-kpis{grid-template-columns:1fr 1fr;}}
     .mini-kpi{background:var(--white);border-radius:var(--radius-sm);padding:14px;border:1.5px solid var(--gray-200);text-align:center;}
     .mini-kpi-val{font-size:20px;font-weight:800;color:var(--blue);}
@@ -323,8 +324,8 @@
     <!-- MONTHLY REVENUE CHART -->
     <div class="charts-row-2">
       <div class="chart-card">
-        <div class="chart-title">Monthly Placements & Revenue</div>
-        <div class="chart-sub">Deal value by month (all time)</div>
+        <div class="chart-title">Invoices & Collections by Month</div>
+        <div class="chart-sub">Invoices grouped by invoice date · collections by payment date</div>
         <div class="chart-wrap-tall"><canvas id="chartMonthly"></canvas></div>
       </div>
       <div class="chart-card">
@@ -464,13 +465,15 @@
         <table>
           <thead>
             <tr>
-              <th>Date Placed</th>
+              <th>Invoice Date</th>
+              <th>Payment Date</th>
               <th>Company / Contact</th>
               <th>Role</th>
               <th>Advisor</th>
               <th>Days</th>
               <th>Budget</th>
               <th>Deal Value</th>
+              <th>Paid</th>
               <th>Notes</th>
             </tr>
           </thead>
@@ -704,6 +707,9 @@ async function loadData() {
       if(status==="8. Placed"){
         PLACED.push({
           date: r["Date Placed"]||r["Date"]||"",
+          invDate: r["Invoice Date"]||"",
+          payDate: r["Payment Date"]||"",
+          paid: parseFloat(String(r["Total Paid ($)"]||"").replace(/[^0-9.]/g,""))||0,
           "Company Name": r["Company Name"],
           Name: r["Name"]||"",
           Role: r.Role, Advisor: r.Advisor,
@@ -880,107 +886,165 @@ let timelineChart = null, advRevChart = null;
 function getPlacedFiltered(period) {
   if(period==="all") return PLACED;
   const cutoff = new Date(NOW); cutoff.setDate(cutoff.getDate() - parseInt(period));
-  return PLACED.filter(p => { const d=parseDate(p.date); return d && d >= cutoff; });
+  // Keep a row if EITHER its invoice date, payment date, or placement date falls in the period —
+  // so recent placements without an invoice yet, and older placements paid recently, both show.
+  return PLACED.filter(p => {
+    const inv = parseDate(p.invDate);
+    const pay = parseDate(p.payDate);
+    const pl  = parseDate(p.date);
+    return (inv && inv >= cutoff) || (pay && pay >= cutoff) || (pl && pl >= cutoff);
+  });
 }
 
 function renderPlacementKPIs(rows) {
-  const count = rows.length;
-  const rev = rows.reduce((s,r)=>s+r.dv,0);
+  const invRows = rows.filter(r => r.invDate);
+  const invCount = invRows.length;
+  const invRev = invRows.reduce((s,r)=>s+r.dv,0);
+  const payRows = rows.filter(r => r.payDate);
+  const payCount = payRows.length;
+  const collected = payRows.reduce((s,r)=>s+r.paid,0);
   const avgDays = rows.length ? Math.round(rows.reduce((s,r)=>s+r.days,0)/rows.length) : 0;
-  const advisors = {};
-  rows.forEach(r=>{ advisors[r.Advisor]=(advisors[r.Advisor]||0)+1; });
-  const topAdvisor = Object.entries(advisors).sort((a,b)=>b[1]-a[1])[0];
+  const pending = rows.length - invCount;
   document.getElementById("placement-kpis").innerHTML = `
-    <div class="mini-kpi"><div class="mini-kpi-val">${count}</div><div class="mini-kpi-label">Placements</div></div>
-    <div class="mini-kpi"><div class="mini-kpi-val green">$${(rev/1000).toFixed(1)}K</div><div class="mini-kpi-label">Revenue</div></div>
+    <div class="mini-kpi"><div class="mini-kpi-val">${invCount}</div><div class="mini-kpi-label">Invoices${pending ? ` <span style="color:var(--gray-400);font-weight:400;">(+${pending} pending)</span>` : ""}</div></div>
+    <div class="mini-kpi"><div class="mini-kpi-val green">$${(invRev/1000).toFixed(1)}K</div><div class="mini-kpi-label">Invoiced Revenue</div></div>
+    <div class="mini-kpi"><div class="mini-kpi-val">${payCount}</div><div class="mini-kpi-label">Collections</div></div>
+    <div class="mini-kpi"><div class="mini-kpi-val green">$${(collected/1000).toFixed(1)}K</div><div class="mini-kpi-label">Collected</div></div>
     <div class="mini-kpi"><div class="mini-kpi-val orange">${avgDays}d</div><div class="mini-kpi-label">Avg Days to Place</div></div>
-    <div class="mini-kpi"><div class="mini-kpi-val">${topAdvisor ? topAdvisor[0] : "—"}</div><div class="mini-kpi-label">Top Advisor (${topAdvisor ? topAdvisor[1] : 0} placed)</div></div>
   `;
 }
 
 function renderPlacementTable(rows) {
   document.getElementById("placement-table-count").textContent=`· ${rows.length} placements`;
-  // Group by month (newest first)
-  const sorted = rows.slice().sort((a,b)=>{
-    const da=parseDate(a.date)||new Date(0), db=parseDate(b.date)||new Date(0);
-    return db-da;
+  // Bucket by MONTH — a row appears in its INVOICE month if invoiced.
+  // Collections are attributed to the PAYMENT month (may differ from invoice month).
+  const bucketMap = {};
+  const ensureBucket = (d) => {
+    const key = d.toLocaleDateString("en-US",{month:"long",year:"numeric"});
+    if(!bucketMap[key]) bucketMap[key] = { label:key, ts:d.getTime(), rows:[], invCount:0, invRev:0, payCount:0, collected:0 };
+    return bucketMap[key];
+  };
+  rows.forEach(r => {
+    const invD = parseDate(r.invDate);
+    const payD = parseDate(r.payDate);
+    if(invD) {
+      const b = ensureBucket(invD);
+      b.rows.push(r);
+      b.invCount++;
+      b.invRev += r.dv;
+    }
+    if(payD) {
+      const b = ensureBucket(payD);
+      b.payCount++;
+      b.collected += r.paid;
+    }
   });
-  // Build month buckets in order
-  const buckets=[]; const bucketMap={};
-  sorted.forEach(r=>{
-    const d=parseDate(r.date); if(!d) return;
-    const key=d.toLocaleDateString("en-US",{month:"long",year:"numeric"});
-    if(!bucketMap[key]){bucketMap[key]={label:key,rows:[],rev:0};buckets.push(bucketMap[key]);}
-    bucketMap[key].rows.push(r);
-    bucketMap[key].rev+=r.dv;
-  });
-  const html=buckets.map(b=>{
-    const monthRev=b.rev>0?`<span style="color:var(--green);font-weight:700;margin-left:10px;">$${(b.rev/1000).toFixed(1)}K revenue</span>`:"";
-    const header=`<tr>
-      <td colspan="8" style="background:var(--blue-light);padding:8px 14px;font-size:12px;font-weight:700;color:var(--blue);border-top:2px solid var(--gray-200);">
-        📅 ${b.label} &nbsp;·&nbsp; <span style="font-weight:500;">${b.rows.length} placement${b.rows.length!==1?"s":""}</span>${monthRev}
+  const buckets = Object.values(bucketMap).sort((a,b) => b.ts - a.ts);
+  const html = buckets.map(b => {
+    const parts = [];
+    if(b.invCount) parts.push(`${b.invCount} invoice${b.invCount!==1?"s":""} · <span style="color:var(--green);font-weight:700;">$${(b.invRev/1000).toFixed(1)}K invoiced</span>`);
+    if(b.payCount) parts.push(`${b.payCount} collection${b.payCount!==1?"s":""} · <span style="color:var(--green);font-weight:700;">$${(b.collected/1000).toFixed(1)}K collected</span>`);
+    const stats = parts.join(" &nbsp;·&nbsp; ");
+    const header = `<tr>
+      <td colspan="10" style="background:var(--blue-light);padding:8px 14px;font-size:12px;font-weight:700;color:var(--blue);border-top:2px solid var(--gray-200);">
+        📅 ${b.label} &nbsp;·&nbsp; ${stats}
       </td>
     </tr>`;
-    const dataRows=b.rows.map(r=>`
+    const dataRows = b.rows.map(r => `
       <tr>
-        <td style="font-size:12px;">${r.date}</td>
+        <td style="font-size:12px;">${r.invDate || r.date}</td>
+        <td style="font-size:12px;color:${r.payDate?"var(--green)":"var(--gray-400)"};">${r.payDate || "—"}</td>
         <td><strong>${r["Company Name"]}</strong>${r.Name ? `<br><span style="font-size:11px;color:var(--gray-400);font-weight:400;">${r.Name}</span>` : ""}</td>
         <td style="font-size:12px;">${r.Role}</td>
         <td><span class="advisor-tag ${advisorClass(r.Advisor)}">${r.Advisor}</span></td>
         <td style="text-align:center;font-weight:600;">${r.days}d</td>
         <td><span class="val-blue">${fmtMoney(r.budget)}</span></td>
         <td><span class="val-green">${r.dv>0?fmtMoney(r.dv):"—"}</span></td>
+        <td><span style="color:${r.paid>0?"var(--green)":"var(--gray-400)"};font-weight:${r.paid>0?"700":"400"};">${r.paid>0?fmtMoney(r.paid):"—"}</span></td>
         <td style="font-size:11px;color:var(--gray-400);max-width:180px;white-space:normal;">${r.Notes}</td>
       </tr>
     `).join("");
-    return header+dataRows;
+    return header + dataRows;
   }).join("");
-  document.getElementById("placement-tbody").innerHTML = html || `<tr><td colspan="8" style="text-align:center;padding:24px;color:var(--gray-400);">No placements in this period.</td></tr>`;
+  // Rows placed but not yet invoiced — separate bucket at the end
+  const pending = rows.filter(r => !r.invDate);
+  let pendingHtml = "";
+  if(pending.length) {
+    const header = `<tr>
+      <td colspan="10" style="background:var(--gray-50);padding:8px 14px;font-size:12px;font-weight:700;color:var(--gray-600);border-top:2px solid var(--gray-200);">
+        ⏳ Placed · not yet invoiced &nbsp;·&nbsp; <span style="font-weight:500;">${pending.length} placement${pending.length!==1?"s":""}</span>
+      </td>
+    </tr>`;
+    const dataRows = pending.map(r => `
+      <tr>
+        <td style="font-size:12px;color:var(--gray-400);">${r.date}</td>
+        <td style="font-size:12px;color:var(--gray-400);">—</td>
+        <td><strong>${r["Company Name"]}</strong>${r.Name ? `<br><span style="font-size:11px;color:var(--gray-400);font-weight:400;">${r.Name}</span>` : ""}</td>
+        <td style="font-size:12px;">${r.Role}</td>
+        <td><span class="advisor-tag ${advisorClass(r.Advisor)}">${r.Advisor}</span></td>
+        <td style="text-align:center;font-weight:600;">${r.days}d</td>
+        <td><span class="val-blue">${fmtMoney(r.budget)}</span></td>
+        <td><span class="val-green">${r.dv>0?fmtMoney(r.dv):"—"}</span></td>
+        <td><span style="color:var(--gray-400);">—</span></td>
+        <td style="font-size:11px;color:var(--gray-400);max-width:180px;white-space:normal;">${r.Notes}</td>
+      </tr>
+    `).join("");
+    pendingHtml = header + dataRows;
+  }
+  document.getElementById("placement-tbody").innerHTML = (html + pendingHtml) || `<tr><td colspan="10" style="text-align:center;padding:24px;color:var(--gray-400);">No placements in this period.</td></tr>`;
 }
 
 function buildMonthlyData(rows) {
+  // Two independent lenses on the same month axis:
+  //   invoices bucketed by INVOICE date, collections bucketed by PAYMENT date.
   const months = {};
-  rows.forEach(r=>{
-    const d=parseDate(r.date); if(!d) return;
-    const key=d.toLocaleDateString("en-US",{month:"short",year:"numeric"});
-    if(!months[key]) months[key]={count:0,rev:0};
-    months[key].count++; months[key].rev+=r.dv;
+  const ensure = (d) => {
+    const key = d.toLocaleDateString("en-US",{month:"short",year:"numeric"});
+    if(!months[key]) months[key] = {ts:d.getTime(), invCount:0, invRev:0, payCount:0, collected:0};
+    return months[key];
+  };
+  rows.forEach(r => {
+    const invD = parseDate(r.invDate);
+    const payD = parseDate(r.payDate);
+    if(invD) { const m = ensure(invD); m.invCount++; m.invRev += r.dv; }
+    if(payD) { const m = ensure(payD); m.payCount++; m.collected += r.paid; }
   });
-  // Sort chronologically
-  const sorted = Object.entries(months).sort((a,b)=>new Date(a[0])-new Date(b[0]));
-  return { labels:sorted.map(e=>e[0]), counts:sorted.map(e=>e[1].count), revs:sorted.map(e=>e[1].rev) };
+  const sorted = Object.entries(months).sort((a,b) => a[1].ts - b[1].ts);
+  return {
+    labels: sorted.map(e => e[0]),
+    invCounts: sorted.map(e => e[1].invCount),
+    invRevs: sorted.map(e => e[1].invRev),
+    payCounts: sorted.map(e => e[1].payCount),
+    collecteds: sorted.map(e => e[1].collected),
+  };
 }
 
 function renderTimelineChart(rows, period) {
   const ctx = document.getElementById("chartTimeline");
   if(timelineChart) timelineChart.destroy();
-  if(period==="all") {
-    const {labels,counts,revs} = buildMonthlyData(rows);
-    document.getElementById("timeline-chart-title").textContent="Monthly Placements & Revenue";
-    document.getElementById("timeline-chart-sub").textContent="All time · grouped by month placed";
-    timelineChart = new Chart(ctx, {
-      data:{labels,datasets:[
-        {type:"bar",label:"Placements",data:counts,backgroundColor:"rgba(11,77,153,.25)",borderColor:"#0b4d99",borderWidth:2,borderRadius:4,yAxisID:"y"},
-        {type:"line",label:"Revenue ($)",data:revs,borderColor:"#22c55e",backgroundColor:"rgba(34,197,94,.08)",tension:.4,pointRadius:4,pointBackgroundColor:"#22c55e",yAxisID:"y2"}
-      ]},
-      options:{plugins:{legend:{position:"top",labels:{font:{family:"Inter",size:11}}}},scales:{y:{beginAtZero:true,grid:{color:"#f1f5f9"},ticks:{font:{family:"Inter",size:10}}},y2:{position:"right",beginAtZero:true,grid:{display:false},ticks:{font:{family:"Inter",size:10},callback:v=>"$"+(v/1000).toFixed(0)+"K"}}},maintainAspectRatio:false}
-    });
-  } else {
-    const label = period==="30"?"Last 30 Days":"Last 7 Days";
-    document.getElementById("timeline-chart-title").textContent=`${label} — Daily Placements`;
-    document.getElementById("timeline-chart-sub").textContent=`${rows.length} placements in the period`;
-    // Group by day
-    const days={};
-    rows.forEach(r=>{const d=parseDate(r.date);if(!d)return;const k=d.toLocaleDateString("en-US",{month:"short",day:"numeric"});if(!days[k])days[k]={count:0,rev:0};days[k].count++;days[k].rev+=r.dv;});
-    const sorted=Object.entries(days).sort((a,b)=>new Date(a[0]+", 2026")-new Date(b[0]+", 2026"));
-    timelineChart = new Chart(ctx,{
-      data:{labels:sorted.map(e=>e[0]),datasets:[
-        {type:"bar",label:"Placements",data:sorted.map(e=>e[1].count),backgroundColor:"rgba(11,77,153,.3)",borderColor:"#0b4d99",borderWidth:2,borderRadius:4,yAxisID:"y"},
-        {type:"line",label:"Revenue ($)",data:sorted.map(e=>e[1].rev),borderColor:"#22c55e",backgroundColor:"rgba(34,197,94,.08)",tension:.4,pointRadius:5,pointBackgroundColor:"#22c55e",yAxisID:"y2"}
-      ]},
-      options:{plugins:{legend:{position:"top",labels:{font:{family:"Inter",size:11}}}},scales:{y:{beginAtZero:true,ticks:{font:{family:"Inter",size:10},stepSize:1}},y2:{position:"right",beginAtZero:true,grid:{display:false},ticks:{font:{family:"Inter",size:10},callback:v=>"$"+(v/1000).toFixed(1)+"K"}}},maintainAspectRatio:false}
-    });
-  }
+  const {labels, invCounts, invRevs, payCounts, collecteds} = buildMonthlyData(rows);
+  document.getElementById("timeline-chart-title").textContent = "Invoices & Collections by Month";
+  const periodTag = period==="all" ? "All time" : period==="30" ? "Last 30 days" : "Last 7 days";
+  document.getElementById("timeline-chart-sub").textContent = `${periodTag} · invoices grouped by invoice date, collections by payment date`;
+  timelineChart = new Chart(ctx, {
+    data: {
+      labels,
+      datasets: [
+        {type:"bar",label:"# Invoices",data:invCounts,backgroundColor:"rgba(11,77,153,.35)",borderColor:"#0b4d99",borderWidth:2,borderRadius:4,yAxisID:"y"},
+        {type:"bar",label:"# Collections",data:payCounts,backgroundColor:"rgba(34,197,94,.35)",borderColor:"#22c55e",borderWidth:2,borderRadius:4,yAxisID:"y"},
+        {type:"line",label:"Invoiced $",data:invRevs,borderColor:"#0b4d99",backgroundColor:"rgba(11,77,153,.06)",tension:.4,pointRadius:4,pointBackgroundColor:"#0b4d99",yAxisID:"y2"},
+        {type:"line",label:"Collected $",data:collecteds,borderColor:"#22c55e",backgroundColor:"rgba(34,197,94,.06)",tension:.4,pointRadius:4,pointBackgroundColor:"#22c55e",yAxisID:"y2"},
+      ]
+    },
+    options: {
+      plugins:{legend:{position:"top",labels:{font:{family:"Inter",size:11}}}},
+      scales:{
+        y:{beginAtZero:true,grid:{color:"#f1f5f9"},ticks:{font:{family:"Inter",size:10},stepSize:1},title:{display:true,text:"# per month",font:{family:"Inter",size:10}}},
+        y2:{position:"right",beginAtZero:true,grid:{display:false},ticks:{font:{family:"Inter",size:10},callback:v=>"$"+(v/1000).toFixed(0)+"K"},title:{display:true,text:"$ per month",font:{family:"Inter",size:10}}}
+      },
+      maintainAspectRatio:false
+    }
+  });
 }
 
 function renderAdvRevChart(rows, period) {
@@ -1179,14 +1243,16 @@ function initOverviewCharts() {
     options:{plugins:{legend:{position:"bottom",labels:{font:{family:"Inter",size:10},padding:8}}},cutout:"60%",maintainAspectRatio:false}
   });
 
-  // Monthly revenue chart (Overview)
-  const {labels,counts,revs} = buildMonthlyData(PLACED);
+  // Monthly invoices & collections chart (Overview)
+  const {labels, invCounts, invRevs, payCounts, collecteds} = buildMonthlyData(PLACED);
   new Chart(document.getElementById("chartMonthly"),{
     data:{labels,datasets:[
-      {type:"bar",label:"Placements",data:counts,backgroundColor:"rgba(11,77,153,.2)",borderColor:BLUE,borderWidth:2,borderRadius:4,yAxisID:"y"},
-      {type:"line",label:"Revenue",data:revs,borderColor:GREEN,backgroundColor:"rgba(34,197,94,.07)",tension:.4,pointRadius:3,pointBackgroundColor:GREEN,yAxisID:"y2"}
+      {type:"bar",label:"# Invoices",data:invCounts,backgroundColor:"rgba(11,77,153,.35)",borderColor:BLUE,borderWidth:2,borderRadius:4,yAxisID:"y"},
+      {type:"bar",label:"# Collections",data:payCounts,backgroundColor:"rgba(34,197,94,.35)",borderColor:GREEN,borderWidth:2,borderRadius:4,yAxisID:"y"},
+      {type:"line",label:"Invoiced $",data:invRevs,borderColor:BLUE,backgroundColor:"rgba(11,77,153,.06)",tension:.4,pointRadius:3,pointBackgroundColor:BLUE,yAxisID:"y2"},
+      {type:"line",label:"Collected $",data:collecteds,borderColor:GREEN,backgroundColor:"rgba(34,197,94,.06)",tension:.4,pointRadius:3,pointBackgroundColor:GREEN,yAxisID:"y2"}
     ]},
-    options:{plugins:{legend:{position:"top",labels:{font:{family:"Inter",size:11}}}},scales:{y:{beginAtZero:true,grid:{color:"#f1f5f9"},ticks:{font:{family:"Inter",size:10}}},y2:{position:"right",beginAtZero:true,grid:{display:false},ticks:{font:{family:"Inter",size:10},callback:v=>"$"+(v/1000).toFixed(0)+"K"}}},maintainAspectRatio:false}
+    options:{plugins:{legend:{position:"top",labels:{font:{family:"Inter",size:11}}}},scales:{y:{beginAtZero:true,grid:{color:"#f1f5f9"},ticks:{font:{family:"Inter",size:10},stepSize:1}},y2:{position:"right",beginAtZero:true,grid:{display:false},ticks:{font:{family:"Inter",size:10},callback:v=>"$"+(v/1000).toFixed(0)+"K"}}},maintainAspectRatio:false}
   });
 
   // Placed by advisor (fully dynamic)

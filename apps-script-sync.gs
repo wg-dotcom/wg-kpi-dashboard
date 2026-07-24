@@ -31,6 +31,10 @@ var GITHUB_TOKEN = 'PASTE_YOUR_PAT_HERE';         // ghp_… with `repo` scope
 var REPO         = 'wg-dotcom/wg-kpi-dashboard';
 var FILE_PATH    = 'wg-data.json';
 var BRANCH       = 'main';
+
+// ─── CORE KPI SYNC CONFIG ─────────────────────────────────────────────
+var CORE_REPO      = 'wg-dotcom/core-kpi-dashboard';
+var CORE_FILE_PATH = 'core-data.json';
 // ──────────────────────────────────────────────────────────────────────
 
 var PLACED = 'Placed / Hired', CLOSED = 'Closed / Lost';
@@ -227,4 +231,92 @@ function removeWgKpiTrigger() {
     if (t.getHandlerFunction() === 'pushWgKpiToGitHub') ScriptApp.deleteTrigger(t);
   });
   console.log('WG KPI trigger removed.');
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   3) CORE KPI DASHBOARD — same pattern, targets the Core tab
+   ═══════════════════════════════════════════════════════════════════════ */
+
+function readCoreKpiRows() {
+  var ss = SpreadsheetApp.openById(SHEET_ID);
+  var sh = sheetByGid(ss, CORE_GID);
+  if (!sh) throw new Error('Core tab (gid=' + CORE_GID + ') not found. Someone renamed or deleted it.');
+  var values = sh.getDataRange().getDisplayValues();
+  if (values.length < 2) return [];
+  var headers = values[0].map(function (h) { return String(h).trim(); });
+  var rows = [];
+  for (var r = 1; r < values.length; r++) {
+    var row = values[r];
+    if (row.every(function (c) { return String(c).trim() === ''; })) continue;
+    var obj = {};
+    for (var c = 0; c < headers.length; c++) {
+      if (!headers[c]) continue;
+      obj[headers[c]] = String(row[c] == null ? '' : row[c]).trim();
+    }
+    rows.push(obj);
+  }
+  return rows;
+}
+
+function buildCoreKpiPayload() {
+  return {
+    updated: new Date().toISOString(),
+    rows: readCoreKpiRows(),
+  };
+}
+
+function pushCoreKpiToGitHub() {
+  if (!GITHUB_TOKEN || GITHUB_TOKEN.indexOf('ghp_') !== 0) {
+    throw new Error('Set GITHUB_TOKEN at the top of this script (needs "repo" scope).');
+  }
+  var payload = buildCoreKpiPayload();
+  var body = JSON.stringify(payload, null, 2);
+
+  var api = 'https://api.github.com/repos/' + CORE_REPO + '/contents/' + CORE_FILE_PATH;
+  var authHeaders = { Authorization: 'token ' + GITHUB_TOKEN, Accept: 'application/vnd.github+json' };
+
+  var sha = null;
+  var getResp = UrlFetchApp.fetch(api + '?ref=' + BRANCH, {
+    method: 'get', headers: authHeaders, muteHttpExceptions: true,
+  });
+  if (getResp.getResponseCode() === 200) {
+    sha = JSON.parse(getResp.getContentText()).sha;
+  } else if (getResp.getResponseCode() !== 404) {
+    throw new Error('GET failed: ' + getResp.getResponseCode() + ' ' + getResp.getContentText().slice(0, 200));
+  }
+
+  var timestamp = Utilities.formatDate(new Date(), 'America/Argentina/Buenos_Aires', 'M/d/yyyy, h:mm:ss a');
+  var commitBody = {
+    message: 'Auto-sync Core: ' + timestamp,
+    content: Utilities.base64Encode(body, Utilities.Charset.UTF_8),
+    branch: BRANCH,
+  };
+  if (sha) commitBody.sha = sha;
+
+  var putResp = UrlFetchApp.fetch(api, {
+    method: 'put', headers: authHeaders,
+    contentType: 'application/json', payload: JSON.stringify(commitBody),
+    muteHttpExceptions: true,
+  });
+  var code = putResp.getResponseCode();
+  if (code !== 200 && code !== 201) {
+    throw new Error('PUT failed: ' + code + ' ' + putResp.getContentText().slice(0, 300));
+  }
+  console.log('Synced ' + payload.rows.length + ' Core rows at ' + timestamp);
+  return payload.rows.length;
+}
+
+function installCoreKpiTrigger() {
+  ScriptApp.getProjectTriggers().forEach(function (t) {
+    if (t.getHandlerFunction() === 'pushCoreKpiToGitHub') ScriptApp.deleteTrigger(t);
+  });
+  ScriptApp.newTrigger('pushCoreKpiToGitHub').timeBased().everyHours(1).create();
+  console.log('Hourly Core KPI trigger installed. Next run within the hour.');
+}
+
+function removeCoreKpiTrigger() {
+  ScriptApp.getProjectTriggers().forEach(function (t) {
+    if (t.getHandlerFunction() === 'pushCoreKpiToGitHub') ScriptApp.deleteTrigger(t);
+  });
+  console.log('Core KPI trigger removed.');
 }

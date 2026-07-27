@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T12:13:43.987Z",
+  "updated": "2026-07-27T13:13:44.541Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4647,12 +4647,12 @@
     },
     {
       "Creation Date": "May 18, 2026",
-      "Last Update": "July 23, 2026",
-      "Priorities": "4",
+      "Last Update": "July 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR92294",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Adam Letson",
       "Email": "adam@arcoutdoor.co",
       "Company Name": "Arc Outdoor LLC / Green Horizons LLC",
@@ -4669,7 +4669,7 @@
       "%WG": "18%",
       "Deal Value ($)": "10,000",
       "Total Paid ($)": "10,000",
-      "Notes": "Hiring Iqra\n(JOL)",
+      "Notes": "Hiring Iqra",
       "SURFACE": ""
     },
     {
@@ -5300,7 +5300,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Seth Barley",
       "Email": "seth@nealrfg.com",
       "Company Name": "Neal Roofing",
@@ -5312,12 +5312,12 @@
       "Date Placed": "July 24, 2026",
       "Days for Placement": "12",
       "Invoice Date": "July 24, 2026",
-      "Payment Date": "",
+      "Payment Date": "July 27, 2026",
       "Budget ($)": "1,800",
       "%WG": "30%",
       "Deal Value ($)": "6,480",
-      "Total Paid ($)": "",
-      "Notes": "Hiring Wilson\n(Invoice)",
+      "Total Paid ($)": "6,480",
+      "Notes": "Hiring Wilson",
       "SURFACE": ""
     },
     {
@@ -5327,7 +5327,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Seth Barley",
       "Email": "seth@nealrfg.com",
       "Company Name": "Neal Roofing",
@@ -5339,12 +5339,12 @@
       "Date Placed": "July 24, 2026",
       "Days for Placement": "12",
       "Invoice Date": "July 24, 2026",
-      "Payment Date": "",
+      "Payment Date": "July 27, 2026",
       "Budget ($)": "1,800",
       "%WG": "30%",
       "Deal Value ($)": "6,480",
-      "Total Paid ($)": "",
-      "Notes": "Hiring Sofia\n(Invoice)",
+      "Total Paid ($)": "6,480",
+      "Notes": "Hiring Sofia",
       "SURFACE": ""
     },
     {

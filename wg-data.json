@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T23:13:44.232Z",
+  "updated": "2026-07-28T00:13:44.019Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -5208,7 +5208,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "7. Invoice",
       "Name": "Destin Magnuson",
       "Email": "destin.magnuson22@gmail.com",
       "Company Name": "Creekside Landscapes",
@@ -5219,13 +5219,13 @@
       "KickOff Meeting": "July 10, 2026",
       "Date Placed": "July 22, 2026",
       "Days for Placement": "9",
-      "Invoice Date": "",
+      "Invoice Date": "July 27, 2026",
       "Payment Date": "",
       "Budget ($)": "1,100",
       "%WG": "30%",
       "Deal Value ($)": "3,960",
       "Total Paid ($)": "",
-      "Notes": "Hiring Vanessa\n(JOL)\nFollow up 27th"
+      "Notes": "Hiring Vanessa\n(Invoice)"
     },
     {
       "Creation Date": "July 8, 2026",

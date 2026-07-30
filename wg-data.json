@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T21:13:45.783Z",
+  "updated": "2026-07-30T22:13:44.058Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4995,12 +4995,12 @@
     },
     {
       "Creation Date": "June 23, 2026",
-      "Last Update": "July 27, 2026",
-      "Priorities": "3",
+      "Last Update": "July 30, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Derek Branch",
       "Email": "derek@alittle-bird.com",
       "Company Name": "A Little Bird, Inc.",
@@ -5012,12 +5012,12 @@
       "Date Placed": "July 24, 2026",
       "Days for Placement": "25",
       "Invoice Date": "July 28, 2026",
-      "Payment Date": "",
+      "Payment Date": "July 30, 2026",
       "Budget ($)": "2,500",
       "%WG": "35%",
       "Deal Value ($)": "10,500",
-      "Total Paid ($)": "",
-      "Notes": "Hiring Darian\n(INVOICE)"
+      "Total Paid ($)": "10,500",
+      "Notes": "Hiring Darian"
     },
     {
       "Creation Date": "June 25, 2026",

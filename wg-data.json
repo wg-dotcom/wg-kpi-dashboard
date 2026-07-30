@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T16:13:44.559Z",
+  "updated": "2026-07-30T17:13:43.904Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4636,7 +4636,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "6. Job Offer Letter / Signature",
       "Name": "Blake Atwell",
       "Email": "batwell@rex.com",
       "Company Name": "Rex",
@@ -4647,13 +4647,13 @@
       "KickOff Meeting": "May 22, 2026",
       "Date Placed": "July 23, 2026",
       "Days for Placement": "45",
-      "Invoice Date": "July 29, 2026",
+      "Invoice Date": "",
       "Payment Date": "",
       "Budget ($)": "1,600",
       "%WG": "30%",
       "Deal Value ($)": "5,760",
       "Total Paid ($)": "",
-      "Notes": "Hiring Sadam\n(INVOICE)\n\nWaiting for Blake next week to confirm payment"
+      "Notes": "Hiring Sadam\n(JOL)\nWaiting for Blake next week to confirm payment"
     },
     {
       "Creation Date": "May 20, 2026",
@@ -4662,7 +4662,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "6. Job Offer Letter / Signature",
       "Name": "Blake Atwell",
       "Email": "batwell@rex.com",
       "Company Name": "Rex",
@@ -4673,13 +4673,13 @@
       "KickOff Meeting": "May 22, 2026",
       "Date Placed": "July 23, 2026",
       "Days for Placement": "45",
-      "Invoice Date": "July 29, 2026",
+      "Invoice Date": "",
       "Payment Date": "",
       "Budget ($)": "1,600",
       "%WG": "30%",
       "Deal Value ($)": "5,760",
       "Total Paid ($)": "",
-      "Notes": "Hiring Marlon\n(INVOICE)\nWaiting for Blake next week to confirm payment"
+      "Notes": "Hiring Marlon\n(JOL)\nWaiting for Blake next week to confirm payment"
     },
     {
       "Creation Date": "May 20, 2026",

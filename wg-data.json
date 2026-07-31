@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T15:13:44.286Z",
+  "updated": "2026-07-31T16:13:44.099Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4059,8 +4059,8 @@
     },
     {
       "Creation Date": "April 30, 2026",
-      "Last Update": "July 27, 2026",
-      "Priorities": "4",
+      "Last Update": "July 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR88313",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -4371,8 +4371,8 @@
     },
     {
       "Creation Date": "May 12, 2026",
-      "Last Update": "July 27, 2026",
-      "Priorities": "4",
+      "Last Update": "July 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR65562",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -4917,8 +4917,8 @@
     },
     {
       "Creation Date": "June 22, 2026",
-      "Last Update": "July 27, 2026",
-      "Priorities": "4",
+      "Last Update": "July 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
@@ -4939,7 +4939,7 @@
       "%WG": "0%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "",
-      "Notes": "Andrea - First interview 27th - Assessment\nMiguel (TAP) - First interview 20th - Assessment\n\nWaiting for feedback on the new batch droped on the 22nd."
+      "Notes": "Andrea - First interview 27th - Assessment\nMiguel (TAP) - First interview 20th - Assessment\n\nWaiting for feedback on assessments"
     },
     {
       "Creation Date": "June 22, 2026",
@@ -5151,8 +5151,8 @@
     },
     {
       "Creation Date": "July 9, 2026",
-      "Last Update": "July 27, 2026",
-      "Priorities": "4",
+      "Last Update": "July 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5173,7 +5173,7 @@
       "%WG": "35%",
       "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
-      "Notes": "Nicolas - they want to hire him.\nDaniel - First interview 24th\n\nWaiting for confirmation from the customer.\n\nJesus will reach out via text. Final Push to move to invoice"
+      "Notes": "Nicolas - they want to hire him.\nDaniel - First interview 24th\n\nWaiting for confirmation from the customer."
     },
     {
       "Creation Date": "July 13, 2026",
@@ -5229,8 +5229,8 @@
     },
     {
       "Creation Date": "July 8, 2026",
-      "Last Update": "July 27, 2026",
-      "Priorities": "4",
+      "Last Update": "July 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Network Team\nKerri",
       "Is replacement?": "FALSE",
@@ -5281,8 +5281,8 @@
     },
     {
       "Creation Date": "July 14, 2026",
-      "Last Update": "July 27, 2026",
-      "Priorities": "4",
+      "Last Update": "July 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5303,7 +5303,7 @@
       "%WG": "35%",
       "Deal Value ($)": "6,720",
       "Total Paid ($)": "",
-      "Notes": "Joseph - First interview August 3rd\nRequested a custom video\n \nIf he hires offer him Sagan U."
+      "Notes": "Joseph - First interview August 3rd\n \nIf he hires offer him Sagan U."
     },
     {
       "Creation Date": "July 20, 2026",
@@ -5385,8 +5385,8 @@
     },
     {
       "Creation Date": "July 28, 2026",
-      "Last Update": "July 27, 2026",
-      "Priorities": "4",
+      "Last Update": "July 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5403,16 +5403,16 @@
       "Days for Placement": "",
       "Invoice Date": "",
       "Payment Date": "",
-      "Budget ($)": "3,000",
+      "Budget ($)": "2,000",
       "%WG": "35%",
-      "Deal Value ($)": "12,600",
+      "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
-      "Notes": ""
+      "Notes": "First batch Mon Aug 3rd"
     },
     {
       "Creation Date": "July 28, 2026",
-      "Last Update": "July 27, 2026",
-      "Priorities": "4",
+      "Last Update": "July 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5420,7 +5420,7 @@
       "Name": "Iacopo Santini",
       "Email": "iacopo@mvocostseg.com",
       "Company Name": "MVO Consulting LLC",
-      "Role": "",
+      "Role": "SDR",
       "NotebookLM": "https://notebooklm.google.com/notebook/1500243c-a527-4d50-9188-f8063d28db7a",
       "GitHub": "",
       "Advisor": "Guillermo",
@@ -5429,11 +5429,11 @@
       "Days for Placement": "",
       "Invoice Date": "",
       "Payment Date": "",
-      "Budget ($)": "3,000",
+      "Budget ($)": "2,000",
       "%WG": "35%",
-      "Deal Value ($)": "12,600",
+      "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
-      "Notes": ""
+      "Notes": "First batch Mon Aug 3rd"
     }
   ]
 }

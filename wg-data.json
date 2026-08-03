@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T19:13:44.004Z",
+  "updated": "2026-08-03T20:13:44.047Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -5338,7 +5338,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Chris Richetti",
       "Email": "chris@corepmrealty.com",
       "Company Name": "Core Realty",
@@ -5350,11 +5350,11 @@
       "Date Placed": "July 31, 2026",
       "Days for Placement": "13",
       "Invoice Date": "August 3, 2026",
-      "Payment Date": "",
+      "Payment Date": "August 3, 2026",
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
-      "Total Paid ($)": "",
+      "Total Paid ($)": "8,400",
       "Notes": "Hiring Jesus\n(JOL)"
     },
     {

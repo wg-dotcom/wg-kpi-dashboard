@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T14:13:44.239Z",
+  "updated": "2026-08-05T15:13:44.884Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -5434,6 +5434,58 @@
       "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
       "Notes": "First batch Mon Aug 3rd"
+    },
+    {
+      "Creation Date": "July 31, 2026",
+      "Last Update": "",
+      "Priorities": "46239",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "1. KickOff Meeting",
+      "Name": "Hans-Peter Frank",
+      "Email": "peter@inseeq.com",
+      "Company Name": "inseeq",
+      "Role": "PAID MEDIA SPECIALIST / Ads Manager",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "3,000",
+      "%WG": "35%",
+      "Deal Value ($)": "12,600",
+      "Total Paid ($)": "",
+      "Notes": ""
+    },
+    {
+      "Creation Date": "August 4, 2026",
+      "Last Update": "",
+      "Priorities": "46239",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "1. KickOff Meeting",
+      "Name": "Christopher Rosa",
+      "Email": "CRosa@PreciseStripingLLC.com",
+      "Company Name": "Precise Striping",
+      "Role": "Software Engineer - AI, Internal Tools & Automation",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "Guillermo",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "2,500",
+      "%WG": "35%",
+      "Deal Value ($)": "10,500",
+      "Total Paid ($)": "",
+      "Notes": ""
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T14:13:44.617Z",
+  "updated": "2026-08-06T15:13:55.393Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -3383,12 +3383,12 @@
     },
     {
       "Creation Date": "March 11, 2026",
-      "Last Update": "August 3, 2026",
-      "Priorities": "3",
+      "Last Update": "August 6, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR68130",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "6. Job Offer Letter / Signature",
       "Name": "Matt May",
       "Email": "mmay@discomputers.com",
       "Company Name": "Digital Integrated Systems",
@@ -3397,15 +3397,15 @@
       "GitHub": "https://wg-dotcom.github.io/dis-computers-technical-client-liaison/",
       "Advisor": "Miguel",
       "KickOff Meeting": "July 6, 2026",
-      "Date Placed": "",
-      "Days for Placement": "",
+      "Date Placed": "August 5, 2026",
+      "Days for Placement": "23",
       "Invoice Date": "",
       "Payment Date": "",
-      "Budget ($)": "2,300",
+      "Budget ($)": "2,500",
       "%WG": "35%",
-      "Deal Value ($)": "9,660",
+      "Deal Value ($)": "10,500",
       "Total Paid ($)": "",
-      "Notes": "Guillermo - first intrerview this week\n\nNew drop 4th"
+      "Notes": "Guillermo - first intrerview this week\nGuillermo - Second interview July 5th\nHiring Guillermo"
     },
     {
       "Creation Date": "March 20, 2026",
@@ -4007,8 +4007,8 @@
     },
     {
       "Creation Date": "April 28, 2026",
-      "Last Update": "August 3, 2026",
-      "Priorities": "3",
+      "Last Update": "August 6, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR67852",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5151,12 +5151,12 @@
     },
     {
       "Creation Date": "July 9, 2026",
-      "Last Update": "August 3, 2026",
-      "Priorities": "3",
+      "Last Update": "August 6, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "5. Final Interview",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Amanda Adams",
       "Email": "aadams@koalainsulation.com",
       "Company Name": "Koala Insulation of Pearland/West Houston",
@@ -5173,7 +5173,7 @@
       "%WG": "35%",
       "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
-      "Notes": "Nicolas - they want to hire him.\nDaniel - First interview 24th\n\nWaiting for confirmation from the customer."
+      "Notes": "3W MIA - Paused by us\nCustomer unresponsive - candidates not available"
     },
     {
       "Creation Date": "July 13, 2026",
@@ -5449,7 +5449,7 @@
       "Role": "PAID MEDIA SPECIALIST / Ads Manager",
       "NotebookLM": "",
       "GitHub": "",
-      "Advisor": "",
+      "Advisor": "Kathe",
       "KickOff Meeting": "",
       "Date Placed": "",
       "Days for Placement": "",
@@ -5485,6 +5485,32 @@
       "%WG": "35%",
       "Deal Value ($)": "10,500",
       "Total Paid ($)": "",
+      "Notes": ""
+    },
+    {
+      "Creation Date": "July 31, 2026",
+      "Last Update": "",
+      "Priorities": "46240",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "TRUE",
+      "Status": "2. Candidates Presented",
+      "Name": "TESHIA WILLIAMS",
+      "Email": "teshia@hrandbeyond.com",
+      "Company Name": "HR & BEYOND",
+      "Role": "Executive Assistant",
+      "NotebookLM": "https://notebooklm.google.com/notebook/d10a887a-93b9-4b47-a641-d4b63d29e717",
+      "GitHub": "",
+      "Advisor": "Guillermo",
+      "KickOff Meeting": "July 31, 2026",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "1,500",
+      "%WG": "0%",
+      "Deal Value ($)": "0",
+      "Total Paid ($)": "0",
       "Notes": ""
     }
   ]

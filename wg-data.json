@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T15:13:44.487Z",
+  "updated": "2026-08-10T16:13:45.541Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4605,12 +4605,12 @@
     },
     {
       "Creation Date": "May 20, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "4",
+      "Last Update": "August 10, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "CORE",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Clayton Robinson",
       "Email": "clayton@crplumbingdfw.com",
       "Company Name": "CR Plumbing Air & Electric",
@@ -4622,17 +4622,17 @@
       "Date Placed": "June 25, 2026",
       "Days for Placement": "26",
       "Invoice Date": "June 26, 2026",
-      "Payment Date": "",
+      "Payment Date": "August 10, 2026",
       "Budget ($)": "2,000",
       "%WG": "18%",
       "Deal Value ($)": "4,320",
-      "Total Paid ($)": "",
+      "Total Paid ($)": "4,320",
       "Notes": "Hiring Freths\n(INVOICE)"
     },
     {
       "Creation Date": "May 20, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "4",
+      "Last Update": "August 10, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -4657,8 +4657,8 @@
     },
     {
       "Creation Date": "May 20, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "4",
+      "Last Update": "August 10, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -4917,8 +4917,8 @@
     },
     {
       "Creation Date": "June 22, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "4",
+      "Last Update": "August 10, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
@@ -4939,7 +4939,7 @@
       "%WG": "0%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "",
-      "Notes": "Andrea - First interview 27th - Assessment\nMiguel (TAP) - First interview 20th - Assessment\n\nWaiting for feedback on assessments - OOO\nResuming next week"
+      "Notes": "Daniel - Assessment - Waiting for feedback"
     },
     {
       "Creation Date": "June 22, 2026",
@@ -5229,8 +5229,8 @@
     },
     {
       "Creation Date": "July 8, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "4",
+      "Last Update": "August 10, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Network Team\nKerri",
       "Is replacement?": "FALSE",
@@ -5251,7 +5251,7 @@
       "%WG": "35%",
       "Deal Value ($)": "5,040",
       "Total Paid ($)": "",
-      "Notes": "Ranique - First interview 27th\n\nNew batch August 4th - Follow up 6th"
+      "Notes": "Ranique - First interview 27th\n\nNew batch August 4th - Follow up 6th - Follow up 10th"
     },
     {
       "Creation Date": "July 13, 2026",
@@ -5281,8 +5281,8 @@
     },
     {
       "Creation Date": "July 14, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "4",
+      "Last Update": "August 10, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5303,7 +5303,7 @@
       "%WG": "35%",
       "Deal Value ($)": "6,720",
       "Total Paid ($)": "",
-      "Notes": "Joseph - First interview August 3rd - GOOD\n \nNew batch 6th"
+      "Notes": "Joseph - First interview August 3rd - GOOD\n \nNew batch 6th - Waiting for feedback on this batch"
     },
     {
       "Creation Date": "July 20, 2026",
@@ -5385,8 +5385,8 @@
     },
     {
       "Creation Date": "July 28, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "4",
+      "Last Update": "August 10, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5407,12 +5407,12 @@
       "%WG": "35%",
       "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
-      "Notes": "Jonathan (TAP) - next week\nNew batch 11th"
+      "Notes": "New batch 12th"
     },
     {
       "Creation Date": "July 28, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "4",
+      "Last Update": "August 10, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5433,16 +5433,16 @@
       "%WG": "35%",
       "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
-      "Notes": "First batch Mon Aug 3rd\nWaiting for feedback"
+      "Notes": "New batch 12th"
     },
     {
       "Creation Date": "July 31, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "4",
+      "Last Update": "August 10, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "1. KickOff Meeting",
+      "Status": "3. 1st Round of Interviews",
       "Name": "Hans-Peter Frank",
       "Email": "peter@inseeq.com",
       "Company Name": "inseeq",
@@ -5459,16 +5459,16 @@
       "%WG": "35%",
       "Deal Value ($)": "12,600",
       "Total Paid ($)": "",
-      "Notes": "First batch 7th"
+      "Notes": "First batch 7th\nVitor - First Interviews 12th\nNatan S - First Interviews 12th\nMurilo O - First Interviews 12th"
     },
     {
       "Creation Date": "August 4, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "4",
+      "Last Update": "August 10, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "1. KickOff Meeting",
+      "Status": "2. Candidates Presented",
       "Name": "Christopher Rosa",
       "Email": "CRosa@PreciseStripingLLC.com",
       "Company Name": "Precise Striping",
@@ -5485,12 +5485,12 @@
       "%WG": "35%",
       "Deal Value ($)": "10,500",
       "Total Paid ($)": "",
-      "Notes": "First batch 10th"
+      "Notes": "Candidates presented - Waiting for next steps"
     },
     {
       "Creation Date": "July 31, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "4",
+      "Last Update": "August 10, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
@@ -5511,7 +5511,7 @@
       "%WG": "0%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "0",
-      "Notes": "Walidah - First interview 7th"
+      "Notes": "Walidah - Assessment\nNew batch 11th"
     }
   ]
 }

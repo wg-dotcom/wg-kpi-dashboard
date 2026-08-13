@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T15:13:44.270Z",
+  "updated": "2026-08-13T16:13:43.959Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -3959,8 +3959,8 @@
       "Priorities": "59",
       "Hiring Request": "HR45743",
       "Source": "Regular WG",
-      "Is replacement?": "FALSE",
-      "Status": "8. Placed",
+      "Is replacement?": "TRUE",
+      "Status": "1. KickOff Meeting",
       "Name": "Carrington Dillon",
       "Email": "dillon@joyce-cline.com",
       "Company Name": "Joyce | Cline Home Services",
@@ -4371,8 +4371,8 @@
     },
     {
       "Creation Date": "May 12, 2026",
-      "Last Update": "August 10, 2026",
-      "Priorities": "3",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR65562",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -4631,12 +4631,12 @@
     },
     {
       "Creation Date": "May 20, 2026",
-      "Last Update": "August 10, 2026",
-      "Priorities": "3",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Blake Atwell",
       "Email": "batwell@rex.com",
       "Company Name": "Rex",
@@ -4653,16 +4653,16 @@
       "%WG": "30%",
       "Deal Value ($)": "5,760",
       "Total Paid ($)": "",
-      "Notes": "Hiring Sadam\n(INVOICE)\nWaiting for Blake next week to confirm payment"
+      "Notes": "PAUSED"
     },
     {
       "Creation Date": "May 20, 2026",
-      "Last Update": "August 10, 2026",
-      "Priorities": "3",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Blake Atwell",
       "Email": "batwell@rex.com",
       "Company Name": "Rex",
@@ -4679,7 +4679,7 @@
       "%WG": "30%",
       "Deal Value ($)": "5,760",
       "Total Paid ($)": "",
-      "Notes": "Hiring Marlon\n(INVOICE)\nWaiting for Blake next week to confirm payment"
+      "Notes": "PAUSED"
     },
     {
       "Creation Date": "May 20, 2026",
@@ -4791,8 +4791,8 @@
       "Priorities": "52",
       "Hiring Request": "HR36219",
       "Source": "Regular WG",
-      "Is replacement?": "FALSE",
-      "Status": "8. Placed",
+      "Is replacement?": "TRUE",
+      "Status": "1. KickOff Meeting",
       "Name": "Ashley Thornton",
       "Email": "ashley@1stchoiceairsolutions.com",
       "Company Name": "1st Choice Plumbing Heating & Air Solutions",
@@ -4891,8 +4891,8 @@
     },
     {
       "Creation Date": "June 17, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "7",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
@@ -4913,12 +4913,12 @@
       "%WG": "0%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "",
-      "Notes": "First baatch this week (potentially the 7th)"
+      "Notes": "First baatch this week"
     },
     {
       "Creation Date": "June 22, 2026",
-      "Last Update": "August 10, 2026",
-      "Priorities": "3",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
@@ -4939,12 +4939,12 @@
       "%WG": "0%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "",
-      "Notes": "Daniel - Assessment - Waiting for feedback"
+      "Notes": "Daniel - Assessment - Waiting for feedback\nNew batch on the 17th"
     },
     {
       "Creation Date": "June 22, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "7",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -4965,7 +4965,7 @@
       "%WG": "35%",
       "Deal Value ($)": "12,600",
       "Total Paid ($)": "",
-      "Notes": "Maria Camila - First interview 23rd - Assessment\n\nPresented candidates 29th, 3rd - feedback\n\nFollow up 5th"
+      "Notes": "Maria Camila - First interview 23rd - Assessment - Rejected\n\nPresented candidates 29th, 3rd - feedback \n\nNew batch on the 14th"
     },
     {
       "Creation Date": "June 22, 2026",
@@ -5229,8 +5229,8 @@
     },
     {
       "Creation Date": "July 8, 2026",
-      "Last Update": "August 10, 2026",
-      "Priorities": "3",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Network Team\nKerri",
       "Is replacement?": "FALSE",
@@ -5251,16 +5251,16 @@
       "%WG": "35%",
       "Deal Value ($)": "5,040",
       "Total Paid ($)": "",
-      "Notes": "Ranique - First interview 27th\n\nNew batch August 4th - Follow up 6th - Follow up 10th"
+      "Notes": "Ranique - First interview 27th\n\nNew batch August 4th - Follow up 6th - Follow up 10th\nOOO until the 17th"
     },
     {
       "Creation Date": "July 13, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "7",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "3. 1st Round of Interviews",
       "Name": "Brent Guinn",
       "Email": "brent@makeitmomentous.com",
       "Company Name": "Momentous",
@@ -5277,16 +5277,16 @@
       "%WG": "35%",
       "Deal Value ($)": "5,880",
       "Total Paid ($)": "",
-      "Notes": "New batch 5th"
+      "Notes": "Waiting for availability to interview 3 candidates (TAP)"
     },
     {
       "Creation Date": "July 14, 2026",
-      "Last Update": "August 10, 2026",
-      "Priorities": "3",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "6. Job Offer Letter / Signature",
       "Name": "Stephen Jenkins",
       "Email": "Stephen@bestplumber.com",
       "Company Name": "Best Plumber",
@@ -5299,20 +5299,20 @@
       "Days for Placement": "",
       "Invoice Date": "",
       "Payment Date": "",
-      "Budget ($)": "1,600",
+      "Budget ($)": "1,500",
       "%WG": "35%",
-      "Deal Value ($)": "6,720",
+      "Deal Value ($)": "6,300",
       "Total Paid ($)": "",
-      "Notes": "Joseph - First interview August 3rd - GOOD\n \nNew batch 6th - Waiting for feedback on this batch"
+      "Notes": "Hiring Joseph\n(offer)\nStart date: 24th"
     },
     {
       "Creation Date": "July 20, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "7",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "4. Assessment",
       "Name": "Denise Costantino",
       "Email": "DENISE@BESSERBROS.COM",
       "Company Name": "Wheelhouse GD Buyer, LLC",
@@ -5329,7 +5329,7 @@
       "%WG": "35%",
       "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
-      "Notes": "2 candidates - First interivew 5th - GREAT\nWaiting for feedback"
+      "Notes": "Rene - Second round interview\n\nNew batch the 14th"
     },
     {
       "Creation Date": "July 15, 2026",
@@ -5359,12 +5359,12 @@
     },
     {
       "Creation Date": "July 20, 2026",
-      "Last Update": "August 6, 2026",
-      "Priorities": "7",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR93899",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
-      "Status": "4. Assessment",
+      "Status": "6. Job Offer Letter / Signature",
       "Name": "Taylor Buford",
       "Email": "taylor@sandlot.co",
       "Company Name": "Sandlot & Co",
@@ -5377,11 +5377,11 @@
       "Days for Placement": "",
       "Invoice Date": "",
       "Payment Date": "",
-      "Budget ($)": "1,800",
+      "Budget ($)": "1,500",
       "%WG": "35%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "0",
-      "Notes": "Lucas - first interview 5th\nWaiting for feedback"
+      "Notes": "Hiring Lucas\n(offer)\nStart date: 17th"
     },
     {
       "Creation Date": "July 28, 2026",
@@ -5407,7 +5407,7 @@
       "%WG": "35%",
       "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
-      "Notes": "New batch 12th"
+      "Notes": "New batch 13th"
     },
     {
       "Creation Date": "July 28, 2026",
@@ -5433,7 +5433,7 @@
       "%WG": "35%",
       "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
-      "Notes": "New batch 12th"
+      "Notes": "New batch 11th - Waiting for feedback"
     },
     {
       "Creation Date": "July 31, 2026",
@@ -5459,7 +5459,7 @@
       "%WG": "35%",
       "Deal Value ($)": "12,600",
       "Total Paid ($)": "",
-      "Notes": "First batch 7th\nVitor - First Interviews 12th\nNatan S - First Interviews 12th\nMurilo O - First Interviews 12th"
+      "Notes": "First batch 7th\nVitor - Second interview/Assessment\n\nNew batch the 18th"
     },
     {
       "Creation Date": "August 4, 2026",
@@ -5485,12 +5485,12 @@
       "%WG": "35%",
       "Deal Value ($)": "10,500",
       "Total Paid ($)": "",
-      "Notes": "Candidates presented - Waiting for next steps"
+      "Notes": "Karan - First interview\nDiego - First interview\nAmit - First interview"
     },
     {
       "Creation Date": "July 31, 2026",
-      "Last Update": "August 10, 2026",
-      "Priorities": "3",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
@@ -5511,7 +5511,111 @@
       "%WG": "0%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "0",
-      "Notes": "Walidah - Assessment\nNew batch 11th"
+      "Notes": "Walidah - Assessment completed - Waiting for feedback\nDiana - First intervew\nNew batch on the 12th - Waiting for feedback"
+    },
+    {
+      "Creation Date": "August 7, 2026",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "3. 1st Round of Interviews",
+      "Name": "Tedi Nati",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "Guillermo",
+      "KickOff Meeting": "August 10, 2026",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "2,000",
+      "%WG": "35%",
+      "Deal Value ($)": "8,400",
+      "Total Paid ($)": "",
+      "Notes": "Carlos M - Interview"
+    },
+    {
+      "Creation Date": "July 31, 2026",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "2. Candidates Presented",
+      "Name": "Kevin Otul",
+      "Email": "",
+      "Company Name": "",
+      "Role": "Loan Closer",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "Kathe",
+      "KickOff Meeting": "August 11, 2026",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "2,500",
+      "%WG": "35%",
+      "Deal Value ($)": "10,500",
+      "Total Paid ($)": "",
+      "Notes": "New batch on the 13th"
+    },
+    {
+      "Creation Date": "July 31, 2026",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "2. Candidates Presented",
+      "Name": "Kevin Otul",
+      "Email": "",
+      "Company Name": "",
+      "Role": "Draw and Servicing Operations",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "Kathe",
+      "KickOff Meeting": "August 11, 2026",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "2,500",
+      "%WG": "35%",
+      "Deal Value ($)": "10,500",
+      "Total Paid ($)": "",
+      "Notes": "New batch on the 13th"
+    },
+    {
+      "Creation Date": "July 31, 2026",
+      "Last Update": "August 13, 2026",
+      "Priorities": "0",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "1. KickOff Meeting",
+      "Name": "David Bitan",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "Miguel",
+      "KickOff Meeting": "August 13, 2026",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "2,500",
+      "%WG": "35%",
+      "Deal Value ($)": "10,500",
+      "Total Paid ($)": "",
+      "Notes": "Kickoff the 13th"
     }
   ]
 }

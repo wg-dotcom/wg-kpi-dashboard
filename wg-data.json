@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T11:13:44.058Z",
+  "updated": "2026-08-20T12:13:44.092Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -5515,12 +5515,12 @@
     },
     {
       "Creation Date": "August 7, 2026",
-      "Last Update": "August 17, 2026",
-      "Priorities": "3",
+      "Last Update": "August 19, 2026",
+      "Priorities": "1",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "8. Placed",
       "Name": "Tedi Nati",
       "Email": "",
       "Company Name": "JT Acquisitions",
@@ -5529,15 +5529,15 @@
       "GitHub": "",
       "Advisor": "Guillermo",
       "KickOff Meeting": "August 10, 2026",
-      "Date Placed": "August 13, 2026",
-      "Days for Placement": "4",
-      "Invoice Date": "August 14, 2026",
-      "Payment Date": "",
+      "Date Placed": "August 19, 2026",
+      "Days for Placement": "8",
+      "Invoice Date": "August 19, 2026",
+      "Payment Date": "August 19, 2026",
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
-      "Total Paid ($)": "",
-      "Notes": "Carlos M - Interview on Friday 14th\nFollow up 17th"
+      "Total Paid ($)": "8,400",
+      "Notes": "Hired Carlos"
     },
     {
       "Creation Date": "July 31, 2026",

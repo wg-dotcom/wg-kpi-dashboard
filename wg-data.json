@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T17:13:44.018Z",
+  "updated": "2026-08-21T18:13:44.262Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4267,12 +4267,12 @@
     },
     {
       "Creation Date": "May 7, 2026",
-      "Last Update": "August 20, 2026",
-      "Priorities": "1",
+      "Last Update": "August 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR54668",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Joseph Wynn",
       "Email": "joe.wynn@ssnga.net",
       "Company Name": "Surgical Specialties of North Georgia",
@@ -4284,12 +4284,12 @@
       "Date Placed": "July 7, 2026",
       "Days for Placement": "43",
       "Invoice Date": "July 17, 2026",
-      "Payment Date": "",
+      "Payment Date": "August 21, 2026",
       "Budget ($)": "2,500",
       "%WG": "35%",
       "Deal Value ($)": "10,500",
-      "Total Paid ($)": "",
-      "Notes": "Hiring Gerardo\n(INVOICE)\n\nStart day: August 24th\nFollow up 17th"
+      "Total Paid ($)": "10,500",
+      "Notes": "Hire Gerardo"
     },
     {
       "Creation Date": "May 8, 2026",

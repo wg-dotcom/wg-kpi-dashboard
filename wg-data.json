@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T13:13:44.080Z",
+  "updated": "2026-08-24T14:13:44.172Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -5508,9 +5508,9 @@
       "Invoice Date": "",
       "Payment Date": "",
       "Budget ($)": "1,500",
-      "%WG": "0%",
-      "Deal Value ($)": "0",
-      "Total Paid ($)": "0",
+      "%WG": "35%",
+      "Deal Value ($)": "6,300",
+      "Total Paid ($)": "6,300",
       "Notes": "Hiring Walidah"
     },
     {
@@ -5694,6 +5694,32 @@
       "Deal Value ($)": "10,500",
       "Total Paid ($)": "",
       "Notes": "First drop 21st"
+    },
+    {
+      "Creation Date": "July 31, 2026",
+      "Last Update": "August 20, 2026",
+      "Priorities": "4",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "TRUE",
+      "Status": "8. Placed",
+      "Name": "TESHIA WILLIAMS",
+      "Email": "teshia@hrandbeyond.com",
+      "Company Name": "HR & BEYOND",
+      "Role": "Executive Assistant",
+      "NotebookLM": "https://notebooklm.google.com/notebook/d10a887a-93b9-4b47-a641-d4b63d29e717",
+      "GitHub": "",
+      "Advisor": "Guillermo",
+      "KickOff Meeting": "July 31, 2026",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "1,500",
+      "%WG": "0%",
+      "Deal Value ($)": "0",
+      "Total Paid ($)": "0",
+      "Notes": "Hiring Walidah"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T15:13:44.316Z",
+  "updated": "2026-08-26T16:13:44.033Z",
   "rows": [
     {
       "Creation Date": "February 14, 2024",
@@ -4627,7 +4627,7 @@
       "%WG": "18%",
       "Deal Value ($)": "4,320",
       "Total Paid ($)": "4,320",
-      "Notes": "Hiring Freths\n(INVOICE)"
+      "Notes": "Hiring Freths"
     },
     {
       "Creation Date": "May 20, 2026",
@@ -5598,7 +5598,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "6. Job Offer Letter / Signature",
       "Name": "David Bitan",
       "Email": "David@bumbleroofing.com",
       "Company Name": "Bumble Roofing of Los Angeles",
@@ -5615,7 +5615,7 @@
       "%WG": "35%",
       "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
-      "Notes": "Natalia - First interview 24th\n(Offered)"
+      "Notes": "Hiring Natalia\n(JOL)"
     },
     {
       "Creation Date": "August 13, 2026",

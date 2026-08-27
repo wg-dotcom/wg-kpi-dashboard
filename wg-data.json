@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T14:13:44.369Z",
+  "updated": "2026-08-27T15:13:44.226Z",
   "rows": [
     {
       "S": "February 14, 2024",
@@ -3383,8 +3383,8 @@
     },
     {
       "S": "March 11, 2026",
-      "Last Update": "August 24, 2026",
-      "Priorities": "3",
+      "Last Update": "August 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR68130",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -3405,7 +3405,7 @@
       "%WG": "35%",
       "Deal Value ($)": "10,500",
       "Total Paid ($)": "",
-      "Notes": "Hansel - First Interview\n\nMIA - Follow up the 24th"
+      "Notes": "Hansel - First Interview\n\nMIA - Follow up the 24th - 27th"
     },
     {
       "S": "March 20, 2026",
@@ -3955,8 +3955,8 @@
     },
     {
       "S": "April 24, 2026",
-      "Last Update": "August 24, 2026",
-      "Priorities": "3",
+      "Last Update": "August 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR45743",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
@@ -3977,7 +3977,7 @@
       "%WG": "35%",
       "Deal Value ($)": "6,300",
       "Total Paid ($)": "6,300",
-      "Notes": "Natalia - Final interview\nValeria - Final interview\nPatience - Final interview\n\nPresenting candidates the 24th"
+      "Notes": "Natalia - Final interview\nValeria - Final interview\nPatience - Final interview\nMonica - Potential hire\n\nPresenting candidates the 24th"
     },
     {
       "S": "April 28, 2026",
@@ -4059,8 +4059,8 @@
     },
     {
       "S": "April 30, 2026",
-      "Last Update": "August 24, 2026",
-      "Priorities": "3",
+      "Last Update": "August 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR88313",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -4081,7 +4081,7 @@
       "%WG": "35%",
       "Deal Value ($)": "12,600",
       "Total Paid ($)": "",
-      "Notes": "Presenting Sebastian\nlast shot - Waiting for feedback\nPresenting Niharika\n\nFollow up 17th, 20th, 24th"
+      "Notes": "Presenting Sebastian\nlast shot - Waiting for feedback\nPresenting Niharika\n\nFollow up 17th, 20th, 24th - Waiting for feedback"
     },
     {
       "S": "April 30, 2026",
@@ -4293,12 +4293,12 @@
     },
     {
       "S": "May 8, 2026",
-      "Last Update": "August 24, 2026",
-      "Priorities": "3",
+      "Last Update": "August 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Retained Search",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "3. 1st Round of Interviews",
       "Name": "Nate Jackson",
       "Email": "nate@tworoadsadvisors.com",
       "Company Name": "Two Roads Advisors",
@@ -4315,7 +4315,7 @@
       "%WG": "",
       "Deal Value ($)": "6,000",
       "Total Paid ($)": "",
-      "Notes": "First batch 11th - Waiting for feedback\nFollow Up 17th - 20th - 24th"
+      "Notes": "Bernardo - First Interview"
     },
     {
       "S": "May 11, 2026",
@@ -4345,12 +4345,12 @@
     },
     {
       "S": "May 12, 2026",
-      "Last Update": "August 24, 2026",
-      "Priorities": "3",
+      "Last Update": "August 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR98886",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Ryan Normandeau",
       "Email": "ryan@empiremedical.net",
       "Company Name": "Empire Medical",
@@ -4359,20 +4359,20 @@
       "GitHub": "https://wg-dotcom.github.io/empire-medical-executive-assistant-candidates/",
       "Advisor": "Miguel",
       "KickOff Meeting": "May 13, 2026",
-      "Date Placed": "June 1, 2026",
-      "Days for Placement": "14",
-      "Invoice Date": "June 16, 2026",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
       "Payment Date": "",
       "Budget ($)": "2,500",
       "%WG": "35%",
       "Deal Value ($)": "10,500",
       "Total Paid ($)": "",
-      "Notes": "Hiring Ivone\n(Invoice)\nRyan MIA\nConsulting with Rene"
+      "Notes": "CLOSED BY US - CUSTOMER MIA"
     },
     {
       "S": "May 12, 2026",
-      "Last Update": "August 24, 2026",
-      "Priorities": "3",
+      "Last Update": "August 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR65562",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -4393,7 +4393,7 @@
       "%WG": "35%",
       "Deal Value ($)": "10,500",
       "Total Paid ($)": "",
-      "Notes": "Isabel - first interview 6th - REJECTED\nJohanna - Good\nWaiting for next steps with Johanna.\nFollow up 12th - 17th - 19th - 20th -24th."
+      "Notes": "Isabel - first interview 6th - REJECTED\nJohanna - Good\nWaiting for next steps with Johanna.\nFollow up 12th - 17th - 19th - 20th -24th. - Waiting for feedback"
     },
     {
       "S": "May 13, 2026",
@@ -4787,12 +4787,12 @@
     },
     {
       "S": "June 2, 2026",
-      "Last Update": "August 24, 2026",
-      "Priorities": "3",
+      "Last Update": "August 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36219",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "1. KickOff Meeting",
+      "Status": "8. Placed",
       "Name": "Ashley Thornton",
       "Email": "ashley@1stchoiceairsolutions.com",
       "Company Name": "1st Choice Plumbing Heating & Air Solutions",
@@ -4891,8 +4891,8 @@
     },
     {
       "S": "June 17, 2026",
-      "Last Update": "August 24, 2026",
-      "Priorities": "3",
+      "Last Update": "August 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
@@ -4913,12 +4913,12 @@
       "%WG": "0%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "",
-      "Notes": "Potentially hiring Elio\n\nFollow up on the 21st with additional candidate - Waiting for feedback on Elio and Daniel"
+      "Notes": "Potentially hiring Elio\n\nFollow up on the 21st with additional candidate - Waiting for feedback on Elio and Daniel - Follow up 27th"
     },
     {
       "S": "June 22, 2026",
-      "Last Update": "August 24, 2026",
-      "Priorities": "3",
+      "Last Update": "August 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
@@ -4939,12 +4939,12 @@
       "%WG": "0%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "",
-      "Notes": "Daniel - Assessment - First interview next week\nClaudia - First interview next week\nWaiting for confrimation.\nNew batch the 24th"
+      "Notes": "Sada - First Interview\nIrma - First Interview"
     },
     {
       "S": "June 22, 2026",
-      "Last Update": "August 24, 2026",
-      "Priorities": "3",
+      "Last Update": "August 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -4965,7 +4965,7 @@
       "%WG": "35%",
       "Deal Value ($)": "12,600",
       "Total Paid ($)": "",
-      "Notes": "Maria Camila - First interview 23rd - Assessment - Rejected\n\nPresented candidates 29th, 3rd - feedback \n\nNew batch on the 17th - 20th - 24th"
+      "Notes": "Mario - First Interview Next week"
     },
     {
       "S": "June 22, 2026",
@@ -5255,8 +5255,8 @@
     },
     {
       "S": "July 13, 2026",
-      "Last Update": "August 24, 2026",
-      "Priorities": "3",
+      "Last Update": "August 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5277,7 +5277,7 @@
       "%WG": "35%",
       "Deal Value ($)": "5,880",
       "Total Paid ($)": "",
-      "Notes": "Stephen (TAP) - final interview 19th\nDouglas (TAP) - final interview 20th\nMaking the final decision this week."
+      "Notes": "First batch this week."
     },
     {
       "S": "July 14, 2026",
@@ -5307,12 +5307,12 @@
     },
     {
       "S": "July 20, 2026",
-      "Last Update": "August 24, 2026",
-      "Priorities": "3",
+      "Last Update": "August 27, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Denise Costantino",
       "Email": "DENISE@BESSERBROS.COM",
       "Company Name": "Wheelhouse GD Buyer, LLC",

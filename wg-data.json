@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T13:13:44.257Z",
+  "updated": "2026-08-28T14:13:44.198Z",
   "rows": [
     {
       "S": "February 14, 2024",
@@ -5943,17 +5943,17 @@
       "Role": "",
       "NotebookLM": "",
       "GitHub": "",
-      "Advisor": "",
-      "KickOff Meeting": "",
+      "Advisor": "Miguel",
+      "KickOff Meeting": "August 28, 2026",
       "Date Placed": "",
       "Days for Placement": "",
       "Invoice Date": "",
       "Payment Date": "",
       "Budget ($)": "",
-      "%WG": "",
+      "%WG": "35%",
       "Deal Value ($)": "",
       "Total Paid ($)": "",
-      "Notes": ""
+      "Notes": "Kickoff 28th"
     },
     {
       "S": "August 26, 2026",
@@ -5969,17 +5969,17 @@
       "Role": "",
       "NotebookLM": "",
       "GitHub": "",
-      "Advisor": "",
-      "KickOff Meeting": "",
+      "Advisor": "Kathe",
+      "KickOff Meeting": "August 31, 2026",
       "Date Placed": "",
       "Days for Placement": "",
       "Invoice Date": "",
       "Payment Date": "",
       "Budget ($)": "",
-      "%WG": "",
+      "%WG": "35%",
       "Deal Value ($)": "",
       "Total Paid ($)": "",
-      "Notes": ""
+      "Notes": "Kickoff 31st"
     }
   ]
 }

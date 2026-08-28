@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T14:13:44.198Z",
+  "updated": "2026-08-28T15:13:44.320Z",
   "rows": [
     {
       "S": "February 14, 2024",
@@ -5608,7 +5608,7 @@
       "Advisor": "Miguel",
       "KickOff Meeting": "August 13, 2026",
       "Date Placed": "August 21, 2026",
-      "Days for Placement": "",
+      "Days for Placement": "7",
       "Invoice Date": "August 26, 2026",
       "Payment Date": "August 26, 2026",
       "Budget ($)": "1,800",
@@ -5633,7 +5633,7 @@
       "GitHub": "",
       "Advisor": "Kathe",
       "KickOff Meeting": "August 14, 2026",
-      "Date Placed": "",
+      "Date Placed": "August 28, 2026",
       "Days for Placement": "",
       "Invoice Date": "",
       "Payment Date": "",

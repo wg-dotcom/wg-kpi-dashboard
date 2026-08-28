@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T18:13:44.508Z",
+  "updated": "2026-08-28T19:13:44.439Z",
   "rows": [
     {
       "S": "February 14, 2024",
@@ -5572,7 +5572,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "5. Final Interview",
       "Name": "Kevin O'Toole",
       "Email": "kevin@ledgertc.com",
       "Company Name": "Ledger Trade & Capital",
@@ -5676,7 +5676,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "6. Job Offer Letter / Signature",
       "Name": "Kesler Pollard",
       "Email": "kesler.pollard@christmaschamps.com",
       "Company Name": "Christmas Champs LLC",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T22:13:44.061Z",
+  "updated": "2026-08-31T23:13:44.282Z",
   "rows": [
     {
       "S": "February 14, 2024",
@@ -5674,7 +5674,7 @@
       "Last Update": "August 31, 2026",
       "Priorities": "0",
       "Hiring Request": "",
-      "Source": "Regular WG",
+      "Source": "Core",
       "Is replacement?": "FALSE",
       "Status": "6. Job Offer Letter / Signature",
       "Name": "Kesler Pollard",
@@ -5690,8 +5690,8 @@
       "Invoice Date": "August 28, 2026",
       "Payment Date": "",
       "Budget ($)": "2,500",
-      "%WG": "35%",
-      "Deal Value ($)": "10,500",
+      "%WG": "18%",
+      "Deal Value ($)": "10,000",
       "Total Paid ($)": "",
       "Notes": "Hiring Simphiwe\n(JOL)\nNeil supporting Kesler"
     },
@@ -5938,7 +5938,7 @@
       "Is replacement?": "FALSE",
       "Status": "1. KickOff Meeting",
       "Name": "Chandler Scheurkogel",
-      "Email": "chandlerscheurkogel@bleeckerstcapital.com",
+      "Email": "",
       "Company Name": "Bleecker Street Capital Management, LLC",
       "Role": "Operations Associate/Technical Product Manager",
       "NotebookLM": "",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T19:13:44.399Z",
+  "updated": "2026-08-31T20:13:44.752Z",
   "rows": [
     {
       "S": "February 14, 2024",
@@ -5853,8 +5853,8 @@
     },
     {
       "S": "August 4, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "4",
+      "Last Update": "August 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR78750",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5867,13 +5867,13 @@
       "GitHub": "",
       "Advisor": "Miguel",
       "KickOff Meeting": "August 4, 2026",
-      "Date Placed": "",
-      "Days for Placement": "",
-      "Invoice Date": "",
+      "Date Placed": "August 31, 2026",
+      "Days for Placement": "20",
+      "Invoice Date": "August 31, 2026",
       "Payment Date": "",
-      "Budget ($)": "1,900",
+      "Budget ($)": "1,950",
       "%WG": "30%",
-      "Deal Value ($)": "6,840",
+      "Deal Value ($)": "7,020",
       "Total Paid ($)": "",
       "Notes": "Hiring Eduardo\n(JOL)"
     },

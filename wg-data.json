@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T15:13:44.180Z",
+  "updated": "2026-08-31T16:13:44.235Z",
   "rows": [
     {
       "S": "February 14, 2024",
@@ -5329,7 +5329,7 @@
       "%WG": "35%",
       "Deal Value ($)": "8,400",
       "Total Paid ($)": "8,400",
-      "Notes": "Hiring Rene\n(INVOICE)\nPAID"
+      "Notes": "Hiring Rene"
     },
     {
       "S": "July 15, 2026",
@@ -5615,7 +5615,7 @@
       "%WG": "35%",
       "Deal Value ($)": "7,560",
       "Total Paid ($)": "7,560",
-      "Notes": "Hiring Natalia\n(JOL)\nPAID"
+      "Notes": "Hiring Natalia"
     },
     {
       "S": "August 13, 2026",
@@ -5761,8 +5761,8 @@
       "Role": "Controller",
       "NotebookLM": "",
       "GitHub": "",
-      "Advisor": "Miguel",
-      "KickOff Meeting": "",
+      "Advisor": "Jesus",
+      "KickOff Meeting": "September 1, 2026",
       "Date Placed": "",
       "Days for Placement": "",
       "Invoice Date": "",
@@ -5771,16 +5771,16 @@
       "%WG": "35%",
       "Deal Value ($)": "21,000",
       "Total Paid ($)": "",
-      "Notes": "Candidates ready to be presented - Miguel taking over"
+      "Notes": "Candidates ready to be presented - Jesus taking over"
     },
     {
       "S": "August 20, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "4",
+      "Last Update": "August 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR78748",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "8. Placed",
       "Name": "Seth Barley",
       "Email": "seth@nealrfg.com",
       "Company Name": "Neal Roofing",
@@ -5788,21 +5788,21 @@
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "Guillermo",
-      "KickOff Meeting": "",
-      "Date Placed": "",
-      "Days for Placement": "",
-      "Invoice Date": "",
-      "Payment Date": "",
-      "Budget ($)": "1,800",
+      "KickOff Meeting": "August 20, 2026",
+      "Date Placed": "August 28, 2026",
+      "Days for Placement": "7",
+      "Invoice Date": "August 28, 2026",
+      "Payment Date": "August 28, 2026",
+      "Budget ($)": "2,000",
       "%WG": "30%",
       "Deal Value ($)": "0",
-      "Total Paid ($)": "",
-      "Notes": "Hiring Kevin"
+      "Total Paid ($)": "0",
+      "Notes": "Hiring Marlon J"
     },
     {
       "S": "August 20, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "4",
+      "Last Update": "August 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5814,21 +5814,21 @@
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "Guillermo",
-      "KickOff Meeting": "",
+      "KickOff Meeting": "August 20, 2026",
       "Date Placed": "",
       "Days for Placement": "",
       "Invoice Date": "",
       "Payment Date": "",
-      "Budget ($)": "2,000",
+      "Budget ($)": "1,800",
       "%WG": "30%",
-      "Deal Value ($)": "7,200",
+      "Deal Value ($)": "6,480",
       "Total Paid ($)": "",
-      "Notes": "Hiring Marlon J"
+      "Notes": "Presenting Marlon M and Johana"
     },
     {
       "S": "August 24, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "4",
+      "Last Update": "August 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR78749",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5866,7 +5866,7 @@
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "Miguel",
-      "KickOff Meeting": "",
+      "KickOff Meeting": "August 4, 2026",
       "Date Placed": "",
       "Days for Placement": "",
       "Invoice Date": "",
@@ -5875,7 +5875,7 @@
       "%WG": "30%",
       "Deal Value ($)": "6,840",
       "Total Paid ($)": "",
-      "Notes": "Hiring Eduardo"
+      "Notes": "Hiring Eduardo\n(JOL)"
     },
     {
       "S": "August 9, 2026",
@@ -5905,12 +5905,12 @@
     },
     {
       "S": "August 10, 2026",
-      "Last Update": "August 25, 2026",
-      "Priorities": "6",
+      "Last Update": "August 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36220",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "1. KickOff Meeting",
+      "Status": "2. Candidates Presented",
       "Name": "Jeremy Payne",
       "Email": "jpayne@nexairhomeservices.com",
       "Company Name": "NexAir Home Services",
@@ -5923,11 +5923,11 @@
       "Days for Placement": "",
       "Invoice Date": "",
       "Payment Date": "",
-      "Budget ($)": "",
+      "Budget ($)": "1,500",
       "%WG": "35%",
-      "Deal Value ($)": "",
+      "Deal Value ($)": "6,300",
       "Total Paid ($)": "",
-      "Notes": "Kickoff 27th"
+      "Notes": "First batch Aug 31st"
     },
     {
       "S": "August 26, 2026",
@@ -5957,16 +5957,16 @@
     },
     {
       "S": "August 26, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "4",
+      "Last Update": "August 31, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36222",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
       "Status": "1. KickOff Meeting",
       "Name": "Nikhil Krishnan",
-      "Email": "",
-      "Company Name": "",
-      "Role": "",
+      "Email": "nikhil@outofpocket.health",
+      "Company Name": "Out Of Pocket Health",
+      "Role": "Business Opeartions Specialist",
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "Kathe",
@@ -5975,11 +5975,11 @@
       "Days for Placement": "",
       "Invoice Date": "",
       "Payment Date": "",
-      "Budget ($)": "",
+      "Budget ($)": "4,000",
       "%WG": "35%",
-      "Deal Value ($)": "",
+      "Deal Value ($)": "16,800",
       "Total Paid ($)": "",
-      "Notes": "Kickoff 31st"
+      "Notes": "First drop"
     }
   ]
 }

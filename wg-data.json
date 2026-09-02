@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T15:13:44.141Z",
+  "updated": "2026-09-02T16:13:44.257Z",
   "rows": [
     {
       "S": "February 14, 2024",
@@ -5567,12 +5567,12 @@
     },
     {
       "S": "August 8, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "2",
+      "Last Update": "September 2, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "8. Placed",
       "Name": "Kevin O'Toole",
       "Email": "kevin@ledgertc.com",
       "Company Name": "Ledger Trade & Capital",
@@ -5584,12 +5584,12 @@
       "Date Placed": "August 31, 2026",
       "Days for Placement": "15",
       "Invoice Date": "August 31, 2026",
-      "Payment Date": "",
+      "Payment Date": "September 2, 2026",
       "Budget ($)": "2,600",
       "%WG": "35%",
       "Deal Value ($)": "10,920",
-      "Total Paid ($)": "",
-      "Notes": "Hiring Martin\n(INVOICE)"
+      "Total Paid ($)": "10,920",
+      "Notes": "Hiring Martin"
     },
     {
       "S": "August 9, 2026",
@@ -5610,7 +5610,7 @@
       "Date Placed": "August 21, 2026",
       "Days for Placement": "7",
       "Invoice Date": "August 26, 2026",
-      "Payment Date": "",
+      "Payment Date": "August 26, 2026",
       "Budget ($)": "1,800",
       "%WG": "35%",
       "Deal Value ($)": "7,560",
@@ -5676,7 +5676,7 @@
       "Hiring Request": "",
       "Source": "Core",
       "Is replacement?": "FALSE",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "8. Placed",
       "Name": "Kesler Pollard",
       "Email": "kesler.pollard@christmaschamps.com",
       "Company Name": "Christmas Champs LLC",
@@ -5688,12 +5688,12 @@
       "Date Placed": "August 28, 2026",
       "Days for Placement": "8",
       "Invoice Date": "August 28, 2026",
-      "Payment Date": "",
+      "Payment Date": "August 31, 2026",
       "Budget ($)": "2,500",
       "%WG": "18%",
       "Deal Value ($)": "10,000",
-      "Total Paid ($)": "",
-      "Notes": "Hiring Simphiwe\n(JOL)\nNeil supporting Kesler"
+      "Total Paid ($)": "10,000",
+      "Notes": "Hiring Simphiwe\nBecame a member"
     },
     {
       "S": "July 31, 2026",
@@ -5858,7 +5858,7 @@
       "Hiring Request": "HR78750",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "7. Invoice",
       "Name": "Stephanie Bourque",
       "Email": "",
       "Company Name": "Crest City Capital",
@@ -5875,7 +5875,7 @@
       "%WG": "30%",
       "Deal Value ($)": "7,020",
       "Total Paid ($)": "",
-      "Notes": "Hiring Eduardo\n(JOL)"
+      "Notes": "Hiring Eduardo\n(INVOICE)"
     },
     {
       "S": "August 9, 2026",

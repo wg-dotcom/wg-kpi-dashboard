@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T12:13:44.418Z",
+  "updated": "2026-09-03T13:13:43.995Z",
   "rows": [
     {
       "S": "February 14, 2024",
@@ -1896,7 +1896,7 @@
       "Budget ($)": "1300",
       "%WG": "35%",
       "Deal Value ($)": "12,000",
-      "Total Paid ($)": "5,000",
+      "Total Paid ($)": "7,000",
       "Notes": "Hiring Lexanne\nBecame a Member"
     },
     {
@@ -4287,7 +4287,7 @@
       "Payment Date": "August 21, 2026",
       "Budget ($)": "2,500",
       "%WG": "35%",
-      "Deal Value ($)": "10,500",
+      "Deal Value ($)": "0",
       "Total Paid ($)": "0",
       "Notes": "Hire Gerardo"
     },
@@ -5749,12 +5749,12 @@
     },
     {
       "S": "August 20, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "7",
-      "Hiring Request": "HR78747",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
+      "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "1. KickOff Meeting",
+      "Status": "3. 1st Round of Interviews",
       "Name": "Shuchi Bhargava",
       "Email": "shuchi.bhargava@osmind.org",
       "Company Name": "Osmind Inc",
@@ -5771,7 +5771,7 @@
       "%WG": "35%",
       "Deal Value ($)": "21,000",
       "Total Paid ($)": "",
-      "Notes": "Candidates ready to be presented - Jesus taking over"
+      "Notes": "Arnaud - First interview Sept 2nd\nVictor - First interview Sept 4th\nShuchi will send full feedback after Victor's interview"
     },
     {
       "S": "August 20, 2026",

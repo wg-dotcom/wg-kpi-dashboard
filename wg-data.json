@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T15:13:44.632Z",
+  "updated": "2026-09-03T16:13:44.181Z",
   "rows": [
     {
       "S": "February 14, 2024",
@@ -5667,7 +5667,7 @@
       "%WG": "35%",
       "Deal Value ($)": "21,000",
       "Total Paid ($)": "",
-      "Notes": "Bogdan - First interview Sept 4th\nJose - First interview pending"
+      "Notes": "Bogdan - First interview Sept 4th\nJose - First interview pending\n\nNew batch next week"
     },
     {
       "S": "August 18, 2026",
@@ -5723,8 +5723,8 @@
     },
     {
       "S": "May 1, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "3",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR78746",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5745,7 +5745,7 @@
       "%WG": "35%",
       "Deal Value ($)": "12,600",
       "Total Paid ($)": "",
-      "Notes": "Santiago - Potential first interview this week\nAsking Santiago for examples"
+      "Notes": "Trying to book a call with Santiago"
     },
     {
       "S": "August 20, 2026",
@@ -5801,12 +5801,12 @@
     },
     {
       "S": "August 20, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "3",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "3. 1st Round of Interviews",
       "Name": "Seth Barley",
       "Email": "seth@nealrfg.com",
       "Company Name": "Neal Roofing",
@@ -5823,7 +5823,7 @@
       "%WG": "30%",
       "Deal Value ($)": "6,480",
       "Total Paid ($)": "",
-      "Notes": "Presenting Marlon M and Johana"
+      "Notes": "Marlon - First interview 4th\nNew batch 8th"
     },
     {
       "S": "August 24, 2026",
@@ -5853,8 +5853,8 @@
     },
     {
       "S": "August 4, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "3",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR78750",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5879,12 +5879,12 @@
     },
     {
       "S": "August 9, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "7",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36219",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
-      "Status": "2. Candidates Presented",
+      "Status": "6. Job Offer Letter / Signature",
       "Name": "Ashley Thornton",
       "Email": "ashley@1stchoiceairsolutions.com",
       "Company Name": "1st Choice Plumbing Heating & Air Solutions",
@@ -5901,12 +5901,12 @@
       "%WG": "35%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "0",
-      "Notes": "First batch on Friday the 21st waiting feedback\nAll candidates rejected.\nPresenting Candidates this week."
+      "Notes": "Hiring Shalom\n(JOL)"
     },
     {
       "S": "August 10, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "3",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36220",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5927,16 +5927,16 @@
       "%WG": "35%",
       "Deal Value ($)": "6,300",
       "Total Paid ($)": "",
-      "Notes": "First batch Aug 31st"
+      "Notes": "First batch Aug 31st - waiting feedback"
     },
     {
       "S": "August 26, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "7",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36221",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "1. KickOff Meeting",
+      "Status": "4. Assessment",
       "Name": "Chandler Scheurkogel",
       "Email": "",
       "Company Name": "Bleecker Street Capital Management, LLC",
@@ -5949,16 +5949,16 @@
       "Days for Placement": "",
       "Invoice Date": "",
       "Payment Date": "",
-      "Budget ($)": "",
+      "Budget ($)": "4,500",
       "%WG": "35%",
-      "Deal Value ($)": "",
+      "Deal Value ($)": "18,900",
       "Total Paid ($)": "",
-      "Notes": "Kickoff 28th"
+      "Notes": "Samkelo - Assessment"
     },
     {
       "S": "August 26, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "3",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36222",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5979,12 +5979,12 @@
       "%WG": "35%",
       "Deal Value ($)": "16,800",
       "Total Paid ($)": "",
-      "Notes": "First drop"
+      "Notes": ""
     },
     {
       "S": "April 1, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "3",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
@@ -6006,6 +6006,32 @@
       "Deal Value ($)": "0",
       "Total Paid ($)": "0",
       "Notes": "Hired Monica"
+    },
+    {
+      "S": "August 31, 2026",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "TRUE",
+      "Status": "1. KickOff Meeting",
+      "Name": "Tedi Nati",
+      "Email": "tedi.nati@jtacquisitions.com",
+      "Company Name": "JT Acquisitions",
+      "Role": "Virtual Property Manager",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "Guillermo",
+      "KickOff Meeting": "September 2, 2026",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "2,000",
+      "%WG": "35%",
+      "Deal Value ($)": "0",
+      "Total Paid ($)": "0",
+      "Notes": "First batch 4th"
     }
   ]
 }

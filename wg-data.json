@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T14:13:44.489Z",
+  "updated": "2026-09-03T15:13:44.632Z",
   "rows": [
     {
       "S": "February 14, 2024",
@@ -3383,12 +3383,12 @@
     },
     {
       "S": "March 11, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "7",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR68130",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Matt May",
       "Email": "mmay@discomputers.com",
       "Company Name": "Digital Integrated Systems",
@@ -3405,7 +3405,7 @@
       "%WG": "35%",
       "Deal Value ($)": "10,500",
       "Total Paid ($)": "",
-      "Notes": "Hansel - First Interview\n\nMIA - Follow up the 24th - 27th"
+      "Notes": "2W MIA - Paused by us"
     },
     {
       "S": "March 20, 2026",
@@ -3960,7 +3960,7 @@
       "Hiring Request": "HR45743",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "8. Placed",
       "Name": "Carrington Dillon",
       "Email": "dillon@joyce-cline.com",
       "Company Name": "Joyce | Cline Home Services",
@@ -4059,12 +4059,12 @@
     },
     {
       "S": "April 30, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "3",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR88313",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Iacopo Santini",
       "Email": "iacopo@mvocostseg.com",
       "Company Name": "MVO Consulting LLC",
@@ -4081,7 +4081,7 @@
       "%WG": "35%",
       "Deal Value ($)": "12,600",
       "Total Paid ($)": "",
-      "Notes": "2W MIA\nCandidates Presented - Waiting for feedback\nJESUS TAKE OVER"
+      "Notes": "2W MIA - Paused by us"
     },
     {
       "S": "April 30, 2026",
@@ -4293,8 +4293,8 @@
     },
     {
       "S": "May 8, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "7",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Retained Search",
       "Is replacement?": "FALSE",
@@ -4315,7 +4315,7 @@
       "%WG": "",
       "Deal Value ($)": "6,000",
       "Total Paid ($)": "",
-      "Notes": "Bernardo - First Interview"
+      "Notes": "Bernardo - Second Interview 8th"
     },
     {
       "S": "May 11, 2026",
@@ -4371,12 +4371,12 @@
     },
     {
       "S": "May 12, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "3",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR65562",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Michael Weinstein",
       "Email": "mikew0440@gmail.com",
       "Company Name": "Barndominium Life",
@@ -4393,7 +4393,7 @@
       "%WG": "35%",
       "Deal Value ($)": "10,500",
       "Total Paid ($)": "",
-      "Notes": "3W MIA\nCandidates Presented - Waiting for feedback\nJESUS TAKE OVER"
+      "Notes": "3W MIA - Paused by us"
     },
     {
       "S": "May 13, 2026",
@@ -4891,12 +4891,12 @@
     },
     {
       "S": "June 17, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "7",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
-      "Status": "5. Final Interview",
+      "Status": "4. Assessment",
       "Name": "Mark Bower",
       "Email": "gm@freddysglass.com",
       "Company Name": "Freddy's Glass",
@@ -4913,12 +4913,12 @@
       "%WG": "0%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "",
-      "Notes": "Potentially hiring Elio\n\nFollow up on the 21st with additional candidate - Waiting for feedback on Elio and Daniel - Follow up 27th"
+      "Notes": "Elio - Assessment"
     },
     {
       "S": "June 22, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "3",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
@@ -4939,16 +4939,16 @@
       "%WG": "0%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "",
-      "Notes": "Sada - First Interview Sep 1st\nIrma - First Interview Sep 1st\n\nNew drop Aus 31st"
+      "Notes": "Sada - First Interview Sep 4th\nIrma - First Interview Sep 4th\n\nNew drop Aug 31st - no feedback yet"
     },
     {
       "S": "June 22, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "7",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "4. Assessment",
+      "Status": "3. 1st Round of Interviews",
       "Name": "Kim Rocha",
       "Email": "kim.rocha@cldinc.com",
       "Company Name": "CLD",
@@ -4965,7 +4965,7 @@
       "%WG": "35%",
       "Deal Value ($)": "12,600",
       "Total Paid ($)": "",
-      "Notes": "Mario - First Interview Next week"
+      "Notes": "Presenting candidates 8th"
     },
     {
       "S": "June 22, 2026",
@@ -5255,12 +5255,12 @@
     },
     {
       "S": "July 13, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "7",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "5. Final Interview",
+      "Status": "2. Candidates Presented",
       "Name": "Brent Guinn",
       "Email": "brent@makeitmomentous.com",
       "Company Name": "Momentous",
@@ -5277,7 +5277,7 @@
       "%WG": "35%",
       "Deal Value ($)": "5,880",
       "Total Paid ($)": "",
-      "Notes": "First batch this week."
+      "Notes": "Second batch Sept 3rd"
     },
     {
       "S": "July 14, 2026",
@@ -5385,12 +5385,12 @@
     },
     {
       "S": "July 28, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "3",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Iacopo Santini",
       "Email": "iacopo@mvocostseg.com",
       "Company Name": "MVO Consulting LLC",
@@ -5407,16 +5407,16 @@
       "%WG": "35%",
       "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
-      "Notes": "2W MIA\nCandidates Presented - Waiting for feedback\nJESUS TAKE OVER"
+      "Notes": "2W MIA - Paused by us"
     },
     {
       "S": "July 28, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "3",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Iacopo Santini",
       "Email": "iacopo@mvocostseg.com",
       "Company Name": "MVO Consulting LLC",
@@ -5433,7 +5433,7 @@
       "%WG": "35%",
       "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
-      "Notes": "2W MIA\nCandidates Presented - Waiting for feedback\nJESUS TAKE OVER"
+      "Notes": "2W MIA - Paused by us"
     },
     {
       "S": "July 31, 2026",
@@ -5463,12 +5463,12 @@
     },
     {
       "S": "August 4, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "3",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "4. Assessment",
+      "Status": "6. Job Offer Letter / Signature",
       "Name": "Christopher Rosa",
       "Email": "CRosa@PreciseStripingLLC.com",
       "Company Name": "Precise Striping",
@@ -5477,15 +5477,15 @@
       "GitHub": "",
       "Advisor": "Guillermo",
       "KickOff Meeting": "August 4, 2026",
-      "Date Placed": "",
-      "Days for Placement": "",
+      "Date Placed": "September 3, 2026",
+      "Days for Placement": "23",
       "Invoice Date": "",
       "Payment Date": "",
       "Budget ($)": "2,500",
       "%WG": "35%",
       "Deal Value ($)": "10,500",
       "Total Paid ($)": "",
-      "Notes": "Karan - First interview 17th - Assessement pending - Droped\nDiego - First interview 17th - Assessement pending - MIA\nAmit - First interview 17th - Assessment delivered - Completed\n\nPotentially hiring Amit - ☀️\nFollow up 28th - Waiting for feedback"
+      "Notes": "Hiring Amit\n(JOL)"
     },
     {
       "S": "July 31, 2026",
@@ -5645,8 +5645,8 @@
     },
     {
       "S": "August 17, 2026",
-      "Last Update": "August 27, 2026",
-      "Priorities": "7",
+      "Last Update": "September 3, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5667,7 +5667,7 @@
       "%WG": "35%",
       "Deal Value ($)": "21,000",
       "Total Paid ($)": "",
-      "Notes": "Candidate presented same day\nCandiadtes presented on the 21st \n\nPresenting more this week."
+      "Notes": "Bogdan - First interview Sept 4th\nJose - First interview pending"
     },
     {
       "S": "August 18, 2026",

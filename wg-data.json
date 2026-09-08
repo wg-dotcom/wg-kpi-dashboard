@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T11:13:44.037Z",
+  "updated": "2026-09-08T12:13:44.458Z",
   "rows": [
     {
       "S": "February 14, 2024",
@@ -5463,12 +5463,12 @@
     },
     {
       "S": "August 4, 2026",
-      "Last Update": "September 3, 2026",
-      "Priorities": "5",
+      "Last Update": "September 8, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "7. Invoice",
       "Name": "Christopher Rosa",
       "Email": "CRosa@PreciseStripingLLC.com",
       "Company Name": "Precise Striping",
@@ -5485,7 +5485,7 @@
       "%WG": "35%",
       "Deal Value ($)": "10,500",
       "Total Paid ($)": "",
-      "Notes": "Hiring Amit\n(JOL)"
+      "Notes": "Hiring Amit\n(Invoice)"
     },
     {
       "S": "July 31, 2026",
@@ -5541,12 +5541,12 @@
     },
     {
       "S": "August 8, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "8",
+      "Last Update": "September 8, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "7. Invoice",
       "Name": "Kevin O'Toole",
       "Email": "kevin@ledgertc.com",
       "Company Name": "Ledger Trade & Capital",
@@ -5555,14 +5555,14 @@
       "GitHub": "",
       "Advisor": "Kathe",
       "KickOff Meeting": "August 11, 2026",
-      "Date Placed": "",
-      "Days for Placement": "",
-      "Invoice Date": "",
-      "Payment Date": "",
-      "Budget ($)": "2,000",
+      "Date Placed": "September 4, 2026",
+      "Days for Placement": "19",
+      "Invoice Date": "September 4, 2026",
+      "Payment Date": "September 4, 2026",
+      "Budget ($)": "2,650",
       "%WG": "35%",
-      "Deal Value ($)": "8,400",
-      "Total Paid ($)": "",
+      "Deal Value ($)": "11,130",
+      "Total Paid ($)": "11,130",
       "Notes": "Kiara rejected the offer.\nNew drop this week"
     },
     {
@@ -5879,12 +5879,12 @@
     },
     {
       "S": "August 9, 2026",
-      "Last Update": "September 3, 2026",
-      "Priorities": "5",
+      "Last Update": "September 8, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36219",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "8. Placed",
       "Name": "Ashley Thornton",
       "Email": "ashley@1stchoiceairsolutions.com",
       "Company Name": "1st Choice Plumbing Heating & Air Solutions",
@@ -5893,15 +5893,15 @@
       "GitHub": "https://wg-dotcom.github.io/1st-choice-plumbing-heating-air-solutions-csr-candidates/",
       "Advisor": "Miguel",
       "KickOff Meeting": "June 3, 2026",
-      "Date Placed": "",
-      "Days for Placement": "",
-      "Invoice Date": "",
-      "Payment Date": "",
+      "Date Placed": "September 4, 2026",
+      "Days for Placement": "68",
+      "Invoice Date": "September 4, 2026",
+      "Payment Date": "September 4, 2026",
       "Budget ($)": "0",
       "%WG": "35%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "0",
-      "Notes": "Hiring Shalom\n(JOL)"
+      "Notes": "Hiring Shalom"
     },
     {
       "S": "August 10, 2026",

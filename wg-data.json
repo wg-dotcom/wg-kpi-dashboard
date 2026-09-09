@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T12:13:44.606Z",
+  "updated": "2026-09-09T13:13:44.233Z",
   "rows": [
     {
       "S": "February 14, 2024",
@@ -5619,12 +5619,12 @@
     },
     {
       "S": "August 13, 2026",
-      "Last Update": "August 31, 2026",
-      "Priorities": "9",
+      "Last Update": "September 9, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Franklin Reilly",
       "Email": "frank.reilly@koalainsulation.com",
       "Company Name": "Koala Insulation of Washington DC",
@@ -5636,12 +5636,12 @@
       "Date Placed": "August 28, 2026",
       "Days for Placement": "11",
       "Invoice Date": "August 28, 2026",
-      "Payment Date": "",
+      "Payment Date": "September 9, 2026",
       "Budget ($)": "2,000",
       "%WG": "35%",
       "Deal Value ($)": "8,400",
-      "Total Paid ($)": "",
-      "Notes": "Hiring Nicolas\n(Invoice)"
+      "Total Paid ($)": "8,400",
+      "Notes": "Hiring Nicolas"
     },
     {
       "S": "August 17, 2026",

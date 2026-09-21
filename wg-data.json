@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T13:13:44.002Z",
+  "updated": "2026-09-21T14:13:44.183Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -5255,12 +5255,12 @@
     },
     {
       "Date": "July 13, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "6. Job Offer Letter / Signature",
+      "Status": "7. Invoice",
       "Name": "Brent Guinn",
       "Email": "brent@makeitmomentous.com",
       "Company Name": "Momentous",
@@ -5269,15 +5269,15 @@
       "GitHub": "https://wg-dotcom.github.io/momentous-sdr-candidates/",
       "Advisor": "Miguel",
       "KickOff Meeting": "July 15, 2026",
-      "Date Placed": "",
-      "Days for Placement": "",
-      "Invoice Date": "",
+      "Date Placed": "September 19, 2026",
+      "Days for Placement": "48",
+      "Invoice Date": "September 21, 2026",
       "Payment Date": "",
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "6,720",
       "Total Paid ($)": "",
-      "Notes": "Hiring Msizi"
+      "Notes": "Hiring Msizi\n(invoice)"
     },
     {
       "Date": "July 14, 2026",

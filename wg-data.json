@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T14:13:44.183Z",
+  "updated": "2026-09-21T15:13:44.155Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -4293,12 +4293,12 @@
     },
     {
       "Date": "May 8, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Retained Search",
       "Is replacement?": "FALSE",
-      "Status": "4. Assessment",
+      "Status": "8. Placed",
       "Name": "Nate Jackson",
       "Email": "nate@tworoadsadvisors.com",
       "Company Name": "Two Roads Advisors",
@@ -4307,15 +4307,15 @@
       "GitHub": "https://wg-dotcom.github.io/two-roads-advisors-m-a-strategy-presentation-analyst-candidates/",
       "Advisor": "Miguel",
       "KickOff Meeting": "May 12, 2026",
-      "Date Placed": "",
+      "Date Placed": "September 18, 2026",
       "Days for Placement": "",
-      "Invoice Date": "",
-      "Payment Date": "",
+      "Invoice Date": "September 18, 2026",
+      "Payment Date": "May 8, 2026",
       "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "6,000",
       "Total Paid ($)": "",
-      "Notes": "Bernardo - Final interview today 17th"
+      "Notes": "Hiring Bernardo"
     },
     {
       "Date": "May 11, 2026",
@@ -4891,8 +4891,8 @@
     },
     {
       "Date": "June 17, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
@@ -4913,7 +4913,7 @@
       "%WG": "0%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "",
-      "Notes": "Elio - waiting for Mark to send the Assessment - 2 weeks MIA - Follow up."
+      "Notes": "Elio - waiting for Mark to send the Assessment - Still MIA"
     },
     {
       "Date": "June 22, 2026",
@@ -4943,8 +4943,8 @@
     },
     {
       "Date": "June 22, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -4965,7 +4965,7 @@
       "%WG": "35%",
       "Deal Value ($)": "12,600",
       "Total Paid ($)": "",
-      "Notes": "3 candidates in assessment stage."
+      "Notes": "3 candidates in assessment stage.\nWiston - Assessment Done - Presented 21st"
     },
     {
       "Date": "June 22, 2026",
@@ -5645,12 +5645,12 @@
     },
     {
       "Date": "August 17, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Chris Williams",
       "Email": "chris@systemsix.com",
       "Company Name": "System Six",
@@ -5667,7 +5667,7 @@
       "%WG": "35%",
       "Deal Value ($)": "21,000",
       "Total Paid ($)": "",
-      "Notes": "Bogdan - First interview Sept 4th\nGabriel - Presented on the 10th\n\nWaiting Feedback - FU 14th - 17th"
+      "Notes": "Customer Hired on his end"
     },
     {
       "Date": "August 18, 2026",
@@ -5723,8 +5723,8 @@
     },
     {
       "Date": "May 1, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR78746",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5745,12 +5745,12 @@
       "%WG": "35%",
       "Deal Value ($)": "12,600",
       "Total Paid ($)": "",
-      "Notes": "Santiago - Dropped from the process\nAna P. - Presented.\nSara - Presented\nPushing on Ana, possible TS call.\n1 week MIA - JK OOO"
+      "Notes": "Ana P. - Presented.\nSara - Presented\nPushing on Ana, possible TS call.\n1 week MIA - FU 21st"
     },
     {
       "Date": "August 20, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5771,7 +5771,7 @@
       "%WG": "35%",
       "Deal Value ($)": "21,000",
       "Total Paid ($)": "",
-      "Notes": "Arnaud - Second interview 11th - Rejected\nVictor - Rejected\nDanielle - Second and Third interview on the 18th\nFriday - Presenting Santiago, Christian, Anna, Lucia and Paula."
+      "Notes": "Arnaud - Second interview 11th - Rejected\nVictor - Rejected\nDanielle - Third interview on the 21st\nFriday - Santiago, Christian, Anna, Lucia - Waiting for feedback"
     },
     {
       "Date": "August 20, 2026",
@@ -5801,8 +5801,8 @@
     },
     {
       "Date": "August 20, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5823,12 +5823,12 @@
       "%WG": "30%",
       "Deal Value ($)": "6,480",
       "Total Paid ($)": "",
-      "Notes": "Marlon - First interview 4th - Good fit - Waiting feedback\n\nNew batch Friday 18th."
+      "Notes": "Marlon - First interview 4th - Good fit - Waiting feedback\n\nNew batch Monday 21st."
     },
     {
       "Date": "August 24, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR78749",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5839,7 +5839,7 @@
       "Role": "Admin Assistant",
       "NotebookLM": "",
       "GitHub": "",
-      "Advisor": "Kathe",
+      "Advisor": "Miguel",
       "KickOff Meeting": "August 26, 2026",
       "Date Placed": "",
       "Days for Placement": "",
@@ -5849,7 +5849,7 @@
       "%WG": "35%",
       "Deal Value ($)": "4,200",
       "Total Paid ($)": "",
-      "Notes": "Itzamara - First interview 11th\nValeria - Interview on the 18th\nRocio - Interview on the 18th"
+      "Notes": "Itzamara - First interview 11th\nValeria - Interview on the 18th\nRocio - Interview on the 18th\n\nMiguel TAKE OVER"
     },
     {
       "Date": "August 4, 2026",
@@ -5905,8 +5905,8 @@
     },
     {
       "Date": "August 10, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36220",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5938,7 +5938,7 @@
       "Is replacement?": "FALSE",
       "Status": "3. 1st Round of Interviews",
       "Name": "Chandler Scheurkogel",
-      "Email": "",
+      "Email": "chandlerscheurkogel@bleeckerstcapital.com",
       "Company Name": "Bleecker Street Capital Management, LLC",
       "Role": "Operations Associate/Technical Product Manager",
       "NotebookLM": "",
@@ -6139,12 +6139,12 @@
     },
     {
       "Date": "September 10, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
-      "Status": "1. KickOff Meeting",
+      "Status": "5. Final Interview",
       "Name": "Matt Palmieri",
       "Email": "matt@emercymedical.com",
       "Company Name": "Mercy Medical Equipment Company",
@@ -6161,7 +6161,7 @@
       "%WG": "35%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "",
-      "Notes": "Preparing for Event"
+      "Notes": "LIve HIring Event - Sept 21st"
     },
     {
       "Date": "September 4, 2026",

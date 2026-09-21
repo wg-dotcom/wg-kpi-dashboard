@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T15:13:44.155Z",
+  "updated": "2026-09-21T16:13:44.425Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -5927,12 +5927,12 @@
       "%WG": "35%",
       "Deal Value ($)": "6,300",
       "Total Paid ($)": "",
-      "Notes": "First batch Aug 31st.\nWaiting feedback since sept 9th\nFU 11th - 14th - 17th"
+      "Notes": "New batch on the 23rd"
     },
     {
       "Date": "August 26, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36221",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5953,12 +5953,12 @@
       "%WG": "35%",
       "Deal Value ($)": "18,900",
       "Total Paid ($)": "",
-      "Notes": "Michael - First interview 10th\nSamkelo - First interview on the 11th\nNoble - First interview on Tuesday\nRadreca - Assessment\nMeeting with Chandler today."
+      "Notes": "Samkelo - First interview on the 11th\nNoble - First interview on Tuesday\n\nNew batch on Wednesday 23rd."
     },
     {
       "Date": "August 26, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36222",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -6009,8 +6009,8 @@
     },
     {
       "Date": "August 31, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
@@ -6031,16 +6031,16 @@
       "%WG": "35%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "0",
-      "Notes": "Norrys - First interview 17th"
+      "Notes": "Norrys - Assessment - Waiting for feedback"
     },
     {
       "Date": "September 4, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "3. 1st Round of Interviews",
       "Name": "Mohit Patel",
       "Email": "mohit.patel@osmind.org",
       "Company Name": "Osmind Inc",
@@ -6057,7 +6057,7 @@
       "%WG": "35%",
       "Deal Value ($)": "14,700",
       "Total Paid ($)": "",
-      "Notes": "Elizabeth - 1st interview\nLuis - 1st interview\nWaiting for Mohit's availability."
+      "Notes": "Elizabeth - 1st interview\nLuis - 1st interview Tuesday 22nd."
     },
     {
       "Date": "September 4, 2026",
@@ -6087,8 +6087,8 @@
     },
     {
       "Date": "September 4, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Core",
       "Is replacement?": "FALSE",
@@ -6109,16 +6109,16 @@
       "%WG": "18%",
       "Deal Value ($)": "3,240",
       "Total Paid ($)": "",
-      "Notes": "New batch on Friday 11th\nWaiting for feedback - Sending FU on the 17th"
+      "Notes": "New batch on Friday 11th\nWaiting for feedback - Sending FU on the 17th - 21st"
     },
     {
       "Date": "September 1, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "TRUE",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "8. Placed",
       "Name": "David Bitan",
       "Email": "David@bumbleroofing.com",
       "Company Name": "Bumble Roofing of Los Angeles",
@@ -6135,7 +6135,7 @@
       "%WG": "35%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "",
-      "Notes": "Judy - First interview Today 17th"
+      "Notes": "Hired Judy"
     },
     {
       "Date": "September 10, 2026",
@@ -6161,12 +6161,12 @@
       "%WG": "35%",
       "Deal Value ($)": "0",
       "Total Paid ($)": "",
-      "Notes": "LIve HIring Event - Sept 21st"
+      "Notes": "Live Hiring Event - Sept 21st"
     },
     {
       "Date": "September 4, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Core",
       "Is replacement?": "FALSE",
@@ -6187,12 +6187,12 @@
       "%WG": "18%",
       "Deal Value ($)": "3,240",
       "Total Paid ($)": "",
-      "Notes": "New batch on Friday 11th\nWaiting for feedback - Sending FU on the 17th"
+      "Notes": "New batch on Friday 11th\nWaiting for feedback - Sending FU on the 17th - 21st"
     },
     {
       "Date": "September 4, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Core",
       "Is replacement?": "FALSE",
@@ -6213,12 +6213,12 @@
       "%WG": "18%",
       "Deal Value ($)": "3,240",
       "Total Paid ($)": "",
-      "Notes": "New batch on Friday 11th\nWaiting for feedback - Sending FU on the 17th"
+      "Notes": "New batch on Friday 11th\nWaiting for feedback - Sending FU on the 17th - 21st"
     },
     {
       "Date": "September 15, 2026",
-      "Last Update": "September 16, 2026",
-      "Priorities": "5",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -6239,12 +6239,12 @@
       "%WG": "30%",
       "Deal Value ($)": "6,480",
       "Total Paid ($)": "",
-      "Notes": "Hired Natalia\n(Invoice)"
+      "Notes": "Hired Natalia\n(Invoice)\n\nWaiting for payment"
     },
     {
       "Date": "September 15, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -6265,12 +6265,12 @@
       "%WG": "35%",
       "Deal Value ($)": "10,500",
       "Total Paid ($)": "",
-      "Notes": "Waiting for Kickoff call"
+      "Notes": "Waiting for Kickoff call\n\nLink sent on Friday 18th"
     },
     {
       "Date": "September 15, 2026",
-      "Last Update": "September 17, 2026",
-      "Priorities": "4",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -6291,12 +6291,12 @@
       "%WG": "35%",
       "Deal Value ($)": "12,600",
       "Total Paid ($)": "",
-      "Notes": "Kickoff on the 16th"
+      "Notes": "Presented first candidates on Friday- Waiting feedback\nSecond batch on Wednesday."
     },
     {
       "Date": "September 15, 2026",
-      "Last Update": "September 15, 2026",
-      "Priorities": "6",
+      "Last Update": "September 21, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -6317,7 +6317,33 @@
       "%WG": "35%",
       "Deal Value ($)": "8,400",
       "Total Paid ($)": "",
-      "Notes": "Kickoff on the 17th"
+      "Notes": "First batch on Wednesday"
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "FALSE",
+      "Status": "",
+      "Name": "Kevin Frank",
+      "Email": "",
+      "Company Name": "",
+      "Role": "",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "",
+      "%WG": "",
+      "Deal Value ($)": "",
+      "Total Paid ($)": "",
+      "Notes": ""
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T18:13:44.471Z",
+  "updated": "2026-09-22T19:13:44.017Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -5255,12 +5255,12 @@
     },
     {
       "Date": "July 13, 2026",
-      "Last Update": "September 21, 2026",
-      "Priorities": "1",
+      "Last Update": "September 22, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Brent Guinn",
       "Email": "brent@makeitmomentous.com",
       "Company Name": "Momentous",
@@ -5272,12 +5272,12 @@
       "Date Placed": "September 19, 2026",
       "Days for Placement": "48",
       "Invoice Date": "September 21, 2026",
-      "Payment Date": "",
+      "Payment Date": "September 22, 2026",
       "Budget ($)": "1,600",
       "%WG": "35%",
       "Deal Value ($)": "6,720",
-      "Total Paid ($)": "",
-      "Notes": "Hiring Msizi\n(invoice)"
+      "Total Paid ($)": "6,720",
+      "Notes": "Hiring Msizi"
     },
     {
       "Date": "July 14, 2026",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T14:13:44.161Z",
+  "updated": "2026-09-24T15:13:44.069Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -6360,7 +6360,7 @@
       "NotebookLM": "",
       "GitHub": "",
       "Advisor": "Guillermo",
-      "KickOff Meeting": "",
+      "KickOff Meeting": "September 22, 2026",
       "Date Placed": "",
       "Days for Placement": "",
       "Invoice Date": "",
@@ -6368,6 +6368,32 @@
       "Budget ($)": "3,500",
       "%WG": "35%",
       "Deal Value ($)": "14,700",
+      "Total Paid ($)": "",
+      "Notes": ""
+    },
+    {
+      "Date": "",
+      "Last Update": "",
+      "Priorities": "",
+      "Hiring Request": "",
+      "Source": "",
+      "Is replacement?": "",
+      "Status": "",
+      "Name": "Kevin Kelly",
+      "Email": "kevin@rwasummit.io",
+      "Company Name": "RWA Summit",
+      "Role": "Events & Media Operations Coordinator",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "Miguel",
+      "KickOff Meeting": "September 24, 2026",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "2,200",
+      "%WG": "35%",
+      "Deal Value ($)": "9,240",
       "Total Paid ($)": "",
       "Notes": ""
     }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T20:13:44.120Z",
+  "updated": "2026-09-24T21:13:44.078Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -4314,7 +4314,7 @@
       "Budget ($)": "",
       "%WG": "",
       "Deal Value ($)": "6,000",
-      "Total Paid ($)": "",
+      "Total Paid ($)": "6,000",
       "Notes": "Hiring Bernardo"
     },
     {
@@ -6238,8 +6238,8 @@
       "Budget ($)": "1,800",
       "%WG": "30%",
       "Deal Value ($)": "6,480",
-      "Total Paid ($)": "",
-      "Notes": "Hired Natalia\n(Invoice)\n\nWaiting for payment"
+      "Total Paid ($)": "6,480",
+      "Notes": "Hired Natalia"
     },
     {
       "Date": "September 15, 2026",

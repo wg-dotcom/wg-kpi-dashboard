@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T14:13:44.109Z",
+  "updated": "2026-10-01T15:13:44.077Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -6430,7 +6430,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "1. KickOff Meeting",
+      "Status": "2. Candidates Presented",
       "Name": "Antonia Botero",
       "Email": "antonia@maddproject.com",
       "Company Name": "Madd Project",
@@ -6456,7 +6456,7 @@
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "1. KickOff Meeting",
+      "Status": "2. Candidates Presented",
       "Name": "Ed/Steve",
       "Email": "",
       "Company Name": "Frosty Coatings",
@@ -6474,6 +6474,32 @@
       "Deal Value ($)": "6,720",
       "Total Paid ($)": "",
       "Notes": "Live Hiring Event on Wednesday"
+    },
+    {
+      "Date": "September 30, 2026",
+      "Last Update": "October 1, 2026",
+      "Priorities": "0",
+      "Hiring Request": "",
+      "Source": "Regular WG",
+      "Is replacement?": "FALSE",
+      "Status": "1. KickOff Meeting",
+      "Name": "Shan Mehrotra",
+      "Email": "shan@cornermedia.com",
+      "Company Name": "Corner Media",
+      "Role": "Project Leader",
+      "NotebookLM": "",
+      "GitHub": "",
+      "Advisor": "Guillermo",
+      "KickOff Meeting": "",
+      "Date Placed": "",
+      "Days for Placement": "",
+      "Invoice Date": "",
+      "Payment Date": "",
+      "Budget ($)": "2,500",
+      "%WG": "35%",
+      "Deal Value ($)": "10,500",
+      "Total Paid ($)": "",
+      "Notes": ""
     }
   ]
 }

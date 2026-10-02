@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T21:13:44.175Z",
+  "updated": "2026-10-02T22:13:44.079Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -6562,22 +6562,22 @@
       "Is replacement?": "TRUE",
       "Status": "1. KickOff Meeting",
       "Name": "Kevin O'toole",
-      "Email": "",
-      "Company Name": "",
-      "Role": "",
+      "Email": "kevin@ledgertc.com",
+      "Company Name": "Ledger Trade & Capital",
+      "Role": "Loan Closer",
       "NotebookLM": "",
       "GitHub": "",
-      "Advisor": "Miguel",
-      "KickOff Meeting": "",
-      "Date Placed": "",
-      "Days for Placement": "",
-      "Invoice Date": "",
-      "Payment Date": "",
-      "Budget ($)": "",
-      "%WG": "",
-      "Deal Value ($)": "",
-      "Total Paid ($)": "",
-      "Notes": ""
+      "Advisor": "Kathe",
+      "KickOff Meeting": "August 11, 2026",
+      "Date Placed": "September 4, 2026",
+      "Days for Placement": "19",
+      "Invoice Date": "September 4, 2026",
+      "Payment Date": "September 4, 2026",
+      "Budget ($)": "2,650",
+      "%WG": "35%",
+      "Deal Value ($)": "0",
+      "Total Paid ($)": "0",
+      "Notes": "Hiring Liliana"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T18:13:44.088Z",
+  "updated": "2026-10-08T19:13:43.920Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -5801,8 +5801,8 @@
     },
     {
       "Date": "August 20, 2026",
-      "Last Update": "October 5, 2026",
-      "Priorities": "3",
+      "Last Update": "October 8, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5823,7 +5823,7 @@
       "%WG": "30%",
       "Deal Value ($)": "6,480",
       "Total Paid ($)": "",
-      "Notes": "Marlon - First interview 4th - Good fit - Waiting feedback\n\nNew batch Monday 21st. - FU 24th - 30th - 2nd"
+      "Notes": "Marlon - First interview 4th - Good fit - Waiting feedback\n\nNew batch Monday 21st. - FU 24th - 30th - 2nd - Last FU on the 9th"
     },
     {
       "Date": "August 24, 2026",
@@ -5905,12 +5905,12 @@
     },
     {
       "Date": "August 10, 2026",
-      "Last Update": "October 5, 2026",
-      "Priorities": "3",
+      "Last Update": "October 8, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36220",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "5. Final Interview",
       "Name": "Jeremy Payne",
       "Email": "jpayne@nexairhomeservices.com",
       "Company Name": "NexAir Home Services",
@@ -5927,7 +5927,7 @@
       "%WG": "35%",
       "Deal Value ($)": "6,300",
       "Total Paid ($)": "",
-      "Notes": "Frances - Interview\nErnesto - Interview\nMarion - Interview\n\nWaiting Jeremy's availability"
+      "Notes": "Frances - Good Feeling - potential hire\nMarlon - in the race\nMaking the decission soon"
     },
     {
       "Date": "August 26, 2026",
@@ -6347,8 +6347,8 @@
     },
     {
       "Date": "September 21, 2026",
-      "Last Update": "October 5, 2026",
-      "Priorities": "3",
+      "Last Update": "October 8, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -6369,7 +6369,7 @@
       "%WG": "35%",
       "Deal Value ($)": "14,700",
       "Total Paid ($)": "",
-      "Notes": "Valeria - First Interview\nMonica - First interview"
+      "Notes": "Paula - First interview - Monday 12th\n\nNew batch on the 13th"
     },
     {
       "Date": "September 22, 2026",
@@ -6399,12 +6399,12 @@
     },
     {
       "Date": "September 22, 2026",
-      "Last Update": "October 5, 2026",
-      "Priorities": "3",
+      "Last Update": "October 8, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "5. Final Interview",
       "Name": "William Keen",
       "Email": "ryder@keeninsurances.com",
       "Company Name": "Keen Management LLC",
@@ -6421,7 +6421,7 @@
       "%WG": "35%",
       "Deal Value ($)": "6,720",
       "Total Paid ($)": "",
-      "Notes": "Mariana - First Interview\nMarlon - First interview"
+      "Notes": "Mario - Second Interview - Potential hire"
     },
     {
       "Date": "September 22, 2026",
@@ -6477,12 +6477,12 @@
     },
     {
       "Date": "September 30, 2026",
-      "Last Update": "October 5, 2026",
-      "Priorities": "3",
+      "Last Update": "October 8, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "1. KickOff Meeting",
+      "Status": "2. Candidates Presented",
       "Name": "Shan Mehrotra",
       "Email": "shan@cornermedia.com",
       "Company Name": "Corner Media",
@@ -6499,12 +6499,12 @@
       "%WG": "30%",
       "Deal Value ($)": "9,000",
       "Total Paid ($)": "",
-      "Notes": "Waiting for candidates to be presented.\nPresenting on th 6th"
+      "Notes": "Candidates presented on the 7th - Waiting feedback"
     },
     {
       "Date": "September 29, 2026",
-      "Last Update": "October 5, 2026",
-      "Priorities": "3",
+      "Last Update": "October 8, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -6525,12 +6525,12 @@
       "%WG": "30%",
       "Deal Value ($)": "",
       "Total Paid ($)": "",
-      "Notes": "Waiting for feedback to present a new batch"
+      "Notes": "Chase - Second interview\nNew batch on the 7th\nWaiting for feedback"
     },
     {
       "Date": "September 30, 2026",
-      "Last Update": "October 5, 2026",
-      "Priorities": "3",
+      "Last Update": "October 8, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -6551,7 +6551,7 @@
       "%WG": "",
       "Deal Value ($)": "",
       "Total Paid ($)": "",
-      "Notes": "Hiring Erick\n(Invoiced)"
+      "Notes": "Hiring Erick\n(Invoiced)\n\nWaiting for payment."
     },
     {
       "Date": "October 1, 2026",

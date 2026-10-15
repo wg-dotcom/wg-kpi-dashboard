@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T14:13:44.222Z",
+  "updated": "2026-10-15T15:13:44.366Z",
   "rows": [
     {
       "Date": "February 14, 2024",
@@ -4943,8 +4943,8 @@
     },
     {
       "Date": "June 22, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -4965,7 +4965,7 @@
       "%WG": "35%",
       "Deal Value ($)": "12,600",
       "Total Paid ($)": "",
-      "Notes": "Wiston\nNeha\n\nWaiting for updates on both candidates"
+      "Notes": "Hiring Neha"
     },
     {
       "Date": "June 22, 2026",
@@ -5749,12 +5749,12 @@
     },
     {
       "Date": "August 20, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "7. Invoice",
+      "Status": "8. Placed",
       "Name": "Shuchi Bhargava",
       "Email": "shuchi.bhargava@osmind.org",
       "Company Name": "Osmind Inc",
@@ -5763,14 +5763,14 @@
       "GitHub": "",
       "Advisor": "Jesus",
       "KickOff Meeting": "September 1, 2026",
-      "Date Placed": "",
+      "Date Placed": "October 5, 2026",
       "Days for Placement": "",
-      "Invoice Date": "",
-      "Payment Date": "",
+      "Invoice Date": "October 12, 2026",
+      "Payment Date": "October 12, 2026",
       "Budget ($)": "5,000",
       "%WG": "35%",
-      "Deal Value ($)": "21,000",
-      "Total Paid ($)": "",
+      "Deal Value ($)": "10,000",
+      "Total Paid ($)": "10,000",
       "Notes": "Lucia\n(Hiring)\nPotential start date: Oct 27th\n\nTransitioning to Core"
     },
     {
@@ -5801,12 +5801,12 @@
     },
     {
       "Date": "August 20, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Seth Barley",
       "Email": "seth@nealrfg.com",
       "Company Name": "Neal Roofing",
@@ -5823,12 +5823,12 @@
       "%WG": "30%",
       "Deal Value ($)": "6,480",
       "Total Paid ($)": "",
-      "Notes": "Marlon - First interview 4th - Good fit - Waiting feedback\n\nNew batch Monday 21st. - FU 24th - 30th - 2nd - Last FU on the 9th"
+      "Notes": "CLOSED BY CUSTOMER"
     },
     {
       "Date": "August 24, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR78749",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -5849,7 +5849,7 @@
       "%WG": "35%",
       "Deal Value ($)": "4,200",
       "Total Paid ($)": "",
-      "Notes": "Sending a new batch on the 9th"
+      "Notes": "Waiting for feedback on Tiffany"
     },
     {
       "Date": "August 4, 2026",
@@ -5905,12 +5905,12 @@
     },
     {
       "Date": "August 10, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36220",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "5. Final Interview",
+      "Status": "6. Job Offer Letter / Signature",
       "Name": "Jeremy Payne",
       "Email": "jpayne@nexairhomeservices.com",
       "Company Name": "NexAir Home Services",
@@ -5919,7 +5919,7 @@
       "GitHub": "",
       "Advisor": "Guillermo",
       "KickOff Meeting": "August 27, 2026",
-      "Date Placed": "",
+      "Date Placed": "October 14, 2026",
       "Days for Placement": "",
       "Invoice Date": "",
       "Payment Date": "",
@@ -5927,16 +5927,16 @@
       "%WG": "35%",
       "Deal Value ($)": "6,300",
       "Total Paid ($)": "",
-      "Notes": "Frances - Good Feeling - potential hire\nMarlon - in the race\nMaking the decission soon"
+      "Notes": "Hiring Frances\n(JOL) Waiting for Approval"
     },
     {
       "Date": "August 26, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36221",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "5. Final Interview",
       "Name": "Chandler Scheurkogel",
       "Email": "",
       "Company Name": "Bleecker Street Capital Management, LLC",
@@ -5953,16 +5953,16 @@
       "%WG": "35%",
       "Deal Value ($)": "18,900",
       "Total Paid ($)": "",
-      "Notes": "Samkelo - First interview on the 11th\nNoble - First interview on Tuesday\nKendall - Pending interview\n\nNext batch before 14th"
+      "Notes": "Samkelo - Second Interview\nNoble - Second Interview\nMichael - Second Interview\nKendall - Pending first interview"
     },
     {
       "Date": "August 26, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "HR36222",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "2. Candidates Presented",
+      "Status": "1. KickOff Meeting",
       "Name": "Nikhil Krishnan",
       "Email": "nikhil@outofpocket.health",
       "Company Name": "Out Of Pocket Health",
@@ -5979,7 +5979,7 @@
       "%WG": "35%",
       "Deal Value ($)": "16,800",
       "Total Paid ($)": "",
-      "Notes": "Follow up today"
+      "Notes": "Follow up 14th - Waiting for response"
     },
     {
       "Date": "April 1, 2026",
@@ -6035,8 +6035,8 @@
     },
     {
       "Date": "September 4, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -6057,16 +6057,16 @@
       "%WG": "35%",
       "Deal Value ($)": "14,700",
       "Total Paid ($)": "",
-      "Notes": "Luis - 2nd interview on th 13th"
+      "Notes": "Luis - 2nd interview completed - Waiting for feedback"
     },
     {
       "Date": "September 4, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
-      "Status": "3. 1st Round of Interviews",
+      "Status": "9. Closed / Paused / M.I.A.",
       "Name": "Ashley Thornton",
       "Email": "ashley@1stchoiceairsolutions.com",
       "Company Name": "1st Choice Plumbing Heating & Air Solutions",
@@ -6083,12 +6083,12 @@
       "%WG": "35%",
       "Deal Value ($)": "5,880",
       "Total Paid ($)": "",
-      "Notes": "Waiting for confirmation to send a new batch"
+      "Notes": "Paused by customer"
     },
     {
       "Date": "September 4, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Core",
       "Is replacement?": "FALSE",
@@ -6109,7 +6109,7 @@
       "%WG": "18%",
       "Deal Value ($)": "3,240",
       "Total Paid ($)": "",
-      "Notes": "New batch on Friday 9th\nWaiting for feedback - Sending FU on the 17th - 21st - 24th - 28th - 29th"
+      "Notes": "Live Hiring Event Wednesday 21st"
     },
     {
       "Date": "September 1, 2026",
@@ -6165,8 +6165,8 @@
     },
     {
       "Date": "September 4, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Core",
       "Is replacement?": "FALSE",
@@ -6187,12 +6187,12 @@
       "%WG": "18%",
       "Deal Value ($)": "3,240",
       "Total Paid ($)": "",
-      "Notes": "New batch on Friday 9th\nWaiting for feedback - Sending FU on the 17th - 21st - 24th - 28th - 29th"
+      "Notes": "Live Hiring Event Wednesday 21st"
     },
     {
       "Date": "September 4, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Core",
       "Is replacement?": "FALSE",
@@ -6213,7 +6213,7 @@
       "%WG": "18%",
       "Deal Value ($)": "3,240",
       "Total Paid ($)": "",
-      "Notes": "New batch on Friday 9th\nWaiting for feedback - Sending FU on the 17th - 21st - 24th - 28th - 29th"
+      "Notes": "Live Hiring Event Wednesday 21st"
     },
     {
       "Date": "September 15, 2026",
@@ -6269,8 +6269,8 @@
     },
     {
       "Date": "September 15, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
@@ -6291,12 +6291,12 @@
       "%WG": "35%",
       "Deal Value ($)": "12,600",
       "Total Paid ($)": "",
-      "Notes": "Candiadtes presented on the 7th - Waiting feedback"
+      "Notes": "Candidates presented on the 7th - Waiting feedback - FU 15th"
     },
     {
       "Date": "September 15, 2026",
-      "Last Update": "October 8, 2026",
-      "Priorities": "7",
+      "Last Update": "October 15, 2026",
+      "Priorities": "0",
       "Hiring Request": "",
       "Source": "Regular WG",
       "Is replacement?": "FALSE",
